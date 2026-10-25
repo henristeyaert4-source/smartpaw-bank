@@ -2877,7 +2877,7 @@
   "tegenrekening": "",
   "mededeling": "PAYPAL *SMARTPAW",
   "soort": "kaart",
-  "categorie": "Te bekijken",
+  "categorie": "Terugbetalingen aan klanten",
   "bedrag_eur": -200.0
  },
  {
@@ -6813,7 +6813,7 @@
   "tegenrekening": "BE97390096301049",
   "mededeling": "328010302510",
   "soort": "PMNT-RCDT-ESCT",
-  "categorie": "Te bekijken",
+  "categorie": "Overige ontvangsten",
   "bedrag_eur": 900.0
  },
  {
@@ -7585,7 +7585,7 @@
   "tegenrekening": "BE46734050394236",
   "mededeling": "287010102535",
   "soort": "PMNT-RCDT-ESCT",
-  "categorie": "Te bekijken",
+  "categorie": "Omzet overige kanalen",
   "bedrag_eur": 381.15
  },
  {

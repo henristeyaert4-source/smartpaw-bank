@@ -21,7 +21,9 @@ REGELS = [
     # inkomsten
     (r"STRIPE", "Omzet webshop (Shopify)"),
     (r"BOLCOM", "Omzet bol.com"),
-    (r"PAYPAL|MOLLIE PAYMENTS|SUMUP|AMAZON PAYMENTS", "Omzet overige kanalen"),
+    (r"PAYPAL \*SMARTPAW", "Terugbetalingen aan klanten"),
+    (r"PAYPAL|MOLLIE PAYMENTS|SUMUP|AMAZON PAYMENTS|TO-BE BV", "Omzet overige kanalen"),
+    (r"HOGESCHOOL GENT", "Overige ontvangsten"),
     # financiering
     (r"OPNEMING INVESTERINGSKREDIET", "Financiering in (KBC-krediet)"),
     (r"BETALING INVESTERINGSKREDIET", "KBC-krediet aflossing + rente"),
@@ -55,7 +57,7 @@ REGELS = [
 ]
 
 GROEP = {
-    "Omzet webshop (Shopify)": "Inkomsten", "Omzet bol.com": "Inkomsten", "Omzet overige kanalen": "Inkomsten",
+    "Omzet webshop (Shopify)": "Inkomsten", "Omzet bol.com": "Inkomsten", "Omzet overige kanalen": "Inkomsten", "Terugbetalingen aan klanten": "Inkomsten", "Overige ontvangsten": "Werking",
     "Voorraad (fabriek)": "Voorraad", "Voorraad (verpakking & giveaways)": "Voorraad",
     "Widem (fulfilment, vracht, invoer)": "Fulfilment", "Verzending & retours (overig)": "Fulfilment",
     "Ads Meta": "Marketing", "Ads Google": "Marketing", "Marketing & content": "Marketing", "Personeel (student)": "Marketing",

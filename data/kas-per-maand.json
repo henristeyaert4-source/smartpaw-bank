@@ -12,11 +12,10 @@
    "Terugbetaling kosten aan Henri": -800.0,
    "Representatie & reizen": -16.2,
    "Administratie & lidmaatschappen": -72.6,
-   "Omzet overige kanalen": 418.1,
+   "Omzet overige kanalen": 799.25,
    "Bankkosten": 15.0,
    "Omzet bol.com": 219.73,
    "Software & abonnementen": -130.0,
-   "Te bekijken": 381.15,
    "Materiaal": -50.49,
    "Kredietkaart 2025 (geen detail)": -671.46
   },
@@ -31,7 +30,7 @@
    "Boekhouder": -1136.78,
    "Verzekering": -36.84,
    "Voorraad (verpakking & giveaways)": -424.0,
-   "Te bekijken": 900.0,
+   "Overige ontvangsten": 900.0,
    "Omzet overige kanalen": 3599.01,
    "Omzet bol.com": 468.82,
    "Kredietkaart 2025 (geen detail)": -3031.06,
@@ -155,7 +154,7 @@
    "Boekhouder": -484.0,
    "Terugbetaling kosten aan Henri": -91.84,
    "Voorraad (verpakking & giveaways)": -1025.0,
-   "Te bekijken": -200.0,
+   "Terugbetalingen aan klanten": -200.0,
    "Ads Google": -658.5
   },
   {
@@ -213,6 +212,8 @@
   "Omzet webshop (Shopify)": "Inkomsten",
   "Omzet bol.com": "Inkomsten",
   "Omzet overige kanalen": "Inkomsten",
+  "Terugbetalingen aan klanten": "Inkomsten",
+  "Overige ontvangsten": "Werking",
   "Voorraad (fabriek)": "Voorraad",
   "Voorraad (verpakking & giveaways)": "Voorraad",
   "Widem (fulfilment, vracht, invoer)": "Fulfilment",
@@ -242,28 +243,6 @@
   "Aflossing KBC-krediet": "Financiering",
   "Rente KBC-krediet": "Werking"
  },
- "onbekend": [
-  {
-   "datum": "2025-11-11",
-   "bron": "KBC",
-   "bedrag": 381.15,
-   "tegenpartij": "TO-BE BV",
-   "mededeling": "287010102535"
-  },
-  {
-   "datum": "2025-12-17",
-   "bron": "KBC",
-   "bedrag": 900.0,
-   "tegenpartij": "HOGESCHOOL GENT",
-   "mededeling": "328010302510"
-  },
-  {
-   "datum": "2026-07-14",
-   "bron": "KBC-kaart",
-   "bedrag": -200.0,
-   "tegenpartij": "PAYPAL *SMARTPAW",
-   "mededeling": "PAYPAL *SMARTPAW"
-  }
- ],
- "bijgewerkt": "2026-10-25T15:10:03+00:00"
+ "onbekend": [],
+ "bijgewerkt": "2026-10-25T15:16:31+00:00"
 }
