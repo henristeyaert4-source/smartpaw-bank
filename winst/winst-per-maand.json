@@ -1,0 +1,648 @@
+{
+ "maanden": [
+  {
+   "maand": "2025-10",
+   "orders": 36,
+   "stuks": 48,
+   "omzet_shopify": 3068.5,
+   "omzet_bol": 0.0,
+   "korting": 248.33,
+   "retours": 0,
+   "kostprijs": 1526.09,
+   "fulfilment": 376.88,
+   "betaalkosten": 210.4,
+   "brutomarge": 955.13,
+   "ads_meta": 4055.56,
+   "ads_google": 134.23,
+   "vaste_kosten": 0,
+   "vaste_detail": {},
+   "resultaat": -3234.66,
+   "roas": 0.89,
+   "trueprofit": -2933.39,
+   "verschil_tp": -301.27
+  },
+  {
+   "maand": "2025-11",
+   "orders": 133,
+   "stuks": 205,
+   "omzet_shopify": 10751.13,
+   "omzet_bol": 181.6,
+   "korting": 1187.85,
+   "retours": 0,
+   "kostprijs": 5414.13,
+   "fulfilment": 1423.99,
+   "betaalkosten": 696.72,
+   "brutomarge": 3397.89,
+   "ads_meta": 4886.5,
+   "ads_google": 595.39,
+   "vaste_kosten": 1380.16,
+   "vaste_detail": {
+    "Software & abonnementen": 130.0,
+    "Bankkosten": -15.0,
+    "Administratie & lidmaatschappen": 72.6,
+    "Materiaal": 41.73,
+    "Representatie & reizen": 16.2,
+    "Marketing & content": 1134.63
+   },
+   "resultaat": -3464.16,
+   "roas": 2.38,
+   "trueprofit": -1048.39,
+   "verschil_tp": -2415.77
+  },
+  {
+   "maand": "2025-12",
+   "orders": 156,
+   "stuks": 259,
+   "omzet_shopify": 12356.19,
+   "omzet_bol": 387.45,
+   "korting": 2601.38,
+   "retours": 33.02,
+   "kostprijs": 5656.98,
+   "fulfilment": 1684.07,
+   "betaalkosten": 818.11,
+   "brutomarge": 4584.48,
+   "ads_meta": 4022.84,
+   "ads_google": 2123.17,
+   "vaste_kosten": 1473.68,
+   "vaste_detail": {
+    "Software & abonnementen": 2.21,
+    "Boekhouder": 939.49,
+    "Bankkosten": 12.5,
+    "Verzekering": 36.84,
+    "Materiaal": 132.23,
+    "Voorraad (verpakking & giveaways)": 350.41
+   },
+   "resultaat": -3035.21,
+   "roas": 2.44,
+   "trueprofit": -402.7,
+   "verschil_tp": -2632.51
+  },
+  {
+   "maand": "2026-01",
+   "orders": 58,
+   "stuks": 105,
+   "omzet_shopify": 3604.73,
+   "omzet_bol": 480.34,
+   "korting": 634.88,
+   "retours": 168.62,
+   "kostprijs": 1720.88,
+   "fulfilment": 628.09,
+   "betaalkosten": 242.51,
+   "brutomarge": 1493.59,
+   "ads_meta": 1238.16,
+   "ads_google": 1179.68,
+   "vaste_kosten": 437.47,
+   "vaste_detail": {
+    "Software & abonnementen": 201.52,
+    "Verzekering": 18.41,
+    "Materiaal": 21.86,
+    "Representatie & reizen": 101.5,
+    "Marketing & content": 89.55,
+    "Verzending & retours (overig)": 4.63
+   },
+   "resultaat": -1361.72,
+   "roas": 1.8,
+   "trueprofit": -1368.29,
+   "verschil_tp": 6.57
+  },
+  {
+   "maand": "2026-02",
+   "orders": 36,
+   "stuks": 74,
+   "omzet_shopify": 1952.2,
+   "omzet_bol": 358.02,
+   "korting": 480.82,
+   "retours": 0,
+   "kostprijs": 882.94,
+   "fulfilment": 399.2,
+   "betaalkosten": 131.79,
+   "brutomarge": 896.28,
+   "ads_meta": 0,
+   "ads_google": 1217.06,
+   "vaste_kosten": 630.75,
+   "vaste_detail": {
+    "Software & abonnementen": 195.98,
+    "Bankkosten": 361.0,
+    "Verzekering": 18.41,
+    "Administratie & lidmaatschappen": 16.64,
+    "Marketing & content": 33.68,
+    "Verzending & retours (overig)": 5.04
+   },
+   "resultaat": -951.53,
+   "roas": 1.94,
+   "trueprofit": -828.58,
+   "verschil_tp": -122.95
+  },
+  {
+   "maand": "2026-03",
+   "orders": 14,
+   "stuks": 36,
+   "omzet_shopify": 413.42,
+   "omzet_bol": 979.74,
+   "korting": 145.7,
+   "retours": 176.01,
+   "kostprijs": 583.06,
+   "fulfilment": 164.46,
+   "betaalkosten": 39.59,
+   "brutomarge": 606.04,
+   "ads_meta": 0,
+   "ads_google": 79.89,
+   "vaste_kosten": 618.37,
+   "vaste_detail": {
+    "Software & abonnementen": 262.77,
+    "Boekhouder": 200.0,
+    "Bankkosten": 36.01,
+    "Verzekering": 18.41,
+    "Rente KBC-krediet": 60.99,
+    "Marketing & content": 34.32,
+    "Verzending & retours (overig)": 5.87
+   },
+   "resultaat": -92.22,
+   "roas": 6.64,
+   "trueprofit": -477.66,
+   "verschil_tp": 385.44
+  },
+  {
+   "maand": "2026-04",
+   "orders": 8,
+   "stuks": 17,
+   "omzet_shopify": 179.91,
+   "omzet_bol": 595.67,
+   "korting": 23.3,
+   "retours": 71.37,
+   "kostprijs": 341.94,
+   "fulfilment": 88.27,
+   "betaalkosten": 16.24,
+   "brutomarge": 329.12,
+   "ads_meta": 0,
+   "ads_google": 0,
+   "vaste_kosten": 665.58,
+   "vaste_detail": {
+    "Software & abonnementen": 398.81,
+    "Verzekering": 18.47,
+    "Rente KBC-krediet": 67.52,
+    "Marketing & content": 109.71,
+    "Verzending & retours (overig)": 71.07
+   },
+   "resultaat": -336.46,
+   "roas": null,
+   "trueprofit": -470.28,
+   "verschil_tp": 133.82
+  },
+  {
+   "maand": "2026-05",
+   "orders": 34,
+   "stuks": 86,
+   "omzet_shopify": 2426.53,
+   "omzet_bol": 54.28,
+   "korting": 497.04,
+   "retours": 0,
+   "kostprijs": 771.48,
+   "fulfilment": 402.18,
+   "betaalkosten": 71.93,
+   "brutomarge": 1235.22,
+   "ads_meta": 572.42,
+   "ads_google": 0,
+   "vaste_kosten": 763.62,
+   "vaste_detail": {
+    "Software & abonnementen": 278.75,
+    "Verzekering": 18.41,
+    "Rente KBC-krediet": 65.34,
+    "Personeel (student)": 360.1,
+    "Marketing & content": 41.02
+   },
+   "resultaat": -100.82,
+   "roas": 5.13,
+   "trueprofit": -388.54,
+   "verschil_tp": 287.72
+  },
+  {
+   "maand": "2026-06",
+   "orders": 124,
+   "stuks": 402,
+   "omzet_shopify": 11273.58,
+   "omzet_bol": 54.28,
+   "korting": 2209.82,
+   "retours": 14.48,
+   "kostprijs": 3309.3,
+   "fulfilment": 1587.76,
+   "betaalkosten": 429.62,
+   "brutomarge": 6001.18,
+   "ads_meta": 3604.09,
+   "ads_google": 659.21,
+   "vaste_kosten": 948.23,
+   "vaste_detail": {
+    "Software & abonnementen": 308.46,
+    "Boekhouder": 400.0,
+    "Bankkosten": 108.2,
+    "Verzekering": 18.35,
+    "Materiaal": 4.13,
+    "Rente KBC-krediet": 67.52,
+    "Marketing & content": 41.57
+   },
+   "resultaat": 789.65,
+   "roas": 3.2,
+   "trueprofit": 1161.25,
+   "verschil_tp": -371.6
+  },
+  {
+   "maand": "2026-07",
+   "orders": 133,
+   "stuks": 296,
+   "omzet_shopify": 11447.51,
+   "omzet_bol": 548.5,
+   "korting": 1014.82,
+   "retours": 475.64,
+   "kostprijs": 3602.32,
+   "fulfilment": 1532.24,
+   "betaalkosten": 659.29,
+   "brutomarge": 6202.15,
+   "ads_meta": 5075.24,
+   "ads_google": 701.72,
+   "vaste_kosten": 2436.06,
+   "vaste_detail": {
+    "Software & abonnementen": 308.21,
+    "Boekhouder": 400.0,
+    "Verzekering": 18.47,
+    "Materiaal": 87.69,
+    "Representatie & reizen": 15.0,
+    "Markten & events": 173.55,
+    "Rente KBC-krediet": 63.64,
+    "Personeel (student)": 320.97,
+    "Marketing & content": 113.98,
+    "Verzending & retours (overig)": 87.44,
+    "Voorraad (verpakking & giveaways)": 847.11
+   },
+   "resultaat": -2010.87,
+   "roas": 2.4,
+   "trueprofit": -819.76,
+   "verschil_tp": -1191.11
+  },
+  {
+   "maand": "2026-08",
+   "orders": 212,
+   "stuks": 522,
+   "omzet_shopify": 17921.75,
+   "omzet_bol": 1034.6,
+   "korting": 1370.1,
+   "retours": 353.18,
+   "kostprijs": 5811.35,
+   "fulfilment": 2503.92,
+   "betaalkosten": 425.99,
+   "brutomarge": 10215.09,
+   "ads_meta": 7744.09,
+   "ads_google": 0,
+   "vaste_kosten": 5417.25,
+   "vaste_detail": {
+    "Software & abonnementen": 385.34,
+    "Verzekering": 18.47,
+    "Materiaal": 8.28,
+    "Representatie & reizen": 370.25,
+    "Markten & events": 380.17,
+    "Rente KBC-krediet": 63.98,
+    "Personeel (student)": 283.53,
+    "Marketing & content": 3896.28,
+    "Verzending & retours (overig)": 10.95
+   },
+   "resultaat": -2946.25,
+   "roas": 2.81,
+   "trueprofit": 1561.58,
+   "verschil_tp": -4507.83
+  },
+  {
+   "maand": "2026-09",
+   "orders": 134,
+   "stuks": 303,
+   "omzet_shopify": 11846.27,
+   "omzet_bol": 1286.42,
+   "korting": 3732.7,
+   "retours": 223.53,
+   "kostprijs": 4515.54,
+   "fulfilment": 1552.03,
+   "betaalkosten": 240.57,
+   "brutomarge": 6824.56,
+   "ads_meta": 7406.09,
+   "ads_google": 0,
+   "vaste_kosten": 2142.38,
+   "vaste_detail": {
+    "Software & abonnementen": 310.55,
+    "Boekhouder": 200.0,
+    "Bankkosten": 25.47,
+    "Verzekering": 18.47,
+    "Administratie & lidmaatschappen": 148.0,
+    "Representatie & reizen": 129.6,
+    "Rente KBC-krediet": 62.2,
+    "Personeel (student)": 1129.16,
+    "Marketing & content": 113.33,
+    "Verzending & retours (overig)": 5.6
+   },
+   "resultaat": -2723.91,
+   "roas": 1.94,
+   "trueprofit": -1608.66,
+   "verschil_tp": -1115.25
+  },
+  {
+   "maand": "2026-10",
+   "orders": 111,
+   "stuks": 453,
+   "omzet_shopify": 8138.92,
+   "omzet_bol": 884.79,
+   "korting": 1718.48,
+   "retours": 724.56,
+   "kostprijs": 3612.02,
+   "fulfilment": 1528.15,
+   "betaalkosten": 151.28,
+   "brutomarge": 3732.26,
+   "ads_meta": 5480.73,
+   "ads_google": 20.96,
+   "vaste_kosten": 956.93,
+   "vaste_detail": {
+    "Software & abonnementen": 473.87,
+    "Boekhouder": 200.0,
+    "Rente KBC-krediet": 58.47,
+    "Marketing & content": 218.99,
+    "Verzending & retours (overig)": 5.6
+   },
+   "resultaat": -2726.36,
+   "roas": 1.79,
+   "trueprofit": -2432.13,
+   "verschil_tp": -294.23
+  }
+ ],
+ "producten": [
+  {
+   "sku": "Furvac",
+   "stuks": 372,
+   "omzet": 42683.91,
+   "kostprijs": 16297.8,
+   "marge_voor_fulfilment": 26386.11
+  },
+  {
+   "sku": "BaseUnit",
+   "stuks": 237,
+   "omzet": 13190.81,
+   "kostprijs": 4090.62,
+   "marge_voor_fulfilment": 9100.19
+  },
+  {
+   "sku": "(oud, zonder SKU)",
+   "stuks": 175,
+   "omzet": 6017.64,
+   "kostprijs": 3163.58,
+   "marge_voor_fulfilment": 2854.05
+  },
+  {
+   "sku": "TK-WF119L",
+   "stuks": 135,
+   "omzet": 5384.6,
+   "kostprijs": 1814.4,
+   "marge_voor_fulfilment": 3570.2
+  },
+  {
+   "sku": "Needle Comb",
+   "stuks": 241,
+   "omzet": 2946.13,
+   "kostprijs": 525.38,
+   "marge_voor_fulfilment": 2420.75
+  },
+  {
+   "sku": "TK-WF007L",
+   "stuks": 97,
+   "omzet": 2878.44,
+   "kostprijs": 854.97,
+   "marge_voor_fulfilment": 2023.47
+  },
+  {
+   "sku": "Furvac-PRE",
+   "stuks": 32,
+   "omzet": 2869.19,
+   "kostprijs": 1305.6,
+   "marge_voor_fulfilment": 1563.59
+  },
+  {
+   "sku": "Deshedding Brush",
+   "stuks": 210,
+   "omzet": 2614.09,
+   "kostprijs": 434.7,
+   "marge_voor_fulfilment": 2179.39
+  },
+  {
+   "sku": "WF315",
+   "stuks": 46,
+   "omzet": 2414.57,
+   "kostprijs": 1261.32,
+   "marge_voor_fulfilment": 1153.25
+  },
+  {
+   "sku": "FF009L",
+   "stuks": 151,
+   "omzet": 1414.47,
+   "kostprijs": 377.67,
+   "marge_voor_fulfilment": 1036.8
+  },
+  {
+   "sku": "FF007",
+   "stuks": 165,
+   "omzet": 1404.0,
+   "kostprijs": 325.8,
+   "marge_voor_fulfilment": 1078.2
+  },
+  {
+   "sku": "FF009L-PRE",
+   "stuks": 158,
+   "omzet": 1365.4,
+   "kostprijs": 406.06,
+   "marge_voor_fulfilment": 959.34
+  },
+  {
+   "sku": "PF09 black",
+   "stuks": 22,
+   "omzet": 1219.87,
+   "kostprijs": 729.52,
+   "marge_voor_fulfilment": 490.35
+  },
+  {
+   "sku": "Anti-static Brush",
+   "stuks": 105,
+   "omzet": 1169.14,
+   "kostprijs": 217.35,
+   "marge_voor_fulfilment": 951.79
+  },
+  {
+   "sku": "Massage Comb",
+   "stuks": 125,
+   "omzet": 1128.51,
+   "kostprijs": 107.5,
+   "marge_voor_fulfilment": 1021.01
+  },
+  {
+   "sku": "PF07 black",
+   "stuks": 20,
+   "omzet": 975.46,
+   "kostprijs": 600.0,
+   "marge_voor_fulfilment": 375.46
+  },
+  {
+   "sku": "FF015",
+   "stuks": 89,
+   "omzet": 946.49,
+   "kostprijs": 204.7,
+   "marge_voor_fulfilment": 741.79
+  },
+  {
+   "sku": "TT002",
+   "stuks": 8,
+   "omzet": 824.06,
+   "kostprijs": 380.16,
+   "marge_voor_fulfilment": 443.9
+  },
+  {
+   "sku": "Trimmer",
+   "stuks": 35,
+   "omzet": 631.63,
+   "kostprijs": 277.55,
+   "marge_voor_fulfilment": 354.08
+  },
+  {
+   "sku": "DESBAG",
+   "stuks": 71,
+   "omzet": 549.62,
+   "kostprijs": 166.85,
+   "marge_voor_fulfilment": 382.77
+  },
+  {
+   "sku": "Hepa-filter",
+   "stuks": 70,
+   "omzet": 401.08,
+   "kostprijs": 92.4,
+   "marge_voor_fulfilment": 308.68
+  },
+  {
+   "sku": "Care-bundel-PRE",
+   "stuks": 5,
+   "omzet": 344.65,
+   "kostprijs": 124.55,
+   "marge_voor_fulfilment": 220.1
+  },
+  {
+   "sku": "BaseUnit-PRE",
+   "stuks": 6,
+   "omzet": 277.68,
+   "kostprijs": 116.4,
+   "marge_voor_fulfilment": 161.28
+  },
+  {
+   "sku": "PF09 white",
+   "stuks": 5,
+   "omzet": 187.36,
+   "kostprijs": 165.8,
+   "marge_voor_fulfilment": 21.56
+  },
+  {
+   "sku": "2-1 Brush",
+   "stuks": 32,
+   "omzet": 177.67,
+   "kostprijs": 27.52,
+   "marge_voor_fulfilment": 150.15
+  },
+  {
+   "sku": "Stacking-part",
+   "stuks": 23,
+   "omzet": 162.3,
+   "kostprijs": 39.56,
+   "marge_voor_fulfilment": 122.74
+  },
+  {
+   "sku": "FF007-PRE",
+   "stuks": 18,
+   "omzet": 155.02,
+   "kostprijs": 38.34,
+   "marge_voor_fulfilment": 116.68
+  },
+  {
+   "sku": "FF-WF117B",
+   "stuks": 19,
+   "omzet": 125.61,
+   "kostprijs": 30.4,
+   "marge_voor_fulfilment": 95.21
+  },
+  {
+   "sku": "PF07 black L",
+   "stuks": 2,
+   "omzet": 105.98,
+   "kostprijs": 51.08,
+   "marge_voor_fulfilment": 54.9
+  },
+  {
+   "sku": "Hepa-filter-PRE",
+   "stuks": 28,
+   "omzet": 81.01,
+   "kostprijs": 36.96,
+   "marge_voor_fulfilment": 44.05
+  },
+  {
+   "sku": "PF07 white",
+   "stuks": 1,
+   "omzet": 63.64,
+   "kostprijs": 25.54,
+   "marge_voor_fulfilment": 38.1
+  },
+  {
+   "sku": "HB-202",
+   "stuks": 7,
+   "omzet": 62.8,
+   "kostprijs": 45.01,
+   "marge_voor_fulfilment": 17.79
+  },
+  {
+   "sku": "Deshedding Brush-PRE",
+   "stuks": 6,
+   "omzet": 62.46,
+   "kostprijs": 13.38,
+   "marge_voor_fulfilment": 49.08
+  },
+  {
+   "sku": "dogsuppy",
+   "stuks": 74,
+   "omzet": 31.07,
+   "kostprijs": 296.0,
+   "marge_voor_fulfilment": -264.93
+  },
+  {
+   "sku": "Anti-static Brush-PRE",
+   "stuks": 3,
+   "omzet": 27.69,
+   "kostprijs": 6.69,
+   "marge_voor_fulfilment": 21.0
+  },
+  {
+   "sku": "Needle Comb-PRE",
+   "stuks": 2,
+   "omzet": 20.82,
+   "kostprijs": 4.7,
+   "marge_voor_fulfilment": 16.12
+  },
+  {
+   "sku": "JY-830",
+   "stuks": 4,
+   "omzet": 18.18,
+   "kostprijs": 10.72,
+   "marge_voor_fulfilment": 7.46
+  },
+  {
+   "sku": "2-1 Brush-PRE",
+   "stuks": 1,
+   "omzet": 4.95,
+   "kostprijs": 0.89,
+   "marge_voor_fulfilment": 4.06
+  }
+ ],
+ "ontbrekende_kostprijs": [],
+ "aannames": [
+  "Fulfilment volgens Widem-tarieven: €1.23/stuk, €1.53/order, doos+DPD €6.89 klein / €7.35 groot.",
+  "Oude producten zonder SKU (feeders okt 2025–feb 2026): kostprijs 50% van de omzet.",
+  "bol.com: netto uitbetaling ÷ 1,21; kostprijs + fulfilment geschat op 45%.",
+  "Vaste kosten = echte bankuitgaven per categorie (zonder Meta/Google, die apart tellen; zonder kantoor, dat Creazy betaalt).",
+  "Retourkosten (transport + afhandeling) nog niet meegeteld."
+ ]
+}
