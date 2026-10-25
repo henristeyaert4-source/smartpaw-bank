@@ -1,0 +1,62 @@
+[
+ {
+  "id": "ponto-8460c16d-c22a-40ca-9b2f-e56febd1a259",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2025-10-30",
+  "bedrag": 184.37,
+  "munt": "EUR",
+  "tegenpartij": "STRIPE",
+  "tegenrekening": "NL41CITI2032304805",
+  "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+  "soort": "PMNT-RCDT-ESCT"
+ },
+ {
+  "id": "ponto-094b5f26-2c16-402c-be76-a856bce329af",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2025-10-29",
+  "bedrag": 373.07,
+  "munt": "EUR",
+  "tegenpartij": "STRIPE",
+  "tegenrekening": "NL41CITI2032304805",
+  "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+  "soort": "PMNT-RCDT-ESCT"
+ },
+ {
+  "id": "ponto-615c1263-a2e2-456c-ba3a-6c79172f47fe",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2025-10-28",
+  "bedrag": 100.41,
+  "munt": "EUR",
+  "tegenpartij": "STRIPE",
+  "tegenrekening": "NL41CITI2032304805",
+  "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+  "soort": "PMNT-RCDT-ESCT"
+ },
+ {
+  "id": "ponto-4bea3720-2ea9-4864-8518-72793b689696",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2025-10-27",
+  "bedrag": 125.6,
+  "munt": "EUR",
+  "tegenpartij": "STRIPE",
+  "tegenrekening": "NL41CITI2032304805",
+  "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+  "soort": "PMNT-RCDT-ESCT"
+ },
+ {
+  "id": "ponto-40c10254-ae89-46c0-b638-d4e33f62f735",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2025-10-26",
+  "bedrag": 21.61,
+  "munt": "EUR",
+  "tegenpartij": "STRIPE",
+  "tegenrekening": "NL41CITI2032304805",
+  "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+  "soort": "PMNT-RCDT-ESCT"
+ }
+]
