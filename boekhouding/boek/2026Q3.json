@@ -4,8 +4,8 @@
  "tot": "2026-09-30",
  "telling": {
   "verklaard": 78,
-  "gekoppeld": 0,
-  "ontbreekt": 104
+  "gekoppeld": 27,
+  "ontbreekt": 77
  },
  "regels": [
   {
@@ -18,8 +18,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 28690004364018280-28524841167201264 (2026-09-30) – in Lucy/Yuki",
+    "transactie_id": "28690004364018280-28524841167201264",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-09-30",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-745b2a69-bde1-4179-abf3-86b3df0e4773",
@@ -173,8 +181,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 28496207413397975-28665230016495716 (2026-09-27) – in Lucy/Yuki",
+    "transactie_id": "28496207413397975-28665230016495716",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-09-27",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-98e64efc-3f9a-4fbb-9077-99ea321fcf9a",
@@ -215,8 +231,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 28412552321763489-28417867054565341 (2026-09-24) – in Lucy/Yuki",
+    "transactie_id": "28412552321763489-28417867054565341",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-09-24",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-3e2e6e27-2eb8-4763-93ad-498f6171dcad",
@@ -331,8 +355,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 28548539494831435-28333791032972949 (2026-09-20) – in Lucy/Yuki",
+    "transactie_id": "28548539494831435-28333791032972949",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-09-20",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-00c1ad2d-11b6-4734-9dfe-844983d8ed87",
@@ -360,8 +392,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 28488005980884780-28343182888700429 (2026-09-17) – in Lucy/Yuki",
+    "transactie_id": "28488005980884780-28343182888700429",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-09-17",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-2fecad0f-9400-493e-8382-605d3cf35f99",
@@ -469,8 +509,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 28254286180923430-28254286254256756 (2026-09-13) – in Lucy/Yuki",
+    "transactie_id": "28254286180923430-28254286254256756",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-09-13",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-1821830b-4e0a-4818-9652-551bc209db7d",
@@ -543,8 +591,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 28388089664209746-28211277685224280 (2026-09-10) – in Lucy/Yuki",
+    "transactie_id": "28388089664209746-28211277685224280",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-09-10",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "kaart-6682-2026-09-10-KLAVIYO INC. SOFTWAR--61.21",
@@ -705,8 +761,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 28354522874233099-28372066432478744 (2026-09-08) – in Lucy/Yuki",
+    "transactie_id": "28354522874233099-28372066432478744",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-09-08",
+    "bedrag": 555.08,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "kaart-6682-2026-09-08-HOLO AI--41.33",
@@ -747,8 +811,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 28135330259485690-28135330349485681 (2026-09-05) – in Lucy/Yuki",
+    "transactie_id": "28135330259485690-28135330349485681",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-09-05",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-93eb762a-8958-4a8a-a19d-09139f460774",
@@ -776,8 +848,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 28057913993893989-28264454399906607 (2026-09-02) – in Lucy/Yuki",
+    "transactie_id": "28057913993893989-28264454399906607",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-09-02",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-8284a710-ea3b-44e3-9ce4-10614e126cd3",
@@ -937,8 +1017,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 28241109438907778-28269737452711639 (2026-08-30) – in Lucy/Yuki",
+    "transactie_id": "28241109438907778-28269737452711639",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-08-30",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-55a14033-951f-437d-85e7-a172a7fa533c",
@@ -966,8 +1054,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 28174602315558490-28023493624002692 (2026-08-26) – in Lucy/Yuki",
+    "transactie_id": "28174602315558490-28023493624002692",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-08-26",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-a060268b-5098-4c38-ade6-579a312b65b0",
@@ -1079,8 +1175,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 27978323681853020-27946942661657785 (2026-08-23) – in Lucy/Yuki",
+    "transactie_id": "27978323681853020-27946942661657785",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-08-23",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-56106374-9f0b-4e72-b42c-173177326c3f",
@@ -1124,8 +1228,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 28134158839602835-28081838734834842 (2026-08-20) – in Lucy/Yuki",
+    "transactie_id": "28134158839602835-28081838734834842",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-08-20",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-f0169e52-7933-4542-9a42-5b3689c8b97f",
@@ -1221,8 +1333,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 28061581953527195-27855281750823885 (2026-08-17) – in Lucy/Yuki",
+    "transactie_id": "28061581953527195-27855281750823885",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-08-17",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-63e3d841-bef6-44c0-af93-0524f7b1e2ce",
@@ -1327,8 +1447,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 27840792075606180-27840792262272828 (2026-08-14) – in Lucy/Yuki",
+    "transactie_id": "27840792075606180-27840792262272828",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-08-14",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-4b471007-c682-4a55-ab5a-da55e7bde80b",
@@ -1440,8 +1568,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 28001385692880151-27949550744730309 (2026-08-10) – in Lucy/Yuki",
+    "transactie_id": "28001385692880151-27949550744730309",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-08-10",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-46c41930-bcd0-4fd2-84c9-840fbd4c05ec",
@@ -1521,8 +1657,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 27916096561409061-27967802372905150 (2026-08-08) – in Lucy/Yuki",
+    "transactie_id": "27916096561409061-27967802372905150",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-08-08",
+    "bedrag": 757.53,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-6b5514f1-9cfb-4403-a3dc-fccdcd7f9122",
@@ -1624,8 +1768,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 27711775655174490-27869145762770808 (2026-08-04) – in Lucy/Yuki",
+    "transactie_id": "27711775655174490-27869145762770808",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-08-04",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-eef4d54f-539b-4cc1-8455-8dcce1c92d4c",
@@ -1682,8 +1834,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 27848362231515836-27831764456508946 (2026-08-01) – in Lucy/Yuki",
+    "transactie_id": "27848362231515836-27831764456508946",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-08-01",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-45c5dc78-53a7-43da-acca-271c2f4a4838",
@@ -1750,8 +1910,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 27610339325318122-27705458205806234 (2026-07-29) – in Lucy/Yuki",
+    "transactie_id": "27610339325318122-27705458205806234",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-07-29",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-739e60d0-dd80-4745-9950-03f608900e91",
@@ -1850,8 +2018,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 27560767960275267-27538964052455655 (2026-07-25) – in Lucy/Yuki",
+    "transactie_id": "27560767960275267-27538964052455655",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-07-25",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-d7bad2d5-4360-4cd5-8bae-72db5ffb27f1",
@@ -2079,8 +2255,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 27669559296062797-27482434021441995 (2026-07-19) – in Lucy/Yuki",
+    "transactie_id": "27669559296062797-27482434021441995",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-07-19",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-24a9fef0-5dd3-4afd-a20a-c6309fb8f16e",
@@ -2217,8 +2401,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 27593360840349303-27416226398062750 (2026-07-13) – in Lucy/Yuki",
+    "transactie_id": "27593360840349303-27416226398062750",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-07-13",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "kaart-2103-2026-07-12-Google ADS4790542578--500.0",
@@ -2324,8 +2516,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 27328965953455467-27376759048676154 (2026-07-08) – in Lucy/Yuki",
+    "transactie_id": "27328965953455467-27376759048676154",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-07-08",
+    "bedrag": 278.57,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-91598e08-f42c-4387-a8c4-eab5f4ceb506",
@@ -2398,8 +2598,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 27355189934166399-27530401703311892 (2026-07-06) – in Lucy/Yuki",
+    "transactie_id": "27355189934166399-27530401703311892",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-07-06",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-f7fa8987-e1ed-4d71-8bc2-ce3cc9af8e15",
@@ -2534,8 +2742,16 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "meta",
+    "label": "Meta-kwitantie 27253725940979469-27253726004312796 (2026-07-01) – in Lucy/Yuki",
+    "transactie_id": "27253725940979469-27253726004312796",
+    "leverancier": "Meta Platforms Ireland",
+    "datum": "2026-07-01",
+    "bedrag": 800.0,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "ponto-b962ceef-47e9-4a1d-b379-971e633c17de",
