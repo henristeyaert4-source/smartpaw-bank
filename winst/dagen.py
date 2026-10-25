@@ -4,7 +4,7 @@ Bronnen: winst/input/shopify_dag.txt (ShopifyQL per dag: datum orders net_sales 
 winst/input/meta_dag.json (Meta-spend per dag), winst/winst-per-maand.json (maandtotalen).
 Kostprijs, fulfilment en betaalkosten per dag = maandtotaal × aandeel van die dag in de maandomzet.
 bol, Google Ads en vaste kosten worden gelijk over de dagen van de maand verdeeld.
-Elke rij: [datum, orders, omzet, brutomarge, ads, vaste_kosten] (euro, excl. btw).
+Elke rij: [datum, orders, omzet, brutomarge, ads, vaste_kosten, omzet_shopify, ads_meta] (euro, excl. btw).
 """
 import calendar, json
 from collections import defaultdict
@@ -39,7 +39,7 @@ while d <= eind:
     bruto = omzet - (m["kostprijs"] + m["fulfilment"] + m["betaalkosten"]) * aandeel
     ads = meta.get(ds, 0.0) + m["ads_google"] / dim
     vast = m["vaste_kosten"] / dim
-    rijen.append([ds, n, round(omzet, 2), round(bruto, 2), round(ads, 2), round(vast, 2)])
+    rijen.append([ds, n, round(omzet, 2), round(bruto, 2), round(ads, 2), round(vast, 2), round(omzet_shop, 2), round(meta.get(ds, 0.0), 2)])
     d += timedelta(days=1)
 
 doc = {"dagen": rijen, "tot": eind.isoformat(), "bijgewerkt": date.today().isoformat(),
