@@ -11,10 +11,6 @@
    "retourlabels": 3.3,
    "andere_kosten": 0.0,
    "per_ean": {
-    "6152846733711": {
-     "stuks": 3,
-     "omzet_incl": 285.0
-    },
     "6152843185117": {
      "stuks": 1,
      "omzet_incl": 95.0
@@ -22,6 +18,10 @@
     "6152855766762": {
      "stuks": 2,
      "omzet_incl": 100.0
+    },
+    "6152846733711": {
+     "stuks": 3,
+     "omzet_incl": 285.0
     },
     "6152848985903": {
      "stuks": 1,
@@ -71,18 +71,6 @@
    "retourlabels": 0.0,
    "andere_kosten": 0.0,
    "per_ean": {
-    "6152843185117": {
-     "stuks": 2,
-     "omzet_incl": 190.0
-    },
-    "6152852564521": {
-     "stuks": 1,
-     "omzet_incl": 59.0
-    },
-    "6152846733711": {
-     "stuks": 1,
-     "omzet_incl": 95.0
-    },
     "6152847440465": {
      "stuks": 1,
      "omzet_incl": 14.95
@@ -98,6 +86,18 @@
     "6152843640692": {
      "stuks": 1,
      "omzet_incl": 85.0
+    },
+    "6152843185117": {
+     "stuks": 2,
+     "omzet_incl": 190.0
+    },
+    "6152852564521": {
+     "stuks": 1,
+     "omzet_incl": 59.0
+    },
+    "6152846733711": {
+     "stuks": 1,
+     "omzet_incl": 95.0
     }
    }
   },
@@ -143,14 +143,6 @@
    "retourlabels": 3.11,
    "andere_kosten": 0.0,
    "per_ean": {
-    "6152852564521": {
-     "stuks": 2,
-     "omzet_incl": 118.0
-    },
-    "6152855160157": {
-     "stuks": 3,
-     "omzet_incl": 53.85
-    },
     "6152848985903": {
      "stuks": 4,
      "omzet_incl": 71.8
@@ -163,9 +155,17 @@
      "stuks": 1,
      "omzet_incl": 19.95
     },
+    "6152855160157": {
+     "stuks": 3,
+     "omzet_incl": 53.85
+    },
     "6152843185117": {
      "stuks": 1,
      "omzet_incl": 82.95
+    },
+    "6152852564521": {
+     "stuks": 2,
+     "omzet_incl": 118.0
     }
    }
   },
@@ -267,17 +267,9 @@
    "retourlabels": 0.0,
    "andere_kosten": 0.0,
    "per_ean": {
-    "6152855766762": {
-     "stuks": 1,
-     "omzet_incl": 50.0
-    },
     "6152848985903": {
      "stuks": 3,
      "omzet_incl": 53.85
-    },
-    "5419980391100": {
-     "stuks": 2,
-     "omzet_incl": 298.0
     },
     "6152855160157": {
      "stuks": 4,
@@ -294,6 +286,14 @@
     "6152843640692": {
      "stuks": 1,
      "omzet_incl": 75.95
+    },
+    "6152855766762": {
+     "stuks": 1,
+     "omzet_incl": 50.0
+    },
+    "5419980391100": {
+     "stuks": 2,
+     "omzet_incl": 298.0
     }
    }
   },
@@ -359,14 +359,6 @@
    "retourlabels": 4.0,
    "andere_kosten": 0.0,
    "per_ean": {
-    "6152852564521": {
-     "stuks": 3,
-     "omzet_incl": 177.0
-    },
-    "5419980654199": {
-     "stuks": 1,
-     "omzet_incl": 79.99
-    },
     "5419980391100": {
      "stuks": 5,
      "omzet_incl": 745.0
@@ -375,9 +367,17 @@
      "stuks": 1,
      "omzet_incl": 79.99
     },
+    "6152852564521": {
+     "stuks": 3,
+     "omzet_incl": 177.0
+    },
     "5419980654175": {
      "stuks": 1,
      "omzet_incl": 99.99
+    },
+    "5419980654199": {
+     "stuks": 1,
+     "omzet_incl": 79.99
     }
    }
   }
