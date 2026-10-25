@@ -1,0 +1,572 @@
+{
+ "kwartaal": "2026Q4",
+ "van": "2026-10-01",
+ "tot": "2026-12-31",
+ "telling": {
+  "verklaard": 17,
+  "gekoppeld": 0,
+  "ontbreekt": 22
+ },
+ "regels": [
+  {
+   "id": "kaart-2103-2026-10-23-FACEBK *CNGZB8S7A4--621.34",
+   "datum": "2026-10-23",
+   "bron": "KBC-kaart",
+   "tegenpartij": "FACEBK *CNGZB8S7A4",
+   "mededeling": "FACEBK *CNGZB8S7A4",
+   "bedrag": -621.34,
+   "categorie": "Ads Meta",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "ponto-8ee9d329-38ca-46ea-9fe4-f24f562396df",
+   "datum": "2026-10-22",
+   "bron": "KBC",
+   "tegenpartij": "STRIPE",
+   "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+   "bedrag": 539.54,
+   "categorie": "Omzet webshop (Shopify)",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "uitbetaling Shopify Payments (verkopen in Shopify)"
+   }
+  },
+  {
+   "id": "ponto-7e3ec510-9f89-400f-a66e-7aa797f9771b",
+   "datum": "2026-10-21",
+   "bron": "KBC",
+   "tegenpartij": "STRIPE",
+   "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+   "bedrag": 1807.04,
+   "categorie": "Omzet webshop (Shopify)",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "uitbetaling Shopify Payments (verkopen in Shopify)"
+   }
+  },
+  {
+   "id": "ponto-5fc68572-d8a6-4609-96db-44c4b167d495",
+   "datum": "2026-10-21",
+   "bron": "KBC",
+   "tegenpartij": "FACEBK *L8VFT7J8A4 IED04 X2K5 DUBLIN Betaling met ",
+   "mededeling": "FACEBK *L8VFT7J8A4 IED04 X2K5 DUBLIN Betaling met M4M - MDES for merch",
+   "bedrag": -800.0,
+   "categorie": "Ads Meta",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "ponto-8d423deb-a993-4ae6-896e-5697b58aff14",
+   "datum": "2026-10-20",
+   "bron": "KBC",
+   "tegenpartij": "BPOST NV BE1000 BRUXELLES Betaling met KBC-Debetka",
+   "mededeling": "BPOST NV BE1000 BRUXELLES Betaling met KBC-Debetkaart Business via Ban",
+   "bedrag": -6.78,
+   "categorie": "Verzending & retours (overig)",
+   "btw_type": "BE21",
+   "vak": "82 (+ btw in 59)",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "ponto-cdf7f46c-41c6-40c3-9f4c-d44e89194ba5",
+   "datum": "2026-10-19",
+   "bron": "KBC",
+   "tegenpartij": "HIGGSFIELD INC. US94105 SAN FRANCISCO Betaling met",
+   "mededeling": "HIGGSFIELD INC. US94105 SAN FRANCISCO Betaling met M4M - MDES for merc",
+   "bedrag": -72.0,
+   "categorie": "Marketing & content",
+   "btw_type": "NONEU",
+   "vak": "87 / 56 / 59",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "ponto-dee1dd6a-8459-46c9-8517-53cb15fc7bb3",
+   "datum": "2026-10-18",
+   "bron": "KBC",
+   "tegenpartij": "STRIPE",
+   "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+   "bedrag": 371.57,
+   "categorie": "Omzet webshop (Shopify)",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "uitbetaling Shopify Payments (verkopen in Shopify)"
+   }
+  },
+  {
+   "id": "ponto-9e0de87c-4900-42b1-8875-1431a02df641",
+   "datum": "2026-10-18",
+   "bron": "KBC",
+   "tegenpartij": "FACEBK *U6Y6G7J7A4 IED04 X2K5 DUBLIN Betaling met ",
+   "mededeling": "FACEBK *U6Y6G7J7A4 IED04 X2K5 DUBLIN Betaling met M4M - MDES for merch",
+   "bedrag": -800.0,
+   "categorie": "Ads Meta",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "ponto-d4082b4a-c475-4453-b950-50cf228aed02",
+   "datum": "2026-10-15",
+   "bron": "KBC",
+   "tegenpartij": "HIGGSFIELD INC. US94105 SAN FRANCISCO Betaling met",
+   "mededeling": "HIGGSFIELD INC. US94105 SAN FRANCISCO Betaling met M4M - MDES for merc",
+   "bedrag": -67.84,
+   "categorie": "Marketing & content",
+   "btw_type": "NONEU",
+   "vak": "87 / 56 / 59",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "ponto-91305d60-b596-4391-b69b-ca1a8aa6dd2f",
+   "datum": "2026-10-15",
+   "bron": "KBC",
+   "tegenpartij": "FACEBK *J3XKX8W7A4 IED04 X2K5 DUBLIN Betaling met ",
+   "mededeling": "FACEBK *J3XKX8W7A4 IED04 X2K5 DUBLIN Betaling met M4M - MDES for merch",
+   "bedrag": -800.0,
+   "categorie": "Ads Meta",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "ponto-8e830df9-4398-46e9-9c7c-53b81a77259e",
+   "datum": "2026-10-15",
+   "bron": "KBC",
+   "tegenpartij": "STRIPE",
+   "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+   "bedrag": 272.06,
+   "categorie": "Omzet webshop (Shopify)",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "uitbetaling Shopify Payments (verkopen in Shopify)"
+   }
+  },
+  {
+   "id": "ponto-61d37cc4-6763-428e-bdb2-feb72dfc6914",
+   "datum": "2026-10-15",
+   "bron": "KBC",
+   "tegenpartij": "SMARTPAW VOF",
+   "mededeling": "Betaling Investeringskrediet Referentie 420-6950883-64 Kapitaal 530,40",
+   "bedrag": -530.4,
+   "categorie": "Aflossing KBC-krediet",
+   "btw_type": "FIN",
+   "vak": "—",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "kredietovereenkomst KBC"
+   }
+  },
+  {
+   "id": "ponto-61d37cc4-6763-428e-bdb2-feb72dfc6914",
+   "datum": "2026-10-15",
+   "bron": "KBC",
+   "tegenpartij": "SMARTPAW VOF",
+   "mededeling": "Betaling Investeringskrediet Referentie 420-6950883-64 Kapitaal 530,40",
+   "bedrag": -58.47,
+   "categorie": "Rente KBC-krediet",
+   "btw_type": "GEEN",
+   "vak": "82 zonder btw",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "kredietovereenkomst KBC"
+   }
+  },
+  {
+   "id": "ponto-359295c0-1331-4545-afb3-5c02e0645da0",
+   "datum": "2026-10-15",
+   "bron": "KBC",
+   "tegenpartij": "HIGGSFIELD INC. US94105 SAN FRANCISCO Betaling met",
+   "mededeling": "HIGGSFIELD INC. US94105 SAN FRANCISCO Betaling met M4M - MDES for merc",
+   "bedrag": -36.2,
+   "categorie": "Marketing & content",
+   "btw_type": "NONEU",
+   "vak": "87 / 56 / 59",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "ponto-208e5fe1-d3fc-4e6c-ad8a-1828f8ef8ff6",
+   "datum": "2026-10-15",
+   "bron": "KBC",
+   "tegenpartij": "BOLCOM BV",
+   "mededeling": "BOLCOM BV Overschrijving NL45 INGB 0000 2571 33 BIC: INGBNL2A BETALING",
+   "bedrag": 478.33,
+   "categorie": "Omzet bol.com",
+   "btw_type": "NAKIJKEN",
+   "vak": "?",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "uitbetaling bol.com (bol-factuur)"
+   }
+  },
+  {
+   "id": "ponto-5a1b70b5-7898-4e9d-ba4a-47c6f616184b",
+   "datum": "2026-10-14",
+   "bron": "KBC",
+   "tegenpartij": "STRIPE",
+   "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+   "bedrag": 1013.16,
+   "categorie": "Omzet webshop (Shopify)",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "uitbetaling Shopify Payments (verkopen in Shopify)"
+   }
+  },
+  {
+   "id": "kaart-6682-2026-10-14-ALIBABA.COM--779.1",
+   "datum": "2026-10-14",
+   "bron": "KBC-kaart",
+   "tegenpartij": "ALIBABA.COM",
+   "mededeling": "ALIBABA.COM",
+   "bedrag": -779.1,
+   "categorie": "Voorraad (fabriek)",
+   "btw_type": "INVOER",
+   "vak": "invoeraangifte (Widem)",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "ponto-6b5c5ad4-083b-4ddb-a009-34d874a018d4",
+   "datum": "2026-10-13",
+   "bron": "KBC",
+   "tegenpartij": "STRIPE",
+   "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+   "bedrag": 444.33,
+   "categorie": "Omzet webshop (Shopify)",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "uitbetaling Shopify Payments (verkopen in Shopify)"
+   }
+  },
+  {
+   "id": "ponto-1d08d418-64a6-486f-8424-380ba6c7847e",
+   "datum": "2026-10-12",
+   "bron": "KBC",
+   "tegenpartij": "STRIPE",
+   "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+   "bedrag": 203.93,
+   "categorie": "Omzet webshop (Shopify)",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "uitbetaling Shopify Payments (verkopen in Shopify)"
+   }
+  },
+  {
+   "id": "ponto-24ead7b5-9d64-4984-ae90-effd1a2b782f",
+   "datum": "2026-10-11",
+   "bron": "KBC",
+   "tegenpartij": "FACEBK *XX3GC6J8A4 IED04 X2K5 DUBLIN Betaling met ",
+   "mededeling": "FACEBK *XX3GC6J8A4 IED04 X2K5 DUBLIN Betaling met M4M - MDES for merch",
+   "bedrag": -800.0,
+   "categorie": "Ads Meta",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "ponto-0d9c120c-00c0-4f07-9f64-9588c03cea6c",
+   "datum": "2026-10-11",
+   "bron": "KBC",
+   "tegenpartij": "STRIPE",
+   "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+   "bedrag": 803.93,
+   "categorie": "Omzet webshop (Shopify)",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "uitbetaling Shopify Payments (verkopen in Shopify)"
+   }
+  },
+  {
+   "id": "kaart-6682-2026-10-10-KLAVIYO INC. SOFTWAR--63.59",
+   "datum": "2026-10-10",
+   "bron": "KBC-kaart",
+   "tegenpartij": "KLAVIYO INC. SOFTWARE",
+   "mededeling": "KLAVIYO INC. SOFTWARE",
+   "bedrag": -63.59,
+   "categorie": "Software & abonnementen",
+   "btw_type": "NONEU",
+   "vak": "87 / 56 / 59",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "kaart-6682-2026-10-10-GODADDY*#7038004865--167.76",
+   "datum": "2026-10-10",
+   "bron": "KBC-kaart",
+   "tegenpartij": "GODADDY*#7038004865",
+   "mededeling": "GODADDY*#7038004865",
+   "bedrag": -167.76,
+   "categorie": "Software & abonnementen",
+   "btw_type": "NONEU",
+   "vak": "87 / 56 / 59",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "kaart-6682-2026-10-09-SHOPIFY* 601792977--129.2",
+   "datum": "2026-10-09",
+   "bron": "KBC-kaart",
+   "tegenpartij": "SHOPIFY* 601792977",
+   "mededeling": "SHOPIFY* 601792977",
+   "bedrag": -129.2,
+   "categorie": "Software & abonnementen",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "rev-0567823b-ec31-e30b-02c0-04723185a1e6-0567823b-ec31-e30b-0000-04723185a1e6",
+   "datum": "2026-10-08",
+   "bron": "Revolut",
+   "tegenpartij": "Company Pro plan fee",
+   "mededeling": "Company Pro plan fee",
+   "bedrag": -35.0,
+   "categorie": "Software & abonnementen",
+   "btw_type": "GEEN",
+   "vak": "82 zonder btw",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "ponto-6ae18f40-fe71-4f05-b26a-7c56e77b6eff",
+   "datum": "2026-10-08",
+   "bron": "KBC",
+   "tegenpartij": "STRIPE",
+   "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+   "bedrag": 478.62,
+   "categorie": "Omzet webshop (Shopify)",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "uitbetaling Shopify Payments (verkopen in Shopify)"
+   }
+  },
+  {
+   "id": "ponto-0fffef77-c5bd-4273-a91c-30d140e1e164",
+   "datum": "2026-10-08",
+   "bron": "KBC",
+   "tegenpartij": "FACEBK *MYTGS7E8A4 IED04 X2K5 DUBLIN Betaling met ",
+   "mededeling": "FACEBK *MYTGS7E8A4 IED04 X2K5 DUBLIN Betaling met M4M - MDES for merch",
+   "bedrag": -517.01,
+   "categorie": "Ads Meta",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "kaart-6682-2026-10-08-HOLO AI--42.95",
+   "datum": "2026-10-08",
+   "bron": "KBC-kaart",
+   "tegenpartij": "HOLO AI",
+   "mededeling": "HOLO AI",
+   "bedrag": -42.95,
+   "categorie": "Marketing & content",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "ponto-faed575c-60a2-4381-b594-20525a7d8177",
+   "datum": "2026-10-07",
+   "bron": "KBC",
+   "tegenpartij": "STRIPE",
+   "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+   "bedrag": 554.74,
+   "categorie": "Omzet webshop (Shopify)",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "uitbetaling Shopify Payments (verkopen in Shopify)"
+   }
+  },
+  {
+   "id": "ponto-408b2733-7790-4a5e-9206-d8d41cbc7d23",
+   "datum": "2026-10-06",
+   "bron": "KBC",
+   "tegenpartij": "STRIPE",
+   "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+   "bedrag": 184.91,
+   "categorie": "Omzet webshop (Shopify)",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "uitbetaling Shopify Payments (verkopen in Shopify)"
+   }
+  },
+  {
+   "id": "ponto-c2c65a99-7b31-4967-9cac-187d2e8f7e4e",
+   "datum": "2026-10-05",
+   "bron": "KBC",
+   "tegenpartij": "Pro-Count",
+   "mededeling": "250103393193",
+   "bedrag": -242.0,
+   "categorie": "Boekhouder",
+   "btw_type": "BE21",
+   "vak": "82 (+ btw in 59)",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "ponto-b8bd72fa-7cb5-462d-a7d9-72e226f64646",
+   "datum": "2026-10-04",
+   "bron": "KBC",
+   "tegenpartij": "FACEBK *QVA4B7E8A4 IED04 X2K5 DUBLIN Betaling met ",
+   "mededeling": "FACEBK *QVA4B7E8A4 IED04 X2K5 DUBLIN Betaling met M4M - MDES for merch",
+   "bedrag": -800.0,
+   "categorie": "Ads Meta",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "ponto-14c31e0e-0bb4-488c-a24c-75b7324d7dd7",
+   "datum": "2026-10-04",
+   "bron": "KBC",
+   "tegenpartij": "STRIPE",
+   "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+   "bedrag": 302.15,
+   "categorie": "Omzet webshop (Shopify)",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "uitbetaling Shopify Payments (verkopen in Shopify)"
+   }
+  },
+  {
+   "id": "kaart-6682-2026-10-03-ALIBABA.COM--333.0",
+   "datum": "2026-10-03",
+   "bron": "KBC-kaart",
+   "tegenpartij": "ALIBABA.COM",
+   "mededeling": "ALIBABA.COM",
+   "bedrag": -333.0,
+   "categorie": "Voorraad (fabriek)",
+   "btw_type": "INVOER",
+   "vak": "invoeraangifte (Widem)",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "ponto-ce7c934b-3604-472f-9f84-267a3c29d9df",
+   "datum": "2026-10-01",
+   "bron": "KBC",
+   "tegenpartij": "Yuki Works NV via Mollie",
+   "mededeling": "Yuki Works NV via Mollie Domiciliëring SD56-7337-8082-2245 STICHTING M",
+   "bedrag": -2.42,
+   "categorie": "Software & abonnementen",
+   "btw_type": "BE21",
+   "vak": "82 (+ btw in 59)",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "ponto-bcd14b78-c08a-4312-87d1-81caed99a8d5",
+   "datum": "2026-10-01",
+   "bron": "KBC",
+   "tegenpartij": "GOOGLE*WORKSPACE SMART IED02 R296 CC GOOGLE.COM Be",
+   "mededeling": "GOOGLE*WORKSPACE SMART IED02 R296 CC GOOGLE.COM Betaling met KBC-Debet",
+   "bedrag": -75.9,
+   "categorie": "Software & abonnementen",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "ponto-aebfbd60-46d5-44d9-a997-2a8d7ba9c5d8",
+   "datum": "2026-10-01",
+   "bron": "KBC",
+   "tegenpartij": "BOLCOM BV",
+   "mededeling": "BOLCOM BV Overschrijving NL45 INGB 0000 2571 33 BIC: INGBNL2A BETALING",
+   "bedrag": 592.26,
+   "categorie": "Omzet bol.com",
+   "btw_type": "NAKIJKEN",
+   "vak": "?",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "uitbetaling bol.com (bol-factuur)"
+   }
+  },
+  {
+   "id": "ponto-04d16c46-4dfa-4c59-93fe-dfc476118a8d",
+   "datum": "2026-10-01",
+   "bron": "KBC",
+   "tegenpartij": "STRIPE",
+   "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+   "bedrag": 272.46,
+   "categorie": "Omzet webshop (Shopify)",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "uitbetaling Shopify Payments (verkopen in Shopify)"
+   }
+  },
+  {
+   "id": "kaart-2103-2026-10-01-METAPAY*MV4B--22.29",
+   "datum": "2026-10-01",
+   "bron": "KBC-kaart",
+   "tegenpartij": "METAPAY*MV4B",
+   "mededeling": "METAPAY*MV4B",
+   "bedrag": -22.29,
+   "categorie": "Ads Meta",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "ontbreekt",
+   "bewijs": null
+  }
+ ],
+ "pakket": {},
+ "bijgewerkt": "2026-10-25"
+}

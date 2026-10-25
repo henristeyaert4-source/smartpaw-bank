@@ -199,8 +199,22 @@ def main(jaar=2026, k=3):
 
     # --- 6. Ontbrekende documenten
     o = wb.create_sheet("Documenten")
-    o["A1"] = "Per uitgave: is de factuur aanwezig in Lucy/Yuki? (automatisch af te vinken zodra de Yuki-koppeling werkt)"; o["A1"].font = bold
-    tabel(o, 3, ["Datum", "Leverancier", "Bedrag", "Btw-type", "Status"], ontbrekend, [11, 40, 14, 10, 24], geld=(3,))
+    boek_pad = B / "boek" / f"{jaar}Q{k}.json"
+    if boek_pad.exists():  # status per verrichting uit regels.py (platform: uploads, mail, Yuki)
+        bk_doc = json.loads(boek_pad.read_text())
+        ontbrekend = [[r["datum"], r["tegenpartij"], r["bedrag"], r["btw_type"], r["status"],
+                       (r.get("bewijs") or {}).get("label") or (r.get("bewijs") or {}).get("bestand") or ""]
+                      for r in bk_doc["regels"] if r["status"] != "verklaard"]
+        ontbrekend.sort(key=lambda x: (x[4] != "ontbreekt", x[0]))
+        t = bk_doc["telling"]
+        o["A1"] = (f"Bewijs per verrichting: {t['gekoppeld']} gekoppeld, {t['verklaard']} verklaard (geen factuur nodig, niet in deze lijst), "
+                   f"{t['ontbreekt']} ontbreken. Facturen zitten in de map Facturen_Q{k}-{jaar} (bestandsnaam = datum_leverancier_bedrag).")
+        o["A1"].font = bold
+        tabel(o, 3, ["Datum", "Tegenpartij", "Bedrag", "Btw-type", "Status", "Bewijs"], ontbrekend, [11, 40, 14, 10, 12, 50], geld=(3,))
+        ontbrekend = [x for x in ontbrekend if x[4] == "ontbreekt"]
+    else:
+        o["A1"] = "Per uitgave: is de factuur aanwezig? (draai eerst boekhouding/regels.py)"; o["A1"].font = bold
+        tabel(o, 3, ["Datum", "Leverancier", "Bedrag", "Btw-type", "Status"], ontbrekend, [11, 40, 14, 10, 24], geld=(3,))
 
     # --- 7. OSS
     oss = wb.create_sheet("OSS")
@@ -230,7 +244,7 @@ def main(jaar=2026, k=3):
         ("Te betalen volgens Pro-count", "='Btw-voorbereiding'!C13"),
         ("Verschil", "='Btw-voorbereiding'!C14"),
         ("Uitgaven met onzekere btw-behandeling (NAKIJKEN)", f'=COUNTIF(Aankopen!E{a4}:E{z4},"NAKIJKEN")'),
-        ("Uitgaven zonder bevestigde factuur", f"=COUNTA(Documenten!A4:A{3+len(ontbrekend)})"),
+        ("Verrichtingen zonder bewijs", len(ontbrekend)),
     ]
     for i, (lbl, f) in enumerate(sam, 4):
         s.cell(i, 1, lbl).font = norm
