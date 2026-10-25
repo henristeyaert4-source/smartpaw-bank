@@ -1,0 +1,1353 @@
+{
+ "factuur": {
+  "invoiceId": "3916443769981",
+  "issueDate": 1790805600000,
+  "invoicePeriod": {
+   "startDate": 1788818400000,
+   "endDate": 1790114400000
+  },
+  "invoiceType": "ALL_IN_ONE",
+  "legalMonetaryTotal": {
+   "lineExtensionAmount": {
+    "amount": -592.26,
+    "currencyID": "EUR"
+   },
+   "taxExclusiveAmount": {
+    "amount": -592.26,
+    "currencyID": "EUR"
+   },
+   "taxInclusiveAmount": {
+    "amount": -592.26,
+    "currencyID": "EUR"
+   },
+   "payableAmount": {
+    "amount": -592.26,
+    "currencyID": "EUR"
+   }
+  },
+  "invoiceMediaTypes": {
+   "availableMediaTypes": [
+    "application/vnd.retailer.v10+json",
+    "application/vnd.retailer.v10+pdf"
+   ]
+  },
+  "specificationMediaTypes": {
+   "availableMediaTypes": [
+    "application/vnd.retailer.v10+json",
+    "application/vnd.retailer.v10+openxmlformats-officedocument.spreadsheetml.sheet"
+   ]
+  },
+  "openAmount": 0.0
+ },
+ "specificatie": [
+  {
+   "id": "C000F7CW25#6152852564521#TURNOVER",
+   "invoiceLineRef": "3916443769981#TURNOVER",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 1.0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": -59.0
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Bestelnummer"
+      },
+      "Value": {
+       "value": "C000F7CW25"
+      }
+     },
+     {
+      "Name": {
+       "value": "EAN"
+      },
+      "Value": {
+       "value": "6152852564521"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "O"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Verkoopprijs artikel(en), ontvangen van kopers en door bol door te storten"
+     }
+    ],
+    "Name": {
+     "value": "TURNOVER"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 1.0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 59.0
+    }
+   }
+  },
+  {
+   "id": "C000F7CW25#6152852564521#COMMISSION",
+   "invoiceLineRef": "3916443769981#COMMISSION",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 1.0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 5.704132
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Bestelnummer"
+      },
+      "Value": {
+       "value": "C000F7CW25"
+      }
+     },
+     {
+      "Name": {
+       "value": "EAN"
+      },
+      "Value": {
+       "value": "6152852564521"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Commissie"
+     }
+    ],
+    "Name": {
+     "value": "COMMISSION"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 1.0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 5.704132
+    }
+   }
+  },
+  {
+   "id": "C000F8P7DC#5419980654199#TURNOVER",
+   "invoiceLineRef": "3916443769981#TURNOVER",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 1.0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": -79.99
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Bestelnummer"
+      },
+      "Value": {
+       "value": "C000F8P7DC"
+      }
+     },
+     {
+      "Name": {
+       "value": "EAN"
+      },
+      "Value": {
+       "value": "5419980654199"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "O"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Verkoopprijs artikel(en), ontvangen van kopers en door bol door te storten"
+     }
+    ],
+    "Name": {
+     "value": "TURNOVER"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 1.0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 79.99
+    }
+   }
+  },
+  {
+   "id": "C000F8P7DC#5419980654199#COMMISSION",
+   "invoiceLineRef": "3916443769981#COMMISSION",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 1.0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 7.395475
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Bestelnummer"
+      },
+      "Value": {
+       "value": "C000F8P7DC"
+      }
+     },
+     {
+      "Name": {
+       "value": "EAN"
+      },
+      "Value": {
+       "value": "5419980654199"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Commissie"
+     }
+    ],
+    "Name": {
+     "value": "COMMISSION"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 1.0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 7.395475
+    }
+   }
+  },
+  {
+   "id": "C000C6H9CM#3SNIBL825246003#PLAZA_RETURN_SHIPPING_LABEL",
+   "invoiceLineRef": "3916443769981#PLAZA_RETURN_SHIPPING_LABEL",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 1.0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 4.0
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Bestelnummer"
+      },
+      "Value": {
+       "value": "C000C6H9CM"
+      }
+     },
+     {
+      "Name": {
+       "value": "Track and Trace"
+      },
+      "Value": {
+       "value": "3SNIBL825246003"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Bijdrage aan retourzegel(s)"
+     }
+    ],
+    "Name": {
+     "value": "PLAZA_RETURN_SHIPPING_LABEL"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 1.0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 4.0
+    }
+   }
+  },
+  {
+   "id": "C000D5NK8H#5419980391100#CORRECTION_TURNOVER",
+   "invoiceLineRef": "3916443769981#CORRECTION_TURNOVER",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 1.0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 149.0
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Bestelnummer"
+      },
+      "Value": {
+       "value": "C000D5NK8H"
+      }
+     },
+     {
+      "Name": {
+       "value": "EAN"
+      },
+      "Value": {
+       "value": "5419980391100"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "O"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Correctie verkoopprijs artikel(en)"
+     }
+    ],
+    "Name": {
+     "value": "CORRECTION_TURNOVER"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 1.0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 149.0
+    }
+   }
+  },
+  {
+   "id": "C000D5NK8H#5419980391100#CORRECTION_COMMISSION",
+   "invoiceLineRef": "3916443769981#CORRECTION_COMMISSION",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 1.0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": -19.321074
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Bestelnummer"
+      },
+      "Value": {
+       "value": "C000D5NK8H"
+      }
+     },
+     {
+      "Name": {
+       "value": "EAN"
+      },
+      "Value": {
+       "value": "5419980391100"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Correctie commissie"
+     }
+    ],
+    "Name": {
+     "value": "CORRECTION_COMMISSION"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 1.0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 19.321074
+    }
+   }
+  },
+  {
+   "id": "C000FC3C2P#5419980391100#TURNOVER",
+   "invoiceLineRef": "3916443769981#TURNOVER",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 1.0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": -149.0
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Bestelnummer"
+      },
+      "Value": {
+       "value": "C000FC3C2P"
+      }
+     },
+     {
+      "Name": {
+       "value": "EAN"
+      },
+      "Value": {
+       "value": "5419980391100"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "O"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Verkoopprijs artikel(en), ontvangen van kopers en door bol door te storten"
+     }
+    ],
+    "Name": {
+     "value": "TURNOVER"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 1.0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 149.0
+    }
+   }
+  },
+  {
+   "id": "C000FC3C2P#5419980391100#COMMISSION",
+   "invoiceLineRef": "3916443769981#COMMISSION",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 1.0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 12.956198
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Bestelnummer"
+      },
+      "Value": {
+       "value": "C000FC3C2P"
+      }
+     },
+     {
+      "Name": {
+       "value": "EAN"
+      },
+      "Value": {
+       "value": "5419980391100"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Commissie"
+     }
+    ],
+    "Name": {
+     "value": "COMMISSION"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 1.0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 12.956198
+    }
+   }
+  },
+  {
+   "id": "C000F276X9#5419980391100#TURNOVER",
+   "invoiceLineRef": "3916443769981#TURNOVER",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 1.0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": -149.0
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Bestelnummer"
+      },
+      "Value": {
+       "value": "C000F276X9"
+      }
+     },
+     {
+      "Name": {
+       "value": "EAN"
+      },
+      "Value": {
+       "value": "5419980391100"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "O"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Verkoopprijs artikel(en), ontvangen van kopers en door bol door te storten"
+     }
+    ],
+    "Name": {
+     "value": "TURNOVER"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 1.0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 149.0
+    }
+   }
+  },
+  {
+   "id": "C000F276X9#5419980391100#COMMISSION",
+   "invoiceLineRef": "3916443769981#COMMISSION",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 1.0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 12.956198
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Bestelnummer"
+      },
+      "Value": {
+       "value": "C000F276X9"
+      }
+     },
+     {
+      "Name": {
+       "value": "EAN"
+      },
+      "Value": {
+       "value": "5419980391100"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Commissie"
+     }
+    ],
+    "Name": {
+     "value": "COMMISSION"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 1.0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 12.956198
+    }
+   }
+  },
+  {
+   "id": "C000FL2NKP#5419980391100#TURNOVER",
+   "invoiceLineRef": "3916443769981#TURNOVER",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 1.0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": -149.0
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Bestelnummer"
+      },
+      "Value": {
+       "value": "C000FL2NKP"
+      }
+     },
+     {
+      "Name": {
+       "value": "EAN"
+      },
+      "Value": {
+       "value": "5419980391100"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "O"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Verkoopprijs artikel(en), ontvangen van kopers en door bol door te storten"
+     }
+    ],
+    "Name": {
+     "value": "TURNOVER"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 1.0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 149.0
+    }
+   }
+  },
+  {
+   "id": "C000FL2NKP#5419980391100#COMMISSION",
+   "invoiceLineRef": "3916443769981#COMMISSION",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 1.0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 12.956198
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Bestelnummer"
+      },
+      "Value": {
+       "value": "C000FL2NKP"
+      }
+     },
+     {
+      "Name": {
+       "value": "EAN"
+      },
+      "Value": {
+       "value": "5419980391100"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Commissie"
+     }
+    ],
+    "Name": {
+     "value": "COMMISSION"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 1.0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 12.956198
+    }
+   }
+  },
+  {
+   "id": "C000FMR8KR#5419980391100#TURNOVER",
+   "invoiceLineRef": "3916443769981#TURNOVER",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 1.0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": -149.0
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Bestelnummer"
+      },
+      "Value": {
+       "value": "C000FMR8KR"
+      }
+     },
+     {
+      "Name": {
+       "value": "EAN"
+      },
+      "Value": {
+       "value": "5419980391100"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "O"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Verkoopprijs artikel(en), ontvangen van kopers en door bol door te storten"
+     }
+    ],
+    "Name": {
+     "value": "TURNOVER"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 1.0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 149.0
+    }
+   }
+  },
+  {
+   "id": "C000FMR8KR#5419980391100#COMMISSION",
+   "invoiceLineRef": "3916443769981#COMMISSION",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 1.0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 11.109091
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Bestelnummer"
+      },
+      "Value": {
+       "value": "C000FMR8KR"
+      }
+     },
+     {
+      "Name": {
+       "value": "EAN"
+      },
+      "Value": {
+       "value": "5419980391100"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Commissie"
+     }
+    ],
+    "Name": {
+     "value": "COMMISSION"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 1.0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 11.109091
+    }
+   }
+  },
+  {
+   "id": "C000FNRND6#6152852564521#TURNOVER",
+   "invoiceLineRef": "3916443769981#TURNOVER",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 1.0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": -59.0
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Bestelnummer"
+      },
+      "Value": {
+       "value": "C000FNRND6"
+      }
+     },
+     {
+      "Name": {
+       "value": "EAN"
+      },
+      "Value": {
+       "value": "6152852564521"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "O"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Verkoopprijs artikel(en), ontvangen van kopers en door bol door te storten"
+     }
+    ],
+    "Name": {
+     "value": "TURNOVER"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 1.0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 59.0
+    }
+   }
+  },
+  {
+   "id": "C000FNRND6#6152852564521#COMMISSION",
+   "invoiceLineRef": "3916443769981#COMMISSION",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 1.0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 4.972727
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Bestelnummer"
+      },
+      "Value": {
+       "value": "C000FNRND6"
+      }
+     },
+     {
+      "Name": {
+       "value": "EAN"
+      },
+      "Value": {
+       "value": "6152852564521"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Commissie"
+     }
+    ],
+    "Name": {
+     "value": "COMMISSION"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 1.0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 4.972727
+    }
+   }
+  }
+ ]
+}

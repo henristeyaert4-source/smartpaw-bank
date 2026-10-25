@@ -1,0 +1,61 @@
+[
+ {
+  "orderId": "C000JKH3W6",
+  "pickupPoint": false,
+  "orderPlacedDateTime": "2026-10-25T15:18:04+01:00",
+  "shipmentDetails": {
+   "salutation": "FEMALE",
+   "firstName": "Alexia",
+   "surname": "Vanhollebeke",
+   "streetName": "Zwinstraat",
+   "houseNumber": "34",
+   "zipCode": "8510",
+   "city": "Marke",
+   "countryCode": "BE",
+   "email": "2enlku6nhtkbpvnfbxcbtfridjaufc@verkopen.bol.com",
+   "language": "nl"
+  },
+  "billingDetails": {
+   "salutation": "FEMALE",
+   "firstName": "Alexia",
+   "surname": "Vanhollebeke",
+   "streetName": "Zwinstraat",
+   "houseNumber": "34",
+   "zipCode": "8510",
+   "city": "Marke",
+   "countryCode": "BE",
+   "email": "2enlku6nhtkbpvnfbxcbtfridjaufc@verkopen.bol.com",
+   "orderReference": "C000JKH3W6"
+  },
+  "orderItems": [
+   {
+    "orderItemId": "4012633844",
+    "cancellationRequest": false,
+    "fulfilment": {
+     "method": "FBR",
+     "distributionParty": "RETAILER",
+     "latestDeliveryDate": "2026-10-28",
+     "expiryDate": "2026-11-01",
+     "timeFrameType": "REGULAR"
+    },
+    "offer": {
+     "offerId": "2fd38b2d-c16e-4288-ae54-6ee0e99db95a",
+     "reference": "TK-WF119L"
+    },
+    "product": {
+     "ean": "6152852564521",
+     "title": "SmartPaw HydroBuddy - Drinkfontein Hond en Kat - volledig Roestvrijstaal - APP gestuurd - Geruisloos - 4 L - incl Filter"
+    },
+    "quantity": 1,
+    "quantityShipped": 0,
+    "quantityCancelled": 0,
+    "unitPrice": 63.75,
+    "totalPrice": 63.75,
+    "discounts": [],
+    "commission": 8.85,
+    "latestChangedDateTime": "2026-10-25T15:18:47+01:00"
+   }
+  ],
+  "_volledig": true
+ }
+]

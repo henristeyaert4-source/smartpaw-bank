@@ -1,0 +1,1120 @@
+{
+ "factuur": {
+  "invoiceId": "3916172390531",
+  "issueDate": 1786744800000,
+  "invoicePeriod": {
+   "startDate": 1784930400000,
+   "endDate": 1786053600000
+  },
+  "invoiceType": "ADVERTISING_VIA_BOL",
+  "legalMonetaryTotal": {
+   "lineExtensionAmount": {
+    "amount": 116.33,
+    "currencyID": "EUR"
+   },
+   "taxExclusiveAmount": {
+    "amount": 116.33,
+    "currencyID": "EUR"
+   },
+   "taxInclusiveAmount": {
+    "amount": 116.33,
+    "currencyID": "EUR"
+   },
+   "payableAmount": {
+    "amount": 116.33,
+    "currencyID": "EUR"
+   }
+  },
+  "invoiceMediaTypes": {
+   "availableMediaTypes": [
+    "application/vnd.retailer.v10+pdf"
+   ]
+  },
+  "specificationMediaTypes": {
+   "availableMediaTypes": [
+    "application/vnd.retailer.v10+openxmlformats-officedocument.spreadsheetml.sheet"
+   ]
+  },
+  "openAmount": 0.0
+ },
+ "specificatie": [
+  {
+   "id": "Campagne 1 – Automatisch (Auto Drink)#1000000000994983#SPONSORED_PRODUCTS_ADS",
+   "invoiceLineRef": "3916172390531#SPONSORED_PRODUCTS_ADS",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 3.84
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Campagnenaam"
+      },
+      "Value": {
+       "value": "Campagne 1 – Automatisch (Auto Drink)"
+      }
+     },
+     {
+      "Name": {
+       "value": "Campaign ID"
+      },
+      "Value": {
+       "value": "1000000000994983"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Sponsored Products Ads"
+     }
+    ],
+    "Name": {
+     "value": "SPONSORED_PRODUCTS_ADS"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "id": "Campagne 1 – Automatisch (Auto Drink)#1000000000994983#SPONSORED_PRODUCTS_ADS",
+   "invoiceLineRef": "3916172390531#SPONSORED_PRODUCTS_ADS",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 7.4
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Campagnenaam"
+      },
+      "Value": {
+       "value": "Campagne 1 – Automatisch (Auto Drink)"
+      }
+     },
+     {
+      "Name": {
+       "value": "Campaign ID"
+      },
+      "Value": {
+       "value": "1000000000994983"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Sponsored Products Ads"
+     }
+    ],
+    "Name": {
+     "value": "SPONSORED_PRODUCTS_ADS"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "id": "Campagne 1 – Automatisch (Auto Drink)#1000000000994983#SPONSORED_PRODUCTS_ADS",
+   "invoiceLineRef": "3916172390531#SPONSORED_PRODUCTS_ADS",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 7.56
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Campagnenaam"
+      },
+      "Value": {
+       "value": "Campagne 1 – Automatisch (Auto Drink)"
+      }
+     },
+     {
+      "Name": {
+       "value": "Campaign ID"
+      },
+      "Value": {
+       "value": "1000000000994983"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Sponsored Products Ads"
+     }
+    ],
+    "Name": {
+     "value": "SPONSORED_PRODUCTS_ADS"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "id": "Campagne 1 – Automatisch (Auto Drink)#1000000000994983#SPONSORED_PRODUCTS_ADS",
+   "invoiceLineRef": "3916172390531#SPONSORED_PRODUCTS_ADS",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 8.76
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Campagnenaam"
+      },
+      "Value": {
+       "value": "Campagne 1 – Automatisch (Auto Drink)"
+      }
+     },
+     {
+      "Name": {
+       "value": "Campaign ID"
+      },
+      "Value": {
+       "value": "1000000000994983"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Sponsored Products Ads"
+     }
+    ],
+    "Name": {
+     "value": "SPONSORED_PRODUCTS_ADS"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "id": "feeders#1000000001993275#SPONSORED_PRODUCTS_ADS",
+   "invoiceLineRef": "3916172390531#SPONSORED_PRODUCTS_ADS",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 1.04
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Campagnenaam"
+      },
+      "Value": {
+       "value": "feeders"
+      }
+     },
+     {
+      "Name": {
+       "value": "Campaign ID"
+      },
+      "Value": {
+       "value": "1000000001993275"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Sponsored Products Ads"
+     }
+    ],
+    "Name": {
+     "value": "SPONSORED_PRODUCTS_ADS"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "id": "Campagne 1 – Automatisch (Auto Drink)#1000000000994983#SPONSORED_PRODUCTS_ADS",
+   "invoiceLineRef": "3916172390531#SPONSORED_PRODUCTS_ADS",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 15.0
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Campagnenaam"
+      },
+      "Value": {
+       "value": "Campagne 1 – Automatisch (Auto Drink)"
+      }
+     },
+     {
+      "Name": {
+       "value": "Campaign ID"
+      },
+      "Value": {
+       "value": "1000000000994983"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Sponsored Products Ads"
+     }
+    ],
+    "Name": {
+     "value": "SPONSORED_PRODUCTS_ADS"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "id": "Campagne 1 – Automatisch (Auto Drink)#1000000000994983#SPONSORED_PRODUCTS_ADS",
+   "invoiceLineRef": "3916172390531#SPONSORED_PRODUCTS_ADS",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 15.0
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Campagnenaam"
+      },
+      "Value": {
+       "value": "Campagne 1 – Automatisch (Auto Drink)"
+      }
+     },
+     {
+      "Name": {
+       "value": "Campaign ID"
+      },
+      "Value": {
+       "value": "1000000000994983"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Sponsored Products Ads"
+     }
+    ],
+    "Name": {
+     "value": "SPONSORED_PRODUCTS_ADS"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "id": "Campagne 1 – Automatisch (Auto Drink)#1000000000994983#SPONSORED_PRODUCTS_ADS",
+   "invoiceLineRef": "3916172390531#SPONSORED_PRODUCTS_ADS",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 13.4
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Campagnenaam"
+      },
+      "Value": {
+       "value": "Campagne 1 – Automatisch (Auto Drink)"
+      }
+     },
+     {
+      "Name": {
+       "value": "Campaign ID"
+      },
+      "Value": {
+       "value": "1000000000994983"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Sponsored Products Ads"
+     }
+    ],
+    "Name": {
+     "value": "SPONSORED_PRODUCTS_ADS"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "id": "Campagne 1 – Automatisch (Auto Drink)#1000000000994983#SPONSORED_PRODUCTS_ADS",
+   "invoiceLineRef": "3916172390531#SPONSORED_PRODUCTS_ADS",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 11.8
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Campagnenaam"
+      },
+      "Value": {
+       "value": "Campagne 1 – Automatisch (Auto Drink)"
+      }
+     },
+     {
+      "Name": {
+       "value": "Campaign ID"
+      },
+      "Value": {
+       "value": "1000000000994983"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Sponsored Products Ads"
+     }
+    ],
+    "Name": {
+     "value": "SPONSORED_PRODUCTS_ADS"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "id": "Campagne 1 – Automatisch (Auto Drink)#1000000000994983#SPONSORED_PRODUCTS_ADS",
+   "invoiceLineRef": "3916172390531#SPONSORED_PRODUCTS_ADS",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 8.04
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Campagnenaam"
+      },
+      "Value": {
+       "value": "Campagne 1 – Automatisch (Auto Drink)"
+      }
+     },
+     {
+      "Name": {
+       "value": "Campaign ID"
+      },
+      "Value": {
+       "value": "1000000000994983"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Sponsored Products Ads"
+     }
+    ],
+    "Name": {
+     "value": "SPONSORED_PRODUCTS_ADS"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "id": "Campagne 1 – Automatisch (Auto Drink)#1000000000994983#SPONSORED_PRODUCTS_ADS",
+   "invoiceLineRef": "3916172390531#SPONSORED_PRODUCTS_ADS",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 5.45
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Campagnenaam"
+      },
+      "Value": {
+       "value": "Campagne 1 – Automatisch (Auto Drink)"
+      }
+     },
+     {
+      "Name": {
+       "value": "Campaign ID"
+      },
+      "Value": {
+       "value": "1000000000994983"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Sponsored Products Ads"
+     }
+    ],
+    "Name": {
+     "value": "SPONSORED_PRODUCTS_ADS"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "id": "Campagne 1 – Automatisch (Auto Drink)#1000000000994983#SPONSORED_PRODUCTS_ADS",
+   "invoiceLineRef": "3916172390531#SPONSORED_PRODUCTS_ADS",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 9.93
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Campagnenaam"
+      },
+      "Value": {
+       "value": "Campagne 1 – Automatisch (Auto Drink)"
+      }
+     },
+     {
+      "Name": {
+       "value": "Campaign ID"
+      },
+      "Value": {
+       "value": "1000000000994983"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Sponsored Products Ads"
+     }
+    ],
+    "Name": {
+     "value": "SPONSORED_PRODUCTS_ADS"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "id": "Campagne 1 – Automatisch (Auto Drink)#1000000000994983#SPONSORED_PRODUCTS_ADS",
+   "invoiceLineRef": "3916172390531#SPONSORED_PRODUCTS_ADS",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 4.33
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Campagnenaam"
+      },
+      "Value": {
+       "value": "Campagne 1 – Automatisch (Auto Drink)"
+      }
+     },
+     {
+      "Name": {
+       "value": "Campaign ID"
+      },
+      "Value": {
+       "value": "1000000000994983"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Sponsored Products Ads"
+     }
+    ],
+    "Name": {
+     "value": "SPONSORED_PRODUCTS_ADS"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "id": "Campagne 1 – Automatisch (Auto Drink)#1000000000994983#SPONSORED_PRODUCTS_ADS",
+   "invoiceLineRef": "3916172390531#SPONSORED_PRODUCTS_ADS",
+   "invoicedQuantity": {
+    "unitCode": "ZZ",
+    "unitCodeListID": "UNECERec20",
+    "value": 0
+   },
+   "lineExtensionAmount": {
+    "currencyID": "EUR",
+    "value": 4.78
+   },
+   "taxTotal": {
+    "TaxAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   },
+   "item": {
+    "AdditionalItemProperty": [
+     {
+      "Name": {
+       "value": "Campagnenaam"
+      },
+      "Value": {
+       "value": "Campagne 1 – Automatisch (Auto Drink)"
+      }
+     },
+     {
+      "Name": {
+       "value": "Campaign ID"
+      },
+      "Value": {
+       "value": "1000000000994983"
+      }
+     }
+    ],
+    "ClassifiedTaxCategory": [
+     {
+      "ID": {
+       "schemeAgencyID": "6",
+       "schemeID": "UNCL5305",
+       "value": "AE"
+      },
+      "Percent": {
+       "value": 0.0
+      },
+      "TaxScheme": {
+       "ID": {
+        "schemeAgencyID": "6",
+        "schemeID": "UN/ECE 5153",
+        "value": "VAT"
+       }
+      }
+     }
+    ],
+    "Description": [
+     {
+      "value": "Sponsored Products Ads"
+     }
+    ],
+    "Name": {
+     "value": "SPONSORED_PRODUCTS_ADS"
+    }
+   },
+   "price": {
+    "BaseQuantity": {
+     "unitCode": "ZZ",
+     "unitCodeListID": "UNECERec20",
+     "value": 0
+    },
+    "PriceAmount": {
+     "currencyID": "EUR",
+     "value": 0.0
+    }
+   }
+  }
+ ]
+}

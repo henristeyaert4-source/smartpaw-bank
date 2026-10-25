@@ -1,0 +1,329 @@
+[
+ {
+  "returnId": "111319705",
+  "registrationDateTime": "2026-10-06T14:42:21+02:00",
+  "fulfilmentMethod": "FBR",
+  "returnItems": [
+   {
+    "rmaId": "149476233",
+    "orderId": "C000H6MKL5",
+    "ean": "5419980654182",
+    "expectedQuantity": 1,
+    "returnReason": {
+     "mainReason": "Verkeerd besteld",
+     "detailedReason": "Onduidelijke productinformatie",
+     "customerComments": "grootte gewicht van de porties zijn niet instelbaar  te veranderen"
+    },
+    "handled": true,
+    "processingResults": [
+     {
+      "quantity": 1,
+      "processingResult": "ACCEPTED",
+      "handlingResult": "RETURN_RECEIVED",
+      "processingDateTime": "2026-10-25T16:30:31+01:00"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "returnId": "110548407",
+  "registrationDateTime": "2026-09-09T17:53:28+02:00",
+  "fulfilmentMethod": "FBR",
+  "returnItems": [
+   {
+    "rmaId": "148645269",
+    "orderId": "C000C6H9CM",
+    "ean": "6152852564521",
+    "expectedQuantity": 1,
+    "returnReason": {
+     "mainReason": "Anders",
+     "detailedReason": "Anders, namelijk",
+     "customerComments": "De huisdieren drinken er niet uit."
+    },
+    "handled": true,
+    "processingResults": [
+     {
+      "quantity": 1,
+      "processingResult": "ACCEPTED",
+      "handlingResult": "RETURN_RECEIVED",
+      "processingDateTime": "2026-10-05T12:08:49+02:00"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "returnId": "110351222",
+  "registrationDateTime": "2026-09-03T09:16:42+02:00",
+  "fulfilmentMethod": "FBR",
+  "returnItems": [
+   {
+    "rmaId": "148432955",
+    "orderId": "C000D5NK8H",
+    "ean": "5419980391100",
+    "expectedQuantity": 1,
+    "returnReason": {
+     "mainReason": "Verkeerd besteld",
+     "detailedReason": "Artikel had ik toch niet nodig"
+    },
+    "handled": true,
+    "processingResults": [
+     {
+      "quantity": 1,
+      "processingResult": "ACCEPTED",
+      "handlingResult": "RETURN_RECEIVED",
+      "processingDateTime": "2026-09-11T11:30:37+02:00"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "returnId": "109527366",
+  "registrationDateTime": "2026-08-06T15:32:45+02:00",
+  "fulfilmentMethod": "FBR",
+  "returnItems": [
+   {
+    "rmaId": "147544678",
+    "orderId": "C0009H5D46",
+    "ean": "5419980391100",
+    "expectedQuantity": 1,
+    "returnReason": {
+     "mainReason": "Artikel is defect"
+    },
+    "handled": true,
+    "processingResults": [
+     {
+      "quantity": 1,
+      "processingResult": "ACCEPTED",
+      "handlingResult": "RETURN_RECEIVED",
+      "processingDateTime": "2026-08-10T09:12:18+02:00"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "returnId": "109237973",
+  "registrationDateTime": "2026-07-28T16:25:41+02:00",
+  "fulfilmentMethod": "FBR",
+  "returnItems": [
+   {
+    "rmaId": "147233257",
+    "orderId": "C00093DF02",
+    "ean": "6152847440465",
+    "expectedQuantity": 2,
+    "returnReason": {
+     "mainReason": "Geen reden"
+    },
+    "handled": true,
+    "processingResults": [
+     {
+      "quantity": 2,
+      "processingResult": "ACCEPTED",
+      "handlingResult": "RETURN_RECEIVED",
+      "processingDateTime": "2026-08-07T11:34:42+02:00"
+     }
+    ]
+   },
+   {
+    "rmaId": "147233258",
+    "orderId": "C00093HH09",
+    "ean": "6152847440465",
+    "expectedQuantity": 1,
+    "returnReason": {
+     "mainReason": "Geen reden"
+    },
+    "handled": true,
+    "processingResults": [
+     {
+      "quantity": 1,
+      "processingResult": "ACCEPTED",
+      "handlingResult": "RETURN_RECEIVED",
+      "processingDateTime": "2026-08-07T11:34:42+02:00"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "returnId": "108915467",
+  "registrationDateTime": "2026-07-18T08:27:09+02:00",
+  "fulfilmentMethod": "FBR",
+  "returnItems": [
+   {
+    "rmaId": "146883766",
+    "orderId": "C0009255T1",
+    "ean": "5419980391100",
+    "expectedQuantity": 1,
+    "returnReason": {
+     "mainReason": "Artikel is defect"
+    },
+    "handled": true,
+    "processingResults": [
+     {
+      "quantity": 1,
+      "processingResult": "ACCEPTED",
+      "handlingResult": "RETURN_RECEIVED",
+      "processingDateTime": "2026-07-29T09:23:09+02:00"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "returnId": "108870772",
+  "registrationDateTime": "2026-07-16T20:29:22+02:00",
+  "fulfilmentMethod": "FBR",
+  "returnItems": [
+   {
+    "rmaId": "146834978",
+    "orderId": "C00095862C",
+    "ean": "6152852564521",
+    "expectedQuantity": 1,
+    "returnReason": {
+     "mainReason": "Artikel is defect"
+    },
+    "handled": true,
+    "processingResults": [
+     {
+      "quantity": 1,
+      "processingResult": "ACCEPTED",
+      "handlingResult": "RETURN_RECEIVED",
+      "processingDateTime": "2026-07-29T09:28:29+02:00"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "returnId": "108669408",
+  "registrationDateTime": "2026-07-11T20:32:40+02:00",
+  "fulfilmentMethod": "FBR",
+  "returnItems": [
+   {
+    "rmaId": "146613123",
+    "orderId": "C00093DF02",
+    "ean": "6152847440465",
+    "expectedQuantity": 2,
+    "returnReason": {
+     "mainReason": "Verkeerd besteld",
+     "detailedReason": "Artikel had ik toch niet nodig"
+    },
+    "handled": true,
+    "processingResults": [
+     {
+      "quantity": 2,
+      "processingResult": "CANCELLED",
+      "handlingResult": "EXPIRED",
+      "processingDateTime": "2026-07-25T21:22:40+02:00"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "returnId": "104698274",
+  "registrationDateTime": "2026-03-05T11:21:34+01:00",
+  "fulfilmentMethod": "FBR",
+  "returnItems": [
+   {
+    "rmaId": "142281609",
+    "orderId": "C0001JCKW2",
+    "ean": "6152855766762",
+    "expectedQuantity": 1,
+    "returnReason": {
+     "mainReason": "Geen reden"
+    },
+    "handled": true,
+    "processingResults": [
+     {
+      "quantity": 1,
+      "processingResult": "ACCEPTED",
+      "handlingResult": "RETURN_RECEIVED",
+      "processingDateTime": "2026-03-12T11:29:33+01:00"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "returnId": "104375854",
+  "registrationDateTime": "2026-02-21T13:25:04+01:00",
+  "fulfilmentMethod": "FBR",
+  "returnItems": [
+   {
+    "rmaId": "141934193",
+    "orderId": "C0000WJ2M4",
+    "ean": "5419980391155",
+    "expectedQuantity": 1,
+    "returnReason": {
+     "mainReason": "Artikel is defect"
+    },
+    "handled": true,
+    "processingResults": [
+     {
+      "quantity": 1,
+      "processingResult": "ACCEPTED",
+      "handlingResult": "RETURN_RECEIVED",
+      "processingDateTime": "2026-03-12T11:29:36+01:00"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "returnId": "103699619",
+  "registrationDateTime": "2026-01-29T19:19:57+01:00",
+  "fulfilmentMethod": "FBR",
+  "returnItems": [
+   {
+    "rmaId": "141205565",
+    "orderId": "C0000079MP",
+    "ean": "6152848985903",
+    "expectedQuantity": 1,
+    "returnReason": {
+     "mainReason": "Verkeerd besteld",
+     "detailedReason": "Onduidelijke productinformatie"
+    },
+    "handled": true,
+    "processingResults": [
+     {
+      "quantity": 1,
+      "processingResult": "ACCEPTED",
+      "handlingResult": "RETURN_RECEIVED",
+      "processingDateTime": "2026-01-29T19:21:15+01:00"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "returnId": "101664754",
+  "registrationDateTime": "2025-12-05T15:36:55+01:00",
+  "fulfilmentMethod": "FBR",
+  "returnItems": [
+   {
+    "rmaId": "139031508",
+    "orderId": "A000C9EUKW",
+    "ean": "5419980391155",
+    "expectedQuantity": 1,
+    "returnReason": {
+     "mainReason": "Anders",
+     "detailedReason": "Anders, namelijk",
+     "customerComments": "Verbinding met wifi wil niet en daardoor kan ik de app niet gebruiken. Hierdoor product onbruikbaar."
+    },
+    "handled": true,
+    "processingResults": [
+     {
+      "quantity": 1,
+      "processingResult": "ACCEPTED",
+      "handlingResult": "RETURN_RECEIVED",
+      "processingDateTime": "2025-12-19T09:26:07+01:00"
+     }
+    ]
+   }
+  ]
+ }
+]

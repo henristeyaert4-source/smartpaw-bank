@@ -1,0 +1,19 @@
+{
+ "maanden": [
+  {
+   "maand": "2026-10",
+   "orders": 1,
+   "stuks": 1,
+   "omzet_incl": 63.75,
+   "commissie": 8.85,
+   "andere_kosten": 0.0,
+   "per_ean": {
+    "6152852564521": {
+     "stuks": 1,
+     "omzet_incl": 63.75,
+     "titel": "SmartPaw HydroBuddy - Drinkfontein Hond en Kat - volledig Roestvrijstaal - APP gestuurd - Geruisloos - 4 L - incl Filter"
+    }
+   }
+  }
+ ]
+}
