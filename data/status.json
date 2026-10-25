@@ -1,5 +1,5 @@
 {
- "opgehaald": "2026-10-25T14:41:09+00:00",
+ "opgehaald": "2026-10-25T14:55:51+00:00",
  "vanaf": "2026-10-15",
  "nieuwe_verrichtingen": 0,
  "saldi": [
@@ -11,6 +11,34 @@
    "beschikbaar": 1529.1,
    "munt": "EUR",
    "bijgewerkt_bank": null
+  },
+  {
+   "bron": "Revolut",
+   "rekening": "Main",
+   "saldo": 0,
+   "munt": "EUR",
+   "bijgewerkt_bank": "2026-10-08T09:53:16.210096Z"
+  },
+  {
+   "bron": "Revolut",
+   "rekening": "Main",
+   "saldo": 530.69,
+   "munt": "USD",
+   "bijgewerkt_bank": "2026-10-08T09:53:16.210096Z"
+  },
+  {
+   "bron": "Revolut",
+   "rekening": "Main",
+   "saldo": 0,
+   "munt": "GBP",
+   "bijgewerkt_bank": "2025-12-08T08:52:42.475013Z"
+  },
+  {
+   "bron": "Revolut",
+   "rekening": null,
+   "saldo": 0,
+   "munt": "EUR",
+   "bijgewerkt_bank": "2025-12-08T09:49:18.446267Z"
   }
  ],
  "fouten": []
