@@ -61,6 +61,9 @@ def main():
     rows = json.loads((W / "input/shopify_sku_maand.json").read_text())
     kas = {m["maand"]: m for m in json.loads((ROOT / "data/kas-per-maand.json").read_text())["maanden"]}
     pct_onb = tabel.get("_onbekend_zonder_sku_pct", 50)
+    bp = ROOT / "data/bol/overzicht.json"
+    bol_api = {r["maand"]: r for r in json.loads(bp.read_text())["maanden"]} if bp.exists() else {}
+    ean_sku = json.loads((W / "ean.json").read_text())
 
     per_maand, per_product, ontbreekt = {}, {}, set()
     for maand, sku, qty, net in rows:
@@ -99,8 +102,18 @@ def main():
         groot = min(orders, d["groot"])
         fulfil = d["stuks"] * INBOUND_PICK + orders * PACKING + groot * GROOT + (orders - groot) * KLEIN
         omzet_shop = tot["net_sales"][i] + tot["shipping"][i] / 1.21
-        bol_net = kas.get(m, {}).get("Omzet bol.com", 0) / 1.21
-        bol_kost = bol_net * BOL_KOST_PCT / 100
+        if m in bol_api:  # echte bol-data: omzet − commissie − andere bol-kosten; kostprijs per EAN
+            b = bol_api[m]
+            bol_net = (b["omzet_incl"] / 1.21) - b["commissie"] / 1.21 + b["andere_kosten"]
+            bol_kost = 0.0
+            for ean, e in b["per_ean"].items():
+                sku = ean_sku.get(str(ean).lstrip("0").zfill(13))
+                k = kost(tabel, sku, m + "-15") if sku else None
+                bol_kost += e["stuks"] * ((k if k is not None else e["omzet_incl"] / 1.21 * .35) + INBOUND_PICK)
+            bol_kost += b["orders"] * (PACKING + KLEIN)
+        else:  # raming uit de bankuitbetalingen
+            bol_net = kas.get(m, {}).get("Omzet bol.com", 0) / 1.21
+            bol_kost = bol_net * BOL_KOST_PCT / 100
         ads = tot["ads_meta"][i] + tot["ads_google"][i]
         fees = tot["betaalkosten"][i]
         vast_det = {k: round(-kas.get(m, {}).get(k, 0) / deler, 2) for k, deler in VAST.items() if kas.get(m, {}).get(k)}
