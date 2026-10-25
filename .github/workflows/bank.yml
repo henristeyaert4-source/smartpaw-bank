@@ -3,7 +3,11 @@ name: Bank ophalen (Ponto + Revolut)
 on:
   schedule:
     - cron: "15 3 * * *"   # elke nacht 03:15 UTC (= 04:15/05:15 in België), vóór de ochtendcheck van 06:00
-  workflow_dispatch: {}      # ook manueel te starten via Actions → Run workflow
+  workflow_dispatch:         # ook manueel te starten via Actions → Run workflow
+    inputs:
+      days:
+        description: "Aantal dagen terug ophalen"
+        default: "10"
 
 permissions:
   contents: write
@@ -30,7 +34,7 @@ jobs:
           REVOLUT_PRIVATE_KEY: ${{ secrets.REVOLUT_PRIVATE_KEY }}
           REVOLUT_REFRESH_TOKEN: ${{ secrets.REVOLUT_REFRESH_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_SECRETS_TOKEN }}
-          DAYS_BACK: "10"
+          DAYS_BACK: ${{ github.event.inputs.days || '10' }}
         run: python fetch_bank.py
       - name: Opslaan
         run: |
