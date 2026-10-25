@@ -4127,7 +4127,7 @@
   "tegenrekening": "BE28736038650120",
   "mededeling": "001260031111",
   "soort": "PMNT-IRCT-ESCT",
-  "categorie": "Personeel (student)",
+  "categorie": "Intern (voor Creazy, verrekend)",
   "bedrag_eur": -435.72
  },
  {
@@ -4141,7 +4141,7 @@
   "tegenrekening": "BE50738051797618",
   "mededeling": "CREAZY COMMV Instantoverschrijving BE50 7380 5179 7618 BIC: KREDBEBBXXX Foute betaling Find A Job (perongeluk met Smartpaw betaald) 09.58 uur",
   "soort": "PMNT-RRCT-ESCT",
-  "categorie": "Creazy",
+  "categorie": "Intern (voor Creazy, verrekend)",
   "bedrag_eur": 435.72
  },
  {

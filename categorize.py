@@ -89,6 +89,9 @@ def categorie(r):
         if code.startswith(("T00", "T01")) and r["bedrag"] > 0:
             return "Omzet overige kanalen"
         return "Te bekijken"
+    # 25/05/2026: Creazy stortte €435,72 en SmartPaw betaalde daarmee een Findajob-factuur van Creazy → verrekend, geen SmartPaw-kost
+    if r.get("datum") == "2026-05-25" and abs(abs(r["bedrag"]) - 435.72) < 0.01 and re.search(r"CREAZY|FINDAJOB", t):
+        return "Intern (voor Creazy, verrekend)"
     if HEEFT_PAYPAL and "PAYPAL" in t and r["bedrag"] > 0 and r.get("bron") == "KBC":
         return "Intern (PayPal→KBC)"
     for pat, cat in REGELS:
