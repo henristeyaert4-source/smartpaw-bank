@@ -30,6 +30,20 @@ VAST = {"Software & abonnementen": 1.0, "Boekhouder": 1.21, "Bankkosten": 1.0, "
         "Marketing & content": 1.0, "Verzending & retours (overig)": 1.21, "Voorraad (verpakking & giveaways)": 1.21}
 
 
+LIJNEN = ["FurVac", "Fonteinen", "Voerbakken", "Overig"]
+
+
+def lijn(sku):
+    s = sku.upper()
+    if s.startswith(("FURVAC", "BASEUNIT", "NEEDLE", "DESHEDDING", "ANTI-STATIC", "MASSAGE", "2-1", "TRIMMER", "STACKING", "HEPA", "CARE")):
+        return "FurVac"
+    if s.startswith(("TK-WF", "WF315", "FF", "HB-", "JY-")):
+        return "Fonteinen"
+    if s.startswith(("PF0", "TT00", "DESBAG")) or s == "":
+        return "Voerbakken"
+    return "Overig"
+
+
 def kost(tabel, sku, datum):
     t = tabel.get(sku)
     if not t:
@@ -67,10 +81,18 @@ def main():
             d["stuks"] += qty
             if groot:
                 d["groot"] += qty
+        L = d.setdefault("lijn", {k: {"omzet": 0.0, "kost": 0.0, "stuks": 0, "hoofd": 0} for k in LIJNEN})[lijn(sku)]
+        L["omzet"] += net; L["kost"] += c
+        if qty > 0:
+            L["stuks"] += qty
+            hoofd = groot or (sku or "").upper().startswith(("TK-WF", "WF315"))
+            if hoofd:
+                L["hoofd"] += qty
         p = per_product.setdefault(sku or "(oud, zonder SKU)", {"stuks": 0, "omzet": 0.0, "kostprijs": 0.0})
         p["stuks"] += qty; p["omzet"] += net; p["kostprijs"] += c
 
-    uit = []
+    ads_lijn = json.loads((W / "input/ads_lijn_maand.json").read_text())
+    uit, lijnen_tot = [], {k: {"omzet": 0.0, "kostprijs": 0.0, "fulfilment": 0.0, "betaalkosten": 0.0, "ads": 0.0, "stuks": 0} for k in LIJNEN}
     for i, m in enumerate(tot["maanden"]):
         d = per_maand.get(m, {"cogs": 0, "stuks": 0, "groot": 0})
         orders = tot["orders"][i]
@@ -84,6 +106,25 @@ def main():
         vast_det = {k: round(-kas.get(m, {}).get(k, 0) / deler, 2) for k, deler in VAST.items() if kas.get(m, {}).get(k)}
         vast = sum(vast_det.values())
         brutomarge = omzet_shop - d["cogs"] - fulfil - fees + bol_net - bol_kost
+        # per productlijn: fulfilment per stuk + orderkosten via 'hoofdproducten' (FurVac, voerbak, fontein); rest van de orders = losse filters/accessoires
+        LL = d.get("lijn", {k: {"omzet": 0.0, "kost": 0.0, "stuks": 0, "hoofd": 0} for k in LIJNEN})
+        hoofd_tot = sum(v["hoofd"] for v in LL.values())
+        rest_orders = max(0, orders - hoofd_tot)
+        omz_tot = sum(max(v["omzet"], 0) for v in LL.values()) or 1
+        adsL = dict(ads_lijn.get(m, {}))
+        alg = adsL.pop("Algemeen", 0) + tot["ads_google"][i] + (tot["ads_meta"][i] - sum(ads_lijn.get(m, {}).values()))
+        if "Fonteinen & voerbakken" in adsL:
+            fv = adsL.pop("Fonteinen & voerbakken"); o_f, o_v = max(LL["Fonteinen"]["omzet"], 0), max(LL["Voerbakken"]["omzet"], 0)
+            adsL["Fonteinen"] = adsL.get("Fonteinen", 0) + fv * (o_f / (o_f + o_v) if o_f + o_v else .5)
+            adsL["Voerbakken"] = adsL.get("Voerbakken", 0) + fv * (o_v / (o_f + o_v) if o_f + o_v else .5)
+        for k, v in LL.items():
+            orders_k = min(v["hoofd"], orders) + (rest_orders if k == "Fonteinen" else 0)
+            per_order = PACKING + (GROOT if k in ("FurVac", "Voerbakken") else KLEIN)
+            T = lijnen_tot[k]
+            T["omzet"] += v["omzet"]; T["kostprijs"] += v["kost"]; T["stuks"] += v["stuks"]
+            T["fulfilment"] += v["stuks"] * INBOUND_PICK + orders_k * per_order
+            T["betaalkosten"] += fees * max(v["omzet"], 0) / omz_tot
+            T["ads"] += adsL.get(k, 0) + alg * max(v["omzet"], 0) / omz_tot
         resultaat = brutomarge - ads - vast
         uit.append({
             "maand": m, "orders": orders, "stuks": d["stuks"],
@@ -98,7 +139,17 @@ def main():
     prod = [{"sku": k, "stuks": v["stuks"], "omzet": round(v["omzet"], 2), "kostprijs": round(v["kostprijs"], 2),
              "marge_voor_fulfilment": round(v["omzet"] - v["kostprijs"], 2)} for k, v in per_product.items()]
     prod.sort(key=lambda x: -x["omzet"])
-    out = {"maanden": uit, "producten": prod, "ontbrekende_kostprijs": sorted(ontbreekt),
+    lijnen = []
+    for k, T in lijnen_tot.items():
+        if not T["stuks"] and not T["omzet"]:
+            continue
+        voor_ads = T["omzet"] - T["kostprijs"] - T["fulfilment"] - T["betaalkosten"]
+        lijnen.append({"lijn": k, "stuks": T["stuks"], "omzet": round(T["omzet"], 2), "kostprijs": round(T["kostprijs"], 2),
+                       "fulfilment": round(T["fulfilment"], 2), "betaalkosten": round(T["betaalkosten"], 2),
+                       "marge_voor_ads": round(voor_ads, 2), "ads": round(T["ads"], 2), "na_ads": round(voor_ads - T["ads"], 2),
+                       "roas_nodig": round(T["omzet"] * 1.21 / voor_ads, 2) if voor_ads > 0 else None,
+                       "roas": round(T["omzet"] * 1.21 / T["ads"], 2) if T["ads"] else None})
+    out = {"maanden": uit, "lijnen": lijnen, "producten": prod, "ontbrekende_kostprijs": sorted(ontbreekt),
            "aannames": [f"Fulfilment volgens Widem-tarieven: €{INBOUND_PICK:.2f}/stuk, €{PACKING}/order, doos+DPD €{KLEIN:.2f} klein / €{GROOT:.2f} groot.",
                         f"Oude producten zonder SKU (feeders okt 2025–feb 2026): kostprijs {pct_onb}% van de omzet.",
                         f"bol.com: netto uitbetaling ÷ 1,21; kostprijs + fulfilment geschat op {BOL_KOST_PCT}%.",
@@ -106,6 +157,8 @@ def main():
                         "Retourkosten (transport + afhandeling) nog niet meegeteld."]}
     (W / "winst-per-maand.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
     t = lambda k: round(sum(r[k] for r in uit), 0)
+    for l in lijnen:
+        print(l)
     print("resultaat", t("resultaat"), "trueprofit", t("trueprofit"), "ontbreekt", sorted(ontbreekt))
     for r in uit:
         print(r["maand"], r["omzet_shopify"], r["omzet_bol"], r["kostprijs"], r["fulfilment"], r["betaalkosten"], r["ads_meta"] + r["ads_google"], r["vaste_kosten"], "→", r["resultaat"], "| TP", r["trueprofit"])

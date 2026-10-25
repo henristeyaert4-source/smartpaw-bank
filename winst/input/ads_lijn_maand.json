@@ -1,0 +1,12 @@
+{"_uitleg":"Meta-spend per productlijn per maand, op basis van campagnenaam (furvac → FurVac; feeder/fontein/voerbak/halloween → Fonteinen & voerbakken; rest = algemeen, wordt verdeeld volgens omzet). Google = algemeen.",
+ "2025-10":{"FurVac":3220.94,"Algemeen":834.62},
+ "2025-11":{"FurVac":3989.16,"Algemeen":897.34},
+ "2025-12":{"FurVac":4022.84},
+ "2026-01":{"FurVac":317.22,"Fonteinen & voerbakken":920.94},
+ "2026-05":{"FurVac":572.42},
+ "2026-06":{"FurVac":3604.09},
+ "2026-07":{"FurVac":4596.0,"Fonteinen & voerbakken":479.24},
+ "2026-08":{"FurVac":7744.09},
+ "2026-09":{"FurVac":6791.14,"Fonteinen & voerbakken":614.95},
+ "2026-10":{"Fonteinen & voerbakken":5480.73}
+}

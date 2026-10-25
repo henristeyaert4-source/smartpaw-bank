@@ -369,6 +369,60 @@
    "verschil_tp": -294.23
   }
  ],
+ "lijnen": [
+  {
+   "lijn": "FurVac",
+   "stuks": 1536,
+   "omzet": 68793.72,
+   "kostprijs": 23719.55,
+   "fulfilment": 7687.92,
+   "betaalkosten": 2897.57,
+   "marge_voor_ads": 34488.68,
+   "ads": 39660.41,
+   "na_ads": -5171.73,
+   "roas_nodig": 2.41,
+   "roas": 2.1
+  },
+  {
+   "lijn": "Fonteinen",
+   "stuks": 889,
+   "omzet": 16169.58,
+   "kostprijs": 5369.39,
+   "fulfilment": 4166.77,
+   "betaalkosten": 706.68,
+   "marge_voor_ads": 5926.74,
+   "ads": 7312.35,
+   "na_ads": -1385.61,
+   "roas_nodig": 3.3,
+   "roas": 2.68
+  },
+  {
+   "lijn": "Voerbakken",
+   "stuks": 307,
+   "omzet": 9943.63,
+   "kostprijs": 5282.53,
+   "fulfilment": 2464.41,
+   "betaalkosten": 527.77,
+   "marge_voor_ads": 1668.91,
+   "ads": 3819.93,
+   "na_ads": -2151.02,
+   "roas_nodig": 7.21,
+   "roas": 3.15
+  },
+  {
+   "lijn": "Overig",
+   "stuks": 74,
+   "omzet": 31.07,
+   "kostprijs": 296.0,
+   "fulfilment": 91.02,
+   "betaalkosten": 2.02,
+   "marge_voor_ads": -357.97,
+   "ads": 4.34,
+   "na_ads": -362.31,
+   "roas_nodig": null,
+   "roas": 8.67
+  }
+ ],
  "producten": [
   {
    "sku": "Furvac",
