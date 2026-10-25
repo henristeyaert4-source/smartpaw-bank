@@ -1,0 +1,41 @@
+name: Bank ophalen (Ponto + Revolut)
+
+on:
+  schedule:
+    - cron: "15 3 * * *"   # elke nacht 03:15 UTC (= 04:15/05:15 in België), vóór de ochtendcheck van 06:00
+  workflow_dispatch: {}      # ook manueel te starten via Actions → Run workflow
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests==2.32.3 PyJWT[crypto]==2.9.0
+      - name: Verrichtingen ophalen
+        env:
+          PONTO_CLIENT_ID: ${{ secrets.PONTO_CLIENT_ID }}
+          PONTO_CLIENT_SECRET: ${{ secrets.PONTO_CLIENT_SECRET }}
+          PONTO_CERT: ${{ secrets.PONTO_CERT }}
+          PONTO_KEY: ${{ secrets.PONTO_KEY }}
+          PONTO_KEY_PASSPHRASE: ${{ secrets.PONTO_KEY_PASSPHRASE }}
+          PONTO_REFRESH_TOKEN: ${{ secrets.PONTO_REFRESH_TOKEN }}
+          REVOLUT_CLIENT_ID: ${{ secrets.REVOLUT_CLIENT_ID }}
+          REVOLUT_ISS: ${{ secrets.REVOLUT_ISS }}
+          REVOLUT_PRIVATE_KEY: ${{ secrets.REVOLUT_PRIVATE_KEY }}
+          REVOLUT_REFRESH_TOKEN: ${{ secrets.REVOLUT_REFRESH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_SECRETS_TOKEN }}
+          DAYS_BACK: "10"
+        run: python fetch_bank.py
+      - name: Opslaan
+        run: |
+          git config user.name "smartpaw-bank-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Bank $(date -u +%F)"
+          git push
