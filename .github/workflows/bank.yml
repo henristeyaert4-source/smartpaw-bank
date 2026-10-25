@@ -36,6 +36,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_SECRETS_TOKEN }}
           DAYS_BACK: ${{ github.event.inputs.days || '10' }}
         run: python fetch_bank.py
+      - name: Indelen per categorie
+        run: python categorize.py
       - name: Opslaan
         run: |
           git config user.name "smartpaw-bank-bot"
