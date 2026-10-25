@@ -127,6 +127,14 @@ def main():
         m = per.setdefault(r["datum"][:7], {})
         m[r["categorie"]] = round(m.get(r["categorie"], 0) + r["bedrag_eur"], 2)
     maanden = [dict(maand=k, **v) for k, v in sorted(per.items())]
+    # IBAN per leverancier (voor betaal-QR's): meest gebruikte tegenrekening bij uitgaande betalingen
+    ib = {}
+    for r in out:
+        if r["bedrag"] < 0 and r.get("tegenrekening") and not r["categorie"].startswith("Intern"):
+            naam = re.sub(r"\s+(NV|BV|VZW|BVBA|SRL|SA)\b.*$", "", (r.get("tegenpartij") or "").strip(), flags=re.I).upper()
+            ib.setdefault(naam, {}).setdefault(r["tegenrekening"], 0)
+            ib[naam][r["tegenrekening"]] += 1
+    (DATA / "iban-leveranciers.json").write_text(json.dumps({n: max(v, key=v.get) for n, v in ib.items() if n}, ensure_ascii=False, indent=1))
     (DATA / "gecategoriseerd.json").write_text(json.dumps(sorted(out, key=lambda r: r["datum"], reverse=True), ensure_ascii=False, indent=1))
     (DATA / "kas-per-maand.json").write_text(json.dumps({
         "maanden": maanden, "groepen": GROEP, "onbekend": onbekend,
