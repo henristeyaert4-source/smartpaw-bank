@@ -1,9 +1,17 @@
 {
- "opgehaald": "2026-10-25T14:27:39+00:00",
+ "opgehaald": "2026-10-25T14:35:03+00:00",
  "vanaf": "2026-10-15",
- "nieuwe_verrichtingen": 0,
- "saldi": [],
- "fouten": [
-  "Ponto: SSLError: HTTPSConnectionPool(host='api.ibanity.com', port=443): Max retries exceeded with url: /ponto-connect/oauth2/token (Caused by SSLError(SSLError(1, '[SSL: TLSV13_ALERT_CERTIFICATE_REQUIRED] tlsv13 alert certificate required (_ssl.c:2580)')))"
- ]
+ "nieuwe_verrichtingen": 13,
+ "saldi": [
+  {
+   "bron": "KBC (Ponto)",
+   "rekening": "SMARTPAW VOF",
+   "iban": "BE84731070760259",
+   "saldo": 1529.1,
+   "beschikbaar": 1529.1,
+   "munt": "EUR",
+   "bijgewerkt_bank": null
+  }
+ ],
+ "fouten": []
 }
