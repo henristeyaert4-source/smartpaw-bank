@@ -1,4 +1,4 @@
-name: Bank ophalen (Ponto + Revolut)
+name: Bank en bol.com ophalen
 
 on:
   schedule:
@@ -36,6 +36,12 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_SECRETS_TOKEN }}
           DAYS_BACK: ${{ github.event.inputs.days || '10' }}
         run: python fetch_bank.py
+      - name: bol.com ophalen
+        continue-on-error: true
+        env:
+          BOL_CLIENT_ID: ${{ secrets.BOL_CLIENT_ID }}
+          BOL_CLIENT_SECRET: ${{ secrets.BOL_CLIENT_SECRET }}
+        run: python fetch_bol.py
       - name: Indelen per categorie
         run: python categorize.py
       - name: Opslaan
