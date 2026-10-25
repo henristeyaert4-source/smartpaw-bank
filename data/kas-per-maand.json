@@ -32,10 +32,10 @@
    "Verzekering": -36.84,
    "Voorraad (verpakking & giveaways)": -424.0,
    "Te bekijken": 900.0,
-   "Omzet overige kanalen": 3596.59,
+   "Omzet overige kanalen": 3599.01,
    "Omzet bol.com": 468.82,
    "Kredietkaart 2025 (geen detail)": -3031.06,
-   "Software & abonnementen": 0.21,
+   "Software & abonnementen": -2.21,
    "Materiaal": -160.0
   },
   {
@@ -46,9 +46,8 @@
    "Creazy": 1176.42,
    "Ads Meta": -1591.46,
    "Omzet bol.com": 581.21,
-   "Software & abonnementen": -199.1,
+   "Software & abonnementen": -201.52,
    "Verzending & retours (overig)": -5.6,
-   "Omzet overige kanalen": -2.42,
    "Kredietkaart 2025 (geen detail)": -4167.92,
    "Representatie & reizen": -101.5,
    "Materiaal": -26.45,
@@ -65,11 +64,10 @@
    "Financiering in (KBC-krediet)": 19947.0,
    "Omzet bol.com": 433.2,
    "Bankkosten": -361.0,
-   "Software & abonnementen": -193.56,
+   "Software & abonnementen": -195.98,
    "Ads Meta": -124.02,
    "Voorraad (fabriek)": -9188.05,
    "Lening Kaydee (in)": 9000.0,
-   "Omzet overige kanalen": -2.42,
    "Marketing & content": -33.68,
    "Ads Google": -1178.84
   },
@@ -84,8 +82,7 @@
    "Rente KBC-krediet": -60.99,
    "Omzet bol.com": 1185.49,
    "Verzending & retours (overig)": -7.1,
-   "Software & abonnementen": -260.35,
-   "Omzet overige kanalen": -2.42,
+   "Software & abonnementen": -262.77,
    "Terugbetaling kosten aan Henri": -242.0,
    "Widem (fulfilment, vracht, invoer)": -4018.1,
    "Boekhouder": -242.0,
@@ -100,9 +97,9 @@
    "Aflossing KBC-krediet": 0.0,
    "Rente KBC-krediet": -67.52,
    "Omzet bol.com": 720.76,
-   "Software & abonnementen": -396.39,
+   "Software & abonnementen": -398.81,
    "Widem (fulfilment, vracht, invoer)": -876.78,
-   "Omzet overige kanalen": 340.52,
+   "Omzet overige kanalen": 342.94,
    "Marketing & content": -109.71,
    "Verzending & retours (overig)": -86.0,
    "Ads Google": -79.73
@@ -115,8 +112,7 @@
    "Creazy": 435.72,
    "Aflossing KBC-krediet": 0.0,
    "Rente KBC-krediet": -65.34,
-   "Software & abonnementen": -276.33,
-   "Omzet overige kanalen": -2.42,
+   "Software & abonnementen": -278.75,
    "Omzet bol.com": 65.68,
    "Marketing & content": -41.02
   },
@@ -130,11 +126,11 @@
    "Materiaal": -5.0,
    "Voorraad (fabriek)": -5757.12,
    "Creazy": 10000.0,
-   "Omzet overige kanalen": 510.74,
+   "Omzet overige kanalen": 513.16,
    "Widem (fulfilment, vracht, invoer)": -2997.45,
    "Aflossing KBC-krediet": -521.35,
    "Rente KBC-krediet": -67.52,
-   "Software & abonnementen": -306.04,
+   "Software & abonnementen": -308.46,
    "Omzet bol.com": 65.68,
    "Marketing & content": -41.57,
    "Ads Google": -500.0
@@ -155,11 +151,11 @@
    "Rente KBC-krediet": -63.64,
    "Omzet bol.com": 663.68,
    "Widem (fulfilment, vracht, invoer)": -1153.45,
-   "Software & abonnementen": -305.79,
+   "Software & abonnementen": -308.21,
    "Boekhouder": -484.0,
    "Terugbetaling kosten aan Henri": -91.84,
-   "Omzet overige kanalen": -202.42,
    "Voorraad (verpakking & giveaways)": -1025.0,
+   "Te bekijken": -200.0,
    "Ads Google": -658.5
   },
   {
@@ -177,8 +173,7 @@
    "Verzending & retours (overig)": -13.25,
    "Markten & events": -460.0,
    "Materiaal": -10.02,
-   "Software & abonnementen": -382.92,
-   "Omzet overige kanalen": -2.42,
+   "Software & abonnementen": -385.34,
    "Ads Google": -198.56
   },
   {
@@ -197,9 +192,8 @@
    "Aflossing KBC-krediet": -526.67,
    "Rente KBC-krediet": -62.2,
    "Omzet bol.com": 1556.57,
-   "Software & abonnementen": -308.13,
-   "Voorraad (fabriek)": -8637.91,
-   "Omzet overige kanalen": -2.42
+   "Software & abonnementen": -310.55,
+   "Voorraad (fabriek)": -8637.91
   },
   {
    "maand": "2026-10",
@@ -210,9 +204,8 @@
    "Aflossing KBC-krediet": -530.4,
    "Rente KBC-krediet": -58.47,
    "Omzet bol.com": 1070.59,
-   "Software & abonnementen": -471.45,
+   "Software & abonnementen": -473.87,
    "Boekhouder": -242.0,
-   "Omzet overige kanalen": -2.42,
    "Voorraad (fabriek)": -1112.1
   }
  ],
@@ -263,7 +256,14 @@
    "bedrag": 900.0,
    "tegenpartij": "HOGESCHOOL GENT",
    "mededeling": "328010302510"
+  },
+  {
+   "datum": "2026-07-14",
+   "bron": "KBC-kaart",
+   "bedrag": -200.0,
+   "tegenpartij": "PAYPAL *SMARTPAW",
+   "mededeling": "PAYPAL *SMARTPAW"
   }
  ],
- "bijgewerkt": "2026-10-25T15:08:40+00:00"
+ "bijgewerkt": "2026-10-25T15:10:03+00:00"
 }

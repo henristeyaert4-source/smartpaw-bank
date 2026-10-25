@@ -17,6 +17,7 @@ REGELS = [
     # interne bewegingen (tellen niet mee)
     (r"SMARTPAW VOF.*(REVOLUT|LT76 3250)|NAAR REVOLUTE BUSINESS|PAYMENT FROM SMARTPAW|AANKOOP GOEDEREN|PRODUCT AANKOOP LEVERANCIER|VOORSCHOT PRODUCTEN|EXCHANGED (TO|FROM)|RECOVER NEGATIVE BALANCE", "Intern (KBC↔Revolut)"),
     (r"KBC-MASTERCARD BUSINESS ESSENTIAL AFREKENING", "Kredietkaart-afrekening"),
+    (r"YUKI", "Software & abonnementen"),
     # inkomsten
     (r"STRIPE", "Omzet webshop (Shopify)"),
     (r"BOLCOM", "Omzet bol.com"),
@@ -74,6 +75,8 @@ def categorie(r):
     t = f"{r.get('tegenpartij','')} {r.get('mededeling','')}".upper().strip()
     for pat, cat in REGELS:
         if re.search(pat, t):
+            if cat.startswith("Omzet") and r["bedrag"] < 0:
+                continue  # uitgave bij een betaalprovider is geen omzet
             return cat
     return "Te bekijken"
 
