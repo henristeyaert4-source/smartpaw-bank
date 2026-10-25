@@ -109,7 +109,8 @@ def main():
             for ean, e in b["per_ean"].items():
                 sku = ean_sku.get(str(ean).lstrip("0").zfill(13))
                 k = kost(tabel, sku, m + "-15") if sku else None
-                bol_kost += e["stuks"] * ((k if k is not None else e["omzet_incl"] / 1.21 * .35) + INBOUND_PICK)
+                product = e["stuks"] * k if k is not None else max(e["omzet_incl"], 0) / 1.21 * .35  # onbekende (oude) EAN: 35% van omzet
+                bol_kost += product + max(e["stuks"], 0) * INBOUND_PICK
             bol_kost += b["orders"] * (PACKING + KLEIN)
         else:  # raming uit de bankuitbetalingen
             bol_net = kas.get(m, {}).get("Omzet bol.com", 0) / 1.21
@@ -142,6 +143,10 @@ def main():
         uit.append({
             "maand": m, "orders": orders, "stuks": d["stuks"],
             "omzet_shopify": round(omzet_shop, 2), "omzet_bol": round(bol_net, 2),
+            "bol": ({"bron": "bol-API", "orders": bol_api[m]["orders"], "stuks": bol_api[m]["stuks"], "omzet_incl": bol_api[m]["omzet_incl"],
+                     "commissie": bol_api[m]["commissie"], "bol_ads": bol_api[m].get("bol_ads", 0), "retourlabels": bol_api[m].get("retourlabels", 0),
+                     "kostprijs_fulfilment": round(bol_kost, 2), "bijdrage": round(bol_net - bol_kost, 2)} if m in bol_api else
+                    {"bron": "raming uit bankuitbetalingen", "omzet_netto": round(bol_net, 2), "kostprijs_fulfilment": round(bol_kost, 2), "bijdrage": round(bol_net - bol_kost, 2)}),
             "korting": round(-tot["discounts"][i], 2), "retours": round(-tot["returns"][i], 2),
             "kostprijs": round(d["cogs"] + bol_kost, 2), "fulfilment": round(fulfil, 2), "betaalkosten": round(fees, 2),
             "brutomarge": round(brutomarge, 2), "ads_meta": tot["ads_meta"][i], "ads_google": tot["ads_google"][i],
