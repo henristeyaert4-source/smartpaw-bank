@@ -11,7 +11,7 @@ Uitvoer in data/bol/:
 """
 import json, os, sys, time
 from collections import defaultdict
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -61,6 +61,8 @@ def orders(bol):
             if oid in have and have[oid].get("_volledig"):
                 continue
             det = bol.get(f"/orders/{oid}") or o
+            for k in ("shipmentDetails", "billingDetails"):
+                det.pop(k, None)  # geen klantgegevens in de repo
             det["_volledig"] = True
             have[oid] = det; nieuw += 1
         page += 1
@@ -119,36 +121,44 @@ def num(x):
 
 
 def overzicht(alle_orders):
-    m = defaultdict(lambda: {"orders": 0, "stuks": 0, "omzet_incl": 0.0, "commissie": 0.0, "andere_kosten": 0.0, "per_ean": {}})
-    for o in alle_orders:
-        maand = (o.get("orderPlacedDateTime") or "")[:7]
-        if not maand:
-            continue
-        r = m[maand]; r["orders"] += 1
-        for it in o.get("orderItems", []):
-            q = int(it.get("quantity", 0) or 0) - int(it.get("quantityCancelled", 0) or 0)
-            prijs = num(it.get("unitPrice"))
-            ean = (it.get("product") or {}).get("ean") or it.get("ean") or "?"
-            r["stuks"] += q; r["omzet_incl"] += q * prijs; r["commissie"] += num(it.get("commission"))
-            e = r["per_ean"].setdefault(ean, {"stuks": 0, "omzet_incl": 0.0, "titel": (it.get("product") or {}).get("title", "")})
-            e["stuks"] += q; e["omzet_incl"] += q * prijs
-    # andere kosten (labels, …) uit de factuurspecificaties, per maand van de transactie
+    """Per maand uit de factuurspecificaties (bron van waarheid, 2 jaar terug): omzet, commissie, retouren, bol-ads, labels."""
+    m = defaultdict(lambda: {"orders": set(), "stuks": 0, "omzet_incl": 0.0, "commissie": 0.0, "bol_ads": 0.0,
+                             "retourlabels": 0.0, "andere_kosten": 0.0, "per_ean": {}})
     for p in (D / "facturen").glob("*.json"):
-        for t in json.loads(p.read_text()).get("specificatie", []):
-            omschr = json.dumps(t, ensure_ascii=False).lower()
-            if "commissie" in omschr or "omzet" in omschr or "turnover" in omschr or "commission" in omschr:
-                continue  # zit al in de orders
-            datum = str(t.get("transactionDate") or t.get("date") or t.get("Datum") or "")[:7]
-            bedrag = num(t.get("amount") or t.get("priceExclVat") or t.get("Bedrag excl. btw"))
-            if datum and bedrag:
-                m[datum]["andere_kosten"] += -abs(bedrag)
+        f = json.loads(p.read_text())
+        per = (f["factuur"].get("invoicePeriod") or {}).get("startDate") or f["factuur"].get("issueDate")
+        maand = datetime.fromtimestamp(per / 1000, timezone.utc).strftime("%Y-%m") if isinstance(per, (int, float)) else str(per)[:7]
+        for t in f.get("specificatie", []):
+            parts = t["id"].split("#"); typ = parts[-1]
+            bedrag = num((t.get("lineExtensionAmount") or {}).get("value"))
+            q = num((t.get("invoicedQuantity") or {}).get("value"))
+            r = m[maand]
+            if typ in ("TURNOVER", "CORRECTION_TURNOVER"):
+                omz = -bedrag  # bol rekent omzet negatief (= naar ons)
+                r["omzet_incl"] += omz
+                ean = parts[1] if len(parts) > 2 else "?"
+                e = r["per_ean"].setdefault(ean, {"stuks": 0, "omzet_incl": 0.0})
+                sign = 1 if typ == "TURNOVER" else -1
+                e["stuks"] += sign * int(q); e["omzet_incl"] += omz
+                r["stuks"] += sign * int(q)
+                if typ == "TURNOVER":
+                    r["orders"].add(parts[0])
+            elif typ in ("COMMISSION", "CORRECTION_COMMISSION"):
+                r["commissie"] += bedrag
+            elif typ == "SPONSORED_PRODUCTS_ADS":
+                r["bol_ads"] += bedrag
+            elif "LABEL" in typ:
+                r["retourlabels"] += bedrag
+            else:
+                r["andere_kosten"] += bedrag
     rows = []
     for k in sorted(m):
         r = m[k]
-        rows.append({"maand": k, "orders": r["orders"], "stuks": r["stuks"], "omzet_incl": round(r["omzet_incl"], 2),
-                     "commissie": round(r["commissie"], 2), "andere_kosten": round(r["andere_kosten"], 2),
+        rows.append({"maand": k, "orders": len(r["orders"]), "stuks": r["stuks"], "omzet_incl": round(r["omzet_incl"], 2),
+                     "commissie": round(r["commissie"], 2), "bol_ads": round(r["bol_ads"], 2),
+                     "retourlabels": round(r["retourlabels"], 2), "andere_kosten": round(r["andere_kosten"], 2),
                      "per_ean": {e: {**v, "omzet_incl": round(v["omzet_incl"], 2)} for e, v in r["per_ean"].items()}})
-    (D / "overzicht.json").write_text(json.dumps({"maanden": rows}, ensure_ascii=False, indent=1))
+    (D / "overzicht.json").write_text(json.dumps({"_uitleg": "Bedragen excl. btw behalve omzet_incl. Commissie/ads/labels zijn kosten (positief).", "maanden": rows}, ensure_ascii=False, indent=1))
 
 
 def main():

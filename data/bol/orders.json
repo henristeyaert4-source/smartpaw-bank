@@ -3,30 +3,6 @@
   "orderId": "C000JKH3W6",
   "pickupPoint": false,
   "orderPlacedDateTime": "2026-10-25T15:18:04+01:00",
-  "shipmentDetails": {
-   "salutation": "FEMALE",
-   "firstName": "Alexia",
-   "surname": "Vanhollebeke",
-   "streetName": "Zwinstraat",
-   "houseNumber": "34",
-   "zipCode": "8510",
-   "city": "Marke",
-   "countryCode": "BE",
-   "email": "2enlku6nhtkbpvnfbxcbtfridjaufc@verkopen.bol.com",
-   "language": "nl"
-  },
-  "billingDetails": {
-   "salutation": "FEMALE",
-   "firstName": "Alexia",
-   "surname": "Vanhollebeke",
-   "streetName": "Zwinstraat",
-   "houseNumber": "34",
-   "zipCode": "8510",
-   "city": "Marke",
-   "countryCode": "BE",
-   "email": "2enlku6nhtkbpvnfbxcbtfridjaufc@verkopen.bol.com",
-   "orderReference": "C000JKH3W6"
-  },
   "orderItems": [
    {
     "orderItemId": "4012633844",

@@ -104,7 +104,7 @@ def main():
         omzet_shop = tot["net_sales"][i] + tot["shipping"][i] / 1.21
         if m in bol_api:  # echte bol-data: omzet − commissie − andere bol-kosten; kostprijs per EAN
             b = bol_api[m]
-            bol_net = (b["omzet_incl"] / 1.21) - b["commissie"] / 1.21 + b["andere_kosten"]
+            bol_net = b["omzet_incl"] / 1.21 - b["commissie"] - b.get("bol_ads", 0) - b.get("retourlabels", 0) - b.get("andere_kosten", 0)
             bol_kost = 0.0
             for ean, e in b["per_ean"].items():
                 sku = ean_sku.get(str(ean).lstrip("0").zfill(13))

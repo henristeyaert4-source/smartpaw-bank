@@ -1,17 +1,383 @@
 {
+ "_uitleg": "Bedragen excl. btw behalve omzet_incl. Commissie/ads/labels zijn kosten (positief).",
  "maanden": [
   {
-   "maand": "2026-10",
-   "orders": 1,
-   "stuks": 1,
-   "omzet_incl": 63.75,
-   "commissie": 8.85,
+   "maand": "2025-09",
+   "orders": 8,
+   "stuks": 7,
+   "omzet_incl": 497.95,
+   "commissie": 67.23,
+   "bol_ads": 0.0,
+   "retourlabels": 3.3,
+   "andere_kosten": 0.0,
+   "per_ean": {
+    "6152846733711": {
+     "stuks": 3,
+     "omzet_incl": 285.0
+    },
+    "6152843185117": {
+     "stuks": 1,
+     "omzet_incl": 95.0
+    },
+    "6152855766762": {
+     "stuks": 2,
+     "omzet_incl": 100.0
+    },
+    "6152848985903": {
+     "stuks": 1,
+     "omzet_incl": 17.95
+    }
+   }
+  },
+  {
+   "maand": "2025-10",
+   "orders": 9,
+   "stuks": 9,
+   "omzet_incl": 578.85,
+   "commissie": 78.06,
+   "bol_ads": 0.0,
+   "retourlabels": 3.3,
+   "andere_kosten": 0.0,
+   "per_ean": {
+    "6152846733711": {
+     "stuks": 3,
+     "omzet_incl": 285.0
+    },
+    "6152848985903": {
+     "stuks": 2,
+     "omzet_incl": 35.9
+    },
+    "6152855766762": {
+     "stuks": 1,
+     "omzet_incl": 50.0
+    },
+    "6152855160157": {
+     "stuks": 1,
+     "omzet_incl": 17.95
+    },
+    "6152843185117": {
+     "stuks": 2,
+     "omzet_incl": 190.0
+    }
+   }
+  },
+  {
+   "maand": "2025-11",
+   "orders": 8,
+   "stuks": 8,
+   "omzet_incl": 541.9,
+   "commissie": 73.08,
+   "bol_ads": 0.0,
+   "retourlabels": 0.0,
+   "andere_kosten": 0.0,
+   "per_ean": {
+    "6152843185117": {
+     "stuks": 2,
+     "omzet_incl": 190.0
+    },
+    "6152852564521": {
+     "stuks": 1,
+     "omzet_incl": 59.0
+    },
+    "6152846733711": {
+     "stuks": 1,
+     "omzet_incl": 95.0
+    },
+    "6152847440465": {
+     "stuks": 1,
+     "omzet_incl": 14.95
+    },
+    "6152855160157": {
+     "stuks": 1,
+     "omzet_incl": 17.95
+    },
+    "5419980391155": {
+     "stuks": 1,
+     "omzet_incl": 80.0
+    },
+    "6152843640692": {
+     "stuks": 1,
+     "omzet_incl": 85.0
+    }
+   }
+  },
+  {
+   "maand": "2025-12",
+   "orders": 11,
+   "stuks": 10,
+   "omzet_incl": 675.9,
+   "commissie": 91.39,
+   "bol_ads": 0.0,
+   "retourlabels": 3.3,
+   "andere_kosten": 0.0,
+   "per_ean": {
+    "6152843185117": {
+     "stuks": 6,
+     "omzet_incl": 570.0
+    },
+    "6152855160157": {
+     "stuks": 1,
+     "omzet_incl": 17.95
+    },
+    "6152855766762": {
+     "stuks": 3,
+     "omzet_incl": 150.0
+    },
+    "6152848985903": {
+     "stuks": 1,
+     "omzet_incl": 17.95
+    },
+    "5419980391155": {
+     "stuks": -1,
+     "omzet_incl": -80.0
+    }
+   }
+  },
+  {
+   "maand": "2026-01",
+   "orders": 12,
+   "stuks": 13,
+   "omzet_incl": 506.55,
+   "commissie": 70.25,
+   "bol_ads": 0.0,
+   "retourlabels": 3.11,
    "andere_kosten": 0.0,
    "per_ean": {
     "6152852564521": {
+     "stuks": 2,
+     "omzet_incl": 118.0
+    },
+    "6152855160157": {
+     "stuks": 3,
+     "omzet_incl": 53.85
+    },
+    "6152848985903": {
+     "stuks": 4,
+     "omzet_incl": 71.8
+    },
+    "6152846733711": {
+     "stuks": 2,
+     "omzet_incl": 160.0
+    },
+    "6152855122155": {
      "stuks": 1,
-     "omzet_incl": 63.75,
-     "titel": "SmartPaw HydroBuddy - Drinkfontein Hond en Kat - volledig Roestvrijstaal - APP gestuurd - Geruisloos - 4 L - incl Filter"
+     "omzet_incl": 19.95
+    },
+    "6152843185117": {
+     "stuks": 1,
+     "omzet_incl": 82.95
+    }
+   }
+  },
+  {
+   "maand": "2026-02",
+   "orders": 18,
+   "stuks": 22,
+   "omzet_incl": 1380.25,
+   "commissie": 188.01,
+   "bol_ads": 0.0,
+   "retourlabels": 6.75,
+   "andere_kosten": 0.0,
+   "per_ean": {
+    "6152855766762": {
+     "stuks": 5,
+     "omzet_incl": 250.0
+    },
+    "6152848985903": {
+     "stuks": 4,
+     "omzet_incl": 71.8
+    },
+    "6152843185117": {
+     "stuks": 9,
+     "omzet_incl": 746.55
+    },
+    "6152843640692": {
+     "stuks": 2,
+     "omzet_incl": 151.9
+    },
+    "5419980391155": {
+     "stuks": 2,
+     "omzet_incl": 160.0
+    }
+   }
+  },
+  {
+   "maand": "2026-03",
+   "orders": 11,
+   "stuks": 10,
+   "omzet_incl": 832.45,
+   "commissie": 111.7,
+   "bol_ads": 0.0,
+   "retourlabels": 0.0,
+   "andere_kosten": 0.0,
+   "per_ean": {
+    "6152855766762": {
+     "stuks": 0,
+     "omzet_incl": 0.0
+    },
+    "6152843185117": {
+     "stuks": 11,
+     "omzet_incl": 912.45
+    },
+    "5419980391155": {
+     "stuks": -1,
+     "omzet_incl": -80.0
+    }
+   }
+  },
+  {
+   "maand": "2026-04",
+   "orders": 1,
+   "stuks": 1,
+   "omzet_incl": 75.95,
+   "commissie": 10.27,
+   "bol_ads": 0.0,
+   "retourlabels": 0.0,
+   "andere_kosten": 0.0,
+   "per_ean": {
+    "6152843640692": {
+     "stuks": 1,
+     "omzet_incl": 75.95
+    }
+   }
+  },
+  {
+   "maand": "2026-05",
+   "orders": 1,
+   "stuks": 1,
+   "omzet_incl": 75.95,
+   "commissie": 10.27,
+   "bol_ads": 0.0,
+   "retourlabels": 0.0,
+   "andere_kosten": 0.0,
+   "per_ean": {
+    "6152843640692": {
+     "stuks": 1,
+     "omzet_incl": 75.95
+    }
+   }
+  },
+  {
+   "maand": "2026-06",
+   "orders": 10,
+   "stuks": 14,
+   "omzet_incl": 767.59,
+   "commissie": 103.91,
+   "bol_ads": 0.0,
+   "retourlabels": 0.0,
+   "andere_kosten": 0.0,
+   "per_ean": {
+    "6152855766762": {
+     "stuks": 1,
+     "omzet_incl": 50.0
+    },
+    "6152848985903": {
+     "stuks": 3,
+     "omzet_incl": 53.85
+    },
+    "5419980391100": {
+     "stuks": 2,
+     "omzet_incl": 298.0
+    },
+    "6152855160157": {
+     "stuks": 4,
+     "omzet_incl": 71.8
+    },
+    "5419980654175": {
+     "stuks": 1,
+     "omzet_incl": 99.99
+    },
+    "6152852564521": {
+     "stuks": 2,
+     "omzet_incl": 118.0
+    },
+    "6152843640692": {
+     "stuks": 1,
+     "omzet_incl": 75.95
+    }
+   }
+  },
+  {
+   "maand": "2026-07",
+   "orders": 19,
+   "stuks": 15,
+   "omzet_incl": 1587.0,
+   "commissie": 209.49,
+   "bol_ads": 116.33,
+   "retourlabels": 9.33,
+   "andere_kosten": 0.0,
+   "per_ean": {
+    "5419980391100": {
+     "stuks": 8,
+     "omzet_incl": 1192.0
+    },
+    "6152855766762": {
+     "stuks": 2,
+     "omzet_incl": 100.0
+    },
+    "6152847440465": {
+     "stuks": 0,
+     "omzet_incl": -0.0
+    },
+    "6152852564521": {
+     "stuks": 5,
+     "omzet_incl": 295.0
+    }
+   }
+  },
+  {
+   "maand": "2026-08",
+   "orders": 16,
+   "stuks": 15,
+   "omzet_incl": 1866.0,
+   "commissie": 222.12,
+   "bol_ads": 83.67,
+   "retourlabels": 3.64,
+   "andere_kosten": 0.0,
+   "per_ean": {
+    "5419980391100": {
+     "stuks": 11,
+     "omzet_incl": 1639.0
+    },
+    "6152852564521": {
+     "stuks": 3,
+     "omzet_incl": 177.0
+    },
+    "6152855766762": {
+     "stuks": 1,
+     "omzet_incl": 50.0
+    }
+   }
+  },
+  {
+   "maand": "2026-09",
+   "orders": 12,
+   "stuks": 11,
+   "omzet_incl": 1181.97,
+   "commissie": 107.37,
+   "bol_ads": 0.0,
+   "retourlabels": 4.0,
+   "andere_kosten": 0.0,
+   "per_ean": {
+    "6152852564521": {
+     "stuks": 3,
+     "omzet_incl": 177.0
+    },
+    "5419980654199": {
+     "stuks": 1,
+     "omzet_incl": 79.99
+    },
+    "5419980391100": {
+     "stuks": 5,
+     "omzet_incl": 745.0
+    },
+    "5419980654182": {
+     "stuks": 1,
+     "omzet_incl": 79.99
+    },
+    "5419980654175": {
+     "stuks": 1,
+     "omzet_incl": 99.99
     }
    }
   }
