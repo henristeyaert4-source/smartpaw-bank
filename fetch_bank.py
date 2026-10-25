@@ -141,9 +141,53 @@ def revolut():
     return rows, balances
 
 
+# ---------------- PayPal ----------------
+def paypal():
+    cid = os.environ.get("PAYPAL_CLIENT_ID")
+    if not cid:
+        log("PayPal: geen PAYPAL_CLIENT_ID, overgeslagen")
+        return [], []
+    base = "https://api-m.paypal.com"
+    r = requests.post(f"{base}/v1/oauth2/token", auth=(cid, os.environ["PAYPAL_CLIENT_SECRET"]),
+                      data={"grant_type": "client_credentials"}, timeout=30)
+    r.raise_for_status()
+    h = {"Authorization": f"Bearer {r.json()['access_token']}"}
+    rows = []
+    van = date.fromisoformat(SINCE)
+    eind = date.today()
+    while van <= eind:
+        tot = min(van + timedelta(days=30), eind)
+        page = 1
+        while True:
+            j = requests.get(f"{base}/v1/reporting/transactions", headers=h, timeout=60, params={
+                "start_date": f"{van.isoformat()}T00:00:00-0000", "end_date": f"{tot.isoformat()}T23:59:59-0000",
+                "fields": "transaction_info,payer_info,cart_info", "page_size": 500, "page": page})
+            j.raise_for_status(); j = j.json()
+            for t in j.get("transaction_details", []):
+                ti = t.get("transaction_info", {})
+                bedrag = float((ti.get("transaction_amount") or {}).get("value", 0))
+                fee = float((ti.get("fee_amount") or {}).get("value", 0) or 0)
+                naam = ((t.get("payer_info") or {}).get("payer_name") or {}).get("alternate_full_name", "")
+                basis = {"bron": "PayPal", "rekening": "PayPal", "datum": (ti.get("transaction_initiation_date") or "")[:10],
+                         "munt": (ti.get("transaction_amount") or {}).get("currency_code", "EUR"), "tegenpartij": naam,
+                         "tegenrekening": "", "mededeling": ti.get("transaction_subject") or ti.get("transaction_note") or ti.get("invoice_id") or "",
+                         "soort": ti.get("transaction_event_code", "")}
+                rows.append({**basis, "id": "pp-" + ti.get("transaction_id", ""), "bedrag": bedrag})
+                if fee:
+                    rows.append({**basis, "id": "pp-fee-" + ti.get("transaction_id", ""), "bedrag": fee, "soort": "FEE", "mededeling": "PayPal-kosten"})
+            if page >= j.get("total_pages", 1):
+                break
+            page += 1
+        van = tot + timedelta(days=1)
+    bal = requests.get(f"{base}/v1/reporting/balances", headers=h, timeout=30).json()
+    balances = [{"bron": "PayPal", "rekening": "PayPal", "saldo": float((b.get("total_balance") or {}).get("value", 0)),
+                 "munt": b.get("currency"), "bijgewerkt_bank": bal.get("as_of_time")} for b in bal.get("balances", [])]
+    return rows, balances
+
+
 def main():
     all_rows, all_bal, fouten = [], [], []
-    for naam, fn in (("Ponto", ponto), ("Revolut", revolut)):
+    for naam, fn in (("Ponto", ponto), ("Revolut", revolut), ("PayPal", paypal)):
         try:
             res = fn()
             if res and isinstance(res, tuple):

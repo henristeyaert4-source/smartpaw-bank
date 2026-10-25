@@ -33,6 +33,8 @@ jobs:
           REVOLUT_ISS: ${{ secrets.REVOLUT_ISS }}
           REVOLUT_PRIVATE_KEY: ${{ secrets.REVOLUT_PRIVATE_KEY }}
           REVOLUT_REFRESH_TOKEN: ${{ secrets.REVOLUT_REFRESH_TOKEN }}
+          PAYPAL_CLIENT_ID: ${{ secrets.PAYPAL_CLIENT_ID }}
+          PAYPAL_CLIENT_SECRET: ${{ secrets.PAYPAL_CLIENT_SECRET }}
           GH_TOKEN: ${{ secrets.GH_SECRETS_TOKEN }}
           DAYS_BACK: ${{ github.event.inputs.days || '10' }}
         run: python fetch_bank.py

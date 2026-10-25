@@ -57,7 +57,7 @@ REGELS = [
 ]
 
 GROEP = {
-    "Omzet webshop (Shopify)": "Inkomsten", "Omzet bol.com": "Inkomsten", "Omzet overige kanalen": "Inkomsten", "Terugbetalingen aan klanten": "Inkomsten", "Overige ontvangsten": "Werking",
+    "Omzet webshop (Shopify)": "Inkomsten", "Omzet bol.com": "Inkomsten", "Omzet overige kanalen": "Inkomsten", "Betaalkosten": "Werking", "Terugbetalingen aan klanten": "Inkomsten", "Overige ontvangsten": "Werking",
     "Voorraad (fabriek)": "Voorraad", "Voorraad (verpakking & giveaways)": "Voorraad",
     "Widem (fulfilment, vracht, invoer)": "Fulfilment", "Verzending & retours (overig)": "Fulfilment",
     "Ads Meta": "Marketing", "Ads Google": "Marketing", "Marketing & content": "Marketing", "Personeel (student)": "Marketing",
@@ -73,8 +73,24 @@ GROEP = {
 KAART_DETAIL_VANAF = "2026-02-01"  # afrekeningen vanaf hier zijn gedekt door de kaartdetails (uitgaven vanaf jan 2026)
 
 
+HEEFT_PAYPAL = False
+
+
 def categorie(r):
     t = f"{r.get('tegenpartij','')} {r.get('mededeling','')}".upper().strip()
+    if r.get("bron") == "PayPal":
+        code = r.get("soort", "")
+        if code == "FEE":
+            return "Betaalkosten"
+        if code.startswith("T04"):
+            return "Intern (PayPal→KBC)"
+        if code.startswith("T11") or r["bedrag"] < 0 and code.startswith(("T12", "T17")):
+            return "Terugbetalingen aan klanten"
+        if code.startswith(("T00", "T01")) and r["bedrag"] > 0:
+            return "Omzet overige kanalen"
+        return "Te bekijken"
+    if HEEFT_PAYPAL and "PAYPAL" in t and r["bedrag"] > 0 and r.get("bron") == "KBC":
+        return "Intern (PayPal→KBC)"
     for pat, cat in REGELS:
         if re.search(pat, t):
             if cat.startswith("Omzet") and r["bedrag"] < 0:
@@ -91,6 +107,8 @@ def main():
     if kaart.exists():
         rows += json.loads(kaart.read_text())
 
+    global HEEFT_PAYPAL
+    HEEFT_PAYPAL = any(r.get("bron") == "PayPal" for r in rows)
     # USD-betaling Revolut omrekenen met de koers van de wissel op dezelfde dag
     eur_per_usd = {}
     for r in rows:
