@@ -40,7 +40,10 @@ def ponto():
     if not cid:
         log("Ponto: geen PONTO_CLIENT_ID, overgeslagen")
         return [], []
-    base = "https://api.ibanity.com/ponto-connect"
+    # Eigen (custom) integratie in Ponto: api.myponto.com, geen certificaat nodig.
+    # Ibanity-partnerapplicatie: api.ibanity.com/ponto-connect met mTLS-certificaat.
+    base = os.environ.get("PONTO_BASE") or (
+        "https://api.ibanity.com/ponto-connect" if os.environ.get("PONTO_CERT") else "https://api.myponto.com")
     cert = None
     if os.environ.get("PONTO_CERT"):
         d = tempfile.mkdtemp()
