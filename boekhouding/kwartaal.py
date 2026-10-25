@@ -11,6 +11,9 @@ from openpyxl import Workbook
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.utils import get_column_letter
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from afsluiting import invoer, leningen  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 B = ROOT / "boekhouding"
 
@@ -156,23 +159,30 @@ def main(jaar=2026, k=3):
     b["A1"] = f"Btw-aangifte Q{k} {jaar} — voorbereiding (ter controle door Pro-count)"; b["A1"].font = bold
     rng = f"Aankopen!$E${a4}:$E${z4}"
     def som(col, typ): return f'=SUMIFS(Aankopen!${col}${a4}:${col}${z4},{rng},"{typ}")'
+    inv = invoer(van, tot)
+    inv_m = round(sum(x["maatstaf_gebruikt"] or 0 for x in inv), 2)
+    inv_b = round(sum(x["btw"] or 0 for x in inv), 2)
     regels = [
         ("03", "Verkopen 21% (maatstaf): Shopify netto + verzending excl. btw + bol netto", f"=Verkopen!F{shop_tot_row}+Verkopen!G{shop_tot_row}/1.21+Verkopen!D{bol_tot_row}"),
         ("54", "Verschuldigde btw op verkopen", f"=Verkopen!H{shop_tot_row}+Verkopen!E{bol_tot_row}"),
         ("82", "Aankopen diensten en diverse goederen BE (maatstaf, incl. niet-aftrekbaar)", f"={som('I','BE21')[1:]}+{som('I','BE21NA')[1:]}+{som('I','GEEN')[1:]}"),
         ("88", "Diensten uit andere EU-landen (verlegd) — maatstaf", som("I", "EU")),
         ("55", "Btw op vak 88 (verlegd, verschuldigd)", som("J", "EU")),
-        ("87", "Diensten van buiten de EU (verlegd) — maatstaf", som("I", "NONEU")),
+        ("87", "Diensten van buiten de EU (verlegd) + invoer art. 41 — maatstaf", f"={som('I','NONEU')[1:]}+{inv_m}"),
         ("56", "Btw op vak 87 (verlegd, verschuldigd)", som("J", "NONEU")),
-        ("59", "Aftrekbare btw: Belgische aankopen 21% + verlegde btw 55 + 56", f"={som('J','BE21')[1:]}+C8+C10"),
-        ("", "Te betalen (54 + 55 + 56 − 59)", "=C5+C8+C10-C11"),
+        ("59", "Aftrekbare btw: Belgische aankopen 21% + verlegde btw 55 + 56 + 57", f"={som('J','BE21')[1:]}+C8+C10+C15"),
+        ("", "Te betalen (54 + 55 + 56 + 57 − 59)", "=C5+C8+C10+C15-C11"),
         ("", "Opgegeven door Pro-count (mail 22/10/2026)", 6873.24),
         ("", "Verschil voorbereiding − Pro-count", "=C12-C13"),
+        ("57", "Btw op invoer met verlegging (art. 41, invoeraangiftes Widem)", inv_b),
     ]
     tabel(b, 3, ["Vak", "Omschrijving", "Bedrag"], [[r[0], r[1], r[2]] for r in regels], [8, 70, 16], geld=(3,))
-    b.cell(16, 1, "Niet in deze voorbereiding (zit bij Pro-count): invoer-btw van goederen uit China (invoeraangifte Widem, art. 41), btw-correcties,"
+    onbekend = [x["dossier"] for x in inv if x["maatstaf_gebruikt"] is None]
+    raming = [x["dossier"] for x in inv if x["raming"] and x["maatstaf_gebruikt"] is not None]
+    b.cell(17, 1, ("Invoer: " + (f"raming voor {', '.join(raming)}; " if raming else "") + (f"waarde onbekend voor {', '.join(onbekend)} (invoeraangifte opvragen bij Widem); " if onbekend else "") + "57 en 59 heffen elkaar op.") if inv else "Geen invoeraangiftes in dit kwartaal.").font = Font(name=F, size=9, italic=True)
+    b.cell(16, 1, "Niet in deze voorbereiding: btw-correcties,"
                   " en uitgaven van het type 'NAKIJKEN' (zie Aankopen).").font = Font(name=F, size=9, italic=True)
-    b.cell(17, 1, "Ook alle NL-verkopen dragen nu Belgische btw (OSS-drempel €10.000 nog niet bereikt, zie OSS).").font = Font(name=F, size=9, italic=True)
+    b.cell(18, 1, "Ook alle NL-verkopen dragen nu Belgische btw (OSS-drempel €10.000 nog niet bereikt, zie OSS).").font = Font(name=F, size=9, italic=True)
 
     # --- 5. Bank
     bk = wb.create_sheet("Bankafstemming")
@@ -216,6 +226,13 @@ def main(jaar=2026, k=3):
         o["A1"] = "Per uitgave: is de factuur aanwezig? (draai eerst boekhouding/regels.py)"; o["A1"].font = bold
         tabel(o, 3, ["Datum", "Leverancier", "Bedrag", "Btw-type", "Status"], ontbrekend, [11, 40, 14, 10, 24], geld=(3,))
 
+    # --- 6b. Leningen
+    L = leningen(tot)
+    lw = wb.create_sheet("Leningen")
+    lw["A1"] = f"Leningen en rekening-courant op {tot} (uit de bank; voorwaarden te bevestigen)"; lw["A1"].font = bold
+    tabel(lw, 3, ["Lening", "Opgenomen", "Afgelost", "Saldo", "Rente betaald", "Uitleg"],
+          [[r["lening"], r["opgenomen"], r["afgelost"], r["saldo"], r["rente_betaald"], r["uitleg"]] for r in L["rijen"]], [44, 13, 13, 13, 13, 80], geld=(2, 3, 4, 5))
+
     # --- 7. OSS
     oss = wb.create_sheet("OSS")
     oss["A1"] = "Verkoop op afstand aan particulieren in andere EU-landen — drempel €10.000 per kalenderjaar (alle EU-landen samen, excl. btw)"; oss["A1"].font = bold
@@ -251,7 +268,7 @@ def main(jaar=2026, k=3):
         x = s.cell(i, 2, f); x.font = bold if "Te betalen" in lbl or lbl == "Verschil" else norm
         if i < 11: x.number_format = eur
     s.column_dimensions["A"].width = 52; s.column_dimensions["B"].width = 18
-    s.cell(14, 1, "Tabbladen: Verkopen · Aankopen · Btw-voorbereiding · Bankafstemming · Documenten · OSS").font = Font(name=F, size=9, italic=True)
+    s.cell(14, 1, "Tabbladen: Verkopen · Aankopen · Btw-voorbereiding · Bankafstemming · Documenten · Leningen · OSS").font = Font(name=F, size=9, italic=True)
 
     out = B / "rapporten"; out.mkdir(exist_ok=True)
     pad = out / f"SmartPaw_Q{k}-{jaar}.xlsx"

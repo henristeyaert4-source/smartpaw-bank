@@ -1,0 +1,49 @@
+{
+ "_uitleg": "Invoeraangiftes via Widem met verlegging (art. 41, ET-vergunning): maatstaf in vak 87, btw in vak 57 en tegelijk aftrekbaar in vak 59 (netto 0). Maatstaf = douanewaarde (goederen + vracht tot EU) + invoerrechten + verdere vracht tot Rekkem. RAMING tot de waarde van de invoeraangifte (enig bewijs) bekend is.",
+ "aangiftes": [
+  {
+   "dossier": "WID202512550",
+   "omschrijving": "FurVac 500 (Compass)",
+   "aangifte_datum": "2026-04-27",
+   "douanefactuur": "26201460",
+   "goederen_eur": 12778.0,
+   "vracht_eur": 2110.48,
+   "rechten_eur": 316.06,
+   "maatstaf": null,
+   "status": "raming"
+  },
+  {
+   "dossier": "WID202601049",
+   "omschrijving": "Fonteinen & voerbakken (Jess)",
+   "aangifte_datum": "2026-06-09",
+   "douanefactuur": "26202015",
+   "goederen_eur": 16414.0,
+   "vracht_eur": 1783.71,
+   "rechten_eur": 437.83,
+   "maatstaf": null,
+   "status": "raming"
+  },
+  {
+   "dossier": "WID202607353",
+   "omschrijving": "FurVac 750 – luchtvracht accessoires",
+   "aangifte_datum": "2026-08-13",
+   "douanefactuur": "26202844",
+   "goederen_eur": null,
+   "vracht_eur": 1221.41,
+   "rechten_eur": 25.77,
+   "maatstaf": null,
+   "status": "goederenwaarde onbekend – invoeraangifte opvragen bij Widem"
+  },
+  {
+   "dossier": "WID202608397",
+   "omschrijving": "FurVac 750 – zeevracht",
+   "aangifte_datum": "2026-11-19",
+   "douanefactuur": null,
+   "goederen_eur": null,
+   "vracht_eur": 3557.0,
+   "rechten_eur": 450.0,
+   "maatstaf": null,
+   "status": "verwacht (ETA ±19/11)"
+  }
+ ]
+}

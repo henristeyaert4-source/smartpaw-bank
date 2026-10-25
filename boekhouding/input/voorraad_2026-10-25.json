@@ -1,0 +1,167 @@
+{
+ "datum": "2026-10-25",
+ "bron": "Shopify-voorraad (Widem) via platform producten/*, kostprijs = landed cost",
+ "producten": [
+  {
+   "id": "2in1",
+   "naam": "2-in-1 Flat Brush",
+   "voorraad": 199,
+   "kostprijs": 0.89,
+   "kostprijs_bron": "batch 750"
+  },
+  {
+   "id": "antistatic",
+   "naam": "Anti-Static Brush",
+   "voorraad": 166,
+   "kostprijs": 2.23,
+   "kostprijs_bron": "batch 750"
+  },
+  {
+   "id": "aquapaw",
+   "naam": "AquaPaw 2,5L",
+   "voorraad": 57,
+   "kostprijs": 27.42,
+   "kostprijs_bron": "Shopify-kostprijs (inbreng, order jul 2025)"
+  },
+  {
+   "id": "chromefeeder",
+   "naam": "ChromeFeeder 2L",
+   "voorraad": 32,
+   "kostprijs": 30,
+   "kostprijs_bron": "inbreng okt 2025"
+  },
+  {
+   "id": "desbag",
+   "naam": "Droogzakjes",
+   "voorraad": 55,
+   "kostprijs": 2.35,
+   "kostprijs_bron": "Shopify-kostprijs"
+  },
+  {
+   "id": "deshedding",
+   "naam": "Deshedding Brush",
+   "voorraad": 153,
+   "kostprijs": 2.23,
+   "kostprijs_bron": "batch 750"
+  },
+  {
+   "id": "feedmate-cam",
+   "naam": "FeedMate 5L met camera",
+   "voorraad": 226,
+   "kostprijs": 33.16,
+   "kostprijs_bron": "batch Jess mrt-apr 2026"
+  },
+  {
+   "id": "feedmate",
+   "naam": "FeedMate 5L zonder camera",
+   "voorraad": 249,
+   "kostprijs": 25.54,
+   "kostprijs_bron": "batch Jess mrt-apr 2026"
+  },
+  {
+   "id": "ff007",
+   "naam": "Filter FlowMate (12-pack)",
+   "voorraad": 3,
+   "kostprijs": 2.13,
+   "kostprijs_bron": "luchtvracht DDP okt 2026"
+  },
+  {
+   "id": "ff009l",
+   "naam": "Filter HydroBuddy",
+   "voorraad": -1,
+   "kostprijs": 2.57,
+   "kostprijs_bron": "batch Jess mrt-apr 2026"
+  },
+  {
+   "id": "ff015",
+   "naam": "Filter AquaPaw",
+   "voorraad": 3,
+   "kostprijs": 2.3,
+   "kostprijs_bron": "Shopify-kostprijs"
+  },
+  {
+   "id": "flowmate",
+   "naam": "FlowMate Pro 3,5L",
+   "voorraad": 83,
+   "kostprijs": 9.21,
+   "kostprijs_bron": "batch Jess mrt-apr 2026"
+  },
+  {
+   "id": "furvac-allinone",
+   "naam": "All-in-one FurVac",
+   "voorraad": 1,
+   "kostprijs": 40.8,
+   "kostprijs_bron": "batch 750: toestel + 6 opzetstukken + stand + HEPA"
+  },
+  {
+   "id": "furvac-basis",
+   "naam": "FurVac basistoestel",
+   "voorraad": 27,
+   "kostprijs": 19.4,
+   "kostprijs_bron": "batch 750 (landed incl. vracht + douane)"
+  },
+  {
+   "id": "hepa",
+   "naam": "HEPA-filter (2-pack)",
+   "voorraad": 182,
+   "kostprijs": 1.32,
+   "kostprijs_bron": "batch 500 (2 × €0,66)"
+  },
+  {
+   "id": "hydrobuddy",
+   "naam": "HydroBuddy 4L",
+   "voorraad": 29,
+   "kostprijs": 13.86,
+   "kostprijs_bron": "batch Jess mrt-apr 2026"
+  },
+  {
+   "id": "massage",
+   "naam": "Massage Comb",
+   "voorraad": 133,
+   "kostprijs": 0.93,
+   "kostprijs_bron": "batch 750"
+  },
+  {
+   "id": "motor-fm",
+   "naam": "Motor FlowMate",
+   "voorraad": 46,
+   "kostprijs": 2.68,
+   "kostprijs_bron": "batch Jess mrt-apr 2026"
+  },
+  {
+   "id": "motor-hb",
+   "naam": "Motor HydroBuddy",
+   "voorraad": 42,
+   "kostprijs": 6.43,
+   "kostprijs_bron": "batch Jess mrt-apr 2026"
+  },
+  {
+   "id": "needle",
+   "naam": "Needle Comb",
+   "voorraad": 120,
+   "kostprijs": 2.35,
+   "kostprijs_bron": "batch 750"
+  },
+  {
+   "id": "stand",
+   "naam": "Storage Stand",
+   "voorraad": 50,
+   "kostprijs": 1.86,
+   "kostprijs_bron": "batch 750"
+  },
+  {
+   "id": "titan",
+   "naam": "Titan 15L",
+   "voorraad": 2,
+   "kostprijs": 47.52,
+   "kostprijs_bron": "batch Jess mrt-apr 2026"
+  },
+  {
+   "id": "trimmer",
+   "naam": "Trimmer",
+   "voorraad": 140,
+   "kostprijs": 8.54,
+   "kostprijs_bron": "batch 750"
+  }
+ ]
+}
