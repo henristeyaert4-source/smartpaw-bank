@@ -31,8 +31,11 @@ def main(balans_pad=None):
     q = f"{jaar}Q{k}"
     boek = json.load(open(R / f"boekhouding/boek/{q}.json")) if (R / f"boekhouding/boek/{q}.json").exists() else {"regels": []}
     be = [r for r in boek["regels"] if r.get("btw_type") == "BE21" and r["bedrag"] < 0]
-    aftrek_bank = sum(-r["bedrag"] * 21 / 121 for r in be)
-    zonder_factuur = sum(-r["bedrag"] * 21 / 121 for r in be if r.get("status") == "ontbreekt")
+    def btw_r(r):  # echte btw uit het bewijs als die er is (bv. bpost: verzending vrijgesteld, enkel btw op de printkost)
+        bw = r.get("bewijs") or {}
+        return bw["btw"] if isinstance(bw, dict) and bw.get("btw") is not None else -r["bedrag"] * 21 / 121
+    aftrek_bank = sum(btw_r(r) for r in be)
+    zonder_factuur = sum(btw_r(r) for r in be if r.get("status") == "ontbreekt")
 
     aftrek_open = 0.0
     if balans_pad and Path(balans_pad).exists():
