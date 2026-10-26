@@ -34,3 +34,6 @@ Gmail info@smartpaw.be: hele mailbox.
 ## Zonder TrueProfit (na opzeggen)
 
 ads_google = som bankverrichtingen categorie "Ads Google"; betaalkosten = 2,5% van omzet incl. btw; trueprofit_netto weglaten. Per afgesloten kwartaal betaalkosten nakijken: Shopify net_payments (ShopifyQL FROM payments, gateway shopify_payments) − Shopify-uitbetalingen op de bank (± enkele dagen verschuiving); wijkt dat >0,5% af van 2,5%, het percentage aanpassen. Shopify-API geeft geen fees (read_shopify_payments ontbreekt).
+
+## Mailzoektocht: extra bron (26/10)
+- Shopify-facturen (billing@shopify.com) en Alibaba-bestellingen komen binnen in Henri's iCloud (connector icloud_email_henri), map **SmartPaw**. Doorzoek die map ook bij stap 4c.

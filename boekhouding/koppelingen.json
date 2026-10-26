@@ -491,5 +491,14 @@
   "btw_type": "EU (verlegd)",
   "btw_nummer": null,
   "uitleg": "Holo Starter Plan 8/10–8/11 2026, abonnement (stopgezet okt 2026). Factuur zonder klantgegevens/btw-nummer SmartPaw."
+ },
+ "kaart-6682-2026-10-09-SHOPIFY* 601792977--129.2": {
+  "soort": "mail",
+  "label": "Shopify-factuur 601792977 (mail 9/10)",
+  "mail": "billing@shopify.com · Oct 9, 2026-factuur voor SmartPaw · 2026-10-09 (iCloud Henri, map SmartPaw)",
+  "leverancier": "Shopify International Ltd (IE)",
+  "datum": "2026-10-09",
+  "bedrag": -129.2,
+  "btw_type": "EU (verlegd)"
  }
 }

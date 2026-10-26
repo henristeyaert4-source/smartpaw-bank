@@ -4,8 +4,8 @@
  "tot": "2026-12-31",
  "telling": {
   "verklaard": 17,
-  "gekoppeld": 7,
-  "ontbreekt": 15
+  "gekoppeld": 8,
+  "ontbreekt": 14
  },
  "regels": [
   {
@@ -382,8 +382,16 @@
    "categorie": "Software & abonnementen",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "mail",
+    "label": "Shopify-factuur 601792977 (mail 9/10)",
+    "mail": "billing@shopify.com · Oct 9, 2026-factuur voor SmartPaw · 2026-10-09 (iCloud Henri, map SmartPaw)",
+    "leverancier": "Shopify International Ltd (IE)",
+    "datum": "2026-10-09",
+    "bedrag": -129.2,
+    "btw_type": "EU (verlegd)"
+   }
   },
   {
    "id": "rev-0567823b-ec31-e30b-02c0-04723185a1e6-0567823b-ec31-e30b-0000-04723185a1e6",
