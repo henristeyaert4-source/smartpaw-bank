@@ -1,6 +1,6 @@
 {
- "opgehaald": "2026-10-25T16:17:57+00:00",
- "vanaf": "2025-09-20",
+ "opgehaald": "2026-10-26T03:40:44+00:00",
+ "vanaf": "2026-10-16",
  "nieuwe_verrichtingen": 0,
  "saldi": [
   {
@@ -39,9 +39,21 @@
    "saldo": 0,
    "munt": "EUR",
    "bijgewerkt_bank": "2025-12-08T09:49:18.446267Z"
+  },
+  {
+   "bron": "PayPal",
+   "rekening": "PayPal",
+   "saldo": 86.91,
+   "munt": "EUR",
+   "bijgewerkt_bank": "2026-10-26T01:29:59Z"
+  },
+  {
+   "bron": "PayPal",
+   "rekening": "PayPal",
+   "saldo": 0.0,
+   "munt": "USD",
+   "bijgewerkt_bank": "2026-10-26T01:29:59Z"
   }
  ],
- "fouten": [
-  "PayPal: HTTPError: 403 Client Error: Forbidden for url: https://api-m.paypal.com/v1/reporting/transactions?start_date=2025-09-20T00%3A00%3A00-0000&end_date=2025-10-20T23%3A59%3A59-0000&fields=transaction_info%2Cpayer_info%2Ccart_info&page_size=500&page=1"
- ]
+ "fouten": []
 }
