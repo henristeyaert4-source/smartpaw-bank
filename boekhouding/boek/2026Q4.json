@@ -4,8 +4,8 @@
  "tot": "2026-12-31",
  "telling": {
   "verklaard": 17,
-  "gekoppeld": 6,
-  "ontbreekt": 16
+  "gekoppeld": 7,
+  "ontbreekt": 15
  },
  "regels": [
   {
@@ -445,8 +445,21 @@
    "categorie": "Marketing & content",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "upload",
+    "asset_id": "68868f74018bf2071deb4c0c5b229192",
+    "label": "Holo AI HOLO-202610-DB395",
+    "bestand": "2026-10-08_HoloAI_47.19USD.pdf",
+    "leverancier": "UAB Holo LT (Vilnius, LT)",
+    "datum": "2026-10-08",
+    "bedrag": -42.95,
+    "bedrag_usd": 47.19,
+    "btw": 0,
+    "btw_type": "EU (verlegd)",
+    "btw_nummer": null,
+    "uitleg": "Holo Starter Plan 8/10–8/11 2026, abonnement (stopgezet okt 2026). Factuur zonder klantgegevens/btw-nummer SmartPaw."
+   }
   },
   {
    "id": "ponto-faed575c-60a2-4381-b594-20525a7d8177",

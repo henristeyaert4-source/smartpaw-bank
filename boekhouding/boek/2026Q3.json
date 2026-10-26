@@ -4,8 +4,8 @@
  "tot": "2026-09-30",
  "telling": {
   "verklaard": 78,
-  "gekoppeld": 37,
-  "ontbreekt": 67
+  "gekoppeld": 39,
+  "ontbreekt": 65
  },
  "regels": [
   {
@@ -814,8 +814,21 @@
    "categorie": "Marketing & content",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "upload",
+    "asset_id": "e0c1e3a6329d5ba17e00e1f575511758",
+    "label": "Holo AI HOLO-202609-477F0",
+    "bestand": "2026-09-08_HoloAI_47.19USD.pdf",
+    "leverancier": "UAB Holo LT (Vilnius, LT)",
+    "datum": "2026-09-08",
+    "bedrag": -41.33,
+    "bedrag_usd": 47.19,
+    "btw": 0,
+    "btw_type": "EU (verlegd)",
+    "btw_nummer": null,
+    "uitleg": "Holo Starter Plan 8/9–8/10 2026, abonnement (stopgezet okt 2026). Factuur zonder klantgegevens/btw-nummer SmartPaw."
+   }
   },
   {
    "id": "ponto-a8987de6-e122-4eb0-bb24-ada554d76c75",
@@ -2632,8 +2645,21 @@
    "categorie": "Marketing & content",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "upload",
+    "asset_id": "f8dabc4fcabe4796302d8d7fb01bd565",
+    "label": "Holo AI HOLO-202607-E80C0",
+    "bestand": "2026-07-08_HoloAI_47.19USD.pdf",
+    "leverancier": "UAB Holo LT (Vilnius, LT)",
+    "datum": "2026-07-08",
+    "bedrag": -41.98,
+    "bedrag_usd": 47.19,
+    "btw": 0,
+    "btw_type": "EU (verlegd)",
+    "btw_nummer": null,
+    "uitleg": "Holo Starter Plan 8/7–8/8 2026, abonnement (stopgezet okt 2026). Factuur zonder klantgegevens/btw-nummer SmartPaw."
+   }
   },
   {
    "id": "ponto-1e459eb0-bbd5-40bd-86e0-8f3ebed19926",
