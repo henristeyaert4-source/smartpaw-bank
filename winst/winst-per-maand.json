@@ -14,25 +14,25 @@
     "commissie": 78.06,
     "bol_ads": 0.0,
     "retourlabels": 3.3,
-    "kostprijs_fulfilment": 245.65,
-    "bijdrage": 151.38
+    "kostprijs_fulfilment": 258.97,
+    "bijdrage": 138.06
    },
    "korting": 248.33,
    "retours": 0,
-   "kostprijs": 1771.74,
-   "fulfilment": 549.57,
-   "fulfilment_bron": "raming: tarieven × 0.901 (gekalibreerd op de laatste Widem-facturen) + opslag €135 + admin €75",
+   "kostprijs": 1785.06,
+   "fulfilment": 548.33,
+   "fulfilment_bron": "raming: tarieven × 0.799 (gekalibreerd op de laatste Widem-facturen) + opslag €135 + admin €75",
    "fulfilment_widem": null,
    "betaalkosten": 210.4,
-   "brutomarge": 933.82,
+   "brutomarge": 921.74,
    "ads_meta": 4055.56,
    "ads_google": 134.23,
    "vaste_kosten": 0,
    "vaste_detail": {},
-   "resultaat": -3255.97,
+   "resultaat": -3268.05,
    "roas": 0.89,
    "trueprofit": -2933.39,
-   "verschil_tp": -322.58
+   "verschil_tp": -334.66
   },
   {
    "maand": "2025-11",
@@ -48,17 +48,17 @@
     "commissie": 73.08,
     "bol_ads": 0.0,
     "retourlabels": 0.0,
-    "kostprijs_fulfilment": 236.75,
-    "bijdrage": 138.02
+    "kostprijs_fulfilment": 248.59,
+    "bijdrage": 126.18
    },
    "korting": 1187.85,
    "retours": 0,
-   "kostprijs": 5569.16,
-   "fulfilment": 1493.01,
-   "fulfilment_bron": "raming: tarieven × 0.901 (gekalibreerd op de laatste Widem-facturen) + opslag €135 + admin €75",
+   "kostprijs": 5581.0,
+   "fulfilment": 1486.08,
+   "fulfilment_bron": "raming: tarieven × 0.799 (gekalibreerd op de laatste Widem-facturen) + opslag €135 + admin €75",
    "fulfilment_widem": null,
    "betaalkosten": 696.72,
-   "brutomarge": 3367.01,
+   "brutomarge": 3362.1,
    "ads_meta": 4886.5,
    "ads_google": 595.39,
    "vaste_kosten": 1380.16,
@@ -70,10 +70,10 @@
     "Representatie & reizen": 16.2,
     "Marketing & content": 1134.63
    },
-   "resultaat": -3495.04,
+   "resultaat": -3499.95,
    "roas": 2.38,
    "trueprofit": -1048.39,
-   "verschil_tp": -2446.65
+   "verschil_tp": -2451.56
   },
   {
    "maand": "2025-12",
@@ -89,17 +89,17 @@
     "commissie": 91.39,
     "bol_ads": 0.0,
     "retourlabels": 3.3,
-    "kostprijs_fulfilment": 277.04,
-    "bijdrage": 186.87
+    "kostprijs_fulfilment": 293.32,
+    "bijdrage": 170.59
    },
    "korting": 2601.38,
    "retours": 33.02,
-   "kostprijs": 5759.67,
-   "fulfilment": 1727.35,
-   "fulfilment_bron": "raming: tarieven × 0.901 (gekalibreerd op de laatste Widem-facturen) + opslag €135 + admin €75",
+   "kostprijs": 5775.95,
+   "fulfilment": 1721.08,
+   "fulfilment_bron": "raming: tarieven × 0.799 (gekalibreerd op de laatste Widem-facturen) + opslag €135 + admin €75",
    "fulfilment_widem": null,
    "betaalkosten": 818.11,
-   "brutomarge": 4514.97,
+   "brutomarge": 4504.95,
    "ads_meta": 4022.84,
    "ads_google": 2123.17,
    "vaste_kosten": 1473.68,
@@ -111,10 +111,10 @@
     "Materiaal": 132.23,
     "Voorraad (verpakking & giveaways)": 350.41
    },
-   "resultaat": -3104.72,
+   "resultaat": -3114.74,
    "roas": 2.44,
    "trueprofit": -402.7,
-   "verschil_tp": -2702.02
+   "verschil_tp": -2712.04
   },
   {
    "maand": "2026-01",
@@ -130,17 +130,17 @@
     "commissie": 70.25,
     "bol_ads": 0.0,
     "retourlabels": 3.11,
-    "kostprijs_fulfilment": 243.57,
-    "bijdrage": 101.7
+    "kostprijs_fulfilment": 261.33,
+    "bijdrage": 83.94
    },
    "korting": 634.88,
    "retours": 168.62,
-   "kostprijs": 1748.3,
-   "fulfilment": 775.91,
-   "fulfilment_bron": "raming: tarieven × 0.901 (gekalibreerd op de laatste Widem-facturen) + opslag €135 + admin €75",
+   "kostprijs": 1766.06,
+   "fulfilment": 776.57,
+   "fulfilment_bron": "raming: tarieven × 0.799 (gekalibreerd op de laatste Widem-facturen) + opslag €135 + admin €75",
    "fulfilment_widem": null,
    "betaalkosten": 242.51,
-   "brutomarge": 1183.29,
+   "brutomarge": 1164.87,
    "ads_meta": 1238.16,
    "ads_google": 1179.68,
    "vaste_kosten": 437.47,
@@ -152,10 +152,10 @@
     "Marketing & content": 89.55,
     "Verzending & retours (overig)": 4.63
    },
-   "resultaat": -1672.02,
+   "resultaat": -1690.44,
    "roas": 1.8,
    "trueprofit": -1368.29,
-   "verschil_tp": -303.73
+   "verschil_tp": -322.15
   },
   {
    "maand": "2026-02",
@@ -171,17 +171,17 @@
     "commissie": 188.01,
     "bol_ads": 0.0,
     "retourlabels": 6.75,
-    "kostprijs_fulfilment": 573.22,
-    "bijdrage": 372.72
+    "kostprijs_fulfilment": 599.86,
+    "bijdrage": 346.08
    },
    "korting": 480.82,
    "retours": 0,
-   "kostprijs": 1295.06,
-   "fulfilment": 569.68,
-   "fulfilment_bron": "raming: tarieven × 0.901 (gekalibreerd op de laatste Widem-facturen) + opslag €135 + admin €75",
+   "kostprijs": 1321.7,
+   "fulfilment": 569.69,
+   "fulfilment_bron": "raming: tarieven × 0.799 (gekalibreerd op de laatste Widem-facturen) + opslag €135 + admin €75",
    "fulfilment_widem": null,
    "betaalkosten": 131.79,
-   "brutomarge": 901.61,
+   "brutomarge": 874.96,
    "ads_meta": 0,
    "ads_google": 1217.06,
    "vaste_kosten": 630.75,
@@ -193,10 +193,10 @@
     "Marketing & content": 33.68,
     "Verzending & retours (overig)": 5.04
    },
-   "resultaat": -946.2,
+   "resultaat": -972.85,
    "roas": 1.94,
    "trueprofit": -828.58,
-   "verschil_tp": -117.62
+   "verschil_tp": -144.27
   },
   {
    "maand": "2026-03",
@@ -212,13 +212,13 @@
     "commissie": 111.7,
     "bol_ads": 0.0,
     "retourlabels": 0.0,
-    "kostprijs_fulfilment": 342.66,
-    "bijdrage": 233.61
+    "kostprijs_fulfilment": 358.94,
+    "bijdrage": 217.33
    },
    "korting": 145.7,
    "retours": 176.01,
-   "kostprijs": 484.84,
-   "fulfilment": 244.92,
+   "kostprijs": 501.12,
+   "fulfilment": 228.64,
    "fulfilment_bron": "Widem-factuur 26005832 (excl. btw, zonder bol-orders)",
    "fulfilment_widem": {
     "factuur": "26005832",
@@ -264,13 +264,13 @@
     "commissie": 10.27,
     "bol_ads": 0.0,
     "retourlabels": 0.0,
-    "kostprijs_fulfilment": 39.65,
-    "bijdrage": 12.85
+    "kostprijs_fulfilment": 41.13,
+    "bijdrage": 11.37
    },
    "korting": 23.3,
    "retours": 71.37,
-   "kostprijs": 113.54,
-   "fulfilment": 206.08,
+   "kostprijs": 115.02,
+   "fulfilment": 204.6,
    "fulfilment_bron": "Widem-factuur 26008013 (excl. btw, zonder bol-orders)",
    "fulfilment_widem": {
     "factuur": "26008013",
@@ -314,13 +314,13 @@
     "commissie": 10.27,
     "bol_ads": 0.0,
     "retourlabels": 0.0,
-    "kostprijs_fulfilment": 39.65,
-    "bijdrage": 12.85
+    "kostprijs_fulfilment": 41.13,
+    "bijdrage": 11.37
    },
    "korting": 497.04,
    "retours": 0,
-   "kostprijs": 786.7,
-   "fulfilment": 291.65,
+   "kostprijs": 788.18,
+   "fulfilment": 290.17,
    "fulfilment_bron": "Widem-factuur 26010112 (excl. btw, zonder bol-orders)",
    "fulfilment_widem": {
     "factuur": "26010112",
@@ -363,13 +363,13 @@
     "commissie": 103.91,
     "bol_ads": 0.0,
     "retourlabels": 0.0,
-    "kostprijs_fulfilment": 300.97,
-    "bijdrage": 229.5
+    "kostprijs_fulfilment": 315.77,
+    "bijdrage": 214.7
    },
    "korting": 2209.82,
    "retours": 14.48,
-   "kostprijs": 3585.84,
-   "fulfilment": 2489.49,
+   "kostprijs": 3600.64,
+   "fulfilment": 2474.69,
    "fulfilment_bron": "Widem-factuur 26012021 (excl. btw, zonder bol-orders)",
    "fulfilment_widem": {
     "factuur": "26012021",
@@ -415,13 +415,13 @@
     "commissie": 209.49,
     "bol_ads": 116.33,
     "retourlabels": 9.33,
-    "kostprijs_fulfilment": 560.55,
-    "bijdrage": 415.87
+    "kostprijs_fulfilment": 588.67,
+    "bijdrage": 387.75
    },
    "korting": 1014.82,
    "retours": 475.64,
-   "kostprijs": 3916.05,
-   "fulfilment": 1773.04,
+   "kostprijs": 3944.17,
+   "fulfilment": 1744.92,
    "fulfilment_bron": "Widem-factuur 26013848 (excl. btw, zonder bol-orders)",
    "fulfilment_widem": {
     "factuur": "26013848",
@@ -471,13 +471,13 @@
     "commissie": 222.12,
     "bol_ads": 83.67,
     "retourlabels": 3.64,
-    "kostprijs_fulfilment": 608.76,
-    "bijdrage": 623.96
+    "kostprijs_fulfilment": 632.44,
+    "bijdrage": 600.28
    },
    "korting": 1370.1,
    "retours": 353.18,
-   "kostprijs": 5954.54,
-   "fulfilment": 2534.26,
+   "kostprijs": 5978.22,
+   "fulfilment": 2510.58,
    "fulfilment_bron": "Widem-factuur 26015435 (excl. btw, zonder bol-orders)",
    "fulfilment_widem": {
     "factuur": "26015435",
@@ -525,13 +525,13 @@
     "commissie": 107.37,
     "bol_ads": 0.0,
     "retourlabels": 4.0,
-    "kostprijs_fulfilment": 424.39,
-    "bijdrage": 441.07
+    "kostprijs_fulfilment": 442.15,
+    "bijdrage": 423.31
    },
    "korting": 3732.7,
    "retours": 223.53,
-   "kostprijs": 4361.04,
-   "fulfilment": 1323.64,
+   "kostprijs": 4378.8,
+   "fulfilment": 1305.88,
    "fulfilment_bron": "Widem-factuur 26017495 (excl. btw, zonder bol-orders)",
    "fulfilment_widem": {
     "factuur": "26017495",
@@ -581,11 +581,11 @@
    "korting": 1718.48,
    "retours": 724.56,
    "kostprijs": 3612.02,
-   "fulfilment": 1586.86,
-   "fulfilment_bron": "raming: tarieven × 0.901 (gekalibreerd op de laatste Widem-facturen) + opslag €135 + admin €75",
+   "fulfilment": 1549.0,
+   "fulfilment_bron": "raming: tarieven × 0.799 (gekalibreerd op de laatste Widem-facturen) + opslag €135 + admin €75",
    "fulfilment_widem": null,
    "betaalkosten": 151.28,
-   "brutomarge": 3673.54,
+   "brutomarge": 3711.41,
    "ads_meta": 5480.73,
    "ads_google": 20.96,
    "vaste_kosten": 956.93,
@@ -596,10 +596,10 @@
     "Marketing & content": 218.99,
     "Verzending & retours (overig)": 5.6
    },
-   "resultaat": -2785.08,
+   "resultaat": -2747.21,
    "roas": 1.79,
    "trueprofit": -2432.13,
-   "verschil_tp": -352.95
+   "verschil_tp": -315.08
   }
  ],
  "lijnen": [
@@ -608,12 +608,12 @@
    "stuks": 1536,
    "omzet": 68793.72,
    "kostprijs": 23719.55,
-   "fulfilment": 8614.95,
+   "fulfilment": 8503.48,
    "betaalkosten": 2897.57,
-   "marge_voor_ads": 33561.66,
+   "marge_voor_ads": 33673.13,
    "ads": 39660.41,
-   "na_ads": -6098.76,
-   "roas_nodig": 2.48,
+   "na_ads": -5987.29,
+   "roas_nodig": 2.47,
    "roas": 2.1
   },
   {
@@ -621,11 +621,11 @@
    "stuks": 889,
    "omzet": 16169.58,
    "kostprijs": 5369.39,
-   "fulfilment": 4727.61,
+   "fulfilment": 4736.62,
    "betaalkosten": 706.68,
-   "marge_voor_ads": 5365.9,
+   "marge_voor_ads": 5356.9,
    "ads": 7312.35,
-   "na_ads": -1946.45,
+   "na_ads": -1955.45,
    "roas_nodig": 3.65,
    "roas": 2.68
   },
@@ -634,12 +634,12 @@
    "stuks": 307,
    "omzet": 9943.63,
    "kostprijs": 5282.53,
-   "fulfilment": 2692.37,
+   "fulfilment": 2676.19,
    "betaalkosten": 527.77,
-   "marge_voor_ads": 1440.95,
+   "marge_voor_ads": 1457.13,
    "ads": 3819.93,
-   "na_ads": -2378.98,
-   "roas_nodig": 8.35,
+   "na_ads": -2362.8,
+   "roas_nodig": 8.26,
    "roas": 3.15
   },
   {
@@ -647,11 +647,11 @@
    "stuks": 74,
    "omzet": 31.07,
    "kostprijs": 296.0,
-   "fulfilment": 96.27,
+   "fulfilment": 85.41,
    "betaalkosten": 2.02,
-   "marge_voor_ads": -363.22,
+   "marge_voor_ads": -352.37,
    "ads": 4.34,
-   "na_ads": -367.56,
+   "na_ads": -356.7,
    "roas_nodig": null,
    "roas": 8.67
   }
@@ -926,7 +926,7 @@
  ],
  "ontbrekende_kostprijs": [],
  "aannames": [
-  "Fulfilment = echte Widem-maandfactuur (opslag, admin, verbruiksmateriaal, pick & pack, pakjes, labeling) waar die er is; anders Widem-tarieven (€1.23/stuk, €1.53/order, doos+DPD €6.89/€7.35) × 0.901 + opslag en admin van de laatste factuur.",
+  "Fulfilment = echte Widem-maandfactuur (opslag, admin, verbruiksmateriaal, pick & pack, pakjes, labeling) waar die er is; anders Widem-tarieven (€1.23/stuk, €1.53/order, doos+DPD €8.37/€8.62) × 0.799 + opslag en admin van de laatste factuur.",
   "Oude producten zonder SKU (feeders okt 2025–feb 2026): kostprijs 50% van de omzet.",
   "bol.com: netto uitbetaling ÷ 1,21; kostprijs + fulfilment geschat op 45%.",
   "Vaste kosten = echte bankuitgaven per categorie (zonder Meta/Google, die apart tellen; zonder kantoor, dat Creazy betaalt).",

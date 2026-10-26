@@ -15,19 +15,22 @@ from pathlib import Path
 W = Path(__file__).resolve().parent
 PICK, PACK = 0.82, 1.53            # per stuk / per order
 DOOS = (1.30, 1.55)                # klein / groot
-DPD = (5.59, 5.80)                 # klein / groot
+DPD = (6.99, 8.78)                 # all-in per pakje (basis + brandstof-, security- en wegentoeslag), BE / NL, stand juli–aug 2026
 ADMIN, MARGE_PCT, MARGE_EUR = 75.0, 0.10, 15.0
 
 
 def main():
     widem = {k: v for k, v in json.loads((W / "input/widem_maand.json").read_text()).items() if not k.startswith("_")}
+    sp_pad = W / "input/widem_spec.json"
+    spec = json.loads(sp_pad.read_text()) if sp_pad.exists() else {}
     wm = {r["maand"]: r for r in json.loads((W / "winst-per-maand.json").read_text())["maanden"]}
     uit, vorige = [], None
     for m in sorted(widem):
         f, r = widem[m], wm.get(m, {})
         b = r.get("bol") or {}
-        orders = (r.get("orders") or 0) + (b.get("orders") or 0)
-        stuks = (r.get("stuks") or 0) + (b.get("stuks") or 0)
+        sp = spec.get(m)  # Widem-specificatie (Invoicing SmartPaw <maand>.xlsx): echt verzonden orders/stuks
+        orders = sp["orders"] if sp else (r.get("orders") or 0) + (b.get("orders") or 0)
+        stuks = sp["stuks"] if sp else (r.get("stuks") or 0) + (b.get("stuks") or 0)
         verwacht = {
             "pick_pack": (stuks * PICK + orders * PACK, stuks * PICK + orders * PACK),
             "parcels": (orders * DPD[0], orders * DPD[1]),
@@ -50,7 +53,7 @@ def main():
         som = sum((f.get(k) or 0) for k in ("storage", "consumables", "inbound", "pick_pack", "admin", "parcels", "labeling"))
         if abs(som - f["totaal"]) > 0.05:
             vlaggen.append(f"regels tellen op tot €{som:.2f}, factuur zegt €{f['totaal']:.2f}")
-        uit.append({"maand": m, "factuur": f["factuur"], "orders": orders, "stuks": stuks, "totaal": f["totaal"],
+        uit.append({"maand": m, "factuur": f["factuur"], "orders": orders, "stuks": stuks, "bron_aantallen": "Widem-specificatie" if sp else "Shopify + bol (besteld)", "totaal": f["totaal"],
                     "regels": regels, "vlaggen": vlaggen, "status": "nakijken" if vlaggen else "ok"})
         vorige = m
     out = {"uitleg": __doc__.strip().splitlines()[0], "maanden": uit}

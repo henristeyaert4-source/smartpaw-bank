@@ -19,8 +19,8 @@ ROOT = W.parent
 # Widem-tarieven 2026
 INBOUND_PICK = 0.41 + 0.82   # per stuk
 PACKING = 1.53               # per order
-KLEIN = 1.30 + 5.59          # doos + DPD klein
-GROOT = 1.55 + 5.80          # doos + DPD groot
+KLEIN = 1.30 + 7.07          # doos + DPD all-in (basis + brandstof-/security-/wegentoeslag, gem. BE/NL, Widem-specificatie jul–aug 2026)
+GROOT = 1.55 + 7.07          # doos groot + DPD all-in
 BOL_KOST_PCT = 45            # bol.com: geschatte kostprijs + fulfilment in % van netto uitbetaling (geen SKU-detail)
 
 # vaste kosten uit de bankindeling; waarde = deler voor btw (1.21 = Belgische leverancier met btw)
