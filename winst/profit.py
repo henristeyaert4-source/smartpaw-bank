@@ -64,6 +64,8 @@ def main():
     bp = ROOT / "data/bol/overzicht.json"
     bol_api = {r["maand"]: r for r in json.loads(bp.read_text())["maanden"]} if bp.exists() else {}
     ean_sku = json.loads((W / "ean.json").read_text())
+    wp = W / "input/widem_maand.json"
+    widem = {k: v for k, v in json.loads(wp.read_text()).items() if not k.startswith("_")} if wp.exists() else {}
 
     per_maand, per_product, ontbreekt = {}, {}, set()
     for maand, sku, qty, net in rows:
@@ -95,12 +97,34 @@ def main():
         p["stuks"] += qty; p["omzet"] += net; p["kostprijs"] += c
 
     ads_lijn = json.loads((W / "input/ads_lijn_maand.json").read_text())
+
+    def bol_ful(m):
+        b = bol_api.get(m)
+        return (b["orders"] * (PACKING + KLEIN) + max(b.get("stuks", 0), 0) * INBOUND_PICK) if b else 0.0
+
+    def ful_calc(i, m):
+        d = per_maand.get(m, {"cogs": 0, "stuks": 0, "groot": 0}); o = tot["orders"][i]; g = min(o, d["groot"])
+        return d["stuks"] * INBOUND_PICK + o * PACKING + g * GROOT + (o - g) * KLEIN
+
+    # kalibratie: echte variabele Widem-kost (zonder opslag, admin, labeling, bol) ÷ berekend, laatste 3 gefactureerde maanden
+    gef = [m for m in tot["maanden"] if m in widem][-3:]
+    num = sum(widem[m]["totaal"] - widem[m]["storage"] - widem[m]["admin"] - widem[m].get("labeling", 0) - bol_ful(m) for m in gef)
+    den = sum(ful_calc(tot["maanden"].index(m), m) for m in gef)
+    KAL = round(num / den, 3) if den else 1.0
+    laatste = widem[max(widem)] if widem else {"storage": 0, "admin": 0}
     uit, lijnen_tot = [], {k: {"omzet": 0.0, "kostprijs": 0.0, "fulfilment": 0.0, "betaalkosten": 0.0, "ads": 0.0, "stuks": 0} for k in LIJNEN}
     for i, m in enumerate(tot["maanden"]):
         d = per_maand.get(m, {"cogs": 0, "stuks": 0, "groot": 0})
         orders = tot["orders"][i]
         groot = min(orders, d["groot"])
-        fulfil = d["stuks"] * INBOUND_PICK + orders * PACKING + groot * GROOT + (orders - groot) * KLEIN
+        fulfil_calc = d["stuks"] * INBOUND_PICK + orders * PACKING + groot * GROOT + (orders - groot) * KLEIN
+        if m in widem:
+            fulfil = max(0.0, widem[m]["totaal"] - bol_ful(m))
+            ful_bron = f"Widem-factuur {widem[m]['factuur']} (excl. btw, zonder bol-orders)"
+        else:
+            fulfil = fulfil_calc * KAL + laatste["storage"] + laatste["admin"]
+            ful_bron = f"raming: tarieven × {KAL} (gekalibreerd op de laatste Widem-facturen) + opslag €{laatste['storage']:.0f} + admin €{laatste['admin']:.0f}"
+        ful_factor = fulfil / fulfil_calc if fulfil_calc else 1.0
         omzet_shop = tot["net_sales"][i] + tot["shipping"][i] / 1.21
         if m in bol_api:  # echte bol-data: omzet − commissie − andere bol-kosten; kostprijs per EAN
             b = bol_api[m]
@@ -136,7 +160,7 @@ def main():
             per_order = PACKING + (GROOT if k in ("FurVac", "Voerbakken") else KLEIN)
             T = lijnen_tot[k]
             T["omzet"] += v["omzet"]; T["kostprijs"] += v["kost"]; T["stuks"] += v["stuks"]
-            T["fulfilment"] += v["stuks"] * INBOUND_PICK + orders_k * per_order
+            T["fulfilment"] += (v["stuks"] * INBOUND_PICK + orders_k * per_order) * ful_factor
             T["betaalkosten"] += fees * max(v["omzet"], 0) / omz_tot
             T["ads"] += adsL.get(k, 0) + alg * max(v["omzet"], 0) / omz_tot
         resultaat = brutomarge - ads - vast
@@ -148,7 +172,7 @@ def main():
                      "kostprijs_fulfilment": round(bol_kost, 2), "bijdrage": round(bol_net - bol_kost, 2)} if m in bol_api else
                     {"bron": "raming uit bankuitbetalingen", "omzet_netto": round(bol_net, 2), "kostprijs_fulfilment": round(bol_kost, 2), "bijdrage": round(bol_net - bol_kost, 2)}),
             "korting": round(-tot["discounts"][i], 2), "retours": round(-tot["returns"][i], 2),
-            "kostprijs": round(d["cogs"] + bol_kost, 2), "fulfilment": round(fulfil, 2), "betaalkosten": round(fees, 2),
+            "kostprijs": round(d["cogs"] + bol_kost, 2), "fulfilment": round(fulfil, 2), "fulfilment_bron": ful_bron, "fulfilment_widem": widem.get(m), "betaalkosten": round(fees, 2),
             "brutomarge": round(brutomarge, 2), "ads_meta": tot["ads_meta"][i], "ads_google": tot["ads_google"][i],
             "vaste_kosten": round(vast, 2), "vaste_detail": vast_det, "resultaat": round(resultaat, 2),
             "roas": round(tot["total_sales"][i] / ads, 2) if ads else None,
@@ -168,7 +192,7 @@ def main():
                        "roas_nodig": round(T["omzet"] * 1.21 / voor_ads, 2) if voor_ads > 0 else None,
                        "roas": round(T["omzet"] * 1.21 / T["ads"], 2) if T["ads"] else None})
     out = {"maanden": uit, "lijnen": lijnen, "producten": prod, "ontbrekende_kostprijs": sorted(ontbreekt),
-           "aannames": [f"Fulfilment volgens Widem-tarieven: €{INBOUND_PICK:.2f}/stuk, €{PACKING}/order, doos+DPD €{KLEIN:.2f} klein / €{GROOT:.2f} groot.",
+           "aannames": [f"Fulfilment = echte Widem-maandfactuur (opslag, admin, verbruiksmateriaal, pick & pack, pakjes, labeling) waar die er is; anders Widem-tarieven (€{INBOUND_PICK:.2f}/stuk, €{PACKING}/order, doos+DPD €{KLEIN:.2f}/€{GROOT:.2f}) × {KAL} + opslag en admin van de laatste factuur.",
                         f"Oude producten zonder SKU (feeders okt 2025–feb 2026): kostprijs {pct_onb}% van de omzet.",
                         f"bol.com: netto uitbetaling ÷ 1,21; kostprijs + fulfilment geschat op {BOL_KOST_PCT}%.",
                         "Vaste kosten = echte bankuitgaven per categorie (zonder Meta/Google, die apart tellen; zonder kantoor, dat Creazy betaalt).",

@@ -1,0 +1,80 @@
+{
+ "_uitleg": "Widem-fulfilmentfacturen per maand, bedragen excl. btw (bron: maandfacturen 'Fulfilment <maand>'). factuur = Widem-factuurnummer. labeling = eenmalig (etiketteren van nieuwe voorraad).",
+ "2026-03": {
+  "factuur": "26005832",
+  "storage": 45.0,
+  "consumables": 18.6,
+  "inbound": 5.6,
+  "pick_pack": 54.38,
+  "admin": 75.0,
+  "parcels": 151.26,
+  "totaal": 349.84,
+  "labeling": 0
+ },
+ "2026-04": {
+  "factuur": "26008013",
+  "storage": 45.0,
+  "consumables": 7.99,
+  "inbound": 0,
+  "pick_pack": 22.9,
+  "admin": 75.0,
+  "parcels": 64.84,
+  "totaal": 215.73,
+  "labeling": 0
+ },
+ "2026-05": {
+  "factuur": "26010112",
+  "storage": 67.5,
+  "consumables": 14.6,
+  "inbound": 0,
+  "pick_pack": 46.13,
+  "admin": 75.0,
+  "parcels": 98.07,
+  "totaal": 301.3,
+  "labeling": 0
+ },
+ "2026-06": {
+  "factuur": "26012021",
+  "storage": 67.5,
+  "consumables": 221.94,
+  "inbound": 0,
+  "pick_pack": 628.45,
+  "admin": 75.0,
+  "parcels": 1211.97,
+  "totaal": 2590.91,
+  "labeling": 386.05
+ },
+ "2026-07": {
+  "factuur": "26013848",
+  "storage": 67.5,
+  "consumables": 248.46,
+  "inbound": 0,
+  "pick_pack": 499.28,
+  "admin": 75.0,
+  "parcels": 1061.23,
+  "totaal": 1951.47,
+  "labeling": 0
+ },
+ "2026-08": {
+  "factuur": "26015435",
+  "storage": 135.0,
+  "consumables": 242.64,
+  "inbound": 8.4,
+  "pick_pack": 702.55,
+  "admin": 75.0,
+  "parcels": 1491.64,
+  "totaal": 2687.43,
+  "labeling": 32.2
+ },
+ "2026-09": {
+  "factuur": "26017495",
+  "storage": 135.0,
+  "consumables": 64.18,
+  "inbound": 8.4,
+  "pick_pack": 363.19,
+  "admin": 75.0,
+  "parcels": 792.44,
+  "totaal": 1438.21,
+  "labeling": 0
+ }
+}
