@@ -1,0 +1,318 @@
+{
+ "uitleg": "Controle van elke Widem-maandfactuur: klopt wat ze aanrekenen met wat we verstuurden?",
+ "maanden": [
+  {
+   "maand": "2026-03",
+   "factuur": "26005832",
+   "orders": 25,
+   "stuks": 46,
+   "totaal": 349.84,
+   "regels": [
+    {
+     "regel": "pick_pack",
+     "gefactureerd": 54.38,
+     "verwacht_min": 75.97,
+     "verwacht_max": 75.97,
+     "verschil": -21.59,
+     "vlag": false
+    },
+    {
+     "regel": "parcels",
+     "gefactureerd": 151.26,
+     "verwacht_min": 139.75,
+     "verwacht_max": 145.0,
+     "verschil": 6.26,
+     "vlag": false
+    },
+    {
+     "regel": "consumables",
+     "gefactureerd": 18.6,
+     "verwacht_min": 32.5,
+     "verwacht_max": 38.75,
+     "verschil": -13.9,
+     "vlag": false
+    },
+    {
+     "regel": "admin",
+     "gefactureerd": 75.0,
+     "verwacht_min": 75.0,
+     "verwacht_max": 75.0,
+     "verschil": 0,
+     "vlag": false
+    }
+   ],
+   "vlaggen": [],
+   "status": "ok"
+  },
+  {
+   "maand": "2026-04",
+   "factuur": "26008013",
+   "orders": 9,
+   "stuks": 18,
+   "totaal": 215.73,
+   "regels": [
+    {
+     "regel": "pick_pack",
+     "gefactureerd": 22.9,
+     "verwacht_min": 28.53,
+     "verwacht_max": 28.53,
+     "verschil": -5.63,
+     "vlag": false
+    },
+    {
+     "regel": "parcels",
+     "gefactureerd": 64.84,
+     "verwacht_min": 50.31,
+     "verwacht_max": 52.2,
+     "verschil": 12.64,
+     "vlag": false
+    },
+    {
+     "regel": "consumables",
+     "gefactureerd": 7.99,
+     "verwacht_min": 11.7,
+     "verwacht_max": 13.95,
+     "verschil": -3.71,
+     "vlag": false
+    },
+    {
+     "regel": "admin",
+     "gefactureerd": 75.0,
+     "verwacht_min": 75.0,
+     "verwacht_max": 75.0,
+     "verschil": 0,
+     "vlag": false
+    }
+   ],
+   "vlaggen": [],
+   "status": "ok"
+  },
+  {
+   "maand": "2026-05",
+   "factuur": "26010112",
+   "orders": 35,
+   "stuks": 87,
+   "totaal": 301.3,
+   "regels": [
+    {
+     "regel": "pick_pack",
+     "gefactureerd": 46.13,
+     "verwacht_min": 124.89,
+     "verwacht_max": 124.89,
+     "verschil": -78.76,
+     "vlag": false
+    },
+    {
+     "regel": "parcels",
+     "gefactureerd": 98.07,
+     "verwacht_min": 195.65,
+     "verwacht_max": 203.0,
+     "verschil": -97.58,
+     "vlag": false
+    },
+    {
+     "regel": "consumables",
+     "gefactureerd": 14.6,
+     "verwacht_min": 45.5,
+     "verwacht_max": 54.25,
+     "verschil": -30.9,
+     "vlag": false
+    },
+    {
+     "regel": "admin",
+     "gefactureerd": 75.0,
+     "verwacht_min": 75.0,
+     "verwacht_max": 75.0,
+     "verschil": 0,
+     "vlag": false
+    }
+   ],
+   "vlaggen": [
+    "opslag van €45.00 naar €67.50: past dit bij meer pallets/m²?"
+   ],
+   "status": "nakijken"
+  },
+  {
+   "maand": "2026-06",
+   "factuur": "26012021",
+   "orders": 134,
+   "stuks": 416,
+   "totaal": 2590.91,
+   "regels": [
+    {
+     "regel": "pick_pack",
+     "gefactureerd": 628.45,
+     "verwacht_min": 546.14,
+     "verwacht_max": 546.14,
+     "verschil": 82.31,
+     "vlag": true
+    },
+    {
+     "regel": "parcels",
+     "gefactureerd": 1211.97,
+     "verwacht_min": 749.06,
+     "verwacht_max": 777.2,
+     "verschil": 434.77,
+     "vlag": true
+    },
+    {
+     "regel": "consumables",
+     "gefactureerd": 221.94,
+     "verwacht_min": 174.2,
+     "verwacht_max": 207.7,
+     "verschil": 14.24,
+     "vlag": false
+    },
+    {
+     "regel": "admin",
+     "gefactureerd": 75.0,
+     "verwacht_min": 75.0,
+     "verwacht_max": 75.0,
+     "verschil": 0,
+     "vlag": false
+    }
+   ],
+   "vlaggen": [
+    "pick_pack: €628.45 gefactureerd, verwacht max €546.14 (+€82.31)",
+    "parcels: €1211.97 gefactureerd, verwacht max €777.20 (+€434.77)",
+    "labeling €386.05: eenmalig, hoort bij een nieuwe zending (welke?)"
+   ],
+   "status": "nakijken"
+  },
+  {
+   "maand": "2026-07",
+   "factuur": "26013848",
+   "orders": 152,
+   "stuks": 311,
+   "totaal": 1951.47,
+   "regels": [
+    {
+     "regel": "pick_pack",
+     "gefactureerd": 499.28,
+     "verwacht_min": 487.58,
+     "verwacht_max": 487.58,
+     "verschil": 11.7,
+     "vlag": false
+    },
+    {
+     "regel": "parcels",
+     "gefactureerd": 1061.23,
+     "verwacht_min": 849.68,
+     "verwacht_max": 881.6,
+     "verschil": 179.63,
+     "vlag": true
+    },
+    {
+     "regel": "consumables",
+     "gefactureerd": 248.46,
+     "verwacht_min": 197.6,
+     "verwacht_max": 235.6,
+     "verschil": 12.86,
+     "vlag": false
+    },
+    {
+     "regel": "admin",
+     "gefactureerd": 75.0,
+     "verwacht_min": 75.0,
+     "verwacht_max": 75.0,
+     "verschil": 0,
+     "vlag": false
+    }
+   ],
+   "vlaggen": [
+    "parcels: €1061.23 gefactureerd, verwacht max €881.60 (+€179.63)"
+   ],
+   "status": "nakijken"
+  },
+  {
+   "maand": "2026-08",
+   "factuur": "26015435",
+   "orders": 228,
+   "stuks": 537,
+   "totaal": 2687.43,
+   "regels": [
+    {
+     "regel": "pick_pack",
+     "gefactureerd": 702.55,
+     "verwacht_min": 789.18,
+     "verwacht_max": 789.18,
+     "verschil": -86.63,
+     "vlag": false
+    },
+    {
+     "regel": "parcels",
+     "gefactureerd": 1491.64,
+     "verwacht_min": 1274.52,
+     "verwacht_max": 1322.4,
+     "verschil": 169.24,
+     "vlag": true
+    },
+    {
+     "regel": "consumables",
+     "gefactureerd": 242.64,
+     "verwacht_min": 296.4,
+     "verwacht_max": 353.4,
+     "verschil": -53.76,
+     "vlag": false
+    },
+    {
+     "regel": "admin",
+     "gefactureerd": 75.0,
+     "verwacht_min": 75.0,
+     "verwacht_max": 75.0,
+     "verschil": 0,
+     "vlag": false
+    }
+   ],
+   "vlaggen": [
+    "parcels: €1491.64 gefactureerd, verwacht max €1322.40 (+€169.24)",
+    "opslag van €67.50 naar €135.00: past dit bij meer pallets/m²?",
+    "labeling €32.20: eenmalig, hoort bij een nieuwe zending (welke?)"
+   ],
+   "status": "nakijken"
+  },
+  {
+   "maand": "2026-09",
+   "factuur": "26017495",
+   "orders": 146,
+   "stuks": 314,
+   "totaal": 1438.21,
+   "regels": [
+    {
+     "regel": "pick_pack",
+     "gefactureerd": 363.19,
+     "verwacht_min": 480.86,
+     "verwacht_max": 480.86,
+     "verschil": -117.67,
+     "vlag": false
+    },
+    {
+     "regel": "parcels",
+     "gefactureerd": 792.44,
+     "verwacht_min": 816.14,
+     "verwacht_max": 846.8,
+     "verschil": -23.7,
+     "vlag": false
+    },
+    {
+     "regel": "consumables",
+     "gefactureerd": 64.18,
+     "verwacht_min": 189.8,
+     "verwacht_max": 226.3,
+     "verschil": -125.62,
+     "vlag": false
+    },
+    {
+     "regel": "admin",
+     "gefactureerd": 75.0,
+     "verwacht_min": 75.0,
+     "verwacht_max": 75.0,
+     "verschil": 0,
+     "vlag": false
+    }
+   ],
+   "vlaggen": [],
+   "status": "ok"
+  }
+ ]
+}
