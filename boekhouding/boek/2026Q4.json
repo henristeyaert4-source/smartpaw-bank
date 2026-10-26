@@ -3,11 +3,27 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "verklaard": 17,
+  "verklaard": 18,
   "gekoppeld": 10,
   "ontbreekt": 12
  },
  "regels": [
+  {
+   "id": "ponto-cf8e7171-22bc-4022-bfba-35c47afb7004",
+   "datum": "2026-10-25",
+   "bron": "KBC",
+   "tegenpartij": "STRIPE",
+   "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+   "bedrag": 643.08,
+   "categorie": "Omzet webshop (Shopify)",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "uitbetaling Shopify Payments (verkopen in Shopify)"
+   }
+  },
   {
    "id": "kaart-2103-2026-10-23-FACEBK *CNGZB8S7A4--621.34",
    "datum": "2026-10-23",
