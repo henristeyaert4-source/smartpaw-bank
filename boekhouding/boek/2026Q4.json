@@ -674,6 +674,10 @@
    "bewijs": null
   }
  ],
- "pakket": {},
+ "pakket": {
+  "bestand": "SmartPaw_Q4-2026.xlsx",
+  "oss_eu": 5940.67,
+  "btw_te_betalen": 1889.13
+ },
  "bijgewerkt": "2026-10-26"
 }

@@ -1,0 +1,87 @@
+{
+ "_bron": "Shopify Analytics, opgehaald 26/10/2026, t/m 25/10 (FROM sales ... GROUP BY billing_country; FROM payments ... GROUP BY payment_gateway)",
+ "per_land": [
+  {
+   "land": "België",
+   "orders": 113,
+   "bruto": 10809.47,
+   "korting": -1605.77,
+   "retours": -474.5,
+   "netto": 8729.2,
+   "verzending": 52.11,
+   "btw": 1843.79,
+   "totaal": 10625.1
+  },
+  {
+   "land": "Nederland",
+   "orders": 10,
+   "bruto": 760.52,
+   "korting": -127.37,
+   "retours": -250.06,
+   "netto": 383.09,
+   "verzending": 14.88,
+   "btw": 83.57,
+   "totaal": 481.54
+  },
+  {
+   "land": "(geen land ingevuld)",
+   "orders": 2,
+   "bruto": 118.99,
+   "korting": -118.99,
+   "retours": 0,
+   "netto": 0,
+   "verzending": 0,
+   "btw": 0,
+   "totaal": 0
+  },
+  {
+   "land": "Portugal",
+   "orders": 1,
+   "bruto": 19.82,
+   "korting": 0,
+   "retours": 0,
+   "netto": 19.82,
+   "verzending": 5.79,
+   "btw": 5.37,
+   "totaal": 30.98
+  }
+ ],
+ "per_betaalwijze": [
+  {
+   "betaalwijze": "Shopify Payments (kaart, Bancontact, Klarna, …)",
+   "bruto": 12014.35,
+   "terugbetaald": -876.73,
+   "netto": 11137.62
+  }
+ ],
+ "shopify_payments_fees": {
+  "2026-10": 171.43,
+  "_bron": "TrueProfit transactionFees (t/m 25/10)"
+ },
+ "oss_eu_b2c": {
+  "_uitleg": "Netto verkoop excl. btw aan klanten in andere EU-landen (Shopify, factuurland). bol.com niet inbegrepen (land per bestelling onbekend).",
+  "2025 (VOF, okt-dec)": {
+   "Nederland": 746.62,
+   "Frankrijk": 1712.0,
+   "Portugal": 24.79
+  },
+  "2026 per maand Nederland": {
+   "01": 1031.47,
+   "02": 652.61,
+   "03": -12.3,
+   "04": 106.91,
+   "05": 19.32,
+   "06": 49.59,
+   "07": 158.99,
+   "08": 83.61,
+   "09": 3257.23,
+   "10": 383.09
+  },
+  "2026 (t/m 25/10)": {
+   "Nederland": 5790.23,
+   "Frankrijk": 13.08,
+   "Luxemburg": 117.54,
+   "Portugal": 19.82
+  }
+ }
+}
