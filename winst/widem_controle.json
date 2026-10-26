@@ -43,6 +43,7 @@
     }
    ],
    "vlaggen": [],
+   "info": [],
    "status": "ok"
   },
   {
@@ -87,6 +88,7 @@
     }
    ],
    "vlaggen": [],
+   "info": [],
    "status": "ok"
   },
   {
@@ -130,10 +132,11 @@
      "vlag": false
     }
    ],
-   "vlaggen": [
-    "opslag van €45.00 naar €67.50: past dit bij meer pallets/m²?"
+   "vlaggen": [],
+   "info": [
+    "opslag €45.00 → €67.50 (meer/minder stock)"
    ],
-   "status": "nakijken"
+   "status": "ok"
   },
   {
    "maand": "2026-06",
@@ -176,10 +179,11 @@
      "vlag": false
     }
    ],
-   "vlaggen": [
-    "labeling €386.05: eenmalig, hoort bij een nieuwe zending (welke?)"
+   "vlaggen": [],
+   "info": [
+    "labeling €386.05 (eenmalig, nieuwe zending)"
    ],
-   "status": "nakijken"
+   "status": "ok"
   },
   {
    "maand": "2026-07",
@@ -223,6 +227,7 @@
     }
    ],
    "vlaggen": [],
+   "info": [],
    "status": "ok"
   },
   {
@@ -266,11 +271,12 @@
      "vlag": false
     }
    ],
-   "vlaggen": [
-    "opslag van €67.50 naar €135.00: past dit bij meer pallets/m²?",
-    "labeling €32.20: eenmalig, hoort bij een nieuwe zending (welke?)"
+   "vlaggen": [],
+   "info": [
+    "opslag €67.50 → €135.00 (meer/minder stock)",
+    "labeling €32.20 (eenmalig, nieuwe zending)"
    ],
-   "status": "nakijken"
+   "status": "ok"
   },
   {
    "maand": "2026-09",
@@ -314,6 +320,7 @@
     }
    ],
    "vlaggen": [],
+   "info": [],
    "status": "ok"
   }
  ]

@@ -47,14 +47,17 @@ def main():
             if vlag:
                 vlaggen.append(f"{k}: €{g:.2f} gefactureerd, verwacht max €{hi:.2f} (+€{over:.2f})")
         if vorige and f.get("storage") != widem[vorige].get("storage"):
-            vlaggen.append(f"opslag van €{widem[vorige]['storage']:.2f} naar €{f['storage']:.2f}: past dit bij meer pallets/m²?")
+            pass  # opslag volgt de hoeveelheid stock (afspraak 26/10): geen vlag, enkel tonen
+        f_info = []
+        if vorige and f.get("storage") != widem[vorige].get("storage"):
+            f_info.append(f"opslag €{widem[vorige]['storage']:.2f} → €{f['storage']:.2f} (meer/minder stock)")
         if f.get("labeling"):
-            vlaggen.append(f"labeling €{f['labeling']:.2f}: eenmalig, hoort bij een nieuwe zending (welke?)")
+            f_info.append(f"labeling €{f['labeling']:.2f} (eenmalig, nieuwe zending)")
         som = sum((f.get(k) or 0) for k in ("storage", "consumables", "inbound", "pick_pack", "admin", "parcels", "labeling"))
         if abs(som - f["totaal"]) > 0.05:
             vlaggen.append(f"regels tellen op tot €{som:.2f}, factuur zegt €{f['totaal']:.2f}")
         uit.append({"maand": m, "factuur": f["factuur"], "orders": orders, "stuks": stuks, "bron_aantallen": "Widem-specificatie" if sp else "Shopify + bol (besteld)", "totaal": f["totaal"],
-                    "regels": regels, "vlaggen": vlaggen, "status": "nakijken" if vlaggen else "ok"})
+                    "regels": regels, "vlaggen": vlaggen, "info": f_info, "status": "nakijken" if vlaggen else "ok"})
         vorige = m
     out = {"uitleg": __doc__.strip().splitlines()[0], "maanden": uit}
     (W / "widem_controle.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
