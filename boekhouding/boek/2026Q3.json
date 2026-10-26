@@ -4,8 +4,8 @@
  "tot": "2026-09-30",
  "telling": {
   "verklaard": 78,
-  "gekoppeld": 27,
-  "ontbreekt": 77
+  "gekoppeld": 37,
+  "ontbreekt": 67
  },
  "regels": [
   {
@@ -155,8 +155,15 @@
    "categorie": "Widem (fulfilment, vracht, invoer)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "mail",
+    "label": "Widem Logistics 26015435 (mail 2026-09-15)",
+    "mail": "peppol@widem.eu · Invoice: 26015435 2026-09-15 · 2026-09-15",
+    "leverancier": "Widem Logistics",
+    "datum": "2026-09-15",
+    "bedrag": 3251.79
+   }
   },
   {
    "id": "ponto-061c192d-2995-4a56-baa4-c6306d6a9639",
@@ -612,8 +619,15 @@
    "categorie": "Software & abonnementen",
    "btw_type": "NONEU",
    "vak": "87 / 56 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "mail",
+    "label": "Klaviyo #2916-5254-7604 (mail 2026-09-10)",
+    "mail": "Klaviyo Inc · Your receipt from Klaviyo Inc #2916-5254-7604 · 2026-09-10",
+    "leverancier": "Klaviyo",
+    "datum": "2026-09-10",
+    "bedrag": 61.21
+   }
   },
   {
    "id": "ponto-a3a7f535-9830-4aed-9078-4d6212e43346",
@@ -667,8 +681,15 @@
    "categorie": "Widem (fulfilment, vracht, invoer)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "mail",
+    "label": "Widem Logistics 26202844 (mail 2026-08-18)",
+    "mail": "peppol@widem.eu · Invoice: 26202844 2026-08-18 · 2026-08-18",
+    "leverancier": "Widem Logistics",
+    "datum": "2026-08-18",
+    "bedrag": 110.77
+   }
   },
   {
    "id": "ponto-f330f5ad-e06f-4c34-9df4-a80379f28c16",
@@ -722,8 +743,15 @@
    "categorie": "Widem (fulfilment, vracht, invoer)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "mail",
+    "label": "Widem Logistics 26012021 (mail 2026-07-07)",
+    "mail": "peppol@widem.eu · Invoice: 26012021 2026-07-07 · 2026-07-07",
+    "leverancier": "Widem Logistics",
+    "datum": "2026-07-07",
+    "bedrag": 3135.0
+   }
   },
   {
    "id": "ponto-8afa85a5-bdbc-4aeb-bf35-c64df0cc7385",
@@ -1117,8 +1145,15 @@
    "categorie": "Marketing & content",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "mail",
+    "label": "Advance Media 2329 (mail 2026-08-21)",
+    "mail": "SnelStart klantmail (Advance Media) · Factuur 2329 · 2026-08-21",
+    "leverancier": "Advance Media",
+    "datum": "2026-08-21",
+    "bedrag": 3650.0
+   }
   },
   {
    "id": "ponto-a58ff06e-03d9-4bb9-80dc-82a5f82e14c0",
@@ -1513,8 +1548,15 @@
    "categorie": "Marketing & content",
    "btw_type": "NAKIJKEN",
    "vak": "?",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "mail",
+    "label": "Drukbedrijf.nl D2611224 (mail 2026-08-12)",
+    "mail": "Drukbedrijf · Jouw bestelling (D2611224) · 2026-08-12",
+    "leverancier": "Drukbedrijf.nl",
+    "datum": "2026-08-12",
+    "bedrag": 174.28
+   }
   },
   {
    "id": "ponto-bbee3bb1-56cf-46d7-843c-fe43c22d438e",
@@ -1631,8 +1673,15 @@
    "categorie": "Software & abonnementen",
    "btw_type": "NONEU",
    "vak": "87 / 56 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "mail",
+    "label": "Klaviyo #2344-8692-7142 (mail 2026-08-10)",
+    "mail": "Klaviyo Inc · Your receipt from Klaviyo Inc #2344-8692-7142 · 2026-08-10",
+    "leverancier": "Klaviyo",
+    "datum": "2026-08-10",
+    "bedrag": 52.94
+   }
   },
   {
    "id": "ponto-d8f26afe-e404-46f4-8de4-6539368e3d73",
@@ -2068,8 +2117,15 @@
    "categorie": "Materiaal",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "mail",
+    "label": "Shopify Hardware Store 277778-HWS (mail 2026-07-27)",
+    "mail": "Shopify Hardware Store · Order 277778-HWS confirmed · 2026-07-27",
+    "leverancier": "Shopify Hardware Store",
+    "datum": "2026-07-27",
+    "bedrag": 59.0
+   }
   },
   {
    "id": "ponto-3598af3e-edda-4762-9c95-ed013096542f",
@@ -2197,8 +2253,15 @@
    "categorie": "Voorraad (verpakking & giveaways)",
    "btw_type": "NAKIJKEN",
    "vak": "?",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "mail",
+    "label": "Packaging Discounter 28109678 (mail 2026-07-20)",
+    "mail": "Packaging Discounter B.V. · Factuur 28109678 Packaging Discounter · 2026-07-20",
+    "leverancier": "Packaging Discounter",
+    "datum": "2026-07-20",
+    "bedrag": 665.0
+   }
   },
   {
    "id": "kaart-6682-2026-07-20-SP PACKAGINGDISCOUNT--360.0",
@@ -2448,8 +2511,15 @@
    "categorie": "Software & abonnementen",
    "btw_type": "NONEU",
    "vak": "87 / 56 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "mail",
+    "label": "Klaviyo #2281-8278-3670 (mail 2026-07-10)",
+    "mail": "Klaviyo Inc · Your receipt from Klaviyo Inc #2281-8278-3670 · 2026-07-10",
+    "leverancier": "Klaviyo",
+    "datum": "2026-07-10",
+    "bedrag": 53.5
+   }
   },
   {
    "id": "ponto-fd1cb89e-705f-43ac-aa5d-8673916214ed",

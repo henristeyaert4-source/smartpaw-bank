@@ -304,5 +304,85 @@
   "datum": "2026-10-21",
   "bedrag": 800.0,
   "btw_type": "EU (verlegd)"
+ },
+ "ponto-1c654355-f71c-4531-b075-ba138365aa41": {
+  "soort": "mail",
+  "label": "Widem Logistics 26015435 (mail 2026-09-15)",
+  "mail": "peppol@widem.eu · Invoice: 26015435 2026-09-15 · 2026-09-15",
+  "leverancier": "Widem Logistics",
+  "datum": "2026-09-15",
+  "bedrag": 3251.79
+ },
+ "ponto-f338f5b4-034f-456a-8305-4b4d0597feb8": {
+  "soort": "mail",
+  "label": "Widem Logistics 26202844 (mail 2026-08-18)",
+  "mail": "peppol@widem.eu · Invoice: 26202844 2026-08-18 · 2026-08-18",
+  "leverancier": "Widem Logistics",
+  "datum": "2026-08-18",
+  "bedrag": 110.77
+ },
+ "ponto-95ddb1a3-c34d-4fd3-9537-74e3bcaaf5fc": {
+  "soort": "mail",
+  "label": "Widem Logistics 26012021 (mail 2026-07-07)",
+  "mail": "peppol@widem.eu · Invoice: 26012021 2026-07-07 · 2026-07-07",
+  "leverancier": "Widem Logistics",
+  "datum": "2026-07-07",
+  "bedrag": 3135.0
+ },
+ "kaart-6682-2026-07-10-KLAVIYO INC. SOFTWAR--53.5": {
+  "soort": "mail",
+  "label": "Klaviyo #2281-8278-3670 (mail 2026-07-10)",
+  "mail": "Klaviyo Inc · Your receipt from Klaviyo Inc #2281-8278-3670 · 2026-07-10",
+  "leverancier": "Klaviyo",
+  "datum": "2026-07-10",
+  "bedrag": 53.5
+ },
+ "kaart-6682-2026-08-10-KLAVIYO INC. SOFTWAR--52.94": {
+  "soort": "mail",
+  "label": "Klaviyo #2344-8692-7142 (mail 2026-08-10)",
+  "mail": "Klaviyo Inc · Your receipt from Klaviyo Inc #2344-8692-7142 · 2026-08-10",
+  "leverancier": "Klaviyo",
+  "datum": "2026-08-10",
+  "bedrag": 52.94
+ },
+ "kaart-6682-2026-09-10-KLAVIYO INC. SOFTWAR--61.21": {
+  "soort": "mail",
+  "label": "Klaviyo #2916-5254-7604 (mail 2026-09-10)",
+  "mail": "Klaviyo Inc · Your receipt from Klaviyo Inc #2916-5254-7604 · 2026-09-10",
+  "leverancier": "Klaviyo",
+  "datum": "2026-09-10",
+  "bedrag": 61.21
+ },
+ "kaart-6682-2026-07-20-SP PACKAGINGDISCOUNT--665.0": {
+  "soort": "mail",
+  "label": "Packaging Discounter 28109678 (mail 2026-07-20)",
+  "mail": "Packaging Discounter B.V. · Factuur 28109678 Packaging Discounter · 2026-07-20",
+  "leverancier": "Packaging Discounter",
+  "datum": "2026-07-20",
+  "bedrag": 665.0
+ },
+ "ponto-c91a87a7-f5dc-46c2-a39f-cac8bd50c758": {
+  "soort": "mail",
+  "label": "Advance Media 2329 (mail 2026-08-21)",
+  "mail": "SnelStart klantmail (Advance Media) · Factuur 2329 · 2026-08-21",
+  "leverancier": "Advance Media",
+  "datum": "2026-08-21",
+  "bedrag": 3650.0
+ },
+ "ponto-ef474a33-2b3b-4ba7-b659-c3bac7b8f26e": {
+  "soort": "mail",
+  "label": "Drukbedrijf.nl D2611224 (mail 2026-08-12)",
+  "mail": "Drukbedrijf · Jouw bestelling (D2611224) · 2026-08-12",
+  "leverancier": "Drukbedrijf.nl",
+  "datum": "2026-08-12",
+  "bedrag": 174.28
+ },
+ "ponto-98d8644d-26b8-4054-b363-b75ddf1bc8cf": {
+  "soort": "mail",
+  "label": "Shopify Hardware Store 277778-HWS (mail 2026-07-27)",
+  "mail": "Shopify Hardware Store · Order 277778-HWS confirmed · 2026-07-27",
+  "leverancier": "Shopify Hardware Store",
+  "datum": "2026-07-27",
+  "bedrag": 59.0
  }
 }
