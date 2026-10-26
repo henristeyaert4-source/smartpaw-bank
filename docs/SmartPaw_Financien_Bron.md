@@ -20,3 +20,9 @@ Afspraak (Henri, 25/10): alles over SmartPaw-financiën komt uit het platform Sm
 * KBC-krediet €17.318 (€588,87 op de 16e van elke maand) · rekening-courant Henri €14.000 · Creazy €10.000 · Compass FurVac-saldo ±€4.535 · Widem 26016933 €1.221 (vervallen 24/10).
 * Btw Q3 2026 (€6.873,24): bewust later betaald (wachten op kas).
 * Budgetfaciliteit KBC €5.000.
+
+## Aanvullingen 26/10
+- Lening Creazy CommV (overeenkomst in platform, documenten/lening-creazy): €10.000, aanvang 25/06/2026, 3,5%/jaar, 3 maanden aflossingsvrij (rente €87,76 gekapitaliseerd), daarna 24 termijnen van €435,82 uiterlijk de laatste dag van de maand (1e: 31/10/2026, laatste: sep 2028) naar BE50 7380 5179 7618. In fin/balans.te_betalen als soort "aflossing" (telkens de volgende termijn) en in fin/prognose.items. Na betaling: volgende termijn inzetten, schuld verlagen volgens de aflossingstabel.
+- Holo AI (UAB Holo LT, LT): facturen mrt–okt 2026 gekoppeld (USD, zonder klantgegevens); jan, feb en aug ontbreken. Abonnement stopgezet okt 2026.
+- fin/balans: te_betalen-items krijgen `vervalt` (JJJJ-MM-DD); schulden met soort bank/vennoot/verbonden zijn langlopend (velden maandelijks, dag, rente, einde, start_bedrag, volgende, voorwaarden).
+- Shopify-factuur ±€130/maand: Basic €32 · TrueProfit ±€31 · Kaching Bundles ±€24 · ReturnGO ±€20 · Yuki-app ±€14 · Kaching Subscriptions ±€8; jaarlijks Recomma Quiz €85 (18/7) en domein smartpaw.eu €12.
