@@ -157,12 +157,13 @@
    "vak": "82 (+ btw in 59)",
    "status": "gekoppeld",
    "bewijs": {
-    "soort": "mail",
-    "label": "Widem Logistics 26015435 (mail 2026-09-15)",
-    "mail": "peppol@widem.eu · Invoice: 26015435 2026-09-15 · 2026-09-15",
-    "leverancier": "Widem Logistics",
+    "bedrag": 3251.79,
     "datum": "2026-09-15",
-    "bedrag": 3251.79
+    "label": "Widem 26015435 (mail 2026-09-15)",
+    "leverancier": "Widem Logistics NV",
+    "mail": "peppol@widem.eu · Invoice: 26015435 2026-09-15 · 2026-09-15",
+    "soort": "mail",
+    "uitleg": "gestructureerde mededeling 002601543535 = factuur 26015435 (fulfilment aug); ook via Peppol"
    }
   },
   {
@@ -621,12 +622,13 @@
    "vak": "87 / 56 / 59",
    "status": "gekoppeld",
    "bewijs": {
-    "soort": "mail",
-    "label": "Klaviyo #2916-5254-7604 (mail 2026-09-10)",
-    "mail": "Klaviyo Inc · Your receipt from Klaviyo Inc #2916-5254-7604 · 2026-09-10",
-    "leverancier": "Klaviyo",
+    "bedrag": 61.21,
     "datum": "2026-09-10",
-    "bedrag": 61.21
+    "label": "Klaviyo T9T7QHZO-0014 (mail 2026-09-10)",
+    "leverancier": "Klaviyo Inc",
+    "mail": "Klaviyo Inc (Stripe) · Your receipt from Klaviyo Inc #2916-5254-7604 · 2026-09-10",
+    "soort": "mail",
+    "uitleg": "$70,00 met kaart 6682"
    }
   },
   {
@@ -683,12 +685,13 @@
    "vak": "82 (+ btw in 59)",
    "status": "gekoppeld",
    "bewijs": {
-    "soort": "mail",
-    "label": "Widem Logistics 26202844 (mail 2026-08-18)",
-    "mail": "peppol@widem.eu · Invoice: 26202844 2026-08-18 · 2026-08-18",
-    "leverancier": "Widem Logistics",
+    "bedrag": 110.77,
     "datum": "2026-08-18",
-    "bedrag": 110.77
+    "label": "Widem 26202844 (mail 2026-08-18)",
+    "leverancier": "Widem Logistics NV",
+    "mail": "peppol@widem.eu · Invoice: 26202844 2026-08-18 · 2026-08-18",
+    "soort": "mail",
+    "uitleg": "mededeling 002620284440 = factuur 26202844; ook via Peppol"
    }
   },
   {
@@ -745,12 +748,13 @@
    "vak": "82 (+ btw in 59)",
    "status": "gekoppeld",
    "bewijs": {
-    "soort": "mail",
-    "label": "Widem Logistics 26012021 (mail 2026-07-07)",
-    "mail": "peppol@widem.eu · Invoice: 26012021 2026-07-07 · 2026-07-07",
-    "leverancier": "Widem Logistics",
+    "bedrag": 3135,
     "datum": "2026-07-07",
-    "bedrag": 3135.0
+    "label": "Widem 26012021 (mail 2026-07-07)",
+    "leverancier": "Widem Logistics NV",
+    "mail": "peppol@widem.eu · Invoice: 26012021 2026-07-07 · 2026-07-07",
+    "soort": "mail",
+    "uitleg": "mededeling 002601202116 = factuur 26012021 (fulfilment jun), laat betaald op 08/09; ook via Peppol"
    }
   },
   {
@@ -1147,12 +1151,12 @@
    "vak": "88 / 55 / 59",
    "status": "gekoppeld",
    "bewijs": {
-    "soort": "mail",
-    "label": "Advance Media 2329 (mail 2026-08-21)",
-    "mail": "SnelStart klantmail (Advance Media) · Factuur 2329 · 2026-08-21",
-    "leverancier": "Advance Media",
+    "bedrag": 3650,
     "datum": "2026-08-21",
-    "bedrag": 3650.0
+    "label": "Advance Media 2329 (mail 2026-08-21)",
+    "leverancier": "Advance Media",
+    "mail": "Advance Media (snelstart) · Factuur 2329 · 2026-08-21",
+    "soort": "mail"
    }
   },
   {
@@ -1550,12 +1554,13 @@
    "vak": "?",
    "status": "gekoppeld",
    "bewijs": {
-    "soort": "mail",
-    "label": "Drukbedrijf.nl D2611224 (mail 2026-08-12)",
-    "mail": "Drukbedrijf · Jouw bestelling (D2611224) · 2026-08-12",
-    "leverancier": "Drukbedrijf.nl",
+    "bedrag": 174.28,
     "datum": "2026-08-12",
-    "bedrag": 174.28
+    "label": "Drukbedrijf D2611224 (mail 2026-08-12)",
+    "leverancier": "Drukbedrijf.nl",
+    "mail": "Drukbedrijf · Jouw bestelling (D2611224) bij Drukbedrijf is in behandeling! · 2026-08-12",
+    "soort": "mail",
+    "uitleg": "orderbevestiging = factuur (pdf in bijlage); bedrag niet in de mailtekst, enige Drukbedrijf-betaling"
    }
   },
   {
@@ -1675,12 +1680,13 @@
    "vak": "87 / 56 / 59",
    "status": "gekoppeld",
    "bewijs": {
-    "soort": "mail",
-    "label": "Klaviyo #2344-8692-7142 (mail 2026-08-10)",
-    "mail": "Klaviyo Inc · Your receipt from Klaviyo Inc #2344-8692-7142 · 2026-08-10",
-    "leverancier": "Klaviyo",
+    "bedrag": 52.94,
     "datum": "2026-08-10",
-    "bedrag": 52.94
+    "label": "Klaviyo T9T7QHZO-0013 (mail 2026-08-10)",
+    "leverancier": "Klaviyo Inc",
+    "mail": "Klaviyo Inc (Stripe) · Your receipt from Klaviyo Inc #2344-8692-7142 · 2026-08-10",
+    "soort": "mail",
+    "uitleg": "$60,00 met kaart 6682"
    }
   },
   {
@@ -2119,12 +2125,13 @@
    "vak": "82 (+ btw in 59)",
    "status": "gekoppeld",
    "bewijs": {
-    "soort": "mail",
-    "label": "Shopify Hardware Store 277778-HWS (mail 2026-07-27)",
-    "mail": "Shopify Hardware Store · Order 277778-HWS confirmed · 2026-07-27",
-    "leverancier": "Shopify Hardware Store",
+    "bedrag": 59,
     "datum": "2026-07-27",
-    "bedrag": 59.0
+    "label": "Shopify Hardware 277778-HWS (mail 2026-07-27)",
+    "leverancier": "Shopify Hardware Store",
+    "mail": "Shopify Hardware Store · Order 277778-HWS confirmed · 2026-07-27",
+    "soort": "mail",
+    "uitleg": "WisePad 3 kaartlezer (markten)"
    }
   },
   {
@@ -2255,12 +2262,13 @@
    "vak": "?",
    "status": "gekoppeld",
    "bewijs": {
-    "soort": "mail",
-    "label": "Packaging Discounter 28109678 (mail 2026-07-20)",
-    "mail": "Packaging Discounter B.V. · Factuur 28109678 Packaging Discounter · 2026-07-20",
-    "leverancier": "Packaging Discounter",
+    "bedrag": 665,
     "datum": "2026-07-20",
-    "bedrag": 665.0
+    "label": "Packaging Discounter 28109678 (mail 2026-07-20)",
+    "leverancier": "Packaging Discounter B.V.",
+    "mail": "Packaging Discounter B.V. · Factuur 28109678 Packaging Discounter · 2026-07-20",
+    "soort": "mail",
+    "uitleg": "500 bedrukte dozen 520x400x250, geleverd bij Widem"
    }
   },
   {
@@ -2513,12 +2521,13 @@
    "vak": "87 / 56 / 59",
    "status": "gekoppeld",
    "bewijs": {
-    "soort": "mail",
-    "label": "Klaviyo #2281-8278-3670 (mail 2026-07-10)",
-    "mail": "Klaviyo Inc · Your receipt from Klaviyo Inc #2281-8278-3670 · 2026-07-10",
-    "leverancier": "Klaviyo",
+    "bedrag": 53.5,
     "datum": "2026-07-10",
-    "bedrag": 53.5
+    "label": "Klaviyo T9T7QHZO-0012 (mail 2026-07-10)",
+    "leverancier": "Klaviyo Inc",
+    "mail": "Klaviyo Inc (Stripe) · Your receipt from Klaviyo Inc #2281-8278-3670 · 2026-07-10",
+    "soort": "mail",
+    "uitleg": "$60,00 met kaart 6682"
    }
   },
   {
