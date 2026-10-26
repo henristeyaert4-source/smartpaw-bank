@@ -37,3 +37,4 @@ ads_google = som bankverrichtingen categorie "Ads Google"; betaalkosten = 2,5% v
 
 ## Mailzoektocht: extra bron (26/10)
 - Shopify-facturen (billing@shopify.com) en Alibaba-bestellingen komen binnen in Henri's iCloud (connector icloud_email_henri), map **SmartPaw**. Doorzoek die map ook bij stap 4c.
+- Afgesloten kwartalen (26/10): fin/instellingen.afgesloten = {"2026Q3": "..."}. Q3 2026 is via Lucy bij Pro-count en aangegeven. Voor afgesloten kwartalen geen aandachtspunten meer over ontbrekende facturen; het platform toont ze als afgesloten. Focus vanaf Q4 2026: alles via het platform → Yuki.
