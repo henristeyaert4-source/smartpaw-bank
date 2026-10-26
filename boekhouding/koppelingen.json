@@ -500,5 +500,29 @@
   "datum": "2026-10-09",
   "bedrag": -129.2,
   "btw_type": "EU (verlegd)"
+ },
+ "kaart-6682-2026-10-03-ALIBABA.COM--333.0": {
+  "soort": "upload",
+  "asset_id": "ab262f18d64a47a6dea5a5554851708a",
+  "label": "Alibaba-ontvangstbewijs order 33333736501041123 (filters FF007 250 + FF009L 240)",
+  "bestand": "2026-10-02_Alibaba_Shenzhen-Chongxin_1110.02.pdf",
+  "leverancier": "Shenzhen Chongxin Technology Co. Ltd (via Alibaba.com Singapore)",
+  "datum": "2026-10-02",
+  "bedrag": -333.0,
+  "btw": 0,
+  "btw_type": "invoer",
+  "uitleg": "Voorschot + saldo filterbestelling (incl. €32,24 betaalkosten Alibaba). Ontvangstbewijs, geen btw-factuur: de tax invoice kan in Alibaba gedownload worden na afronding van de order."
+ },
+ "kaart-6682-2026-10-14-ALIBABA.COM--779.1": {
+  "soort": "upload",
+  "asset_id": "ab262f18d64a47a6dea5a5554851708a",
+  "label": "Alibaba-ontvangstbewijs order 33333736501041123 (filters FF007 250 + FF009L 240)",
+  "bestand": "2026-10-02_Alibaba_Shenzhen-Chongxin_1110.02.pdf",
+  "leverancier": "Shenzhen Chongxin Technology Co. Ltd (via Alibaba.com Singapore)",
+  "datum": "2026-10-14",
+  "bedrag": -779.1,
+  "btw": 0,
+  "btw_type": "invoer",
+  "uitleg": "Voorschot + saldo filterbestelling (incl. €32,24 betaalkosten Alibaba). Ontvangstbewijs, geen btw-factuur: de tax invoice kan in Alibaba gedownload worden na afronding van de order."
  }
 }
