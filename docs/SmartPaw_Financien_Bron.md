@@ -9,7 +9,7 @@ Afspraak (Henri, 25/10): alles over SmartPaw-financiën komt uit het platform Sm
 * Fulfilment Widem: inbound €0,41 + picking €0,82 per stuk; packing €1,53 per order; doos €1,30 klein / €1,55 groot; DPD BE €5,59 klein / €5,80 groot; retour €4,66 transport + €2,80 afhandeling.
 * Betaalkosten 2,5% van incl. btw.
 * Retours 2% van omzet.
-* Max CPA = netto omzet − kostprijs − fulfilment − betaalkosten − retours. Break-even ROAS (incl. btw) = prijs incl. btw ÷ max CPA. Target CPA houdt 10% marge.
+* Max CPA = netto omzet − kostprijs − fulfilment − betaalkosten − retours. Break-even ROAS (incl. btw) = prijs incl. btw ÷ max CPA. Doel-CPA houdt 20% winstmarge (doel Henri & Kaydee, 26/10): doel-CPA = max CPA − 20% × netto prijs.
 * Kostprijs in Shopify (25/10): gelijkgezet met winst/kostprijzen.json (de kostprijs die vandaag geldt; -PRE-sku's = batch 750). De ochtendcheck houdt dit dagelijks gelijk en schakelt de FurVac-sku's op 26/11 naar batch 750. Bundels zonder sku/onderdelen worden niet aangeraakt.
 * TrueProfit "Gross Profit" trekt btw niet af → nooit campagnes op die kolom beoordelen; netto klopt wel.
 * Kantoor €750/maand wordt door Creazy betaald, niet door SmartPaw. Hoort voorlopig niet in SmartPaw's winst.
