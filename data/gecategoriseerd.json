@@ -14,6 +14,20 @@
   "bedrag_eur": 643.08
  },
  {
+  "id": "ponto-b33d3cc4-8da6-4311-9448-9874bbc75bd7",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-10-25",
+  "bedrag": -8.6,
+  "munt": "EUR",
+  "tegenpartij": "bpost parcel",
+  "tegenrekening": "BE49735046248271",
+  "mededeling": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 1743348361 Online creation label(s) KBC-Betaalknop",
+  "soort": "PMNT-ICDT-ESCT",
+  "categorie": "Verzending & retours (overig)",
+  "bedrag_eur": -8.6
+ },
+ {
   "id": "kaart-2103-2026-10-23-FACEBK *CNGZB8S7A4--621.34",
   "bron": "KBC-kaart",
   "rekening": "kaart 2103 GIELEN KAYDEE",

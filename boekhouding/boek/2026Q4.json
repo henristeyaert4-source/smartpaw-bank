@@ -5,7 +5,7 @@
  "telling": {
   "verklaard": 18,
   "gekoppeld": 10,
-  "ontbreekt": 12
+  "ontbreekt": 13
  },
  "regels": [
   {
@@ -23,6 +23,19 @@
     "soort": "regel",
     "label": "uitbetaling Shopify Payments (verkopen in Shopify)"
    }
+  },
+  {
+   "id": "ponto-b33d3cc4-8da6-4311-9448-9874bbc75bd7",
+   "datum": "2026-10-25",
+   "bron": "KBC",
+   "tegenpartij": "bpost parcel",
+   "mededeling": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 17433483",
+   "bedrag": -8.6,
+   "categorie": "Verzending & retours (overig)",
+   "btw_type": "BE21",
+   "vak": "82 (+ btw in 59)",
+   "status": "ontbreekt",
+   "bewijs": null
   },
   {
    "id": "kaart-2103-2026-10-23-FACEBK *CNGZB8S7A4--621.34",
@@ -679,5 +692,5 @@
   "oss_eu": 5940.67,
   "btw_te_betalen": 1889.13
  },
- "bijgewerkt": "2026-10-26"
+ "bijgewerkt": "2026-10-27"
 }

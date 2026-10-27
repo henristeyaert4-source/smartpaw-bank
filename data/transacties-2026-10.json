@@ -12,6 +12,18 @@
   "soort": "PMNT-RCDT-ESCT"
  },
  {
+  "id": "ponto-b33d3cc4-8da6-4311-9448-9874bbc75bd7",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-10-25",
+  "bedrag": -8.6,
+  "munt": "EUR",
+  "tegenpartij": "bpost parcel",
+  "tegenrekening": "BE49735046248271",
+  "mededeling": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 1743348361 Online creation label(s) KBC-Betaalknop",
+  "soort": "PMNT-ICDT-ESCT"
+ },
+ {
   "id": "ponto-8ee9d329-38ca-46ea-9fe4-f24f562396df",
   "bron": "KBC",
   "rekening": "SMARTPAW VOF",
