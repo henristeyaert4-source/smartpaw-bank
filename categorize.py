@@ -15,7 +15,7 @@ DATA = Path("data")
 # (regex op tegenpartij + mededeling, categorie)  — eerste match wint
 REGELS = [
     # interne bewegingen (tellen niet mee)
-    (r"SMARTPAW VOF.*(REVOLUT|LT76 3250)|NAAR REVOLUTE BUSINESS|PAYMENT FROM SMARTPAW|AANKOOP GOEDEREN|PRODUCT AANKOOP LEVERANCIER|VOORSCHOT PRODUCTEN|EXCHANGED (TO|FROM)|RECOVER NEGATIVE BALANCE", "Intern (KBC↔Revolut)"),
+    (r"SMARTPAW VOF.*(REVOLUT|LT76 3250)|NAAR REVOLUTE BUSINESS|PAYMENT FROM SMARTPAW|AANKOOP GOEDEREN|PRODUCT AANKOOP LEVERANCIER|VOORSCHOT PRODUCTEN|EXCHANGED (TO|FROM)|RECOVER NEGATIVE BALANCE|INTERN NAAR REVOLUT", "Intern (KBC↔Revolut)"),
     (r"KBC-MASTERCARD BUSINESS ESSENTIAL AFREKENING", "Kredietkaart-afrekening"),
     (r"YUKI", "Software & abonnementen"),
     # inkomsten
@@ -32,7 +32,7 @@ REGELS = [
     (r"CREAZY", "Creazy"),
     (r"BTW-ONTVANGSTEN", "Btw"),
     # voorraad
-    (r"FURVAC|PRODUCT70%|^1618 6196|ALIBABA", "Voorraad (fabriek)"),
+    (r"FURVAC|PET20\d{8}|PRODUCT70%|^1618 6196|ALIBABA", "Voorraad (fabriek)"),
     (r"PACKAGINGDISCOUNTER|SUPPY", "Voorraad (verpakking & giveaways)"),
     # fulfilment
     (r"WIDEM", "Widem (fulfilment, vracht, invoer)"),

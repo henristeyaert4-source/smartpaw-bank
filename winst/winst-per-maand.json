@@ -583,7 +583,7 @@
    "maand": "2026-10",
    "orders": 138,
    "stuks": 544,
-   "omzet_shopify": 9934.47,
+   "omzet_shopify": 9738.98,
    "omzet_bol": 884.79,
    "bol": {
     "bron": "raming uit bankuitbetalingen",
@@ -592,14 +592,14 @@
     "bijdrage": 486.63
    },
    "korting": 1971.76,
-   "retours": 690.63,
-   "kostprijs": 4347.42,
+   "retours": 886.12,
+   "kostprijs": 4249.68,
    "fulfilment": 1643.4,
    "fulfilment_bron": "raming: tarieven × 0.799 (gekalibreerd op de laatste Widem-facturen); opslag en admin bij de vaste kosten",
    "fulfilment_widem": null,
    "betaalkosten": 185.4,
-   "brutomarge": 4643.03,
-   "ads_meta": 6164.98,
+   "brutomarge": 4545.29,
+   "ads_meta": 6166.06,
    "ads_google": 27.38,
    "vaste_kosten": 1192.51,
    "vaste_detail": {
@@ -611,10 +611,10 @@
     "Verzending & retours (overig)": 12.71,
     "Widem opslag + admin (raming, tot de factuur er is)": 210.0
    },
-   "resultaat": -2741.84,
-   "roas": 1.94,
-   "trueprofit": -2360.45,
-   "verschil_tp": -381.39
+   "resultaat": -2840.66,
+   "roas": 1.91,
+   "trueprofit": -2557.0,
+   "verschil_tp": -283.66
   }
  ],
  "lijnen": [
@@ -624,10 +624,10 @@
    "omzet": 68996.32,
    "kostprijs": 23781.36,
    "fulfilment": 7522.83,
-   "betaalkosten": 2901.41,
-   "marge_voor_ads": 34790.72,
-   "ads": 39661.07,
-   "na_ads": -4870.35,
+   "betaalkosten": 2901.69,
+   "marge_voor_ads": 34790.44,
+   "ads": 39661.12,
+   "na_ads": -4870.68,
    "roas_nodig": 2.4,
    "roas": 2.1
   },
@@ -637,25 +637,25 @@
    "omzet": 17276.4,
    "kostprijs": 5773.2,
    "fulfilment": 4009.56,
-   "betaalkosten": 727.85,
-   "marge_voor_ads": 6765.79,
-   "ads": 7785.84,
-   "na_ads": -1020.06,
+   "betaalkosten": 730.34,
+   "marge_voor_ads": 6763.3,
+   "ads": 7883.91,
+   "na_ads": -1120.61,
    "roas_nodig": 3.09,
-   "roas": 2.68
+   "roas": 2.65
   },
   {
    "lijn": "Voerbakken",
    "stuks": 318,
-   "omzet": 10420.19,
-   "kostprijs": 5552.32,
+   "omzet": 10224.7,
+   "kostprijs": 5454.57,
    "fulfilment": 2252.44,
-   "betaalkosten": 536.87,
-   "marge_voor_ads": 2078.55,
-   "ads": 4036.45,
-   "na_ads": -1957.89,
-   "roas_nodig": 6.07,
-   "roas": 3.12
+   "betaalkosten": 534.11,
+   "marge_voor_ads": 1983.58,
+   "ads": 3939.41,
+   "na_ads": -1955.84,
+   "roas_nodig": 6.24,
+   "roas": 3.14
   },
   {
    "lijn": "Overig",
@@ -689,9 +689,9 @@
   {
    "sku": "(oud, zonder SKU)",
    "stuks": 176,
-   "omzet": 6223.67,
-   "kostprijs": 3266.6,
-   "marge_voor_fulfilment": 2957.07
+   "omzet": 6028.18,
+   "kostprijs": 3168.85,
+   "marge_voor_fulfilment": 2859.32
   },
   {
    "sku": "TK-WF119L",
