@@ -1,5 +1,19 @@
 [
  {
+  "id": "ponto-c016d93b-df6a-4197-8870-cbb244cd481d",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-10-26",
+  "bedrag": -18.47,
+  "munt": "EUR",
+  "tegenpartij": "KBC Verzekeringen",
+  "tegenrekening": "BE43730004200601",
+  "mededeling": "KBC Verzekeringen Domiciliëring 396000412981 L00247042231V0002 Eigen omschr.: RIJFSPOLIS AANSPRAKELIJKHEID A37630975 27/10/2026-26/11/2026 BED RIJFSPOLIS AANSPRAKELIJKHEID",
+  "soort": "PMNT-IDDT-PMDD",
+  "categorie": "Verzekering",
+  "bedrag_eur": -18.47
+ },
+ {
   "id": "ponto-cf8e7171-22bc-4022-bfba-35c47afb7004",
   "bron": "KBC",
   "rekening": "SMARTPAW VOF",
