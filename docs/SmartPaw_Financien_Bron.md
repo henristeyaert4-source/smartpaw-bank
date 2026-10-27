@@ -55,3 +55,7 @@ Afspraak 26/10: opslag volgt de hoeveelheid stock (meer stock = duurder) en extr
 - Eén productierun, twee verzendingen: LUCHT = de aantallen van de eerdere PI v2 (108 HydroBuddy, 300 FF009L, 150 FF015, 150 droogzakjes = $2.766; Jess-raming vracht $1.758) → offerte Widem (André) op basis van die aantallen. ZEE = de rest (102 TT003, 492 HydroBuddy, 300 FF009L, 50 droogzakjes = $14.059) → zeevrachtofferte Widem.
 - Map bureaublad: "Order Jess okt 2026 PET2026102601" met submappen "1 Bestelling" (PI, betaalbewijzen), "2 Luchtvracht" en "3 Zeevracht" (elk: packing list, offerte Widem, B/L/AWB, factuur Widem; WID-code in de submapnaam zodra Widem een dossier opent). Oude map "Air order Hydrobuddy en filters 26:11" mag weg (Henri verwijdert). Zelfde opbouw voor toekomstige orders met lucht + zee.
 - Landed cost per batch berekenen zodra vracht- en invoerkosten gekend zijn (winst/kostprijzen.json): lucht- en zeedeel apart.
+
+## Widem opslag + admin = vaste kost (afspraak 27/10)
+- Opslag + admin (nu €135 + €75 = €210/maand) zitten niet meer in fulfilment maar in de vaste kosten (`vaste_detail["Widem opslag + admin ..."]`), gelijk verdeeld per dag (dagen.py). Fulfilment = enkel kosten per bestelling (pick & pack, pakjes, dozen, labeling).
+- Maand zonder factuur: raming = opslag + admin van de laatste factuur. Komt de factuur binnen: widem_maand.json aanvullen, profit.py + dagen.py + `winst/naar_platform.py <fin/maanden.json> <uitmap>` draaien en fin/maanden, fin/lijnen, fin/dagen overschrijven → de vorige maand wordt zo automatisch gecorrigeerd.
