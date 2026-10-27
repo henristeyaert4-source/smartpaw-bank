@@ -3,11 +3,50 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "verklaard": 18,
+  "verklaard": 19,
   "gekoppeld": 11,
-  "ontbreekt": 13
+  "ontbreekt": 16
  },
  "regels": [
+  {
+   "id": "rev-056da6af-d4ed-e3f3-02c0-04184029e287-056da6af-d4ed-e3f3-0000-04184029e287",
+   "datum": "2026-10-27",
+   "bron": "Revolut",
+   "tegenpartij": "PET2026102601 30%",
+   "mededeling": "PET2026102601 30%",
+   "bedrag": -4529.5,
+   "categorie": "Te bekijken",
+   "btw_type": "NAKIJKEN",
+   "vak": "?",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "rev-056da68e-6a07-e3c4-02c0-04cfcae482c4-056da68e-6a07-e3c4-0000-04cfcae482c4",
+   "datum": "2026-10-27",
+   "bron": "Revolut",
+   "tegenpartij": "Intern naar Revolut voorschot Jess PET2026102601",
+   "mededeling": "Intern naar Revolut voorschot Jess PET2026102601",
+   "bedrag": 100.0,
+   "categorie": "Te bekijken",
+   "btw_type": "NAKIJKEN",
+   "vak": "?",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
+  {
+   "id": "rev-056da60c-4041-e373-02c0-04355d6e2e17-056da60c-4041-e373-0000-04355d6e2e17",
+   "datum": "2026-10-27",
+   "bron": "Revolut",
+   "tegenpartij": "Intern naar Revolut voorschot Jess PET2026102601",
+   "mededeling": "Intern naar Revolut voorschot Jess PET2026102601",
+   "bedrag": 4000.0,
+   "categorie": "Te bekijken",
+   "btw_type": "NAKIJKEN",
+   "vak": "?",
+   "status": "ontbreekt",
+   "bewijs": null
+  },
   {
    "id": "ponto-c016d93b-df6a-4197-8870-cbb244cd481d",
    "datum": "2026-10-26",
@@ -20,6 +59,22 @@
    "vak": "82 zonder btw",
    "status": "ontbreekt",
    "bewijs": null
+  },
+  {
+   "id": "ponto-2b4cee81-7564-4b49-a208-e93008d13664",
+   "datum": "2026-10-26",
+   "bron": "KBC",
+   "tegenpartij": "STRIPE",
+   "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+   "bedrag": 930.17,
+   "categorie": "Omzet webshop (Shopify)",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "uitbetaling Shopify Payments (verkopen in Shopify)"
+   }
   },
   {
    "id": "ponto-cf8e7171-22bc-4022-bfba-35c47afb7004",

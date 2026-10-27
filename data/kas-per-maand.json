@@ -194,8 +194,9 @@
   },
   {
    "maand": "2026-10",
+   "Te bekijken": -429.5,
    "Verzekering": -18.47,
-   "Omzet webshop (Shopify)": 7891.52,
+   "Omzet webshop (Shopify)": 8821.69,
    "Verzending & retours (overig)": -15.38,
    "Ads Meta": -5160.64,
    "Marketing & content": -218.99,
@@ -243,6 +244,28 @@
   "Aflossing KBC-krediet": "Financiering",
   "Rente KBC-krediet": "Werking"
  },
- "onbekend": [],
- "bijgewerkt": "2026-10-27T10:00:43+00:00"
+ "onbekend": [
+  {
+   "datum": "2026-10-27",
+   "bron": "Revolut",
+   "bedrag": -5047.5,
+   "tegenpartij": "",
+   "mededeling": "PET2026102601 30%"
+  },
+  {
+   "datum": "2026-10-27",
+   "bron": "Revolut",
+   "bedrag": 100.0,
+   "tegenpartij": "",
+   "mededeling": "Intern naar Revolut voorschot Jess PET2026102601"
+  },
+  {
+   "datum": "2026-10-27",
+   "bron": "Revolut",
+   "bedrag": 4000.0,
+   "tegenpartij": "",
+   "mededeling": "Intern naar Revolut voorschot Jess PET2026102601"
+  }
+ ],
+ "bijgewerkt": "2026-10-27T14:15:52+00:00"
 }
