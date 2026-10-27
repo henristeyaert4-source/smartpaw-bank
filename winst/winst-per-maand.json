@@ -586,20 +586,21 @@
    "fulfilment_widem": null,
    "betaalkosten": 185.4,
    "brutomarge": 4433.03,
-   "ads_meta": 6164.61,
-   "ads_google": 22.91,
-   "vaste_kosten": 964.04,
+   "ads_meta": 6164.98,
+   "ads_google": 27.38,
+   "vaste_kosten": 982.51,
    "vaste_detail": {
     "Software & abonnementen": 473.87,
     "Boekhouder": 200.0,
+    "Verzekering": 18.47,
     "Rente KBC-krediet": 58.47,
     "Marketing & content": 218.99,
     "Verzending & retours (overig)": 12.71
    },
-   "resultaat": -2718.53,
+   "resultaat": -2741.84,
    "roas": 1.94,
-   "trueprofit": -2183.24,
-   "verschil_tp": -535.29
+   "trueprofit": -2360.45,
+   "verschil_tp": -381.39
   }
  ],
  "lijnen": [
@@ -611,8 +612,8 @@
    "fulfilment": 8515.62,
    "betaalkosten": 2901.41,
    "marge_voor_ads": 33797.93,
-   "ads": 39660.74,
-   "na_ads": -5862.81,
+   "ads": 39661.07,
+   "na_ads": -5863.15,
    "roas_nodig": 2.47,
    "roas": 2.1
   },
@@ -624,10 +625,10 @@
    "fulfilment": 4953.87,
    "betaalkosten": 727.85,
    "marge_voor_ads": 5821.48,
-   "ads": 7782.61,
-   "na_ads": -1961.13,
+   "ads": 7785.84,
+   "na_ads": -1964.36,
    "roas_nodig": 3.59,
-   "roas": 2.69
+   "roas": 2.68
   },
   {
    "lijn": "Voerbakken",
@@ -637,8 +638,8 @@
    "fulfilment": 2723.48,
    "betaalkosten": 536.87,
    "marge_voor_ads": 1607.52,
-   "ads": 4035.18,
-   "na_ads": -2427.66,
+   "ads": 4036.45,
+   "na_ads": -2428.93,
    "roas_nodig": 7.84,
    "roas": 3.12
   },
