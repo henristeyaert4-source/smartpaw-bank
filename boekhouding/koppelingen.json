@@ -524,5 +524,14 @@
   "btw": 0,
   "btw_type": "invoer",
   "uitleg": "Voorschot + saldo filterbestelling (incl. €32,24 betaalkosten Alibaba). Ontvangstbewijs, geen btw-factuur: de tax invoice kan in Alibaba gedownload worden na afronding van de order."
+ },
+ "ponto-b33d3cc4-8da6-4311-9448-9874bbc75bd7": {
+  "soort": "mail",
+  "label": "bpost-bestelling 12897185 (26/10)",
+  "mail": "notify@bpost.be · Confirmation of your order · 2026-10-26",
+  "leverancier": "bpost",
+  "datum": "2026-10-26",
+  "bedrag": -8.6,
+  "btw": 0.13
  }
 }

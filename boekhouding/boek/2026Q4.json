@@ -4,8 +4,8 @@
  "tot": "2026-12-31",
  "telling": {
   "verklaard": 18,
-  "gekoppeld": 10,
-  "ontbreekt": 13
+  "gekoppeld": 11,
+  "ontbreekt": 12
  },
  "regels": [
   {
@@ -34,8 +34,16 @@
    "categorie": "Verzending & retours (overig)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "mail",
+    "label": "bpost-bestelling 12897185 (26/10)",
+    "mail": "notify@bpost.be · Confirmation of your order · 2026-10-26",
+    "leverancier": "bpost",
+    "datum": "2026-10-26",
+    "bedrag": -8.6,
+    "btw": 0.13
+   }
   },
   {
    "id": "kaart-2103-2026-10-23-FACEBK *CNGZB8S7A4--621.34",
@@ -689,8 +697,8 @@
  ],
  "pakket": {
   "bestand": "SmartPaw_Q4-2026.xlsx",
-  "oss_eu": 5940.67,
-  "btw_te_betalen": 1889.13
+  "oss_eu": 6061.48,
+  "btw_te_betalen": 2002.41
  },
  "bijgewerkt": "2026-10-27"
 }

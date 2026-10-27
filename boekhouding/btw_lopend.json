@@ -1,17 +1,17 @@
 {
  "kwartaal": "2026Q4",
  "van": "2026-10-01",
- "tot": "2026-10-25",
+ "tot": "2026-10-26",
  "vervaldag": "2027-01-20",
- "verschuldigd_verkopen": 2118.54,
- "waarvan_shopify": 1932.73,
+ "verschuldigd_verkopen": 2233.31,
+ "waarvan_shopify": 2047.5,
  "waarvan_bol": 185.81,
- "aftrekbaar": 338.64,
- "aftrekbaar_betaald": 43.6,
+ "aftrekbaar": 338.77,
+ "aftrekbaar_betaald": 43.73,
  "aftrekbaar_open_facturen": 295.04,
  "aftrekbaar_zonder_factuur": 43.6,
- "te_betalen_tot_nu": 1779.9,
- "prognose_einde_kwartaal": 7340.74,
+ "te_betalen_tot_nu": 1894.54,
+ "prognose_einde_kwartaal": 7452.7,
  "uitleg": "Btw die klanten betaalden min btw op Belgische aankopen. Buitenlandse diensten en invoer zijn verlegd (netto 0). Aftrek mag enkel met factuur.",
- "bijgewerkt": "2026-10-26"
+ "bijgewerkt": "2026-10-27"
 }
