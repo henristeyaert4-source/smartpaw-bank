@@ -49,3 +49,9 @@ Afspraak 26/10: opslag volgt de hoeveelheid stock (meer stock = duurder) en extr
 - Btw: pakjesverzending binnen België is bij bpost vrijgesteld; enkel de printkost (€0,75) draagt 21% (voorbeeld order 12897185 van 26/10: €7,85 pakje + €0,75 print = €8,60, waarvan btw €0,13). Dus NIET 21/121 van het bankbedrag aftrekken.
 - Ochtendcheck: elke BPOST-bankregel koppelen aan de bevestigingsmail in info@ (zelfde bedrag, datum ±2 dagen) → koppelingen.json {soort:"mail", label:"bpost-bestelling <nr> (<datum>) – <ontvanger/order>", bedrag, btw:<btw uit mail>}. btw_lopend.py gebruikt dat `btw`-veld. Geen bevestiging gevonden (bv. aan het loket betaald) → in de todo vragen om het kasticket.
 - Boeking: rekening 'Verzending & retours (overig)'; noteer waarvoor (vervangzending, retour klant, staal) zodat het aan een order hangt.
+
+## Bestelling Jess PET2026102601 — definitief (27/10)
+- Volledige order (PI 27/10): 102 TT003 camera-voerbak ($60), 600 TK-WF119L HydroBuddy ($14,50), 200 droogzakjes, 600 FF009L, 150 FF015 = $16.825 EXW. Voorschot 30% $5.047,50 (±€4.351) betaald 27/10 via Alibaba; saldo $11.777,50 (±€10.153) vóór verzending, productie ±35 dagen → ±1/12.
+- Eén productierun, twee verzendingen: LUCHT = de aantallen van de eerdere PI v2 (108 HydroBuddy, 300 FF009L, 150 FF015, 150 droogzakjes = $2.766; Jess-raming vracht $1.758) → offerte Widem (André) op basis van die aantallen. ZEE = de rest (102 TT003, 492 HydroBuddy, 300 FF009L, 50 droogzakjes = $14.059) → zeevrachtofferte Widem.
+- Map bureaublad: "Air order Hydrobuddy en filters 26:11" bevat nu de volledige PI; de oude PI's (26/10 en v2) mogen weg (Henri), map eventueel hernoemen naar "Order Jess okt 2026 lucht + zee". WID-codes toevoegen zodra Widem dossiers opent.
+- Landed cost per batch berekenen zodra vracht- en invoerkosten gekend zijn (winst/kostprijzen.json): lucht- en zeedeel apart.
