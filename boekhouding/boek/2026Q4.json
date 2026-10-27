@@ -4,8 +4,8 @@
  "tot": "2026-12-31",
  "telling": {
   "verklaard": 19,
-  "gekoppeld": 11,
-  "ontbreekt": 16
+  "gekoppeld": 12,
+  "ontbreekt": 13
  },
  "regels": [
   {
@@ -15,37 +15,24 @@
    "tegenpartij": "PET2026102601 30%",
    "mededeling": "PET2026102601 30%",
    "bedrag": -4529.5,
-   "categorie": "Te bekijken",
+   "categorie": "Voorraad (fabriek)",
    "btw_type": "NAKIJKEN",
    "vak": "?",
-   "status": "ontbreekt",
-   "bewijs": null
-  },
-  {
-   "id": "rev-056da68e-6a07-e3c4-02c0-04cfcae482c4-056da68e-6a07-e3c4-0000-04cfcae482c4",
-   "datum": "2026-10-27",
-   "bron": "Revolut",
-   "tegenpartij": "Intern naar Revolut voorschot Jess PET2026102601",
-   "mededeling": "Intern naar Revolut voorschot Jess PET2026102601",
-   "bedrag": 100.0,
-   "categorie": "Te bekijken",
-   "btw_type": "NAKIJKEN",
-   "vak": "?",
-   "status": "ontbreekt",
-   "bewijs": null
-  },
-  {
-   "id": "rev-056da60c-4041-e373-02c0-04355d6e2e17-056da60c-4041-e373-0000-04355d6e2e17",
-   "datum": "2026-10-27",
-   "bron": "Revolut",
-   "tegenpartij": "Intern naar Revolut voorschot Jess PET2026102601",
-   "mededeling": "Intern naar Revolut voorschot Jess PET2026102601",
-   "bedrag": 4000.0,
-   "categorie": "Te bekijken",
-   "btw_type": "NAKIJKEN",
-   "vak": "?",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "upload",
+    "asset_id": "c67de2a67b38a9dfa0d075d132c2d654",
+    "label": "Proforma PI-PET2026102601 (Shenzhen Chongxin, 27/10) – voorschot 30%",
+    "bestand": "2026-10-27_ShenzhenChongxin_PI-PET2026102601.pdf",
+    "leverancier": "Shenzhen Chongxin (Jess)",
+    "datum": "2026-10-27",
+    "bedrag": -4529.5,
+    "bedrag_usd": 5047.5,
+    "btw": 0,
+    "btw_type": "Invoer buiten EU (verlegd, art. 41)",
+    "btw_nummer": null,
+    "uitleg": "Voorschot 30% ($5.047,50) op proforma PET2026102601 via Revolut SWIFT; saldo $11.777,50 vóór verzending. Banktoeslag $27,86 apart."
+   }
   },
   {
    "id": "ponto-c016d93b-df6a-4197-8870-cbb244cd481d",
