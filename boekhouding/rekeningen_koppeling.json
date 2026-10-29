@@ -35,9 +35,10 @@
   "aftrekbare_btw": "100%"
  },
  "Widem (fulfilment, vracht, invoer)": {
-  "rekening": "614000",
-  "naam": "Vervoerkosten op verkoop (algemene verrichtingen)",
-  "aftrekbare_btw": "100%"
+  "rekening": "612730",
+  "naam": "TRANSPORTEN AAN DERDEN",
+  "aftrekbare_btw": "100%",
+  "bron": "zo geboekt door Pro-count in Yuki (440000-boekingen jul-sep 2026)"
  },
  "Verzending & retours (overig)": {
   "rekening": "611030",
