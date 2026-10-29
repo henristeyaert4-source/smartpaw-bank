@@ -3,9 +3,9 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "verklaard": 20,
+  "verklaard": 21,
   "gekoppeld": 20,
-  "ontbreekt": 5
+  "ontbreekt": 4
  },
  "regels": [
   {
@@ -535,11 +535,14 @@
    "tegenpartij": "Company Pro plan fee",
    "mededeling": "Company Pro plan fee",
    "bedrag": -35.0,
-   "categorie": "Software & abonnementen",
+   "categorie": "Bankkosten",
    "btw_type": "GEEN",
    "vak": "82 zonder btw",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "bankafschrift"
+   }
   },
   {
    "id": "ponto-6ae18f40-fe71-4f05-b26a-7c56e77b6eff",

@@ -44,9 +44,9 @@ REGELS = [
     (r"FINDAJOB", "Personeel (student)"),
     # software & admin
     (r"SHOPIFY HARDWARE", "Materiaal"),
-    (r"SHOPIFY|KLAVIYO|GOOGLE|LOVABLE|APPSUMO|GODADDY|YUKI|COMPANY PRO PLAN FEE", "Software & abonnementen"),
+    (r"SHOPIFY|KLAVIYO|GOOGLE|LOVABLE|APPSUMO|GODADDY|YUKI", "Software & abonnementen"),
     (r"PRO-COUNT|PRO - COUNT", "Boekhouder"),
-    (r"KREDIETDOSSIER|AFREKENING OP .* VAN BE84|KBC-BUSINESS PRO|BOOSTPACK", "Bankkosten"),
+    (r"KREDIETDOSSIER|AFREKENING OP .* VAN BE84|KBC-BUSINESS PRO|BOOSTPACK|COMPANY PRO PLAN FEE|PLAN FEE", "Bankkosten"),
     (r"KBC VERZEKERINGEN", "Verzekering"),
     (r"ACERTA", "Sociale bijdragen vennoten"),
     (r"HENRI STEYAERT", "Terugbetaling kosten aan Henri"),

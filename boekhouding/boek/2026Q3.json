@@ -3,9 +3,9 @@
  "van": "2026-07-01",
  "tot": "2026-09-30",
  "telling": {
-  "verklaard": 78,
+  "verklaard": 81,
   "gekoppeld": 80,
-  "ontbreekt": 24
+  "ontbreekt": 21
  },
  "regels": [
   {
@@ -695,11 +695,14 @@
    "tegenpartij": "Company Pro plan fee",
    "mededeling": "Company Pro plan fee",
    "bedrag": -35.0,
-   "categorie": "Software & abonnementen",
+   "categorie": "Bankkosten",
    "btw_type": "GEEN",
    "vak": "82 zonder btw",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "bankafschrift"
+   }
   },
   {
    "id": "ponto-f338f5b4-034f-456a-8305-4b4d0597feb8",
@@ -1857,11 +1860,14 @@
    "tegenpartij": "Company Pro plan fee",
    "mededeling": "Company Pro plan fee",
    "bedrag": -35.0,
-   "categorie": "Software & abonnementen",
+   "categorie": "Bankkosten",
    "btw_type": "GEEN",
    "vak": "82 zonder btw",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "bankafschrift"
+   }
   },
   {
    "id": "ponto-7950a312-6418-4926-83ac-0c915e6ff2f8",
@@ -2734,11 +2740,14 @@
    "tegenpartij": "Company Pro plan fee",
    "mededeling": "Company Pro plan fee",
    "bedrag": -35.0,
-   "categorie": "Software & abonnementen",
+   "categorie": "Bankkosten",
    "btw_type": "GEEN",
    "vak": "82 zonder btw",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "bankafschrift"
+   }
   },
   {
    "id": "ponto-b47c7566-2391-4c79-aa35-7478ab89a26b",
