@@ -59,3 +59,14 @@ Afspraak 26/10: opslag volgt de hoeveelheid stock (meer stock = duurder) en extr
 ## Widem opslag + admin = vaste kost (afspraak 27/10)
 - Opslag + admin (nu €135 + €75 = €210/maand) zitten niet meer in fulfilment maar in de vaste kosten (`vaste_detail["Widem opslag + admin ..."]`), gelijk verdeeld per dag (dagen.py). Fulfilment = enkel kosten per bestelling (pick & pack, pakjes, dozen, labeling).
 - Maand zonder factuur: raming = opslag + admin van de laatste factuur. Komt de factuur binnen: widem_maand.json aanvullen, profit.py + dagen.py + `winst/naar_platform.py <fin/maanden.json> <uitmap>` draaien en fin/maanden, fin/lijnen, fin/dagen overschrijven → de vorige maand wordt zo automatisch gecorrigeerd.
+
+## Update 29/10/2026 (boekhouding, bewijs, Meta-betaling)
+- **Bronnen automatisch (elke ochtend):** KBC-zichtrekening (Ponto), Revolut, bol.com, Yuki (GitHub-workflow); Shopify-omzet en Meta-facturatielog (ochtendtaak). **Mastercards 2103 (Kaydee) en 6682 (Henri) NIET automatisch**: komen uit de KBC Touch-export die Henri/Kaydee zelf opladen (data/kaart-2026.json, laatste t/m 23/10). Maandelijks de kaartexport opladen.
+- **Meta betaalt sinds 23/10 met Mastercard 2103** (Standaard in Meta). Tot 21/10 via KBC-debetkaart (= Mastercard ····6564 in Meta, "M4M – MDES" op het afschrift). Advies: 6564 verwijderen in Meta zodat er geen terugval naar KBC is; kaartlimiet 2103 checken (Meta ±€7–8k/m + Google).
+- **Meta-meldingen:** er bestaat geen apart factuur-e-mailveld; meldingen "Updates voor advertentieaccount" staan sinds 29/10 op info@smartpaw.be.
+- **regels.py koppelt nu ook aan Yuki** (data/yuki/openstaand.json → leveranciers_boekingen): pas 1 = leverancier + bedrag ±2 ct, factuur −35…+75 d; pas 2 = exact bedrag binnen 20 d. Bewijs soort "yuki".
+- **koppelingen.json `_verwacht`**: documenten die vóór de betaling binnenkomen (bv. KBC-vervaldagbericht) met match {tegenpartij, bedrag, van, tot}; koppelen automatisch bij de betaling.
+- **Revolut "Company Pro plan fee" (€35/m) = Bankkosten** (verklaard via uittreksel).
+- Gekoppeld op 29/10: Compass-invoice FurVac 750 (CPS20260619, $21.784,75; betaald $6.535,43 + $10.000; saldo $5.249,32 ≈ €4.535 gepland 16/11), KBC BA-polis 37630975 vervaldagberichten (premie €18,47, vanaf 27/11 €19,05), Meta FBADS-210-106742402 (23/10, €621,34), Klaviyo T9T7QHZO-0015.
+- Stand: Q3 164/182 (90%), 18 ontbrekend (Shopify 5, Google Ads 3, markten 3, horeca 3, POM, Packaging €360, ReturnGO, Meta Verified). Q4: enkel GoDaddy €167,76.
+- Platform v32: "Nog te doen" bovenaan Boekhouding, per kwartaal en per leverancier met "waar vind je het".
