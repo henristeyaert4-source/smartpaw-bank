@@ -76,3 +76,12 @@ Afspraak 26/10: opslag volgt de hoeveelheid stock (meer stock = duurder) en extr
 ## Update 29/10 middag: aankoopdagboek
 - Nieuw: aankoopdagboek per kwartaal met boekingsvoorstel per factuur (grootboekrekening volgens Pro-count, btw-code, maatstaf, btw). Q3: 73 in Yuki, 11 te boeken (€4.906), 17 zonder factuur. Q4 tot nu: 8 in Yuki, 15 te boeken (€11.043, vooral Meta oktober + Jess-voorschot), 1 zonder factuur.
 - Nog van Pro-count nodig: hun Yuki-btw-codes, en bevestiging van de rekeningkeuzes (o.a. Packaging Discounter/Drukbedrijf als intracommunautaire verwerving, standgeld markten, POM).
+
+## Yuki-crediteuren in "Te betalen" (afspraak 29/10, gaat vóór stap 1b van de ochtendcheck)
+Yuki toont veel facturen als "open" die al betaald zijn (kaartbetalingen die Pro-count niet tegen de factuur boekte, en bol.com-facturen die bol verrekent met de uitbetaling). Zet daarom een Yuki-crediteur enkel in fin/balans.te_betalen als ALLES hieronder klopt:
+- factuurdatum ≤ 120 dagen geleden;
+- contact is niet bol.com, Meta, Google, Shopify, Klaviyo, Higgsfield, Canva, Amazon, Appsumo, ReturnGO, Manychat, KBC Bank of een andere leverancier die per kaart of automatisch betaald wordt (die zijn betaald; hoogstens ontbreekt de koppeling in Yuki);
+- geen uitgaande verrichting (KBC, Revolut of kaart) met hetzelfde bedrag (±€0,05) sinds 7 dagen vóór de factuurdatum;
+- open > 0 (creditnota's niet).
+Stand 29/10: zo kwamen erbij Findajob F001/202600701 (€149,01) en F001/202600711 (€158,95), Almost 3000 (€314,60), Thomas More (€75), Proximus (€10), bpost 268565664 (€6,78), Pro-count 270345 (€242). Yuki-data komt pas sinds 29/10 08:35 binnen; de ochtendcheck van 29/10 (07:16) had ze nog niet.
+De oude "open" posten in Yuki (37 stuks, €4.851, vooral kaartbetalingen eind 2025) en de bol-verrekening zijn een opkuis voor Pro-count, niet iets om te betalen.
