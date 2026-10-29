@@ -284,5 +284,283 @@
     "_tekst": "Privé betaald (onkosten nota)"
    }
   ]
+ },
+ {
+  "op": "2026-10-29T12:09:55",
+  "actie": "oplaad",
+  "mappen": [
+   {
+    "_tag": "DocumentFolder",
+    "ID": "7",
+    "Description": "Uitzoeken Yuki",
+    "Icon": "DocumentFolder_yellow_label.png",
+    "ProcessedByYuki": "True"
+   },
+   {
+    "_tag": "Description",
+    "_tekst": "Uitzoeken Yuki"
+   },
+   {
+    "_tag": "Icon",
+    "_tekst": "DocumentFolder_yellow_label.png"
+   },
+   {
+    "_tag": "ProcessedByYuki",
+    "_tekst": "True"
+   },
+   {
+    "_tag": "DocumentFolder",
+    "ID": "1",
+    "Description": "Aankoop",
+    "Icon": "DocumentFolder_red_label.png",
+    "ProcessedByYuki": "True"
+   },
+   {
+    "_tag": "Description",
+    "_tekst": "Aankoop"
+   },
+   {
+    "_tag": "Icon",
+    "_tekst": "DocumentFolder_red_label.png"
+   },
+   {
+    "_tag": "ProcessedByYuki",
+    "_tekst": "True"
+   },
+   {
+    "_tag": "DocumentFolder",
+    "ID": "2",
+    "Description": "Verkoop",
+    "Icon": "DocumentFolder_red_label.png",
+    "ProcessedByYuki": "True"
+   },
+   {
+    "_tag": "Description",
+    "_tekst": "Verkoop"
+   },
+   {
+    "_tag": "Icon",
+    "_tekst": "DocumentFolder_red_label.png"
+   },
+   {
+    "_tag": "ProcessedByYuki",
+    "_tekst": "True"
+   },
+   {
+    "_tag": "DocumentFolder",
+    "ID": "3",
+    "Description": "Bank",
+    "Icon": "DocumentFolder_red_label.png",
+    "ProcessedByYuki": "True"
+   },
+   {
+    "_tag": "Description",
+    "_tekst": "Bank"
+   },
+   {
+    "_tag": "Icon",
+    "_tekst": "DocumentFolder_red_label.png"
+   },
+   {
+    "_tag": "ProcessedByYuki",
+    "_tekst": "True"
+   },
+   {
+    "_tag": "DocumentFolder",
+    "ID": "4",
+    "Description": "Personeel",
+    "Icon": "DocumentFolder_red_label.png",
+    "ProcessedByYuki": "True"
+   },
+   {
+    "_tag": "Description",
+    "_tekst": "Personeel"
+   },
+   {
+    "_tag": "Icon",
+    "_tekst": "DocumentFolder_red_label.png"
+   },
+   {
+    "_tag": "ProcessedByYuki",
+    "_tekst": "True"
+   },
+   {
+    "_tag": "DocumentFolder",
+    "ID": "5",
+    "Description": "Belasting",
+    "Icon": "DocumentFolder_blue_label.png",
+    "ProcessedByYuki": "True"
+   },
+   {
+    "_tag": "Description",
+    "_tekst": "Belasting"
+   },
+   {
+    "_tag": "Icon",
+    "_tekst": "DocumentFolder_blue_label.png"
+   },
+   {
+    "_tag": "ProcessedByYuki",
+    "_tekst": "True"
+   },
+   {
+    "_tag": "DocumentFolder",
+    "ID": "8",
+    "Description": "Overig financieel",
+    "Icon": "DocumentFolder_green_label.png",
+    "ProcessedByYuki": "True"
+   },
+   {
+    "_tag": "Description",
+    "_tekst": "Overig financieel"
+   },
+   {
+    "_tag": "Icon",
+    "_tekst": "DocumentFolder_green_label.png"
+   },
+   {
+    "_tag": "ProcessedByYuki",
+    "_tekst": "True"
+   },
+   {
+    "_tag": "DocumentFolder",
+    "ID": "100",
+    "Description": "Zelf te ordenen",
+    "Icon": "DocumentFolderUser_yellow.png",
+    "ProcessedByYuki": "False"
+   },
+   {
+    "_tag": "Description",
+    "_tekst": "Zelf te ordenen"
+   },
+   {
+    "_tag": "Icon",
+    "_tekst": "DocumentFolderUser_yellow.png"
+   },
+   {
+    "_tag": "ProcessedByYuki",
+    "_tekst": "False"
+   },
+   {
+    "_tag": "DocumentFolder",
+    "ID": "6",
+    "Description": "Verzekering",
+    "Icon": "DocumentFolderUser_red.png",
+    "ProcessedByYuki": "False"
+   },
+   {
+    "_tag": "Description",
+    "_tekst": "Verzekering"
+   },
+   {
+    "_tag": "Icon",
+    "_tekst": "DocumentFolderUser_red.png"
+   },
+   {
+    "_tag": "ProcessedByYuki",
+    "_tekst": "False"
+   },
+   {
+    "_tag": "DocumentFolder",
+    "ID": "101",
+    "Description": "Correspondentie",
+    "Icon": "DocumentFolderUser_blue.png",
+    "ProcessedByYuki": "False"
+   },
+   {
+    "_tag": "Description",
+    "_tekst": "Correspondentie"
+   },
+   {
+    "_tag": "Icon",
+    "_tekst": "DocumentFolderUser_blue.png"
+   },
+   {
+    "_tag": "ProcessedByYuki",
+    "_tekst": "False"
+   },
+   {
+    "_tag": "DocumentFolder",
+    "ID": "102",
+    "Description": "Meetings",
+    "Icon": "DocumentFolderUser_blue.png",
+    "ProcessedByYuki": "False"
+   },
+   {
+    "_tag": "Description",
+    "_tekst": "Meetings"
+   },
+   {
+    "_tag": "Icon",
+    "_tekst": "DocumentFolderUser_blue.png"
+   },
+   {
+    "_tag": "ProcessedByYuki",
+    "_tekst": "False"
+   },
+   {
+    "_tag": "DocumentFolder",
+    "ID": "0",
+    "Description": "Overig",
+    "Icon": "DocumentFolderUser_red.png",
+    "ProcessedByYuki": "False"
+   },
+   {
+    "_tag": "Description",
+    "_tekst": "Overig"
+   },
+   {
+    "_tag": "Icon",
+    "_tekst": "DocumentFolderUser_red.png"
+   },
+   {
+    "_tag": "ProcessedByYuki",
+    "_tekst": "False"
+   }
+  ],
+  "betaalwijzen": [
+   {
+    "_tag": "PaymentMethod",
+    "ID": "4",
+    "Description": "Zakelijke Bancontact"
+   },
+   {
+    "_tag": "Description",
+    "_tekst": "Zakelijke Bancontact"
+   },
+   {
+    "_tag": "PaymentMethod",
+    "ID": "5",
+    "Description": "Zakelijke Credit card"
+   },
+   {
+    "_tag": "Description",
+    "_tekst": "Zakelijke Credit card"
+   },
+   {
+    "_tag": "PaymentMethod",
+    "ID": "3",
+    "Description": "Uit bedrijfskas"
+   },
+   {
+    "_tag": "Description",
+    "_tekst": "Uit bedrijfskas"
+   },
+   {
+    "_tag": "PaymentMethod",
+    "ID": "10",
+    "Description": "Privé betaald (onkosten nota)"
+   },
+   {
+    "_tag": "Description",
+    "_tekst": "Privé betaald (onkosten nota)"
+   }
+  ],
+  "upload": {
+   "bestand": "2026-10-10_GoDaddy_167.76.pdf",
+   "map": "1",
+   "betaalwijze": "5",
+   "antwoord": "b6c4ece3-4d15-4cac-badd-2f756b90420c"
+  }
  }
 ]
