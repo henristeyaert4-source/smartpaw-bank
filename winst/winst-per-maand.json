@@ -593,12 +593,12 @@
    },
    "korting": 2172.46,
    "retours": 886.12,
-   "kostprijs": 4799.2,
+   "kostprijs": 4803.8,
    "fulfilment": 1897.98,
    "fulfilment_bron": "raming: tarieven × 0.799 (gekalibreerd op de laatste Widem-facturen); opslag en admin bij de vaste kosten",
    "fulfilment_widem": null,
    "betaalkosten": 213.02,
-   "brutomarge": 5153.84,
+   "brutomarge": 5149.24,
    "ads_meta": 6744.51,
    "ads_google": 32.9,
    "vaste_kosten": 1192.51,
@@ -611,10 +611,10 @@
     "Verzending & retours (overig)": 12.71,
     "Widem opslag + admin (raming, tot de factuur er is)": 210.0
    },
-   "resultaat": -2816.08,
+   "resultaat": -2820.68,
    "roas": 2.0,
    "trueprofit": -2326.08,
-   "verschil_tp": -490.0
+   "verschil_tp": -494.6
   }
  ],
  "lijnen": [
@@ -635,12 +635,12 @@
    "lijn": "Fonteinen",
    "stuks": 1044,
    "omzet": 18478.32,
-   "kostprijs": 6202.54,
+   "kostprijs": 6207.14,
    "fulfilment": 4230.57,
    "betaalkosten": 753.45,
-   "marge_voor_ads": 7291.77,
+   "marge_voor_ads": 7287.17,
    "ads": 8409.48,
-   "na_ads": -1117.71,
+   "na_ads": -1122.31,
    "roas_nodig": 3.07,
    "roas": 2.66
   },
@@ -935,8 +935,8 @@
    "sku": "FF015-PRE",
    "stuks": 2,
    "omzet": 15.85,
-   "kostprijs": 0.0,
-   "marge_voor_fulfilment": 15.85
+   "kostprijs": 4.6,
+   "marge_voor_fulfilment": 11.25
   },
   {
    "sku": "2-1 Brush-PRE",
@@ -946,9 +946,7 @@
    "marge_voor_fulfilment": 4.06
   }
  ],
- "ontbrekende_kostprijs": [
-  "FF015-PRE"
- ],
+ "ontbrekende_kostprijs": [],
  "aannames": [
   "Fulfilment = echte Widem-maandfactuur (verbruiksmateriaal, pick & pack, pakjes, labeling) waar die er is; anders Widem-tarieven (€1.23/stuk, €1.53/order, doos+DPD €8.37/€8.62) × 0.799. Opslag en admin van Widem staan bij de vaste kosten (gelijk per dag; raming tot de factuur er is, daarna gecorrigeerd).",
   "Oude producten zonder SKU (feeders okt 2025–feb 2026): kostprijs 50% van de omzet.",
