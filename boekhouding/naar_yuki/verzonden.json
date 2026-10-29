@@ -1,2 +1,185 @@
-{"_uitleg": "Documenten die het platform naar Yuki stuurde: asset_id -> {yuki_document, op, regels[], bedrag}. Nooit opnieuw versturen.",
- "c383ea36c66ff65d325eee133873c47f": {"yuki_document": "b6c4ece3-4d15-4cac-badd-2f756b90420c", "op": "2026-10-29", "regels": ["kaart-6682-2026-10-10-GODADDY*#7038004865--167.76"], "bedrag": 167.76, "map": 1, "betaalwijze": 5, "opmerking": "test, bevestigd door Shany 29/10"}}
+{
+ "_uitleg": "Documenten die het platform naar Yuki stuurde: asset_id -> {yuki_document, op, regels[], bedrag}. Nooit opnieuw versturen.",
+ "c383ea36c66ff65d325eee133873c47f": {
+  "yuki_document": "b6c4ece3-4d15-4cac-badd-2f756b90420c",
+  "op": "2026-10-29",
+  "regels": [
+   "kaart-6682-2026-10-10-GODADDY*#7038004865--167.76"
+  ],
+  "bedrag": 167.76,
+  "map": 1,
+  "betaalwijze": 5,
+  "opmerking": "test, bevestigd door Shany 29/10"
+ },
+ "75013c5284f3678a9dbcf8d27c138ca5": {
+  "yuki_document": "e23f55ec-a9e0-4ed1-9df5-7749bbce0f28",
+  "op": "2026-10-29",
+  "regels": [
+   "ponto-4a7bfe9b-603b-4fdb-9d27-5118166e4f7e"
+  ],
+  "bedrag": 18.47,
+  "map": 1,
+  "betaalwijze": 4
+ },
+ "e0c1e3a6329d5ba17e00e1f575511758": {
+  "yuki_document": "3f62261f-14a5-4957-b6db-9e0e6d82e653",
+  "op": "2026-10-29",
+  "regels": [
+   "kaart-6682-2026-09-08-HOLO AI--41.33"
+  ],
+  "bedrag": 41.33,
+  "map": 1,
+  "betaalwijze": 5
+ },
+ "31ccaae3bb977f60af71ed3e81bb9573": {
+  "yuki_document": "14db605d-d753-4d8d-b856-31e308df2308",
+  "op": "2026-10-29",
+  "regels": [
+   "ponto-4c9c9442-3ffe-47e0-9975-e10823fbc4f5"
+  ],
+  "bedrag": 18.47,
+  "map": 1,
+  "betaalwijze": 4
+ },
+ "58b3a4478cc39bf628511ef0fa583faf": {
+  "yuki_document": "4d79d056-b4b2-4379-89cd-263f3112bc83",
+  "op": "2026-10-29",
+  "regels": [
+   "ponto-3598af3e-edda-4762-9c95-ed013096542f"
+  ],
+  "bedrag": 18.47,
+  "map": 1,
+  "betaalwijze": 4
+ },
+ "f8dabc4fcabe4796302d8d7fb01bd565": {
+  "yuki_document": "d3817e04-c09e-48ac-b9c2-542a4b53328d",
+  "op": "2026-10-29",
+  "regels": [
+   "kaart-6682-2026-07-08-HOLO AI--41.98"
+  ],
+  "bedrag": 41.98,
+  "map": 1,
+  "betaalwijze": 5
+ },
+ "c67de2a67b38a9dfa0d075d132c2d654": {
+  "yuki_document": "d2b5ec40-7fdf-49b6-823f-a741e411c92c",
+  "op": "2026-10-29",
+  "regels": [
+   "rev-056da6af-d4ed-e3f3-02c0-04184029e287-056da6af-d4ed-e3f3-0000-04184029e287"
+  ],
+  "bedrag": 4529.5,
+  "map": 1,
+  "betaalwijze": 4
+ },
+ "cd7bdc348e278f7547a1cfa09fea213e": {
+  "yuki_document": "3b11cdbd-9e80-4cab-bb20-0145c10745e8",
+  "op": "2026-10-29",
+  "regels": [
+   "ponto-c016d93b-df6a-4197-8870-cbb244cd481d"
+  ],
+  "bedrag": 18.47,
+  "map": 1,
+  "betaalwijze": 4
+ },
+ "e2d3d3b6be20772e650946443ec46eb6": {
+  "yuki_document": "eb125101-f0df-4dec-8e9d-e2ba5bbf5810",
+  "op": "2026-10-29",
+  "regels": [
+   "kaart-2103-2026-10-23-FACEBK *CNGZB8S7A4--621.34"
+  ],
+  "bedrag": 621.34,
+  "map": 1,
+  "betaalwijze": 5
+ },
+ "484c144bd518c539d8737fa6726fe351": {
+  "yuki_document": "2fe63583-6302-4f1a-800b-303a52d9ecc5",
+  "op": "2026-10-29",
+  "regels": [
+   "ponto-5fc68572-d8a6-4609-96db-44c4b167d495"
+  ],
+  "bedrag": 800.0,
+  "map": 1,
+  "betaalwijze": 4
+ },
+ "189ba028c0609826928f4de21890052d": {
+  "yuki_document": "b280d9d6-9966-4805-b771-5df82b4c1cc5",
+  "op": "2026-10-29",
+  "regels": [
+   "ponto-9e0de87c-4900-42b1-8875-1431a02df641"
+  ],
+  "bedrag": 800.0,
+  "map": 1,
+  "betaalwijze": 4
+ },
+ "81ba745a25557cd086c0c10f18cf2cb8": {
+  "yuki_document": "de722d7b-9f67-4608-a2b8-02cedaaf3c0c",
+  "op": "2026-10-29",
+  "regels": [
+   "ponto-91305d60-b596-4391-b69b-ca1a8aa6dd2f"
+  ],
+  "bedrag": 800.0,
+  "map": 1,
+  "betaalwijze": 4
+ },
+ "ab262f18d64a47a6dea5a5554851708a": {
+  "yuki_document": "9e290924-71bb-4fde-b53f-f5e510ed89df",
+  "op": "2026-10-29",
+  "regels": [
+   "kaart-6682-2026-10-14-ALIBABA.COM--779.1",
+   "kaart-6682-2026-10-03-ALIBABA.COM--333.0"
+  ],
+  "bedrag": 1112.1,
+  "map": 1,
+  "betaalwijze": 5
+ },
+ "24dfa6ecdb140d755cb5d85fdc4a9fa7": {
+  "yuki_document": "4c7b5a00-02ea-403d-b0a8-11b8c9563cf5",
+  "op": "2026-10-29",
+  "regels": [
+   "ponto-24ead7b5-9d64-4984-ae90-effd1a2b782f"
+  ],
+  "bedrag": 800.0,
+  "map": 1,
+  "betaalwijze": 4
+ },
+ "2ed9454dd0225415ed661fe62a46f801": {
+  "yuki_document": "bd3fef2d-4511-4928-b156-a4e8b773ad6e",
+  "op": "2026-10-29",
+  "regels": [
+   "kaart-6682-2026-10-10-KLAVIYO INC. SOFTWAR--63.59"
+  ],
+  "bedrag": 63.59,
+  "map": 1,
+  "betaalwijze": 5
+ },
+ "82ec708640ba3493424c440f86dc0a6d": {
+  "yuki_document": "73b3666c-2fa1-4101-929f-80c22bf0bca8",
+  "op": "2026-10-29",
+  "regels": [
+   "ponto-0fffef77-c5bd-4273-a91c-30d140e1e164"
+  ],
+  "bedrag": 517.01,
+  "map": 1,
+  "betaalwijze": 4
+ },
+ "68868f74018bf2071deb4c0c5b229192": {
+  "yuki_document": "a3bd0730-bc95-4b97-8822-2ab988f31a8d",
+  "op": "2026-10-29",
+  "regels": [
+   "kaart-6682-2026-10-08-HOLO AI--42.95"
+  ],
+  "bedrag": 42.95,
+  "map": 1,
+  "betaalwijze": 5
+ },
+ "5cbdfd3e8d8845fa827613ceb3355deb": {
+  "yuki_document": "c5805b1c-e633-4d92-8836-437bf8e27005",
+  "op": "2026-10-29",
+  "regels": [
+   "ponto-b8bd72fa-7cb5-462d-a7d9-72e226f64646"
+  ],
+  "bedrag": 800.0,
+  "map": 1,
+  "betaalwijze": 4
+ }
+}
