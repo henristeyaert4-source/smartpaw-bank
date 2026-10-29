@@ -1,0 +1,153 @@
+{
+ "Omzet webshop (Shopify)": {
+  "rekening": "700000",
+  "naam": "Omzet",
+  "aftrekbare_btw": "100%"
+ },
+ "Omzet bol.com": {
+  "rekening": "700000",
+  "naam": "Omzet",
+  "aftrekbare_btw": "100%"
+ },
+ "Omzet overige kanalen": {
+  "rekening": "700000",
+  "naam": "Omzet",
+  "aftrekbare_btw": "100%"
+ },
+ "Terugbetalingen aan klanten": {
+  "rekening": "700000",
+  "naam": "Omzet",
+  "aftrekbare_btw": "100%"
+ },
+ "Overige ontvangsten": {
+  "rekening": "749000",
+  "naam": "Overige bedrijfsopbrengsten",
+  "aftrekbare_btw": "0%"
+ },
+ "Voorraad (fabriek)": {
+  "rekening": "604000",
+  "naam": "Aankopen van handelsgoederen",
+  "aftrekbare_btw": "100%"
+ },
+ "Voorraad (verpakking & giveaways)": {
+  "rekening": "601000",
+  "naam": "Aankopen van hulpstoffen",
+  "aftrekbare_btw": "100%"
+ },
+ "Widem (fulfilment, vracht, invoer)": {
+  "rekening": "614000",
+  "naam": "Vervoerkosten op verkoop (algemene verrichtingen)",
+  "aftrekbare_btw": "100%"
+ },
+ "Verzending & retours (overig)": {
+  "rekening": "611030",
+  "naam": "PORTKOSTEN",
+  "aftrekbare_btw": "100%"
+ },
+ "Ads Meta": {
+  "rekening": "616502",
+  "naam": "RECLAME MET MERK",
+  "aftrekbare_btw": "100%"
+ },
+ "Ads Google": {
+  "rekening": "616501",
+  "naam": "RECLAME ZONDER MERK",
+  "aftrekbare_btw": "100%"
+ },
+ "Marketing & content": {
+  "rekening": "616640",
+  "naam": "Kosten reclamebureau",
+  "aftrekbare_btw": "100%"
+ },
+ "Markten & events": {
+  "rekening": "616620",
+  "naam": "Beurzen en tentoonstellingen",
+  "aftrekbare_btw": "100%"
+ },
+ "Software & abonnementen": {
+  "rekening": "611060",
+  "naam": "SOFTWARE KOSTEN",
+  "aftrekbare_btw": "100%"
+ },
+ "Boekhouder": {
+  "rekening": "615200",
+  "naam": "Erelonen boekhouders en accountants",
+  "aftrekbare_btw": "100%"
+ },
+ "Administratie & lidmaatschappen": {
+  "rekening": "616650",
+  "naam": "Contributies en abonnementen",
+  "aftrekbare_btw": "100%"
+ },
+ "Verzekering": {
+  "rekening": "613210",
+  "naam": "BURGERLIJKE AANSPRAKELIJKHEID",
+  "aftrekbare_btw": "100%"
+ },
+ "Bankkosten": {
+  "rekening": "657100",
+  "naam": "Bankkosten",
+  "aftrekbare_btw": "100%"
+ },
+ "Rente KBC-krediet": {
+  "rekening": "650510",
+  "naam": "INTRESTEN LENING 420-64",
+  "aftrekbare_btw": "0%"
+ },
+ "Aflossing KBC-krediet": {
+  "rekening": "420010",
+  "naam": "LENING 420-6950883-64",
+  "aftrekbare_btw": "0%"
+ },
+ "Financiering in (KBC-krediet)": {
+  "rekening": "170000",
+  "naam": "LENING 420-6950883-64",
+  "aftrekbare_btw": "0%"
+ },
+ "Lening Kaydee (in)": {
+  "rekening": "484001",
+  "naam": "RC Gielen, Kaydee",
+  "aftrekbare_btw": "0%"
+ },
+ "Lening Kaydee (terug)": {
+  "rekening": "484001",
+  "naam": "RC Gielen, Kaydee",
+  "aftrekbare_btw": "0%"
+ },
+ "Terugbetaling kosten aan Henri": {
+  "rekening": "484002",
+  "naam": "RC Steyaert Henri",
+  "aftrekbare_btw": "0%"
+ },
+ "Creazy": {
+  "rekening": "489000",
+  "naam": "Overige rekening courant",
+  "aftrekbare_btw": "0%"
+ },
+ "Materiaal": {
+  "rekening": "611200",
+  "naam": "Klein materiaal",
+  "aftrekbare_btw": "100%"
+ },
+ "Representatie & reizen": {
+  "rekening": "616700",
+  "naam": "Reis- en verblijfkosten binnenland",
+  "aftrekbare_btw": "100%"
+ },
+ "Personeel (student)": {
+  "rekening": "620200",
+  "naam": "Bezoldigingen bedienden",
+  "aftrekbare_btw": "0%"
+ },
+ "Btw": {
+  "rekening": "451000",
+  "naam": "Te betalen btw",
+  "aftrekbare_btw": "0%"
+ },
+ "Sociale bijdragen vennoten": {
+  "rekening": "484000",
+  "naam": "RC {0}",
+  "aftrekbare_btw": "0%"
+ },
+ "_uitleg": "Voorstel: platformcategorie -> rekening uit het rekeningschema van Pro-count (MAR Smartpaw.csv, 28/10/2026). Nog te bevestigen door Pro-count. Banken: KBC 550000, Revolut EUR 550001, Revolut USD 550002; Mastercards 434000 (Henri) / 434001 (Kaydee); RC Kaydee 484001, RC Henri 484002."
+}
