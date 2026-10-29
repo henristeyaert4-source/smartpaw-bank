@@ -1,5 +1,7 @@
 # SmartPaw Financiën — enige bron (vanaf 25 okt 2026)
 
+**Werkchat (vanaf 29/10/2026, afspraak Henri):** het financiënplatform wordt verder gebouwd in de nieuwe chat in project SmartPaw die start met "Lees SmartPaw_Financien_Bron.md en SmartPaw_Financien_Platform.md en werk verder aan het financiënplatform". De oude chat "Smartpow financiële status en BMV-lening" is enkel nog archief (geschiedenis opzoeken mag, daar niet meer verder bouwen). Alles wat telt staat in deze docs, de repo henristeyaert4-source/smartpaw-bank en het platform.
+
 Afspraak (Henri, 25/10): alles over SmartPaw-financiën komt uit het platform SmartPaw Financiën (https://claude.ai/artifact/W6M6FXVEXUvts8ntwJCa8A), de dagelijkse ochtendcheck en deze docs. Bij twijfel geldt: bankdata (Ponto/Revolut) > facturen > Shopify/TrueProfit > ramingen.
 
 ## Rekenregels (vast)
