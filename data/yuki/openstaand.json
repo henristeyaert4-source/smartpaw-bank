@@ -1292,5 +1292,1282 @@
    "betaalwijze": "Overschrijving"
   }
  ],
+ "leveranciers_boekingen": [
+  {
+   "id": "6dd9f507-0e7e-4cd9-8c54-60204d8c1aa9",
+   "datum": "2026-07-01",
+   "omschrijving": "Factuur van Bol.com B.V., Commissielonen",
+   "bedrag": -50.34,
+   "contact": "Bol.com B.V."
+  },
+  {
+   "id": "af52f0c8-bd42-460d-9200-eb9764ad6c94",
+   "datum": "2026-07-01",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "c2d0ee82-7c6f-46b7-bf8b-ae0562682417",
+   "datum": "2026-07-01",
+   "omschrijving": "Factuur van Yuki works, ABONNEMENTEN",
+   "bedrag": -2.42,
+   "contact": "Yuki works"
+  },
+  {
+   "id": "758ac88c-c113-405f-b55e-5d9ce596423f",
+   "datum": "2026-07-02",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 75,900 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 049273 - Datum verrichting: 01-07-26 - Uur",
+   "bedrag": 75.9,
+   "contact": "Google Ireland Limited"
+  },
+  {
+   "id": "111ff832-289b-4181-9d72-6ad3c1ec39bd",
+   "datum": "2026-07-02",
+   "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 277,520 : Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000006682     - Uitgevende instelling:  - Factuurnummer: 174          - Identificatienummer:                 - Datum: |",
+   "bedrag": 277.52,
+   "contact": "Mastercard"
+  },
+  {
+   "id": "650e60d4-be0e-4984-8956-cc92544f2b8c",
+   "datum": "2026-07-02",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 959266 - Datum verrichting: 01-07-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "d7db4a86-56a4-4324-9aed-e8d363d05aa8",
+   "datum": "2026-07-02",
+   "omschrijving": "Domiciliëringen - Direct debit : Betaling | Netto bedrag: 2,420 : | Europese domiciliëring - Datum: 02-07-26 - Type domiciliëring: recurrent - Schema domiciliëring: SEPA core - Betaling: betaald - Identificatiecode van de schuldeiser: NL08ZZZ502057730000",
+   "bedrag": 2.42,
+   "contact": "Yuki works"
+  },
+  {
+   "id": "19c4767b-2c51-467c-989e-3485e16624a2",
+   "datum": "2026-07-06",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 75,780 : | Overschrijving of storting met een gestructureerde mededeling: 001260042730 | Findajob bv",
+   "bedrag": 75.78,
+   "contact": "Findajob"
+  },
+  {
+   "id": "9f958a4a-74ed-4c62-b148-f46a60716fbb",
+   "datum": "2026-07-06",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 18,950 : | Overschrijving of storting met een gestructureerde mededeling: 001260045053 | Findajob bv",
+   "bedrag": 18.95,
+   "contact": "Findajob"
+  },
+  {
+   "id": "9daaa2ef-3e6a-4c6b-bdbe-c063447ddafb",
+   "datum": "2026-07-06",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 91,840 | Henri Steyaert",
+   "bedrag": 91.84,
+   "contact": "Henri Steyaert"
+  },
+  {
+   "id": "b1246224-79f7-445e-9a0f-5d491aeae7b3",
+   "datum": "2026-07-06",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 029285 - Datum verrichting: 06-07-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "1f945889-8f13-47af-a86c-9b5d23dd250e",
+   "datum": "2026-07-06",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "eb08a34f-b7e7-4f14-ab08-ca2a398d2891",
+   "datum": "2026-07-06",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 242,000 : | Overschrijving of storting met een gestructureerde mededeling: 250102032163 | Pro-Count",
+   "bedrag": 242.0,
+   "contact": "Pro-Count"
+  },
+  {
+   "id": "0364dd17-4ba8-4218-98b1-205fc9f77f33",
+   "datum": "2026-07-06",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 242,000 : | Overschrijving of storting met een gestructureerde mededeling: 250101479162 | Pro-Count",
+   "bedrag": 242.0,
+   "contact": "Pro-Count"
+  },
+  {
+   "id": "28d1ebab-2c67-45f4-9fa3-2d8bbc29e7a5",
+   "datum": "2026-07-06",
+   "omschrijving": "Factuur van Pro-Count, Erelonen boekhouders en accountants",
+   "bedrag": -242.0,
+   "contact": "Pro-Count"
+  },
+  {
+   "id": "38391ac1-d3a3-4398-8d1f-384cc2c06689",
+   "datum": "2026-07-06",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 527,830 : | Overschrijving of storting met een gestructureerde mededeling: 002620201584 | Widem Logistics NV",
+   "bedrag": 527.83,
+   "contact": "Widem Logistics"
+  },
+  {
+   "id": "ffdb9b0a-031f-4d5d-ace9-6df731ff2910",
+   "datum": "2026-07-08",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -278.57,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "5ce5f69a-20ee-40af-86dc-fb88b727fa0e",
+   "datum": "2026-07-09",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 278,570 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 693084 - Datum verrichting: 08-07-26 - Uur",
+   "bedrag": 278.57,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "cc2115a1-549f-4fd7-972c-435d70385489",
+   "datum": "2026-07-10",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 364,580 : 26010112 | WIDEM LOGISTICS NV",
+   "bedrag": 364.58,
+   "contact": "Widem Logistics"
+  },
+  {
+   "id": "e12bd561-5b79-45b0-8e04-93260140248f",
+   "datum": "2026-07-10",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 364,580 : 26010112 | WIDEM LOGISTICS NV",
+   "bedrag": -0.01,
+   "contact": "Widem Logistics"
+  },
+  {
+   "id": "3abc90bd-b870-43b5-b92e-e2220c454faf",
+   "datum": "2026-07-10",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 261,040 : 26008013 | WIDEM LOGISTICS NV",
+   "bedrag": 261.04,
+   "contact": "Widem Logistics"
+  },
+  {
+   "id": "2794d6d1-463c-4862-bded-a219eed7c71c",
+   "datum": "2026-07-13",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "33b66398-bf12-468a-8f38-63a5cb5fbdc9",
+   "datum": "2026-07-14",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 949248 - Datum verrichting: 13-07-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "8b2de297-92be-4d42-8684-b3603a31ca21",
+   "datum": "2026-07-15",
+   "omschrijving": "Factuur van Bol.com B.V., Commissielonen",
+   "bedrag": -53.57,
+   "contact": "Bol.com B.V."
+  },
+  {
+   "id": "bad00775-717b-4329-bb07-5129d904dfcb",
+   "datum": "2026-07-19",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "9cda2a62-dbb7-4c13-a09a-339ae1df09d1",
+   "datum": "2026-07-20",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 72,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 632350 - Datum verrichting: 19-07-26 - Uur",
+   "bedrag": 72.0,
+   "contact": "Higgsfield Inc"
+  },
+  {
+   "id": "78400dfb-66a1-474f-b975-95e4915d575b",
+   "datum": "2026-07-20",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 624790 - Datum verrichting: 19-07-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "ca7365d3-eb36-4319-bfad-fc90f3fe7d98",
+   "datum": "2026-07-21",
+   "omschrijving": "Factuur van Findajob, Uitzendkrachten",
+   "bedrag": -293.64,
+   "contact": "Findajob"
+  },
+  {
+   "id": "772913c5-c3e3-4f11-97cd-2d0aed13c965",
+   "datum": "2026-07-24",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 5,600 : Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006896 - Kaartschema: Bancontact - Terminalnummer: 000000 - Volgnummer verrichting: 964403 - Datum verrichting: 24-07-26 - U",
+   "bedrag": 5.6,
+   "contact": "Bpost"
+  },
+  {
+   "id": "bcc52730-1683-41cf-b7ec-365ec630de7f",
+   "datum": "2026-07-25",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "c966d113-239a-45f6-8965-7b6c3273893c",
+   "datum": "2026-07-26",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 021460 - Datum verrichting: 25-07-26 - Uur v",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "049e114c-2683-4269-a00d-eba33644b492",
+   "datum": "2026-07-27",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 293,640 | FINDAJOB BV",
+   "bedrag": 293.64,
+   "contact": "Findajob"
+  },
+  {
+   "id": "915c30c3-6f4f-44a9-8f4e-9b8186fa6927",
+   "datum": "2026-07-27",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 59,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: Bancontact - Terminalnummer: 000000 - Volgnummer verrichting: 516976 - Datum verrichting: 27-07-26",
+   "bedrag": 59.0,
+   "contact": "Shopify International Limited"
+  },
+  {
+   "id": "ba7e46b3-f00f-4bef-91ab-ab1e5cbdb4c7",
+   "datum": "2026-07-27",
+   "omschrijving": "Factuur van Shopify International Limited, Aankopen van handelsgoederen",
+   "bedrag": -59.0,
+   "contact": "Shopify International Limited"
+  },
+  {
+   "id": "741fbdb6-329e-44cd-b374-8fa8a374358c",
+   "datum": "2026-07-28",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 7,100 : Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006896 - Kaartschema: Bancontact - Terminalnummer: 000000 - Volgnummer verrichting: 803239 - Datum verrichting: 28-07-26 - U",
+   "bedrag": 7.1,
+   "contact": "Bpost"
+  },
+  {
+   "id": "a8136e4e-992d-4c5d-b026-3c1a1c0578dd",
+   "datum": "2026-07-29",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 7,100 : 1630150411 Online aanmaak verzendetiket(ten) | bpost parcel",
+   "bedrag": 7.1,
+   "contact": "Bpost"
+  },
+  {
+   "id": "1e63ca1c-16da-45eb-9163-a80c0c5980da",
+   "datum": "2026-07-29",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 47,100 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006896 - Kaartschema: Bancontact - Terminalnummer: 000000 - Volgnummer verrichting: 267648 - Datum verrichting: 29-07-26",
+   "bedrag": 47.1,
+   "contact": "Diverse leveranciers"
+  },
+  {
+   "id": "4be95fc2-a973-46ce-acbf-8791a8d5283d",
+   "datum": "2026-07-29",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "735c00ad-fd74-4021-98e5-afd5b0e82cda",
+   "datum": "2026-07-30",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 733370 - Datum verrichting: 29-07-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "eb33eb90-706d-4f8b-8c9e-ba7f221f80e2",
+   "datum": "2026-07-31",
+   "omschrijving": "Factuur van Amazon Eu Sarl, ABONNEMENTEN",
+   "bedrag": -38.49,
+   "contact": "Amazon Eu Sarl"
+  },
+  {
+   "id": "dcc5b0c5-cc4c-4b79-8671-64d94ee92579",
+   "datum": "2026-07-31",
+   "omschrijving": "Factuur van Findajob, Uitzendkrachten",
+   "bedrag": -94.72,
+   "contact": "Findajob"
+  },
+  {
+   "id": "c087b314-42a5-40ca-9c24-aa677d572ab4",
+   "datum": "2026-07-31",
+   "omschrijving": "Factuur van KBC Bank, Bankkosten",
+   "bedrag": -0.61,
+   "contact": "KBC Bank"
+  },
+  {
+   "id": "0731e559-b3c6-4274-afac-542935447609",
+   "datum": "2026-07-31",
+   "omschrijving": "Factuur van Widem Logistics, TRANSPORTEN AAN DERDEN",
+   "bedrag": -1783.71,
+   "contact": "Widem Logistics"
+  },
+  {
+   "id": "1b74ba06-81e5-439e-97c8-d3277f29d402",
+   "datum": "2026-07-31",
+   "omschrijving": "Factuur van Widem Logistics, TRANSPORTEN AAN DERDEN",
+   "bedrag": -2361.28,
+   "contact": "Widem Logistics"
+  },
+  {
+   "id": "e0f79b05-98b3-47ad-987f-ed85c692e8f8",
+   "datum": "2026-08-01",
+   "omschrijving": "Factuur van Bol.com B.V., Commissielonen, Portkosten",
+   "bedrag": -107.54,
+   "contact": "Bol.com B.V."
+  },
+  {
+   "id": "775559f9-8e3b-4c71-8b50-00031dfd216a",
+   "datum": "2026-08-01",
+   "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 1158,500 : | Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000002103     - Uitgevende instelling:  - Factuurnummer: 204          - Identificatienummer:                 - Datum: |",
+   "bedrag": 1158.5,
+   "contact": "Mastercard"
+  },
+  {
+   "id": "2d5b778b-2b30-4ee5-ad54-666ab981f2d8",
+   "datum": "2026-08-01",
+   "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 1547,870 : Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000006682     - Uitgevende instelling:  - Factuurnummer: 204          - Identificatienummer:                 - Datum: |",
+   "bedrag": 1547.87,
+   "contact": "Mastercard"
+  },
+  {
+   "id": "3ded3b4d-e997-4522-99e0-3e9b3aae9bd4",
+   "datum": "2026-08-01",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "639f0fcb-dfbd-4a53-87ff-d6339fb9a59d",
+   "datum": "2026-08-02",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 75,900 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 930438 - Datum verrichting: 01-08-26 - Uur",
+   "bedrag": 75.9,
+   "contact": "Google Ireland Limited"
+  },
+  {
+   "id": "ee9bf1c8-9532-4180-b3f1-2184a284da07",
+   "datum": "2026-08-02",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 760632 - Datum verrichting: 01-08-26 - Uur v",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "4afe822a-28d5-45bd-9c45-db51b123ac5b",
+   "datum": "2026-08-03",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 7,850 : 1636296713 Online aanmaak verzendetiket(ten) | bpost parcel",
+   "bedrag": 7.85,
+   "contact": "Bpost"
+  },
+  {
+   "id": "24ecf5e7-edea-4d12-bdc2-80e7eba8ddf0",
+   "datum": "2026-08-03",
+   "omschrijving": "Factuur van Yuki works, KOSTEN DIGITALISERING",
+   "bedrag": -2.42,
+   "contact": "Yuki works"
+  },
+  {
+   "id": "76ebade6-ba67-4b82-b65d-20a4d823c7af",
+   "datum": "2026-08-04",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "a1cece14-3ea6-4b7c-b1cf-901c7da5b60b",
+   "datum": "2026-08-04",
+   "omschrijving": "Domiciliëringen - Direct debit : Betaling | Netto bedrag: 2,420 : Europese domiciliëring - Datum: 04-08-26 - Type domiciliëring: recurrent - Schema domiciliëring: SEPA core - Betaling: betaald - Identificatiecode van de schuldeiser: NL08ZZZ502057730000",
+   "bedrag": 2.42,
+   "contact": "Yuki works"
+  },
+  {
+   "id": "cc1157d5-edfb-4a27-815b-44c86e82a9d0",
+   "datum": "2026-08-05",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 379564 - Datum verrichting: 04-08-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "6b060ae9-f87a-494d-b3fb-ce3caed4b2fb",
+   "datum": "2026-08-07",
+   "omschrijving": "Factuur van Action Belgium, Klein materiaal",
+   "bedrag": -10.02,
+   "contact": "Action Belgium"
+  },
+  {
+   "id": "169ebb61-0042-4351-9ed5-63a483d9d68c",
+   "datum": "2026-08-08",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 10,020 : Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006896 - Kaartschema: TINA - Terminalnummer: 060591 - Volgnummer verrichting: 031041 - Datum verrichting: 07-08-26 - Uur ve",
+   "bedrag": 10.02,
+   "contact": "Action Belgium"
+  },
+  {
+   "id": "21e27ac4-a11c-46ed-b701-99003e005bfe",
+   "datum": "2026-08-08",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 757,530 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 014514 - Datum verrichting: 08-08-26 - Uur",
+   "bedrag": 757.53,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "128371ba-152a-468b-8913-0dfd1301be11",
+   "datum": "2026-08-08",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -757.53,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "efd36b43-9b9d-4487-93d0-87eb431e0afb",
+   "datum": "2026-08-10",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "8afe54ed-6b57-4830-a49d-87f845bbd7d3",
+   "datum": "2026-08-11",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 94,250 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006896 - Kaartschema: Bancontact - Terminalnummer: 000000 - Volgnummer verrichting: 784557 - Datum verrichting: 11-08-26",
+   "bedrag": 94.25,
+   "contact": "HOTEL ON BOOKING AMSTERDAM"
+  },
+  {
+   "id": "dcbdf866-e578-4fe5-a065-e2f31aa882e2",
+   "datum": "2026-08-11",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 423942 - Datum verrichting: 10-08-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "d465cdb4-5387-4138-bc34-446e7dbf53d4",
+   "datum": "2026-08-11",
+   "omschrijving": "Factuur van Pro-Count, Erelonen boekhouders en accountants",
+   "bedrag": -242.0,
+   "contact": "Pro-Count"
+  },
+  {
+   "id": "c9d704ee-b136-43c7-b3d4-6bc34c9ef86d",
+   "datum": "2026-08-12",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 174,280 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: Bancontact - Terminalnummer: 000000 - Volgnummer verrichting: 392488 - Datum verrichting: 12-08-26",
+   "bedrag": 174.28,
+   "contact": "Drukbedrijf.nl"
+  },
+  {
+   "id": "0a049019-6fca-4fd5-90b0-fc545c0f7fe1",
+   "datum": "2026-08-12",
+   "omschrijving": "Factuur van Drukbedrijf.nl, Klein materiaal",
+   "bedrag": -174.28,
+   "contact": "Drukbedrijf.nl"
+  },
+  {
+   "id": "dd90e3a1-ba02-420e-bdc1-4ff548bd68dc",
+   "datum": "2026-08-13",
+   "omschrijving": "Factuur van Widem Logistics, TRANSPORTEN AAN DERDEN",
+   "bedrag": -110.77,
+   "contact": "Widem Logistics"
+  },
+  {
+   "id": "4485fd73-fad0-4089-b655-9109c7df88b0",
+   "datum": "2026-08-15",
+   "omschrijving": "Factuur van Bol.com B.V., Portkosten, Commissielonen",
+   "bedrag": -111.27,
+   "contact": "Bol.com B.V."
+  },
+  {
+   "id": "045164c7-fa4f-4282-b021-e3c1b8b091a6",
+   "datum": "2026-08-15",
+   "omschrijving": "Factuur van Bol.com B.V., RECLAME MET MERK",
+   "bedrag": -116.33,
+   "contact": "Bol.com B.V."
+  },
+  {
+   "id": "28fce2e1-2e91-469f-90a7-37922d53e4c6",
+   "datum": "2026-08-17",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 5,400 : 1653323513 Online aanmaak verzendetiket(ten) | bpost parcel",
+   "bedrag": 5.4,
+   "contact": "Bpost"
+  },
+  {
+   "id": "f7519767-9665-49dd-8cd2-6fd539e0e1ba",
+   "datum": "2026-08-17",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "b1498426-1a24-43c3-8c7d-06d9bf2d747d",
+   "datum": "2026-08-17",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 006042 - Volgnummer verrichting: 233923 - Datum verrichting: 17-08-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "ebf41c7a-450d-4372-b981-0ba53cc047b6",
+   "datum": "2026-08-18",
+   "omschrijving": "Factuur van Findajob, Uitzendkrachten",
+   "bedrag": -248.35,
+   "contact": "Findajob"
+  },
+  {
+   "id": "18af1767-dacd-45de-bf34-38e9e189a0be",
+   "datum": "2026-08-18",
+   "omschrijving": "Factuur van NENUPHAR, Restaurantkosten",
+   "bedrag": -249.0,
+   "contact": "NENUPHAR"
+  },
+  {
+   "id": "e94e64d5-ee9b-431e-b771-e5842a952254",
+   "datum": "2026-08-19",
+   "omschrijving": "Factuur van Higgsfield Inc, ABONNEMENTEN",
+   "bedrag": -71.39,
+   "contact": "Higgsfield Inc"
+  },
+  {
+   "id": "46243f34-576d-43e3-9415-e51fb845857d",
+   "datum": "2026-08-19",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 249,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006896 - Kaartschema: TINA - Terminalnummer: 200569 - Volgnummer verrichting: 541217 - Datum verrichting: 18-08-26 - Uur",
+   "bedrag": 249.0,
+   "contact": "NENUPHAR"
+  },
+  {
+   "id": "4ae9ff9c-8567-4f4e-a7d8-8a3001e4aa19",
+   "datum": "2026-08-20",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 94,720 : | Overschrijving of storting met een gestructureerde mededeling: 001260053844 | Findajob bv",
+   "bedrag": 94.72,
+   "contact": "Findajob"
+  },
+  {
+   "id": "06203f29-704f-42b2-bf87-bec2f53e6b0d",
+   "datum": "2026-08-20",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 72,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 090270 - Datum verrichting: 19-08-26 - Uur",
+   "bedrag": -0.61,
+   "contact": "Higgsfield Inc"
+  },
+  {
+   "id": "a239f8d9-35d5-4e71-a63f-15313b324536",
+   "datum": "2026-08-20",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 72,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 090270 - Datum verrichting: 19-08-26 - Uur",
+   "bedrag": 72.0,
+   "contact": "Higgsfield Inc"
+  },
+  {
+   "id": "150419e3-aa6f-4973-949c-254af0d7dee5",
+   "datum": "2026-08-20",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "89f930d2-988b-4b75-a0d4-b8cc2fc5198f",
+   "datum": "2026-08-21",
+   "omschrijving": "Factuur van Advance Media B.V., RECLAME MET MERK",
+   "bedrag": -3650.0,
+   "contact": "Advance Media B.V."
+  },
+  {
+   "id": "2cc6432c-8073-4a20-9486-c25ca87ac66b",
+   "datum": "2026-08-21",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 426750 - Datum verrichting: 20-08-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "961a8c06-5ed9-462b-985e-43829d6f5aa8",
+   "datum": "2026-08-23",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "0ae09797-1e6b-4f26-ae5d-80195f5ed75e",
+   "datum": "2026-08-24",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 591350 - Datum verrichting: 23-08-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "13f60b3e-9a04-4faa-91cb-4ff674b121a2",
+   "datum": "2026-08-26",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 3650,000 : Invoice 2329 | Advancemedia",
+   "bedrag": 3650.0,
+   "contact": "Advance Media B.V."
+  },
+  {
+   "id": "ccf35ad3-9219-4005-bcea-b94d9cfd1d47",
+   "datum": "2026-08-26",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 248,350 : | Overschrijving of storting met een gestructureerde mededeling: 001260057278 | Findajob bv",
+   "bedrag": 248.35,
+   "contact": "Findajob"
+  },
+  {
+   "id": "12c3d4e1-0383-408b-a3ae-f4c7d86fa68b",
+   "datum": "2026-08-26",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "32a0d125-45ab-4320-b470-65b3e0615c59",
+   "datum": "2026-08-26",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 1783,710 : | Overschrijving of storting met een gestructureerde mededeling: 002601419354 | Widem Logistics NV",
+   "bedrag": 1783.71,
+   "contact": "Widem Logistics"
+  },
+  {
+   "id": "e1dda517-68b3-46c9-b3cf-0932639c85a8",
+   "datum": "2026-08-27",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 755940 - Datum verrichting: 26-08-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "99d5e13c-4b26-4ff2-a3e5-1c16c3e4b06b",
+   "datum": "2026-08-30",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 476537 - Datum verrichting: 30-08-26 - Uur v",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "45430be0-29c4-4b50-9e01-e353d0384e2c",
+   "datum": "2026-08-30",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "ade34d62-5b3d-464a-bb44-726603f54e59",
+   "datum": "2026-08-31",
+   "omschrijving": "Factuur van Bpost, Portkosten",
+   "bedrag": -6.78,
+   "contact": "Bpost"
+  },
+  {
+   "id": "09bd4256-c24f-4963-b916-38349183a59d",
+   "datum": "2026-08-31",
+   "omschrijving": "Factuur van Findajob, Uitzendkrachten",
+   "bedrag": -472.21,
+   "contact": "Findajob"
+  },
+  {
+   "id": "11aaea71-1be7-497f-a7fe-6ea49add087f",
+   "datum": "2026-08-31",
+   "omschrijving": "Factuur van KBC Bank, Bankkosten",
+   "bedrag": -0.61,
+   "contact": "KBC Bank"
+  },
+  {
+   "id": "eab6addd-2af9-4c7a-985b-fadedfd9e1ea",
+   "datum": "2026-08-31",
+   "omschrijving": "Factuur van Widem Logistics, TRANSPORTEN AAN DERDEN",
+   "bedrag": -3251.79,
+   "contact": "Widem Logistics"
+  },
+  {
+   "id": "a9f335c5-37b9-4510-8779-199452ebe5a3",
+   "datum": "2026-09-01",
+   "omschrijving": "Factuur van Bol.com B.V., Commissielonen",
+   "bedrag": -119.98,
+   "contact": "Bol.com B.V."
+  },
+  {
+   "id": "73503146-83ea-4150-8f8f-3292d35bc982",
+   "datum": "2026-09-01",
+   "omschrijving": "Factuur van Bol.com B.V., RECLAME MET MERK",
+   "bedrag": -45.49,
+   "contact": "Bol.com B.V."
+  },
+  {
+   "id": "efd2454a-7f48-4f72-a35f-3afe0b7ad864",
+   "datum": "2026-09-01",
+   "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 1072,020 : | Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000006682     - Uitgevende instelling:  - Factuurnummer: 235          - Identificatienummer:                 - Datum: |",
+   "bedrag": 1072.02,
+   "contact": "Mastercard"
+  },
+  {
+   "id": "2598dbb9-1873-47d6-a296-82885d743c84",
+   "datum": "2026-09-01",
+   "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 198,560 : | Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000002103     - Uitgevende instelling:  - Factuurnummer: 235          - Identificatienummer:                 - Datum: |",
+   "bedrag": 198.56,
+   "contact": "Mastercard"
+  },
+  {
+   "id": "c9f7f90a-904d-4a8e-a0e7-948ff8779d26",
+   "datum": "2026-09-01",
+   "omschrijving": "Factuur van Yuki works, KOSTEN DIGITALISERING",
+   "bedrag": -2.42,
+   "contact": "Yuki works"
+  },
+  {
+   "id": "9859f2e7-d77e-46bd-ad9a-f290da9220cc",
+   "datum": "2026-09-02",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 75,900 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 002611 - Datum verrichting: 01-09-26 - Uur",
+   "bedrag": 75.9,
+   "contact": "Google Ireland Limited"
+  },
+  {
+   "id": "4d6d8309-f029-4b87-a1a7-6dab891830e2",
+   "datum": "2026-09-02",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "a977360c-5100-4064-b6dd-4e56e4b4d744",
+   "datum": "2026-09-02",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 9000,000 : Voorschot producten | SMARTPAW VOF",
+   "bedrag": 9000.0,
+   "contact": "Shenzhen Qianyan Technology LTD"
+  },
+  {
+   "id": "d1af2dc1-8d22-457a-8566-4f49f34e60bc",
+   "datum": "2026-09-02",
+   "omschrijving": "Factuur van suzhou Compass Machinery, Aankopen van handelsgoederen",
+   "bedrag": -261.06,
+   "contact": "suzhou Compass Machinery"
+  },
+  {
+   "id": "f2a58312-2e8d-4692-8341-551d759074f2",
+   "datum": "2026-09-02",
+   "omschrijving": "EUR > USD 9.165,25 euro",
+   "bedrag": -9152.73,
+   "contact": "suzhou Compass Machinery"
+  },
+  {
+   "id": "a843d182-91a5-4e71-a8f3-6578798010cf",
+   "datum": "2026-09-02",
+   "omschrijving": "BET Suzhou Compass Machinery 10.000 USD",
+   "bedrag": 8626.12,
+   "contact": "suzhou Compass Machinery"
+  },
+  {
+   "id": "fe834302-ce64-4bc2-b2d6-a93300491c21",
+   "datum": "2026-09-02",
+   "omschrijving": "Suzhou Compass Machinery 10.610,49 USD",
+   "bedrag": 9165.25,
+   "contact": "suzhou Compass Machinery"
+  },
+  {
+   "id": "f474cfa4-cee6-4f21-ace9-e4f2b5cbc1ca",
+   "datum": "2026-09-02",
+   "omschrijving": "Domiciliëringen - Direct debit : Betaling | Netto bedrag: 2,420 : Europese domiciliëring - Datum: 02-09-26 - Type domiciliëring: recurrent - Schema domiciliëring: SEPA core - Betaling: betaald - Identificatiecode van de schuldeiser: NL08ZZZ502057730000",
+   "bedrag": 2.42,
+   "contact": "Yuki works"
+  },
+  {
+   "id": "c866e598-d466-4407-a01f-cef423d4f7b2",
+   "datum": "2026-09-03",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 693043 - Datum verrichting: 02-09-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "a84e8679-a82f-45c3-9d5c-ab80009b0b45",
+   "datum": "2026-09-05",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "613ca4c5-3e7b-4f3e-9642-1d8f352520bb",
+   "datum": "2026-09-05",
+   "omschrijving": "Factuur van Proximus, Diverse financiële kosten",
+   "bedrag": -10.0,
+   "contact": "Proximus"
+  },
+  {
+   "id": "cf2903f0-dac5-4525-861b-80ef9b7f1e3c",
+   "datum": "2026-09-07",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 399587 - Datum verrichting: 05-09-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "6dc69fd1-3588-46c5-bda9-fff5ba757f97",
+   "datum": "2026-09-07",
+   "omschrijving": "Factuur van Pro-Count, Erelonen boekhouders en accountants",
+   "bedrag": -242.0,
+   "contact": "Pro-Count"
+  },
+  {
+   "id": "5ceef1a3-ad20-4215-8a62-e67c8a560397",
+   "datum": "2026-09-08",
+   "omschrijving": "Factuur van Findajob, Uitzendkrachten",
+   "bedrag": -218.55,
+   "contact": "Findajob"
+  },
+  {
+   "id": "dc523213-c0a7-4e85-ac6a-025d9f395bef",
+   "datum": "2026-09-08",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -555.08,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "24575f9f-a674-4b49-b1f6-8237dc5a8c45",
+   "datum": "2026-09-08",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 555,080 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 628147 - Datum verrichting: 08-09-26 - Uur",
+   "bedrag": 555.08,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "e523aa3d-bd42-4777-8b5c-884f3fa45d0f",
+   "datum": "2026-09-09",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 472,210 : | Overschrijving of storting met een gestructureerde mededeling: 001260059908 | Findajob bv",
+   "bedrag": 472.21,
+   "contact": "Findajob"
+  },
+  {
+   "id": "4207de3d-ab2f-42d0-a9ff-fab410e04b96",
+   "datum": "2026-09-09",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 3135,000 : | Overschrijving of storting met een gestructureerde mededeling: 002601202116 | Widem Logistics NV",
+   "bedrag": 3135.0,
+   "contact": "Widem Logistics"
+  },
+  {
+   "id": "51721a5d-65ee-40a3-a722-1f47f020c9aa",
+   "datum": "2026-09-09",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 110,770 : | Overschrijving of storting met een gestructureerde mededeling: 002620284440 | Widem Logistics NV",
+   "bedrag": 110.77,
+   "contact": "Widem Logistics"
+  },
+  {
+   "id": "3f4b8ca9-8ad2-4c2f-beb4-4de5190ddc04",
+   "datum": "2026-09-09",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 261,030 : | Overschrijving of storting met een gestructureerde mededeling: 002600801382 | Widem Logistics NV",
+   "bedrag": 261.03,
+   "contact": "Widem Logistics"
+  },
+  {
+   "id": "6bf9fcb4-6d6c-4b76-af95-7b5a30bcd927",
+   "datum": "2026-09-09",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 364,570 : | Overschrijving of storting met een gestructureerde mededeling: 002601011247 | Widem Logistics NV",
+   "bedrag": 364.57,
+   "contact": "Widem Logistics"
+  },
+  {
+   "id": "a23f00b4-b00f-478e-b0d2-8058670345a6",
+   "datum": "2026-09-09",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 2361,280 | WIDEM LOGISTICS NV",
+   "bedrag": 2361.28,
+   "contact": "Widem Logistics"
+  },
+  {
+   "id": "f1c3bfd3-1654-4093-811d-98be5bdf208d",
+   "datum": "2026-09-10",
+   "omschrijving": "Factuur van Almost 3000, Overige erelonen",
+   "bedrag": -314.6,
+   "contact": "Almost 3000"
+  },
+  {
+   "id": "4f709521-5dca-49bb-8601-8790b8b73718",
+   "datum": "2026-09-10",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "a51248b9-b6f0-4601-bb1b-9c5187c2995d",
+   "datum": "2026-09-11",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 265352 - Datum verrichting: 10-09-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "fde9e8ce-050d-4c88-b220-3b89eeb37ba3",
+   "datum": "2026-09-12",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 121,500 : Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: Bancontact - Terminalnummer: 953025 - Volgnummer verrichting: 535630 - Datum verrichting: 12-09-26 -",
+   "bedrag": 121.5,
+   "contact": "Diverse leveranciers"
+  },
+  {
+   "id": "834afaf0-aee4-43c5-a48f-b84f7bc3f113",
+   "datum": "2026-09-12",
+   "omschrijving": "Factuur van Haddok, Restaurantkosten",
+   "bedrag": -121.5,
+   "contact": "Haddok"
+  },
+  {
+   "id": "b4e5e997-5d3c-462f-ad2e-535296c66caf",
+   "datum": "2026-09-13",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "f783ba84-67da-4eb9-92f6-4e0803dfcf97",
+   "datum": "2026-09-14",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 748859 - Datum verrichting: 13-09-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "560816a2-b84c-4734-9766-34aeeb88d05c",
+   "datum": "2026-09-15",
+   "omschrijving": "Factuur van Bol.com B.V., RECLAME MET MERK",
+   "bedrag": -38.18,
+   "contact": "Bol.com B.V."
+  },
+  {
+   "id": "fdf4be1b-1dc2-4d48-b113-caa76974c0f2",
+   "datum": "2026-09-15",
+   "omschrijving": "Factuur van Bol.com B.V., Commissielonen, Portkosten",
+   "bedrag": -105.78,
+   "contact": "Bol.com B.V."
+  },
+  {
+   "id": "60314dc9-3082-45df-9d64-3d8dfeaacf48",
+   "datum": "2026-09-15",
+   "omschrijving": "Factuur van Findajob, Uitzendkrachten",
+   "bedrag": -437.1,
+   "contact": "Findajob"
+  },
+  {
+   "id": "f7964cda-0a4e-4019-8005-7214e96a657f",
+   "datum": "2026-09-16",
+   "omschrijving": "Factuur van Bpost, Portkosten",
+   "bedrag": -6.78,
+   "contact": "Bpost"
+  },
+  {
+   "id": "20525496-fda9-4516-b81d-3c9fe35950f5",
+   "datum": "2026-09-17",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "b69db333-e999-4391-ae79-cf4e387cafe3",
+   "datum": "2026-09-17",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 851552 - Datum verrichting: 17-09-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "a0af2148-ad3d-441b-90fe-acb29672e889",
+   "datum": "2026-09-17",
+   "omschrijving": "Factuur van Thomas More Mechelen-Antwerpen, Beroepsbijdragen",
+   "bedrag": -75.0,
+   "contact": "Thomas More Mechelen-Antwerpen"
+  },
+  {
+   "id": "69b81aa8-c772-4c0d-b08a-5cbd9db4fa37",
+   "datum": "2026-09-19",
+   "omschrijving": "Factuur van Higgsfield Inc, ABONNEMENTEN",
+   "bedrag": -71.39,
+   "contact": "Higgsfield Inc"
+  },
+  {
+   "id": "bdc83d96-3eb9-4855-9bdc-94b2cc7007c4",
+   "datum": "2026-09-20",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 72,000 : Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 405690 - Datum verrichting: 19-09-26 - Uur ve",
+   "bedrag": 72.0,
+   "contact": "Higgsfield Inc"
+  },
+  {
+   "id": "9c967915-a887-45a9-9561-9c2a76204ba9",
+   "datum": "2026-09-20",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 72,000 : Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 405690 - Datum verrichting: 19-09-26 - Uur ve",
+   "bedrag": -0.61,
+   "contact": "Higgsfield Inc"
+  },
+  {
+   "id": "126a85de-dd87-40f6-88c3-b10057f1719a",
+   "datum": "2026-09-20",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "323b9960-1621-4043-858f-4f75ccd59e9f",
+   "datum": "2026-09-21",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 213895 - Datum verrichting: 20-09-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "6b5ab8a5-856a-4b5b-b749-146f3c1a4480",
+   "datum": "2026-09-22",
+   "omschrijving": "Factuur van Findajob, Uitzendkrachten",
+   "bedrag": -238.42,
+   "contact": "Findajob"
+  },
+  {
+   "id": "123c4eb5-a77f-4ebc-ad44-1f2353de663f",
+   "datum": "2026-09-24",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 921188 - Datum verrichting: 24-09-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "df80dbfb-9b5b-4daa-aaa5-a0eb436becaf",
+   "datum": "2026-09-24",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "3a4c5a2e-39b6-4b4b-a52c-1f1d0ca3f17f",
+   "datum": "2026-09-24",
+   "omschrijving": "Factuur van Widem Logistics, TRANSPORTEN AAN DERDEN",
+   "bedrag": -1221.41,
+   "contact": "Widem Logistics"
+  },
+  {
+   "id": "dac8ee88-32b2-4943-9226-8756e52b42b0",
+   "datum": "2026-09-27",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 593695 - Datum verrichting: 27-09-26 - Uur v",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "46484eba-f8a5-4495-8b8c-babb053e7e69",
+   "datum": "2026-09-27",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "d84d59c2-4dce-4627-9f7a-e2c1d3f1f75a",
+   "datum": "2026-09-29",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 6,780 : | Overschrijving of storting met een gestructureerde mededeling: 026855965725 | bpost",
+   "bedrag": 6.78,
+   "contact": "Bpost"
+  },
+  {
+   "id": "e358b076-7c26-4046-813d-e602892bfba3",
+   "datum": "2026-09-29",
+   "omschrijving": "Factuur van Findajob, Uitzendkrachten",
+   "bedrag": -149.01,
+   "contact": "Findajob"
+  },
+  {
+   "id": "6097f1f1-6099-4d48-bac7-7ea2f718b73b",
+   "datum": "2026-09-29",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 238,420 : | Overschrijving of storting met een gestructureerde mededeling: 001260068291 | Findajob bv",
+   "bedrag": 238.42,
+   "contact": "Findajob"
+  },
+  {
+   "id": "a66a7ea9-6710-4004-92fd-7f78ce294de9",
+   "datum": "2026-09-29",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 218,550 : | Overschrijving of storting met een gestructureerde mededeling: 001260064655 | Findajob bv",
+   "bedrag": 218.55,
+   "contact": "Findajob"
+  },
+  {
+   "id": "afb2a268-096a-4d75-b038-81801e85cebd",
+   "datum": "2026-09-29",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 437,100 : | Overschrijving of storting met een gestructureerde mededeling: 001260066069 | Findajob bv",
+   "bedrag": 437.1,
+   "contact": "Findajob"
+  },
+  {
+   "id": "5ee3a1c1-2580-4cbe-909b-3014454a3abb",
+   "datum": "2026-09-29",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 242,000 : Overschrijving of storting met een gestructureerde mededeling: 250102992160 | Pro-Count",
+   "bedrag": 242.0,
+   "contact": "Pro-Count"
+  },
+  {
+   "id": "df26b067-d780-48e8-89ea-c990505c1d3b",
+   "datum": "2026-09-29",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 3251,790 : | Overschrijving of storting met een gestructureerde mededeling: 002601543535 | Widem Logistics NV",
+   "bedrag": 3251.79,
+   "contact": "Widem Logistics"
+  },
+  {
+   "id": "574b8ddb-1857-40d4-9977-7f98eef2f02b",
+   "datum": "2026-09-30",
+   "omschrijving": "Factuur van Bpost, Portkosten",
+   "bedrag": -6.78,
+   "contact": "Bpost"
+  },
+  {
+   "id": "e0fc5a91-31b9-49b8-9d53-4cdbe7940a6e",
+   "datum": "2026-09-30",
+   "omschrijving": "Factuur van Findajob, Uitzendkrachten",
+   "bedrag": -158.95,
+   "contact": "Findajob"
+  },
+  {
+   "id": "b009f63a-87d0-4fb8-b9a7-7d5b27cfc4d0",
+   "datum": "2026-09-30",
+   "omschrijving": "Afsluiting (periodieke afrekeningen van intresten, kosten, …): afsluiting | Netto bedrag: 0,910 : AFREKENING PER   30/09/2026 VAN BE84 7310 7076 0259                        IN EUR |\n| Betaalde rente: 0,910",
+   "bedrag": 0.91,
+   "contact": "KBC Bank"
+  },
+  {
+   "id": "152fc4ba-f8e4-449e-a796-4865e08d4a48",
+   "datum": "2026-09-30",
+   "omschrijving": "Factuur van KBC Bank, Bankkosten",
+   "bedrag": -0.61,
+   "contact": "KBC Bank"
+  },
+  {
+   "id": "6c7492cd-c6d8-4cd8-a8cf-22cd067d35fb",
+   "datum": "2026-09-30",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "5bb5cdf2-b46a-4c78-9c99-6f095ff2a3f7",
+   "datum": "2026-09-30",
+   "omschrijving": "Factuur van Widem Logistics, TRANSPORTEN AAN DERDEN",
+   "bedrag": -1740.23,
+   "contact": "Widem Logistics"
+  },
+  {
+   "id": "41d34715-58e5-43d3-b626-11fe5573cb0b",
+   "datum": "2026-10-01",
+   "omschrijving": "Factuur van Bol.com B.V., Portkosten, Commissielonen",
+   "bedrag": -52.73,
+   "contact": "Bol.com B.V."
+  },
+  {
+   "id": "bbdba0d8-5e7b-4fe2-b9e5-f359b641fa41",
+   "datum": "2026-10-01",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 204968 - Datum verrichting: 30-09-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "e1e290e5-c783-4d0e-9b1e-67899fbf3713",
+   "datum": "2026-10-02",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 75,900 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 058191 - Datum verrichting: 01-10-26 - Uur",
+   "bedrag": 75.9,
+   "contact": "Google Ireland Limited"
+  },
+  {
+   "id": "4e9c96c9-eac1-4543-812e-286314339a34",
+   "datum": "2026-10-02",
+   "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 238,560 : Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000006682     - Uitgevende instelling:  - Factuurnummer: 266          - Identificatienummer:                 - Datum: |",
+   "bedrag": 238.56,
+   "contact": "Mastercard"
+  },
+  {
+   "id": "3c6a7133-a42d-437f-be1b-66b8c00f1d25",
+   "datum": "2026-10-02",
+   "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 22,290 : | Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000002103     - Uitgevende instelling:  - Factuurnummer: 266          - Identificatienummer:                 - Datum: |",
+   "bedrag": 22.29,
+   "contact": "Mastercard"
+  },
+  {
+   "id": "cd9d632b-123f-41a2-aada-33528ca8c3ad",
+   "datum": "2026-10-02",
+   "omschrijving": "Domiciliëringen - Direct debit : Betaling | Netto bedrag: 2,420 : | Europese domiciliëring - Datum: 02-10-26 - Type domiciliëring: recurrent - Schema domiciliëring: SEPA core - Betaling: betaald - Identificatiecode van de schuldeiser: NL08ZZZ502057730000",
+   "bedrag": 2.42,
+   "contact": "Yuki works"
+  },
+  {
+   "id": "9f3f3653-aa69-4ec6-a5ae-2853139af0ae",
+   "datum": "2026-10-02",
+   "omschrijving": "Factuur van Yuki works, KOSTEN DIGITALISERING",
+   "bedrag": -2.42,
+   "contact": "Yuki works"
+  },
+  {
+   "id": "0c2d6aca-bdde-4fe3-a75e-18256055682f",
+   "datum": "2026-10-05",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 194463 - Datum verrichting: 04-10-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "dcb05bb7-03ee-4d9d-a538-ee88bd89e975",
+   "datum": "2026-10-06",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 242,000 : Overschrijving of storting met een gestructureerde mededeling: 250103393193 | Pro-Count",
+   "bedrag": 242.0,
+   "contact": "Pro-Count"
+  },
+  {
+   "id": "e158ec7d-30ad-4234-97b7-7debb223c1c4",
+   "datum": "2026-10-07",
+   "omschrijving": "Factuur van Pro-Count, Erelonen boekhouders en accountants",
+   "bedrag": -242.0,
+   "contact": "Pro-Count"
+  },
+  {
+   "id": "249808ec-20ee-4f4d-ac42-8364034008b7",
+   "datum": "2026-10-08",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 517,010 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 222148 - Datum verrichting: 08-10-26 - Uur",
+   "bedrag": 517.01,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "2a3620b9-7951-404d-81c5-7999d493d9e7",
+   "datum": "2026-10-11",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 544835 - Datum verrichting: 11-10-26 - Uur v",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "9411fd52-c4b4-4ea1-9846-23214d66b329",
+   "datum": "2026-10-15",
+   "omschrijving": "Factuur van Bol.com B.V., Commissielonen",
+   "bedrag": -58.65,
+   "contact": "Bol.com B.V."
+  },
+  {
+   "id": "4f067930-f68c-4916-adef-f08b8c76bc97",
+   "datum": "2026-10-15",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 36,200 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 940104 - Datum verrichting: 15-10-26 - Uur",
+   "bedrag": 36.2,
+   "contact": "Higgsfield Inc"
+  },
+  {
+   "id": "42608de6-367e-417f-8884-62ddd850bd94",
+   "datum": "2026-10-16",
+   "omschrijving": "Factuur van Bpost, Portkosten",
+   "bedrag": -6.78,
+   "contact": "Bpost"
+  },
+  {
+   "id": "d9e755a4-9d4a-4eee-b1f9-b1e6d8d79bdf",
+   "datum": "2026-10-16",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 67,840 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 261442 - Datum verrichting: 15-10-26 - Uur",
+   "bedrag": 67.84,
+   "contact": "Higgsfield Inc"
+  },
+  {
+   "id": "10ee4112-7526-410a-9265-59bccbe63196",
+   "datum": "2026-10-16",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 958192 - Datum verrichting: 14-10-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "a4d9cdc0-ec8d-442d-8113-7bdc69ef62b1",
+   "datum": "2026-10-19",
+   "omschrijving": "Factuur van BELGIAN DOGGOS, Beroepsbijdragen",
+   "bedrag": -160.0,
+   "contact": "BELGIAN DOGGOS"
+  },
+  {
+   "id": "0bdcb7aa-b515-49ac-b3ae-62365dab9824",
+   "datum": "2026-10-19",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 066143 - Datum verrichting: 18-10-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "71182f0d-e1aa-4dd4-8db0-2b2b39468fc4",
+   "datum": "2026-10-20",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 72,000 : Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 120684 - Datum verrichting: 19-10-26 - Uur ve",
+   "bedrag": 72.0,
+   "contact": "Higgsfield Inc"
+  },
+  {
+   "id": "febe9ba4-4ca2-44b2-b639-35f2719de216",
+   "datum": "2026-10-21",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 6,780 : Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006896 - Kaartschema: Bancontact - Terminalnummer: 000000 - Volgnummer verrichting: 183465 - Datum verrichting: 21-10-26 - U",
+   "bedrag": 6.78,
+   "contact": "Bpost"
+  },
+  {
+   "id": "295b815c-06cb-43b2-9ed9-f70475300bb1",
+   "datum": "2026-10-21",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 895012 - Datum verrichting: 21-10-26 - Uur",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "8f15787c-d136-47e0-aa3f-8fb4c0d6ca0f",
+   "datum": "2026-10-26",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 8,600 : 1743348361 Online creation label(s) | bpost parcel",
+   "bedrag": 8.6,
+   "contact": "Bpost"
+  }
+ ],
+ "leveranciers_van": "2026-07-01",
  "host": "https://api.yukiworks.be/ws"
 }
