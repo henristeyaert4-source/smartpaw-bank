@@ -58,15 +58,16 @@ CATEGORIE_CORRECTIE = {
     "Marketing & content": "616502",
 }
 
-# Btw-codes (eigen codes; de Yuki-codes van Pro-count worden er later naast gezet)
+# Btw-keuze zoals in Yuki (Shany, 29/10: geen codes, je kiest per factuur): 21%, verlegd, invoer met/zonder verlegging,
+# intracommunautair goederen/diensten. Verlegd uit de EU = intracommunautair; abonnement = diensten. Restaurant altijd 0% aftrek.
 BTW = {
-    "BE21":   {"code": "BE21",   "uitleg": "Belgische btw 21%, aftrekbaar", "roosters": "82 · 59"},
-    "BE21NA": {"code": "BE21NA", "uitleg": "Belgische btw 21%, niet aftrekbaar (restaurant)", "roosters": "82"},
-    "EU":     {"code": "EUDV",   "uitleg": "dienst uit EU, btw verlegd", "roosters": "88 · 55 · 59"},
-    "NONEU":  {"code": "NEUDV",  "uitleg": "dienst buiten EU, btw verlegd", "roosters": "87 · 56 · 59"},
-    "INVOER": {"code": "INVOER", "uitleg": "goederen buiten EU, invoer-btw verlegd (art. 41) via invoeraangifte Widem", "roosters": "87 · 56 · 59 (op invoeraangifte)"},
-    "EUG":    {"code": "EUG",    "uitleg": "goederen uit EU (intracommunautaire verwerving), enkel als de factuur zonder buitenlandse btw op ons btw-nummer staat", "roosters": "86 · 55 · 59"},
-    "GEEN":   {"code": "GEEN",   "uitleg": "geen btw / vrijgesteld", "roosters": "82"},
+    "BE21":   {"code": "BE21",   "uitleg": "Yuki: 21%", "roosters": "82 · 59"},
+    "BE21NA": {"code": "BE21NA", "uitleg": "Yuki: 0% aftrek (restaurant)", "roosters": "82"},
+    "EU":     {"code": "EUDV",   "uitleg": "Yuki: intracommunautair diensten (verlegd)", "roosters": "88 · 55 · 59"},
+    "NONEU":  {"code": "NEUDV",  "uitleg": "Yuki: btw verlegd (dienst buiten EU)", "roosters": "87 · 56 · 59"},
+    "INVOER": {"code": "INVOER", "uitleg": "Yuki: invoer met verlegging (art. 41, invoeraangifte Widem)", "roosters": "87 · 56 · 59 (op invoeraangifte)"},
+    "EUG":    {"code": "EUG",    "uitleg": "Yuki: intracommunautair goederen, als de factuur btw verlegd vermeldt; anders buitenlandse btw, niet aftrekbaar", "roosters": "86 · 55 · 59"},
+    "GEEN":   {"code": "GEEN",   "uitleg": "Yuki: geen btw / vrijgesteld", "roosters": "82"},
     "NAKIJKEN": {"code": "?",    "uitleg": "btw-behandeling nakijken", "roosters": "?"},
 }
 
@@ -184,6 +185,12 @@ def main(kwartalen):
                     naam = _tok(r["tegenpartij"] + " " + r.get("mededeling", "") + " " + str(bw.get("leverancier", "")))
                     if -35 <= d <= 75 and (naam & _tok(e["contact"])) and (best is None or abs(d) < abs(_dagen(r["datum"], best["datum"]))):
                         best = e
+                if not best:
+                    # factuur vóór de Yuki-ophaalperiode geboekt: de betaling ervan staat wel in Yuki (zelfde leverancier, bedrag, ±7 d)
+                    for e in yalle:
+                        if e["id"] not in gebruikt and e["bedrag"] > 0 and abs(e["bedrag"] - incl) <= 0.021 and abs(_dagen(r["datum"], e["datum"])) <= 7 \
+                                and (_tok(r["tegenpartij"] + " " + str(bw.get("leverancier", ""))) & _tok(e["contact"])):
+                            best = e; break
                 if not best and r["categorie"] == "Voorraad (fabriek)":
                     # fabriek in USD: Pro-count boekt de betaling tegen de factuur aan hun eigen koers → ±2 %, ±7 dagen
                     for e in yalle:
