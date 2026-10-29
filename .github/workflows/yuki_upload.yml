@@ -1,0 +1,44 @@
+name: Document naar Yuki (test)
+
+on:
+  workflow_dispatch:
+    inputs:
+      actie:
+        description: "kijk (niets opladen) of oplaad"
+        default: "kijk"
+      bestand:
+        description: "pad naar de pdf in de repo"
+        default: "boekhouding/naar_yuki/2026-10-10_GoDaddy_167.76.pdf"
+      bedrag:
+        default: "167.76"
+      betaalwijze:
+        description: "woord om de betaalwijze te zoeken (bv. krediet|credit)"
+        default: "krediet|credit"
+      opmerking:
+        default: "GoDaddy 7038004865 – Microsoft 365-mail 1 jaar (2 mailboxen), betaald 10/10/2026 met Mastercard 6682. Test upload SmartPaw-platform."
+
+permissions:
+  contents: write
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests==2.32.3
+      - name: Yuki
+        env:
+          YUKI_ACCESS_KEY: ${{ secrets.YUKI_ACCESS_KEY }}
+          YUKI_ADMIN_ID: ${{ secrets.YUKI_ADMIN_ID }}
+        run: python yuki_upload.py "${{ inputs.actie }}" "${{ inputs.bestand }}" "${{ inputs.bedrag }}" "${{ inputs.betaalwijze }}" "${{ inputs.opmerking }}"
+      - name: Log opslaan
+        run: |
+          git config user.name "smartpaw-bank-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/yuki/upload_log.json
+          git diff --cached --quiet || git commit -m "Yuki upload-log $(date -u +%F)"
+          git pull --rebase -X theirs origin main || true
+          git push
