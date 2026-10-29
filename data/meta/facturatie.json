@@ -1,6 +1,11 @@
 {
- "_bron": "Meta activiteitenlog ad account 931710055576209 (Account billed), opgehaald 2026-10-25. Bedragen in cent.",
+ "_bron": "Meta activiteitenlog ad account 931710055576209 (Account billed), opgehaald 2026-10-29. Bedragen in cent.",
  "betalingen": [
+  [
+   "2026-10-28",
+   80000,
+   "28950937891258252-28914068164945230"
+  ],
   [
    "2026-10-25",
    80000,
