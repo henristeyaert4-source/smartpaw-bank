@@ -3,13 +3,13 @@
  "van": "2026-07-01",
  "tot": "2026-09-30",
  "telling": {
-  "in Yuki": 69,
-  "te boeken": 15,
+  "in Yuki": 74,
+  "te boeken": 10,
   "factuur ontbreekt": 17
  },
  "bedrag": {
-  "in Yuki": 44948.19,
-  "te boeken": 5771.37,
+  "in Yuki": 48948.19,
+  "te boeken": 1771.37,
   "factuur ontbreekt": 2603.94
  },
  "per_rekening": [
@@ -297,8 +297,8 @@
   },
   {
    "id": "ponto-cf04f994-11f4-4f0e-89fd-fee4c09a3ded",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "6c7492cd-c6d8-4cd8-a8cf-22cd067d35fb",
    "factuurdatum": "2026-09-27",
    "betaald_op": "2026-09-27",
    "leverancier": "Meta Platforms Ireland",
@@ -349,8 +349,8 @@
   },
   {
    "id": "ponto-8882cb9e-1409-491b-ac15-e364efb814a1",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "46484eba-f8a5-4495-8b8c-babb053e7e69",
    "factuurdatum": "2026-09-24",
    "betaald_op": "2026-09-24",
    "leverancier": "Meta Platforms Ireland",
@@ -453,8 +453,8 @@
   },
   {
    "id": "ponto-02e753d1-505c-4192-ad2e-6691885488ee",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "df80dbfb-9b5b-4daa-aaa5-a0eb436becaf",
    "factuurdatum": "2026-09-20",
    "betaald_op": "2026-09-20",
    "leverancier": "Meta Platforms Ireland",
@@ -479,8 +479,8 @@
   },
   {
    "id": "ponto-5e4f5112-e8d7-4026-b5da-c9eaadce1ae7",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "126a85de-dd87-40f6-88c3-b10057f1719a",
    "factuurdatum": "2026-09-17",
    "betaald_op": "2026-09-17",
    "leverancier": "Meta Platforms Ireland",
@@ -505,8 +505,8 @@
   },
   {
    "id": "ponto-cb7650ea-1157-4080-9ef3-f54b51365ede",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "20525496-fda9-4516-b81d-3c9fe35950f5",
    "factuurdatum": "2026-09-13",
    "betaald_op": "2026-09-14",
    "leverancier": "Meta Platforms Ireland",
