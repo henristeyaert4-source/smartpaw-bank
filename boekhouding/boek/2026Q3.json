@@ -4,8 +4,8 @@
  "tot": "2026-09-30",
  "telling": {
   "verklaard": 78,
-  "gekoppeld": 79,
-  "ontbreekt": 25
+  "gekoppeld": 80,
+  "ontbreekt": 24
  },
  "regels": [
   {
@@ -974,8 +974,22 @@
    "categorie": "Voorraad (fabriek)",
    "btw_type": "INVOER",
    "vak": "invoeraangifte (Widem)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "upload",
+    "asset_id": "0713334c10c9d3cdbc560e0598bbb62d",
+    "bestand": "2026-06-24_Compass_FurVac750_21784.75USD.pdf",
+    "leverancier": "Suzhou Compass Machinery & Electric Co., Ltd. (CN)",
+    "datum": "2026-06-24",
+    "bedrag_usd_totaal": 21784.75,
+    "btw": 0,
+    "btw_type": "INVOER (btw via invoeraangifte Widem WID202608397)",
+    "btw_nummer": null,
+    "label": "Compass invoice CPS20260619 – 2de deel $10.000",
+    "bedrag": -8637.91,
+    "bedrag_usd": 10000,
+    "uitleg": "750 FurVac, totaal $21.784,75; betaald $6.535,43 (25/06) + $10.000 (02/09); saldo $5.249,32 nog open. Verscheept 05/10 (B/L GTCSS26090340)."
+   }
   },
   {
    "id": "ponto-f0980f3c-b98a-4a6e-9246-93d754f29b22",

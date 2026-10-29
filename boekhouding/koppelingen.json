@@ -547,5 +547,35 @@
   "btw_type": "Invoer buiten EU (verlegd, art. 41)",
   "btw_nummer": null,
   "uitleg": "Voorschot 30% ($5.047,50) op proforma PET2026102601 via Revolut SWIFT; saldo $11.777,50 vóór verzending. Banktoeslag $27,86 apart."
+ },
+ "rev-0545adc8-0d5f-e322-02c0-04609084fe34-0545adc8-0d5f-e322-0000-04609084fe34": {
+  "soort": "upload",
+  "asset_id": "0713334c10c9d3cdbc560e0598bbb62d",
+  "bestand": "2026-06-24_Compass_FurVac750_21784.75USD.pdf",
+  "leverancier": "Suzhou Compass Machinery & Electric Co., Ltd. (CN)",
+  "datum": "2026-06-24",
+  "bedrag_usd_totaal": 21784.75,
+  "btw": 0,
+  "btw_type": "INVOER (btw via invoeraangifte Widem WID202608397)",
+  "btw_nummer": null,
+  "label": "Compass invoice CPS20260619 – 30% voorschot $6.535,43",
+  "bedrag": -5757.12,
+  "bedrag_usd": 6535.43,
+  "uitleg": "750 FurVac + accessoires, EXW, totaal $21.784,75. Voorschot 30% (Revolut 25/06, koers 1,1352)."
+ },
+ "rev-055be947-e645-e3e7-02c0-04264fb2980d-055be947-e645-e3e7-0000-04264fb2980d": {
+  "soort": "upload",
+  "asset_id": "0713334c10c9d3cdbc560e0598bbb62d",
+  "bestand": "2026-06-24_Compass_FurVac750_21784.75USD.pdf",
+  "leverancier": "Suzhou Compass Machinery & Electric Co., Ltd. (CN)",
+  "datum": "2026-06-24",
+  "bedrag_usd_totaal": 21784.75,
+  "btw": 0,
+  "btw_type": "INVOER (btw via invoeraangifte Widem WID202608397)",
+  "btw_nummer": null,
+  "label": "Compass invoice CPS20260619 – 2de deel $10.000",
+  "bedrag": -8637.91,
+  "bedrag_usd": 10000,
+  "uitleg": "750 FurVac, totaal $21.784,75; betaald $6.535,43 (25/06) + $10.000 (02/09); saldo $5.249,32 nog open. Verscheept 05/10 (B/L GTCSS26090340)."
  }
 }
