@@ -88,8 +88,12 @@ def main(kwartalen):
                 continue
             typ, uitleg = btw_type(r)
             rid = r["id"]
+            verw = next((v for v in kop.get("_verwacht", []) if v["match"]["tegenpartij"].lower() in (r.get("tegenpartij") or "").lower()
+                         and abs(r["bedrag_eur"] - v["match"]["bedrag"]) < 0.01 and v["match"]["van"] <= r["datum"] <= v["match"]["tot"]), None)
             if rid in kop:
                 status, bewijs = "gekoppeld", kop[rid]
+            elif verw:  # document vooraf ontvangen (bv. vervaldagbericht), betaling volgt later
+                status, bewijs = "gekoppeld", {k2: v2 for k2, v2 in verw.items() if k2 != "match"}
             elif cat in VERKLAARD:
                 status, bewijs = "verklaard", {"soort": "regel", "label": VERKLAARD[cat]}
             else:

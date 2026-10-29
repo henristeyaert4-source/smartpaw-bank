@@ -577,5 +577,78 @@
   "bedrag": -8637.91,
   "bedrag_usd": 10000,
   "uitleg": "750 FurVac, totaal $21.784,75; betaald $6.535,43 (25/06) + $10.000 (02/09); saldo $5.249,32 nog open. Verscheept 05/10 (B/L GTCSS26090340)."
- }
+ },
+ "ponto-3598af3e-edda-4762-9c95-ed013096542f": {
+  "soort": "upload",
+  "leverancier": "KBC Verzekeringen (polis 37630975, BA bedrijfspolis aansprakelijkheid)",
+  "btw": 0,
+  "btw_type": "GEEN (verzekering, vrijgesteld; incl. premietaks)",
+  "btw_nummer": null,
+  "asset_id": "58b3a4478cc39bf628511ef0fa583faf",
+  "bestand": "KBC_BA-polis_37630975_2026-07-27.pdf",
+  "label": "KBC vervaldagbericht polis 37630975 (2026-07-27 – 2026-08-26)",
+  "datum": "2026-06-10",
+  "bedrag": -18.47,
+  "uitleg": "Maandpremie 2026-07-27 – 2026-08-26: premie + premietaks, domiciliëring mandaat L00247042231V0002"
+ },
+ "ponto-4c9c9442-3ffe-47e0-9975-e10823fbc4f5": {
+  "soort": "upload",
+  "leverancier": "KBC Verzekeringen (polis 37630975, BA bedrijfspolis aansprakelijkheid)",
+  "btw": 0,
+  "btw_type": "GEEN (verzekering, vrijgesteld; incl. premietaks)",
+  "btw_nummer": null,
+  "asset_id": "31ccaae3bb977f60af71ed3e81bb9573",
+  "bestand": "KBC_BA-polis_37630975_2026-08-27.pdf",
+  "label": "KBC vervaldagbericht polis 37630975 (2026-08-27 – 2026-09-26)",
+  "datum": "2026-07-10",
+  "bedrag": -18.47,
+  "uitleg": "Maandpremie 2026-08-27 – 2026-09-26: premie + premietaks, domiciliëring mandaat L00247042231V0002"
+ },
+ "ponto-4a7bfe9b-603b-4fdb-9d27-5118166e4f7e": {
+  "soort": "upload",
+  "leverancier": "KBC Verzekeringen (polis 37630975, BA bedrijfspolis aansprakelijkheid)",
+  "btw": 0,
+  "btw_type": "GEEN (verzekering, vrijgesteld; incl. premietaks)",
+  "btw_nummer": null,
+  "asset_id": "75013c5284f3678a9dbcf8d27c138ca5",
+  "bestand": "KBC_BA-polis_37630975_2026-09-27.pdf",
+  "label": "KBC vervaldagbericht polis 37630975 (2026-09-27 – 2026-10-26)",
+  "datum": "2026-08-10",
+  "bedrag": -18.47,
+  "uitleg": "Maandpremie 2026-09-27 – 2026-10-26: premie + premietaks, domiciliëring mandaat L00247042231V0002"
+ },
+ "ponto-c016d93b-df6a-4197-8870-cbb244cd481d": {
+  "soort": "upload",
+  "leverancier": "KBC Verzekeringen (polis 37630975, BA bedrijfspolis aansprakelijkheid)",
+  "btw": 0,
+  "btw_type": "GEEN (verzekering, vrijgesteld; incl. premietaks)",
+  "btw_nummer": null,
+  "asset_id": "cd7bdc348e278f7547a1cfa09fea213e",
+  "bestand": "KBC_BA-polis_37630975_2026-10-27.pdf",
+  "label": "KBC vervaldagbericht polis 37630975 (2026-10-27 – 2026-11-26)",
+  "datum": "2026-09-10",
+  "bedrag": -18.47,
+  "uitleg": "Maandpremie 2026-10-27 – 2026-11-26: premie + premietaks, domiciliëring mandaat L00247042231V0002"
+ },
+ "_verwacht": [
+  {
+   "soort": "upload",
+   "leverancier": "KBC Verzekeringen (polis 37630975, BA bedrijfspolis aansprakelijkheid)",
+   "btw": 0,
+   "btw_type": "GEEN (verzekering, vrijgesteld; incl. premietaks)",
+   "btw_nummer": null,
+   "asset_id": "c4bea8fcda67b5870a327816b65263a3",
+   "bestand": "KBC_BA-polis_37630975_2026-11-27.pdf",
+   "label": "KBC vervaldagbericht polis 37630975 (2026-11-27 – 2026-12-26)",
+   "datum": "2026-10-09",
+   "bedrag": -19.05,
+   "match": {
+    "tegenpartij": "KBC Verzekeringen",
+    "bedrag": -19.05,
+    "van": "2026-11-20",
+    "tot": "2026-12-05"
+   },
+   "uitleg": "Maandpremie 27/11 – 26/12 (nieuw bedrag €19,05)"
+  }
+ ]
 }

@@ -4,8 +4,8 @@
  "tot": "2026-12-31",
  "telling": {
   "verklaard": 21,
-  "gekoppeld": 20,
-  "ontbreekt": 4
+  "gekoppeld": 21,
+  "ontbreekt": 3
  },
  "regels": [
   {
@@ -60,8 +60,20 @@
    "categorie": "Verzekering",
    "btw_type": "GEEN",
    "vak": "82 zonder btw",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "upload",
+    "leverancier": "KBC Verzekeringen (polis 37630975, BA bedrijfspolis aansprakelijkheid)",
+    "btw": 0,
+    "btw_type": "GEEN (verzekering, vrijgesteld; incl. premietaks)",
+    "btw_nummer": null,
+    "asset_id": "cd7bdc348e278f7547a1cfa09fea213e",
+    "bestand": "KBC_BA-polis_37630975_2026-10-27.pdf",
+    "label": "KBC vervaldagbericht polis 37630975 (2026-10-27 – 2026-11-26)",
+    "datum": "2026-09-10",
+    "bedrag": -18.47,
+    "uitleg": "Maandpremie 2026-10-27 – 2026-11-26: premie + premietaks, domiciliëring mandaat L00247042231V0002"
+   }
   },
   {
    "id": "ponto-2b4cee81-7564-4b49-a208-e93008d13664",
