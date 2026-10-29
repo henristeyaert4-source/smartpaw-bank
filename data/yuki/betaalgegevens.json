@@ -214,5 +214,13 @@
   "bedrag": 242.0,
   "datum": "2026-07-06",
   "yuki_document": "27df00a7-1433-469b-8580-7f4b94bc4102"
+ },
+ "BE-AEU-2026-44979": {
+  "contact": "Amazon Eu Sarl",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 38.49,
+  "datum": "2026-07-31",
+  "yuki_document": "f44ff52c-c920-4684-a20c-c3f25a2bdf91"
  }
 }
