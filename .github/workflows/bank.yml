@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests==2.32.3 PyJWT[crypto]==2.9.0 openpyxl==3.1.5
+      - run: pip install requests==2.32.3 pypdf==4.3.1 PyJWT[crypto]==2.9.0 openpyxl==3.1.5
       - name: Verrichtingen ophalen
         env:
           PONTO_CLIENT_ID: ${{ secrets.PONTO_CLIENT_ID }}
@@ -60,6 +60,12 @@ jobs:
           YUKI_ACCESS_KEY: ${{ secrets.YUKI_ACCESS_KEY }}
           YUKI_ADMIN_ID: ${{ secrets.YUKI_ADMIN_ID }}
         run: python yuki_upload.py wachtrij && python boekhouding/regels.py
+      - name: Betaalgegevens uit Yuki-facturen (IBAN + mededeling)
+        continue-on-error: true
+        env:
+          YUKI_ACCESS_KEY: ${{ secrets.YUKI_ACCESS_KEY }}
+          YUKI_ADMIN_ID: ${{ secrets.YUKI_ADMIN_ID }}
+        run: python yuki_upload.py betaalinfo
       - name: Opslaan
         run: |
           git config user.name "smartpaw-bank-bot"

@@ -96,6 +96,49 @@ def lees():
                 print(m, "FOUT", str(e)[:150])
 
 
+def betaalinfo():
+    """Rekeningnummer + gestructureerde mededeling uit de factuur-pdf's in Yuki (map Aankoop) voor openstaande facturen.
+    → data/yuki/betaalgegevens.json {referentie: {contact, iban, ogm, bedrag, datum}}. De pdf's zelf worden niet bewaard."""
+    import io, requests
+    from datetime import timedelta
+    from pypdf import PdfReader
+    D = Path("data/yuki"); uit_p = D / "betaalgegevens.json"
+    bekend = json.loads(uit_p.read_text()) if uit_p.exists() else {}
+    open_ = {c.get("referentie"): c for c in json.loads((D / "openstaand.json").read_text()).get("crediteuren", [])
+             if (c.get("open") or 0) > 0 and c.get("referentie")}
+    key = os.environ["YUKI_ACCESS_KEY"]; base = HOSTS[0]
+    sess = soap(base, "Archive", "Authenticate", accessKey=key).text
+    t = datetime.now(); docs = []
+    for start in range(0, 600, 100):
+        res = soap(base, "Archive", "DocumentsInFolder", sessionID=sess, folderID=1, startDate=(t - timedelta(days=150)).strftime("%Y-%m-%dT00:00:00"),
+                   endDate=t.strftime("%Y-%m-%dT23:59:59"), numberOfRecords=100, startRecord=start)
+        deel = [d for d in kinderen(res) if d.get("_tag") == "Document"]
+        docs += deel
+        if len(deel) < 100:
+            break
+    n = 0
+    for d in docs:
+        ref = d.get("Reference", "")
+        hit = next((r for r in open_ if r and (r == ref or re.sub(r"\D", "", r) == re.sub(r"\D", "", ref) != "")), None)
+        if not hit or hit in bekend:
+            continue
+        try:
+            url = (soap(base, "Archive", "DocumentDownloadUrl", sessionID=sess, documentID=d["ID"]).text or "").strip()
+            txt = "\n".join((p.extract_text() or "") for p in PdfReader(io.BytesIO(requests.get(url, timeout=60).content)).pages)
+        except Exception as e:
+            print("niet gelezen", ref, str(e)[:120]); continue
+        ibans = [i.replace(" ", "") for i in re.findall(r"\bBE\d{2}(?: ?\d{4}){3}\b", txt)]
+        ibans = [i for i in ibans if i not in ("BE84731070760259",)]  # eigen KBC-rekening
+        og = re.search(r"[+*]{3}\s?(\d{3})\s?/\s?(\d{4})\s?/\s?(\d{5})\s?[+*]{3}", txt)
+        bekend[hit] = {"contact": open_[hit]["contact"], "iban": ibans[0] if ibans else None,
+                       "ogm": "".join(og.groups()) if og else None, "bedrag": open_[hit]["open"], "datum": open_[hit]["datum"], "yuki_document": d["ID"]}
+        n += 1
+    uit_p.write_text(json.dumps(bekend, ensure_ascii=False, indent=1))
+    print(f"{len(docs)} documenten bekeken, {n} nieuwe betaalgegevens")
+    for k, v in bekend.items():
+        print(k, v["contact"], v["iban"], v["ogm"])
+
+
 def main():
     key, admin = os.environ["YUKI_ACCESS_KEY"], os.environ.get("YUKI_ADMIN_ID", "")
     base = HOSTS[0]
@@ -123,4 +166,4 @@ def main():
 
 
 if __name__ == "__main__":
-    {"wachtrij": wachtrij, "lees": lees}.get(sys.argv[1], main)()
+    {"wachtrij": wachtrij, "lees": lees, "betaalinfo": betaalinfo}.get(sys.argv[1], main)()
