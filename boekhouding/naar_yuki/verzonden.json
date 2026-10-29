@@ -1,0 +1,2 @@
+{"_uitleg": "Documenten die het platform naar Yuki stuurde: asset_id -> {yuki_document, op, regels[], bedrag}. Nooit opnieuw versturen.",
+ "c383ea36c66ff65d325eee133873c47f": {"yuki_document": "b6c4ece3-4d15-4cac-badd-2f756b90420c", "op": "2026-10-29", "regels": ["kaart-6682-2026-10-10-GODADDY*#7038004865--167.76"], "bedrag": 167.76, "map": 1, "betaalwijze": 5, "opmerking": "test, bevestigd door Shany 29/10"}}

@@ -35,6 +35,67 @@ def kinderen(res):
     return out
 
 
+def wachtrij():
+    """Stuur nieuwe 'te boeken'-documenten naar Yuki (één keer per pdf)."""
+    B = Path("boekhouding"); N = B / "naar_yuki"
+    inst = json.loads((N / "instellingen.json").read_text())
+    verz = json.loads((N / "verzonden.json").read_text())
+    groepen = {}
+    for f in sorted((B / "dagboek").glob("aankoop_*.json")):
+        for l in json.loads(f.read_text())["lijnen"]:
+            a = l.get("asset_id")
+            if l["status"] != "te boeken" or not a or a in verz or not (N / "pdf" / f"{a}.pdf").exists():
+                continue
+            if l["betaald_op"] < inst["vanaf"] and l["id"] not in inst["ook_versturen"]:
+                continue
+            g = groepen.setdefault(a, {"regels": [], "bedrag": 0.0, "l": l})
+            g["regels"].append(l["id"]); g["bedrag"] = round(g["bedrag"] + l["incl"], 2)
+    if not groepen:
+        print("niets te versturen"); return
+    key, admin = os.environ["YUKI_ACCESS_KEY"], os.environ.get("YUKI_ADMIN_ID", "")
+    base = HOSTS[0]
+    sess = soap(base, "Archive", "Authenticate", accessKey=key).text
+    for a, g in groepen.items():
+        l = g["l"]
+        opm = (f"{l['leverancier']} {l['factuurnummer']} – {l['omschrijving'] or l['document']}. "
+               f"Betaald {l['betaald_op']} via {l['betaald_via_naam']}. Voorstel: rekening {l['rekening']} {l['rekening_naam']}, btw {l['btw_uitleg']}. "
+               f"Verstuurd door het SmartPaw-platform.")[:1000]
+        try:
+            res = soap(base, "Archive", "UploadDocumentWithData", sessionID=sess, fileName=f"{l['factuurdatum']}_{re.sub(r'[^A-Za-z0-9]+', '-', l['leverancier'])[:30]}_{g['bedrag']:.2f}.pdf",
+                       data=base64.b64encode((N / "pdf" / f"{a}.pdf").read_bytes()).decode(), folder=inst["map_aankoop"], administrationID=admin,
+                       currency="EUR", amount=f"{g['bedrag']:.2f}", costCategory="", paymentMethod=inst["betaalwijze"].get(l["betaald_via"], 4),
+                       project="", remarks=opm.replace("&", "en").replace("<", "").replace(">", ""))
+            doc = (res.text or "").strip() if res is not None else ""
+            if not re.fullmatch(r"[0-9a-f-]{36}", doc):
+                raise RuntimeError(f"onverwacht antwoord: {doc[:120]}")
+            verz[a] = {"yuki_document": doc, "op": datetime.now().date().isoformat(), "regels": g["regels"], "bedrag": g["bedrag"],
+                       "map": inst["map_aankoop"], "betaalwijze": inst["betaalwijze"].get(l["betaald_via"], 4)}
+            print("verstuurd", l["leverancier"], g["bedrag"], doc)
+        except Exception as e:
+            print("MISLUKT", l["leverancier"], g["bedrag"], str(e)[:200])
+        (N / "verzonden.json").write_text(json.dumps(verz, ensure_ascii=False, indent=1))
+
+
+def lees():
+    """Leestest: recente documenten in de map Aankoop en wat er per document uit te halen is (geen inhoud bewaren)."""
+    from datetime import timedelta
+    key = os.environ["YUKI_ACCESS_KEY"]; base = HOSTS[0]
+    sess = soap(base, "Archive", "Authenticate", accessKey=key).text
+    t = datetime.now()
+    res = soap(base, "Archive", "DocumentsInFolder", sessionID=sess, folderID=1, startDate=(t - timedelta(days=40)).strftime("%Y-%m-%dT00:00:00"),
+               endDate=t.strftime("%Y-%m-%dT23:59:59"), numberOfRecords=10, startRecord=0)
+    docs = [d for d in kinderen(res) if "ID" in d]
+    print("documenten:", len(docs)); print(json.dumps(docs[:3], ensure_ascii=False)[:1500])
+    for d in docs[:2]:
+        for m in ("DocumentXMLDataAsString", "DocumentDownloadUrl"):
+            try:
+                r = soap(base, "Archive", m, sessionID=sess, documentID=d["ID"])
+                txt = (r.text or "") if r is not None else ""
+                print(m, len(txt), "IBAN" if re.search(r"\bBE\d{2}\s?\d{4}", txt) else "-", "OGM" if re.search(r"\d{3}/\d{4}/\d{5}|PaymentID", txt) else "-", txt[:80] if m.endswith("Url") else "")
+            except Exception as e:
+                print(m, "FOUT", str(e)[:150])
+
+
 def main():
     key, admin = os.environ["YUKI_ACCESS_KEY"], os.environ.get("YUKI_ADMIN_ID", "")
     base = HOSTS[0]
@@ -62,4 +123,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    {"wachtrij": wachtrij, "lees": lees}.get(sys.argv[1], main)()

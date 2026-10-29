@@ -3,28 +3,35 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "in Yuki": 10,
-  "te boeken": 16,
+  "in Yuki": 11,
+  "te boeken": 15,
   "factuur ontbreekt": 0
  },
  "bedrag": {
-  "in Yuki": 927.43,
-  "te boeken": 11210.52,
+  "in Yuki": 1095.19,
+  "te boeken": 11042.76,
   "factuur ontbreekt": 0
  },
  "per_rekening": [
-  {
-   "rekening": "406000",
-   "naam": "Vooruitbetalingen",
-   "aantal": 3,
-   "maatstaf": 5641.6,
-   "btw": 0.0
-  },
   {
    "rekening": "616502",
    "naam": "RECLAME MET MERK",
    "aantal": 7,
    "maatstaf": 5138.35,
+   "btw": 0.0
+  },
+  {
+   "rekening": "406000",
+   "naam": "Vooruitbetalingen",
+   "aantal": 1,
+   "maatstaf": 4529.5,
+   "btw": 0.0
+  },
+  {
+   "rekening": "604000",
+   "naam": "Aankopen van handelsgoederen",
+   "aantal": 2,
+   "maatstaf": 1112.1,
    "btw": 0.0
   },
   {
@@ -423,16 +430,16 @@
    "document": "2026-10-02_Alibaba_Shenzhen-Chongxin_1110.02.pdf",
    "asset_id": "ab262f18d64a47a6dea5a5554851708a",
    "omschrijving": "Voorschot + saldo filterbestelling (incl. €32,24 betaalkosten Alibaba). Ontvangstbewijs, geen btw-factuur: de tax invoic",
-   "rekening": "406000",
-   "rekening_naam": "Vooruitbetalingen",
-   "rekening_bron": "voorschot op proforma: Vooruitbetalingen tot de factuur er is",
-   "btw_code": "GEEN",
-   "btw_uitleg": "Yuki: geen btw / vrijgesteld",
-   "roosters": "82",
+   "rekening": "604000",
+   "rekening_naam": "Aankopen van handelsgoederen",
+   "rekening_bron": "Yuki: fabriek = Aankopen van handelsgoederen",
+   "btw_code": "INVOER",
+   "btw_uitleg": "Yuki: invoer met verlegging (art. 41, invoeraangifte Widem)",
+   "roosters": "87 · 56 · 59 (op invoeraangifte)",
    "incl": 779.1,
    "maatstaf": 779.1,
    "btw": 0.0,
-   "verlegde_btw": 0.0,
+   "verlegde_btw": 163.61,
    "betaald_via": "434000",
    "betaald_via_naam": "Mastercard Henri (6682)",
    "nakijken": false
@@ -491,8 +498,8 @@
   },
   {
    "id": "kaart-6682-2026-10-10-GODADDY*#7038004865--167.76",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "b6c4ece3-4d15-4cac-badd-2f756b90420c",
    "factuurdatum": "2026-10-10",
    "betaald_op": "2026-10-10",
    "leverancier": "GoDaddy Europe Limited (Nottingham, UK)",
@@ -657,16 +664,16 @@
    "document": "2026-10-02_Alibaba_Shenzhen-Chongxin_1110.02.pdf",
    "asset_id": "ab262f18d64a47a6dea5a5554851708a",
    "omschrijving": "Voorschot + saldo filterbestelling (incl. €32,24 betaalkosten Alibaba). Ontvangstbewijs, geen btw-factuur: de tax invoic",
-   "rekening": "406000",
-   "rekening_naam": "Vooruitbetalingen",
-   "rekening_bron": "voorschot op proforma: Vooruitbetalingen tot de factuur er is",
-   "btw_code": "GEEN",
-   "btw_uitleg": "Yuki: geen btw / vrijgesteld",
-   "roosters": "82",
+   "rekening": "604000",
+   "rekening_naam": "Aankopen van handelsgoederen",
+   "rekening_bron": "Yuki: fabriek = Aankopen van handelsgoederen",
+   "btw_code": "INVOER",
+   "btw_uitleg": "Yuki: invoer met verlegging (art. 41, invoeraangifte Widem)",
+   "roosters": "87 · 56 · 59 (op invoeraangifte)",
    "incl": 333.0,
    "maatstaf": 333.0,
    "btw": 0.0,
-   "verlegde_btw": 0.0,
+   "verlegde_btw": 69.93,
    "betaald_via": "434000",
    "betaald_via_naam": "Mastercard Henri (6682)",
    "nakijken": false

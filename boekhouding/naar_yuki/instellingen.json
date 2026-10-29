@@ -1,0 +1,13 @@
+{
+ "_uitleg": "Automatisch doorsturen naar Yuki (nachtelijke Action, na regels.py). Enkel lijnen 'te boeken' met een pdf in boekhouding/naar_yuki/pdf/<asset_id>.pdf en betaald vanaf 'vanaf'. Oudere lijnen enkel als hun regel-id in 'ook_versturen' staat (na akkoord Henri/Kaydee). 'vanaf' = startdatum automatisch versturen (29/10/2026); de achterstand van vóór die datum gaat enkel mee na akkoord (regel-id's in ook_versturen).",
+ "vanaf": "2026-10-29",
+ "ook_versturen": [],
+ "map_aankoop": 1,
+ "betaalwijze": {
+  "434000": 5,
+  "434001": 5,
+  "550000": 4,
+  "550001": 4,
+  "550002": 4
+ }
+}

@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       actie:
-        description: "kijk (niets opladen) of oplaad"
+        description: "kijk | lees | wachtrij | oplaad"
         default: "kijk"
       bestand:
         description: "pad naar de pdf in de repo"
@@ -38,7 +38,7 @@ jobs:
         run: |
           git config user.name "smartpaw-bank-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/yuki/upload_log.json
+          git add data/yuki/upload_log.json boekhouding/naar_yuki/verzonden.json || true
           git diff --cached --quiet || git commit -m "Yuki upload-log $(date -u +%F)"
           git pull --rebase -X theirs origin main || true
           git push

@@ -54,11 +54,17 @@ jobs:
         run: python categorize.py
       - name: Bewijsstatus per verrichting
         run: python boekhouding/regels.py
+      - name: Nieuwe documenten naar Yuki
+        continue-on-error: true
+        env:
+          YUKI_ACCESS_KEY: ${{ secrets.YUKI_ACCESS_KEY }}
+          YUKI_ADMIN_ID: ${{ secrets.YUKI_ADMIN_ID }}
+        run: python yuki_upload.py wachtrij && python boekhouding/regels.py
       - name: Opslaan
         run: |
           git config user.name "smartpaw-bank-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data boekhouding/boek boekhouding/dagboek
+          git add data boekhouding/boek boekhouding/dagboek boekhouding/naar_yuki/verzonden.json
           git diff --cached --quiet || git commit -m "Bank $(date -u +%F)"
           git pull --rebase -X theirs origin main || true
           git push

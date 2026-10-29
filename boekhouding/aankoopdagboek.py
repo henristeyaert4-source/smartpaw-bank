@@ -94,6 +94,9 @@ def btw_type(r, bw):
     return typ
 
 
+_vp = B / "naar_yuki" / "verzonden.json"
+VERZONDEN = {k: v for k, v in (json.loads(_vp.read_text()).items() if _vp.exists() else []) if isinstance(v, dict)}
+
 STOP = {"factuur", "van", "bvba", "limited", "ireland", "betaling", "inc", "nv", "bv", "belgium", "via", "mollie", "logistics"}
 
 
@@ -106,7 +109,7 @@ def _dagen(a, b):
 
 
 def rekening(r, bw):
-    if re.search(r"proforma|\bPI[- ]|voorschot", str(bw.get("label", "")) + " " + str(bw.get("uitleg", "")), re.I):
+    if re.search(r"proforma|\bPI[- ]", str(bw.get("label", "")), re.I):
         return "406000", "voorschot op proforma: Vooruitbetalingen tot de factuur er is"
     t = " ".join(str(x) for x in (r.get("tegenpartij"), r.get("mededeling"), bw.get("leverancier"), bw.get("label"))).upper()
     for pat, nr, bron in LEVERANCIER:
@@ -201,6 +204,9 @@ def main(kwartalen):
                             best = e; break
                 if best:
                     yid = best["id"]
+            verz = VERZONDEN.get(bw.get("asset_id") or "")
+            if verz and not yid:
+                yid = verz["yuki_document"]
             if yid:
                 gebruikt.add(yid)
                 status = "in Yuki"
