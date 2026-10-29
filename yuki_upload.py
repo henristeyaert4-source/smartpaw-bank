@@ -120,14 +120,21 @@ def betaalinfo():
     for d in docs:
         ref = d.get("Reference", "")
         hit = next((r for r in open_ if r and (r == ref or re.sub(r"\D", "", r) == re.sub(r"\D", "", ref) != "")), None)
-        if not hit or hit in bekend:
+        if not hit or (hit in bekend and bekend[hit].get("iban")):
             continue
         try:
             url = (soap(base, "Archive", "DocumentDownloadUrl", sessionID=sess, documentID=d["ID"]).text or "").strip()
-            txt = "\n".join((p.extract_text() or "") for p in PdfReader(io.BytesIO(requests.get(url, timeout=60).content)).pages)
+            inhoud = requests.get(url, timeout=60).content
+            if inhoud.lstrip()[:5] in (b"<?xml", b"<Invo"):  # Peppol/UBL
+                x = inhoud.decode("utf-8", "ignore")
+                acc = re.search(r"PayeeFinancialAccount>.*?<cbc:ID[^>]*>([^<]+)<", x, re.S)
+                pid = re.search(r"<cbc:PaymentID[^>]*>([^<]+)<", x)
+                txt = (f"{acc.group(1)} " if acc else "") + (f"+++{re.sub(r'[^0-9]', '', pid.group(1))[:3]}/{re.sub(r'[^0-9]', '', pid.group(1))[3:7]}/{re.sub(r'[^0-9]', '', pid.group(1))[7:12]}+++" if pid and len(re.sub(r'[^0-9]', '', pid.group(1))) == 12 else "")
+            else:
+                txt = "\n".join((p.extract_text() or "") for p in PdfReader(io.BytesIO(inhoud)).pages)
         except Exception as e:
             print("niet gelezen", ref, str(e)[:120]); continue
-        ibans = [i.replace(" ", "") for i in re.findall(r"\bBE\d{2}(?: ?\d{4}){3}\b", txt)]
+        ibans = [i.replace(" ", "") for i in re.findall(r"\bBE\d{2}(?: ?\d{4}){3}\b|\bBE\d{14}\b", txt)]
         ibans = [i for i in ibans if i not in ("BE84731070760259",)]  # eigen KBC-rekening
         og = re.search(r"[+*]{3}\s?(\d{3})\s?/\s?(\d{4})\s?/\s?(\d{5})\s?[+*]{3}", txt)
         bekend[hit] = {"contact": open_[hit]["contact"], "iban": ibans[0] if ibans else None,
