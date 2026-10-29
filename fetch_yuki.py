@@ -90,10 +90,11 @@ def main():
                     st.setdefault("pogingen", []).extend(pogingen)
                 if laatste is not None:
                     raise laatste
-            # alle boekingen op 440000 Leveranciers (facturen + betalingen) sinds het begin van vorig kwartaal
+            # alle boekingen op 440000 Leveranciers (facturen + betalingen) sinds het begin van twee kwartalen terug
             try:
                 t = date.today(); k0 = (t.month - 1) // 3 * 3 + 1
-                van = date(t.year if k0 > 3 else t.year - 1, k0 - 3 if k0 > 3 else 10, 1)
+                m = k0 - 6  # begin van twee kwartalen terug: facturen van eind vorig-vorig kwartaal die in het vorige betaald werden
+                van = date(t.year if m > 0 else t.year - 1, m if m > 0 else m + 12, 1)
                 res = soap(base, "Accounting", "GLAccountTransactions", sessionID=sess, administrationID=admin,
                            GLAccountCode="440000", StartDate=van.isoformat(), EndDate=t.isoformat())
                 xml = ET.fromstring(res.text) if res is not None and res.text and res.text.strip().startswith("<") else res
