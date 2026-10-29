@@ -25,7 +25,9 @@ def soap(base, service, method, **params):
     r = requests.post(f"{base}/{service}.asmx", data=env.encode(), timeout=60,
                       headers={"Content-Type": "text/xml; charset=utf-8", "SOAPAction": f'"{NS}{method}"'})
     if r.status_code >= 400:
-        raise RuntimeError(f"{method}: HTTP {r.status_code} {r.text[:300]}")
+        import re
+        fs = re.search(r"<faultstring>(.*?)</faultstring>", r.text, re.S)
+        raise RuntimeError(f"{service}.{method}: HTTP {r.status_code} {(fs.group(1) if fs else r.text)[:300]}")
     root = ET.fromstring(r.content)
     res = root.find(f".//{{{NS}}}{method}Result")
     return res
@@ -72,14 +74,21 @@ def main():
                 admin = adm[0].get("ID")
             for soort, method in (("crediteuren", "OutstandingCreditorItems"), ("debiteuren", "OutstandingDebtorItems")):
                 laatste = None
-                for sort in ("DateAsc", "Date", "Contact"):
-                    try:
-                        st[soort] = items(soap(base, "AccountingInfo", method, sessionID=sess, administrationID=admin,
-                                                includeBankTransactions="false", sortOrder=sort))
+                pogingen = []
+                for dienst in ("Accounting", "AccountingInfo"):  # volgens de Yuki-docs hoort deze methode bij de Accounting-webservice
+                    for sort in ("DateAsc", "DateDesc", "Date", "ContactAsc", "Contact"):
+                        try:
+                            st[soort] = items(soap(base, dienst, method, sessionID=sess, administrationID=admin,
+                                                    includeBankTransactions="false", sortOrder=sort))
+                            laatste = None
+                            break
+                        except Exception as e:
+                            laatste = e; pogingen.append(str(e)[:200])
+                    if laatste is None:
                         break
-                    except Exception as e:
-                        laatste = e
-                else:
+                if laatste is not None:
+                    st.setdefault("pogingen", []).extend(pogingen)
+                if laatste is not None:
                     raise laatste
             st["host"] = base
             break
