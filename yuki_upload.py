@@ -14,20 +14,32 @@ LOG = Path("data/yuki/upload_log.json")
 
 
 def kinderen(res):
+    """Elk element met een ID/naam als dict (alle niveaus): {tag, attrib..., tekst, kinderen-tekst}."""
     import xml.etree.ElementTree as ET
     if res is None:
         return []
     if res.text and res.text.strip().startswith("<"):
         res = ET.fromstring(res.text)
-    return [{(c.tag.split('}')[-1]): (c.text or '').strip() for c in it} | {k: v for k, v in it.attrib.items()}
-            for it in res if len(it) or it.attrib]
+    out = []
+    for it in res.iter():
+        if it is res:
+            continue
+        d = {"_tag": it.tag.split('}')[-1], **it.attrib}
+        if (it.text or "").strip():
+            d["_tekst"] = it.text.strip()
+        for c in it:
+            if (c.text or "").strip() and not len(c):
+                d[c.tag.split('}')[-1]] = c.text.strip()
+        if len(d) > 1:
+            out.append(d)
+    return out
 
 
 def main():
     key, admin = os.environ["YUKI_ACCESS_KEY"], os.environ.get("YUKI_ADMIN_ID", "")
     base = HOSTS[0]
     sess = soap(base, "Archive", "Authenticate", accessKey=key).text
-    uit = {"op": datetime.utcnow().isoformat(timespec="seconds"), "actie": sys.argv[1]}
+    uit = {"op": datetime.now().isoformat(timespec="seconds"), "actie": sys.argv[1]}
     mappen = kinderen(soap(base, "Archive", "DocumentFolders", sessionID=sess))
     betaal = kinderen(soap(base, "Archive", "PaymentMethods", sessionID=sess))
     uit["mappen"], uit["betaalwijzen"] = mappen, betaal
