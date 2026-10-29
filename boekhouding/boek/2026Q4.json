@@ -4,8 +4,8 @@
  "tot": "2026-12-31",
  "telling": {
   "verklaard": 21,
-  "gekoppeld": 22,
-  "ontbreekt": 2
+  "gekoppeld": 23,
+  "ontbreekt": 1
  },
  "regels": [
   {
@@ -516,8 +516,21 @@
    "categorie": "Software & abonnementen",
    "btw_type": "NONEU",
    "vak": "87 / 56 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "upload",
+    "asset_id": "2ed9454dd0225415ed661fe62a46f801",
+    "bestand": "2026-10-10_Klaviyo_T9T7QHZO-0015_70USD.pdf",
+    "label": "Klaviyo T9T7QHZO-0015",
+    "leverancier": "Klaviyo Inc (Boston, US)",
+    "datum": "2026-10-10",
+    "bedrag": -63.59,
+    "bedrag_usd": 70.0,
+    "btw": 0,
+    "btw_type": "NONEU (verlegd)",
+    "btw_nummer": null,
+    "uitleg": "Klaviyo 3k profielen, 10/10–10/11 2026; $70,00 met kaart 6682"
+   }
   },
   {
    "id": "kaart-6682-2026-10-10-GODADDY*#7038004865--167.76",

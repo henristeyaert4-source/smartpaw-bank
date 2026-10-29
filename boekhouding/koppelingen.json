@@ -664,5 +664,19 @@
   "btw_nummer": "IE9692928F",
   "transactie_id": "28867302572955118-28867302652955110",
   "uitleg": "Mastercard 2103, ref CNGZB8S7A4; handmatige betaling; Feeders & Fonteinen €472,24 + Halloween €149,10 (20–23/10)"
+ },
+ "kaart-6682-2026-10-10-KLAVIYO INC. SOFTWAR--63.59": {
+  "soort": "upload",
+  "asset_id": "2ed9454dd0225415ed661fe62a46f801",
+  "bestand": "2026-10-10_Klaviyo_T9T7QHZO-0015_70USD.pdf",
+  "label": "Klaviyo T9T7QHZO-0015",
+  "leverancier": "Klaviyo Inc (Boston, US)",
+  "datum": "2026-10-10",
+  "bedrag": -63.59,
+  "bedrag_usd": 70.0,
+  "btw": 0,
+  "btw_type": "NONEU (verlegd)",
+  "btw_nummer": null,
+  "uitleg": "Klaviyo 3k profielen, 10/10–10/11 2026; $70,00 met kaart 6682"
  }
 }
