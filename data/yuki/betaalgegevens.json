@@ -1,0 +1,218 @@
+{
+ "3916522505854": {
+  "contact": "Bol.com B.V.",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 58.65,
+  "datum": "2026-10-15",
+  "yuki_document": "6269ea0f-37fc-483f-bea9-02aa1f6c108a"
+ },
+ "3916443769981": {
+  "contact": "Bol.com B.V.",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 52.73,
+  "datum": "2026-10-01",
+  "yuki_document": "0b1a500e-18e2-4de6-b2b6-16724db90082"
+ },
+ "3916348493494": {
+  "contact": "Bol.com B.V.",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 105.78,
+  "datum": "2026-09-15",
+  "yuki_document": "e9df5839-e50d-4a6f-81f6-bff608b091bf"
+ },
+ "3916348367627": {
+  "contact": "Bol.com B.V.",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 38.18,
+  "datum": "2026-09-15",
+  "yuki_document": "87da057e-0196-4744-9e3b-f32f782d0578"
+ },
+ "3916269903575": {
+  "contact": "Bol.com B.V.",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 119.98,
+  "datum": "2026-09-01",
+  "yuki_document": "67b0cc0b-05fa-40a2-98e7-3010f5fa04c9"
+ },
+ "3916269902630": {
+  "contact": "Bol.com B.V.",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 45.49,
+  "datum": "2026-09-01",
+  "yuki_document": "384c9bbb-78d7-4976-9e02-a16a9882b5ae"
+ },
+ "3916172390531": {
+  "contact": "Bol.com B.V.",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 116.33,
+  "datum": "2026-08-15",
+  "yuki_document": "dbf346e0-4620-47f9-a2ed-d4a10f45844b"
+ },
+ "3916097980219": {
+  "contact": "Bol.com B.V.",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 107.54,
+  "datum": "2026-08-01",
+  "yuki_document": "243efef7-1fe7-4152-a5f0-d165cee1ec73"
+ },
+ "3916172378261": {
+  "contact": "Bol.com B.V.",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 111.27,
+  "datum": "2026-08-15",
+  "yuki_document": "0e96e797-04fd-4eac-8ebe-388543d65287"
+ },
+ "3915995846201": {
+  "contact": "Bol.com B.V.",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 53.57,
+  "datum": "2026-07-15",
+  "yuki_document": "2fbea087-81b6-4503-8ca3-05ade5e36379"
+ },
+ "3915905790518": {
+  "contact": "Bol.com B.V.",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 50.34,
+  "datum": "2026-07-01",
+  "yuki_document": "c6844155-8877-4fa0-bd90-be1e0197647d"
+ },
+ "2026-74": {
+  "contact": "BELGIAN DOGGOS",
+  "iban": "BE43068945087801",
+  "ogm": "000000060826",
+  "bedrag": 160.0,
+  "datum": "2026-10-19",
+  "yuki_document": "2c498383-89cb-4285-98e9-9681e6fabe02"
+ },
+ "270345": {
+  "contact": "Pro-Count",
+  "iban": "BE28068907201520",
+  "ogm": "260100345155",
+  "bedrag": 242.0,
+  "datum": "2026-10-07",
+  "yuki_document": "31b53a2d-d69e-4a6d-b546-bb77449d0459"
+ },
+ "F001/202600711": {
+  "contact": "Findajob",
+  "iban": "BE28736038650120",
+  "ogm": "001260071123",
+  "bedrag": 158.95,
+  "datum": "2026-09-30",
+  "yuki_document": "a52ed640-bea9-4f14-9670-2f81707f87e1"
+ },
+ "12-09-2026-8368": {
+  "contact": "Haddok",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 121.5,
+  "datum": "2026-09-12",
+  "yuki_document": "3310a6a6-9143-414e-bcbf-4a3f156fae00"
+ },
+ "2603246634": {
+  "contact": "KBC Bank",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 0.61,
+  "datum": "2026-09-30",
+  "yuki_document": "c76fda37-3624-42dd-a03e-36f389dd815e"
+ },
+ "26017495": {
+  "contact": "Widem Logistics",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 1740.23,
+  "datum": "2026-09-30",
+  "yuki_document": "0831dc61-04db-4906-b6a1-73837e234515"
+ },
+ "268571407": {
+  "contact": "Bpost",
+  "iban": "BE50000400000718",
+  "ogm": "026857140738",
+  "bedrag": 6.78,
+  "datum": "2026-09-30",
+  "yuki_document": "4e01adbb-288a-4bec-bdfc-0011530f502b"
+ },
+ "F001/202600701": {
+  "contact": "Findajob",
+  "iban": "BE28736038650120",
+  "ogm": "001260070113",
+  "bedrag": 149.01,
+  "datum": "2026-09-29",
+  "yuki_document": "ad8d3863-cb58-4300-8cbb-f441eebbbdd7"
+ },
+ "26016933": {
+  "contact": "Widem Logistics",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 1221.41,
+  "datum": "2026-09-24",
+  "yuki_document": "2c6a7136-53a4-4d41-896c-b42ad6da629c"
+ },
+ "TMM-62204778": {
+  "contact": "Thomas More Mechelen-Antwerpen",
+  "iban": "BE69002034961178",
+  "ogm": "226220477872",
+  "bedrag": 75.0,
+  "datum": "2026-09-17",
+  "yuki_document": "59b21f25-fd34-4608-9c2f-29eb15500c74"
+ },
+ "268565664": {
+  "contact": "Bpost",
+  "iban": "BE50000400000718",
+  "ogm": "026856566418",
+  "bedrag": 6.78,
+  "datum": "2026-09-16",
+  "yuki_document": "1841b44b-43e8-41e8-9121-776225f3abac"
+ },
+ "Almost3000BV-011": {
+  "contact": "Almost 3000",
+  "iban": "BE54735066135897",
+  "ogm": "000011206328",
+  "bedrag": 314.6,
+  "datum": "2026-09-10",
+  "yuki_document": "c3e05fdf-5d46-42a9-a8c5-71e5d6e9d2b1"
+ },
+ "7605427449": {
+  "contact": "Proximus",
+  "iban": "BE82210000088968",
+  "ogm": null,
+  "bedrag": 10.0,
+  "datum": "2026-09-05",
+  "yuki_document": "e9c080ed-4ac2-45fb-a8a1-c2ae11a83e77"
+ },
+ "2602870191": {
+  "contact": "KBC Bank",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 0.61,
+  "datum": "2026-08-31",
+  "yuki_document": "422d89a7-27f1-4721-b7c2-4e9c263cb76a"
+ },
+ "2602498584": {
+  "contact": "KBC Bank",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 0.61,
+  "datum": "2026-07-31",
+  "yuki_document": "05c2ff32-318e-490e-9dcc-a48f83f7207c"
+ },
+ "262496": {
+  "contact": "Pro-Count",
+  "iban": "BE28068907201520",
+  "ogm": "250102496147",
+  "bedrag": 242.0,
+  "datum": "2026-07-06",
+  "yuki_document": "27df00a7-1433-469b-8580-7f4b94bc4102"
+ }
+}
