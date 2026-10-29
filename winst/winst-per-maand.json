@@ -581,9 +581,9 @@
   },
   {
    "maand": "2026-10",
-   "orders": 148,
-   "stuks": 582,
-   "omzet_shopify": 10354.54,
+   "orders": 159,
+   "stuks": 633,
+   "omzet_shopify": 11179.25,
    "omzet_bol": 884.79,
    "bol": {
     "bron": "raming uit bankuitbetalingen",
@@ -591,16 +591,16 @@
     "kostprijs_fulfilment": 398.15,
     "bijdrage": 486.63
    },
-   "korting": 2062.47,
+   "korting": 2172.46,
    "retours": 886.12,
-   "kostprijs": 4478.85,
-   "fulfilment": 1760.05,
+   "kostprijs": 4799.2,
+   "fulfilment": 1897.98,
    "fulfilment_bron": "raming: tarieven × 0.799 (gekalibreerd op de laatste Widem-facturen); opslag en admin bij de vaste kosten",
    "fulfilment_widem": null,
-   "betaalkosten": 197.83,
-   "brutomarge": 4802.61,
-   "ads_meta": 6468.49,
-   "ads_google": 29.82,
+   "betaalkosten": 213.02,
+   "brutomarge": 5153.84,
+   "ads_meta": 6744.51,
+   "ads_google": 32.9,
    "vaste_kosten": 1192.51,
    "vaste_detail": {
     "Software & abonnementen": 473.87,
@@ -611,10 +611,10 @@
     "Verzending & retours (overig)": 12.71,
     "Widem opslag + admin (raming, tot de factuur er is)": 210.0
    },
-   "resultaat": -2888.21,
-   "roas": 1.93,
-   "trueprofit": -2489.29,
-   "verschil_tp": -398.92
+   "resultaat": -2816.08,
+   "roas": 2.0,
+   "trueprofit": -2326.08,
+   "verschil_tp": -490.0
   }
  ],
  "lijnen": [
@@ -624,38 +624,38 @@
    "omzet": 68996.32,
    "kostprijs": 23781.36,
    "fulfilment": 7522.83,
-   "betaalkosten": 2901.75,
-   "marge_voor_ads": 34790.39,
-   "ads": 39661.17,
+   "betaalkosten": 2901.7,
+   "marge_voor_ads": 34790.43,
+   "ads": 39661.22,
    "na_ads": -4870.78,
    "roas_nodig": 2.4,
    "roas": 2.1
   },
   {
    "lijn": "Fonteinen",
-   "stuks": 1000,
-   "omzet": 17838.22,
-   "kostprijs": 5974.48,
-   "fulfilment": 4116.13,
-   "betaalkosten": 741.6,
-   "marge_voor_ads": 7006.0,
-   "ads": 8184.97,
-   "na_ads": -1178.96,
-   "roas_nodig": 3.08,
-   "roas": 2.64
+   "stuks": 1044,
+   "omzet": 18478.32,
+   "kostprijs": 6202.54,
+   "fulfilment": 4230.57,
+   "betaalkosten": 753.45,
+   "marge_voor_ads": 7291.77,
+   "ads": 8409.48,
+   "na_ads": -1117.71,
+   "roas_nodig": 3.07,
+   "roas": 2.66
   },
   {
    "lijn": "Voerbakken",
-   "stuks": 320,
-   "omzet": 10273.66,
-   "kostprijs": 5482.47,
-   "fulfilment": 2262.52,
-   "betaalkosten": 535.22,
-   "marge_voor_ads": 1993.46,
-   "ads": 3943.18,
-   "na_ads": -1949.72,
-   "roas_nodig": 6.24,
-   "roas": 3.15
+   "stuks": 327,
+   "omzet": 10458.27,
+   "kostprijs": 5574.76,
+   "fulfilment": 2301.84,
+   "betaalkosten": 538.61,
+   "marge_voor_ads": 2043.06,
+   "ads": 3997.72,
+   "na_ads": -1954.66,
+   "roas_nodig": 6.19,
+   "roas": 3.17
   },
   {
    "lijn": "Overig",
@@ -687,25 +687,25 @@
    "marge_voor_fulfilment": 9134.46
   },
   {
-   "sku": "(oud, zonder SKU)",
-   "stuks": 176,
-   "omzet": 6028.18,
-   "kostprijs": 3168.85,
-   "marge_voor_fulfilment": 2859.32
+   "sku": "TK-WF119L",
+   "stuks": 157,
+   "omzet": 6225.28,
+   "kostprijs": 2119.32,
+   "marge_voor_fulfilment": 4105.96
   },
   {
-   "sku": "TK-WF119L",
-   "stuks": 151,
-   "omzet": 5996.86,
-   "kostprijs": 2036.16,
-   "marge_voor_fulfilment": 3960.7
+   "sku": "(oud, zonder SKU)",
+   "stuks": 178,
+   "omzet": 6037.31,
+   "kostprijs": 3173.42,
+   "marge_voor_fulfilment": 2863.89
   },
   {
    "sku": "TK-WF007L",
-   "stuks": 104,
-   "omzet": 3058.63,
-   "kostprijs": 919.44,
-   "marge_voor_fulfilment": 2139.19
+   "stuks": 105,
+   "omzet": 3085.5,
+   "kostprijs": 928.65,
+   "marge_voor_fulfilment": 2156.85
   },
   {
    "sku": "Needle Comb",
@@ -723,10 +723,10 @@
   },
   {
    "sku": "WF315",
-   "stuks": 50,
-   "omzet": 2653.41,
-   "kostprijs": 1371.0,
-   "marge_voor_fulfilment": 1282.41
+   "stuks": 52,
+   "omzet": 2758.06,
+   "kostprijs": 1425.84,
+   "marge_voor_fulfilment": 1332.22
   },
   {
    "sku": "Deshedding Brush",
@@ -737,10 +737,10 @@
   },
   {
    "sku": "FF009L-PRE",
-   "stuks": 217,
-   "omzet": 1829.62,
-   "kostprijs": 557.69,
-   "marge_voor_fulfilment": 1271.93
+   "stuks": 241,
+   "omzet": 2015.74,
+   "kostprijs": 619.37,
+   "marge_voor_fulfilment": 1396.37
   },
   {
    "sku": "FF009L",
@@ -758,10 +758,10 @@
   },
   {
    "sku": "PF09 black",
-   "stuks": 24,
-   "omzet": 1324.2,
-   "kostprijs": 795.84,
-   "marge_voor_fulfilment": 528.36
+   "stuks": 25,
+   "omzet": 1377.08,
+   "kostprijs": 829.0,
+   "marge_voor_fulfilment": 548.08
   },
   {
    "sku": "Anti-static Brush",
@@ -793,10 +793,10 @@
   },
   {
    "sku": "TT002",
-   "stuks": 8,
-   "omzet": 809.0,
-   "kostprijs": 380.16,
-   "marge_voor_fulfilment": 428.84
+   "stuks": 9,
+   "omzet": 909.41,
+   "kostprijs": 427.68,
+   "marge_voor_fulfilment": 481.73
   },
   {
    "sku": "Trimmer",
@@ -807,10 +807,10 @@
   },
   {
    "sku": "DESBAG",
-   "stuks": 77,
-   "omzet": 585.14,
-   "kostprijs": 180.95,
-   "marge_voor_fulfilment": 404.19
+   "stuks": 80,
+   "omzet": 607.33,
+   "kostprijs": 188.0,
+   "marge_voor_fulfilment": 419.33
   },
   {
    "sku": "Hepa-filter",
@@ -820,18 +820,18 @@
    "marge_voor_fulfilment": 313.06
   },
   {
+   "sku": "FF007-PRE",
+   "stuks": 51,
+   "omzet": 406.34,
+   "kostprijs": 108.63,
+   "marge_voor_fulfilment": 297.71
+  },
+  {
    "sku": "Care-bundel-PRE",
    "stuks": 5,
    "omzet": 344.65,
    "kostprijs": 124.55,
    "marge_voor_fulfilment": 220.1
-  },
-  {
-   "sku": "FF007-PRE",
-   "stuks": 42,
-   "omzet": 328.15,
-   "kostprijs": 89.46,
-   "marge_voor_fulfilment": 238.69
   },
   {
    "sku": "BaseUnit-PRE",
@@ -932,6 +932,13 @@
    "marge_voor_fulfilment": 7.46
   },
   {
+   "sku": "FF015-PRE",
+   "stuks": 2,
+   "omzet": 15.85,
+   "kostprijs": 0.0,
+   "marge_voor_fulfilment": 15.85
+  },
+  {
    "sku": "2-1 Brush-PRE",
    "stuks": 1,
    "omzet": 4.95,
@@ -939,7 +946,9 @@
    "marge_voor_fulfilment": 4.06
   }
  ],
- "ontbrekende_kostprijs": [],
+ "ontbrekende_kostprijs": [
+  "FF015-PRE"
+ ],
  "aannames": [
   "Fulfilment = echte Widem-maandfactuur (verbruiksmateriaal, pick & pack, pakjes, labeling) waar die er is; anders Widem-tarieven (€1.23/stuk, €1.53/order, doos+DPD €8.37/€8.62) × 0.799. Opslag en admin van Widem staan bij de vaste kosten (gelijk per dag; raming tot de factuur er is, daarna gecorrigeerd).",
   "Oude producten zonder SKU (feeders okt 2025–feb 2026): kostprijs 50% van de omzet.",
