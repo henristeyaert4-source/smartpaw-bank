@@ -90,6 +90,22 @@ def main():
                     st.setdefault("pogingen", []).extend(pogingen)
                 if laatste is not None:
                     raise laatste
+            # alle boekingen op 440000 Leveranciers (facturen + betalingen) sinds het begin van vorig kwartaal
+            try:
+                t = date.today(); k0 = (t.month - 1) // 3 * 3 + 1
+                van = date(t.year if k0 > 3 else t.year - 1, k0 - 3 if k0 > 3 else 10, 1)
+                res = soap(base, "Accounting", "GLAccountTransactions", sessionID=sess, administrationID=admin,
+                           GLAccountCode="440000", StartDate=van.isoformat(), EndDate=t.isoformat())
+                xml = ET.fromstring(res.text) if res is not None and res.text and res.text.strip().startswith("<") else res
+                rij = []
+                for tr in (xml.iter() if xml is not None else []):
+                    if tr.tag.split("}")[-1] == "GLAccountTransaction":
+                        rij.append({"id": tr.get("ID"), "datum": tekst(tr, "Date")[:10], "omschrijving": tekst(tr, "Description"),
+                                    "bedrag": float(tekst(tr, "Amount") or 0), "contact": tekst(tr, "Contact")})
+                st["leveranciers_boekingen"] = rij
+                st["leveranciers_van"] = van.isoformat()
+            except Exception as e:
+                st.setdefault("waarschuwingen", []).append(f"GLAccountTransactions 440000: {str(e)[:250]}")
             st["host"] = base
             break
         except Exception as e:
