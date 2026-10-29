@@ -3,13 +3,13 @@
  "van": "2026-07-01",
  "tot": "2026-09-30",
  "telling": {
-  "in Yuki": 75,
-  "te boeken": 9,
+  "in Yuki": 73,
+  "te boeken": 11,
   "factuur ontbreekt": 17
  },
  "bedrag": {
-  "in Yuki": 49748.19,
-  "te boeken": 971.37,
+  "in Yuki": 45813.19,
+  "te boeken": 4906.37,
   "factuur ontbreekt": 2603.94
  },
  "per_rekening": [
@@ -115,8 +115,8 @@
  "lijnen": [
   {
    "id": "ponto-f54c8129-c0dc-4b06-8a3e-1bfcb4b4fd48",
-   "status": "in Yuki",
-   "yuki_id": "123c4eb5-a77f-4ebc-ad44-1f2353de663f",
+   "status": "te boeken",
+   "yuki_id": null,
    "factuurdatum": "2026-09-30",
    "betaald_op": "2026-09-30",
    "leverancier": "Meta Platforms Ireland",
@@ -713,8 +713,8 @@
   },
   {
    "id": "ponto-95ddb1a3-c34d-4fd3-9537-74e3bcaaf5fc",
-   "status": "in Yuki",
-   "yuki_id": "4207de3d-ab2f-42d0-a9ff-fab410e04b96",
+   "status": "te boeken",
+   "yuki_id": null,
    "factuurdatum": "2026-07-07",
    "betaald_op": "2026-09-08",
    "leverancier": "Widem Logistics NV",

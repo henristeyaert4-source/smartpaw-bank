@@ -185,7 +185,7 @@ def main(kwartalen):
                     naam = _tok(r["tegenpartij"] + " " + r.get("mededeling", "") + " " + str(bw.get("leverancier", "")))
                     if -35 <= d <= 75 and (naam & _tok(e["contact"])) and (best is None or abs(d) < abs(_dagen(r["datum"], best["datum"]))):
                         best = e
-                if not best:
+                if not best and str(bw.get("datum") or r["datum"]) < yuki_van:
                     # factuur vóór de Yuki-ophaalperiode geboekt: de betaling ervan staat wel in Yuki (zelfde leverancier, bedrag, ±7 d)
                     for e in yalle:
                         if e["id"] not in gebruikt and e["bedrag"] > 0 and abs(e["bedrag"] - incl) <= 0.021 and abs(_dagen(r["datum"], e["datum"])) <= 7 \
