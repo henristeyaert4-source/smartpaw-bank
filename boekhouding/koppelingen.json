@@ -678,5 +678,19 @@
   "btw_type": "NONEU (verlegd)",
   "btw_nummer": null,
   "uitleg": "Klaviyo 3k profielen, 10/10–10/11 2026; $70,00 met kaart 6682"
+ },
+ "kaart-6682-2026-10-10-GODADDY*#7038004865--167.76": {
+  "soort": "upload",
+  "asset_id": "c383ea36c66ff65d325eee133873c47f",
+  "label": "GoDaddy ontvangstbewijs 7038004865",
+  "bestand": "2026-10-10_GoDaddy_167.76.pdf",
+  "leverancier": "GoDaddy Europe Limited (Nottingham, UK)",
+  "datum": "2026-10-10",
+  "bedrag": -167.76,
+  "btw": 0,
+  "btw_type": "buiten EU (verlegd)",
+  "btw_nummer": "EU MOSS EU372022543",
+  "factuurnummer": "7038004865",
+  "uitleg": "Microsoft 365 E-mail Essentieel, verlenging 1 jaar voor henristeyaert@smartpaw.be en info@smartpaw.be (2 x €83,88). Op naam SmartPaw VOF, BE1028566224."
  }
 }

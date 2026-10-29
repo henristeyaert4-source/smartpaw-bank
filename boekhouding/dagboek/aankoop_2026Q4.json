@@ -4,13 +4,13 @@
  "tot": "2026-12-31",
  "telling": {
   "in Yuki": 8,
-  "te boeken": 15,
-  "factuur ontbreekt": 1
+  "te boeken": 16,
+  "factuur ontbreekt": 0
  },
  "bedrag": {
   "in Yuki": 525.43,
-  "te boeken": 11042.76,
-  "factuur ontbreekt": 167.76
+  "te boeken": 11210.52,
+  "factuur ontbreekt": 0
  },
  "per_rekening": [
   {
@@ -430,16 +430,16 @@
   },
   {
    "id": "kaart-6682-2026-10-10-GODADDY*#7038004865--167.76",
-   "status": "factuur ontbreekt",
+   "status": "te boeken",
    "yuki_id": null,
    "factuurdatum": "2026-10-10",
    "betaald_op": "2026-10-10",
-   "leverancier": "GODADDY*#7038004865",
-   "btw_nummer": "",
-   "factuurnummer": "",
-   "document": "",
-   "asset_id": null,
-   "omschrijving": "GODADDY*#7038004865",
+   "leverancier": "GoDaddy Europe Limited (Nottingham, UK)",
+   "btw_nummer": "EU MOSS EU372022543",
+   "factuurnummer": "7038004865",
+   "document": "2026-10-10_GoDaddy_167.76.pdf",
+   "asset_id": "c383ea36c66ff65d325eee133873c47f",
+   "omschrijving": "Microsoft 365 E-mail Essentieel, verlenging 1 jaar voor henristeyaert@smartpaw.be en info@smartpaw.be (2 x €83,88). Op n",
    "rekening": "611080",
    "rekening_naam": "ABONNEMENTEN",
    "rekening_bron": "Yuki: online abonnementen = ABONNEMENTEN",
