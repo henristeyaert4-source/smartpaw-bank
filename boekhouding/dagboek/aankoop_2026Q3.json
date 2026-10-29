@@ -3,12 +3,12 @@
  "van": "2026-07-01",
  "tot": "2026-09-30",
  "telling": {
-  "in Yuki": 81,
+  "in Yuki": 82,
   "te boeken": 10,
   "factuur ontbreekt": 17
  },
  "bedrag": {
-  "in Yuki": 52617.39,
+  "in Yuki": 52624.17,
   "te boeken": 1771.37,
   "factuur ontbreekt": 2603.94
  },
@@ -114,9 +114,9 @@
   {
    "rekening": "611030",
    "naam": "PORTKOSTEN",
-   "aantal": 6,
-   "maatstaf": 32.92,
-   "btw": 6.91
+   "aantal": 7,
+   "maatstaf": 38.52,
+   "btw": 8.09
   },
   {
    "rekening": "657000",
@@ -260,6 +260,33 @@
    "betaald_via": "",
    "betaald_via_naam": "nog te betalen (vervalt 2026-10-17)",
    "nakijken": true,
+   "onbetaald": true
+  },
+  {
+   "id": "yuki-f7964cda-0a4e-4019-8005-7214e96a657f",
+   "status": "in Yuki",
+   "yuki_id": "f7964cda-0a4e-4019-8005-7214e96a657f",
+   "factuurdatum": "2026-09-16",
+   "betaald_op": "",
+   "leverancier": "Bpost",
+   "btw_nummer": "",
+   "factuurnummer": "268565664",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "Factuur van Bpost, Portkosten",
+   "rekening": "611030",
+   "rekening_naam": "PORTKOSTEN",
+   "rekening_bron": "Yuki: bpost = PORTKOSTEN",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 6.78,
+   "maatstaf": 5.6,
+   "btw": 1.18,
+   "verlegde_btw": 0.0,
+   "betaald_via": "",
+   "betaald_via_naam": "nog te betalen (vervalt 2026-10-16)",
+   "nakijken": false,
    "onbetaald": true
   },
   {

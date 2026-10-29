@@ -236,6 +236,7 @@ def main(kwartalen):
             if not base: return None
             return base + f"{(int(base) % 97) or 97:02d}"
         handmatig = json.loads((B / "yuki_betaald.json").read_text()) if (B / "yuki_betaald.json").exists() else {}
+        al_betaald.update(v["bank_id"] for k, v in handmatig.items() if isinstance(v, dict) and v.get("bank_id"))
         def betaald(c):
             if c.get("referentie") in handmatig:
                 return True

@@ -1,2 +1,7 @@
-{"_uitleg": "Yuki-facturen die op de bank betaald zijn maar die niet automatisch te koppelen zijn (bv. kaartbetaling zonder mededeling bij twee gelijke bedragen). Bron vermelden.",
- "268571407": "bpost, betaald 20/10 met de bankkaart (€6,78); zo gekoppeld in Lucy"}
+{
+ "_uitleg": "Yuki-facturen die op de bank betaald zijn maar niet automatisch te koppelen zijn (bv. kaartbetaling zonder mededeling bij twee gelijke bedragen): referentie -> bank-id + bron.",
+ "268571407": {
+  "bank_id": "ponto-8d423deb-a993-4ae6-896e-5697b58aff14",
+  "bron": "bpost, betaald 20/10 met de bankkaart (€6,78); zo gekoppeld in Lucy"
+ }
+}
