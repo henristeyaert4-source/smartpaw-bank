@@ -650,5 +650,19 @@
    },
    "uitleg": "Maandpremie 27/11 – 26/12 (nieuw bedrag €19,05)"
   }
- ]
+ ],
+ "kaart-2103-2026-10-23-FACEBK *CNGZB8S7A4--621.34": {
+  "soort": "upload",
+  "asset_id": "c2f38a286ac9c54e669ce8d2fb60594d",
+  "bestand": "2026-10-23_Meta_FBADS-210-106742402_621.34.pdf",
+  "label": "Meta-factuur FBADS-210-106742402 (2026-10-23)",
+  "leverancier": "Meta Platforms Ireland",
+  "datum": "2026-10-23",
+  "bedrag": -621.34,
+  "btw": 0,
+  "btw_type": "EU (verlegd)",
+  "btw_nummer": "IE9692928F",
+  "transactie_id": "28867302572955118-28867302652955110",
+  "uitleg": "Mastercard 2103, ref CNGZB8S7A4; handmatige betaling; Feeders & Fonteinen €472,24 + Halloween €149,10 (20–23/10)"
+ }
 }
