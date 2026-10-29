@@ -253,57 +253,69 @@
  },
  "ponto-b8bd72fa-7cb5-462d-a7d9-72e226f64646": {
   "soort": "meta",
-  "label": "Meta-kwitantie 28560783836940336-28560783956940324 (2026-10-04) – in Lucy/Yuki",
+  "label": "Meta-kwitantie 28560783836940336-28560783956940324 (2026-10-04)",
   "transactie_id": "28560783836940336-28560783956940324",
   "leverancier": "Meta Platforms Ireland",
   "datum": "2026-10-04",
   "bedrag": 800.0,
-  "btw_type": "EU (verlegd)"
+  "btw_type": "EU (verlegd)",
+  "asset_id": "5cbdfd3e8d8845fa827613ceb3355deb",
+  "bestand": "Meta_2026-10-04_28560783836940336-28560783956940324.pdf"
  },
  "ponto-0fffef77-c5bd-4273-a91c-30d140e1e164": {
   "soort": "meta",
-  "label": "Meta-kwitantie 28823801243971925-28794383930246982 (2026-10-08) – in Lucy/Yuki",
+  "label": "Meta-kwitantie 28823801243971925-28794383930246982 (2026-10-08)",
   "transactie_id": "28823801243971925-28794383930246982",
   "leverancier": "Meta Platforms Ireland",
   "datum": "2026-10-08",
   "bedrag": 517.01,
-  "btw_type": "EU (verlegd)"
+  "btw_type": "EU (verlegd)",
+  "asset_id": "82ec708640ba3493424c440f86dc0a6d",
+  "bestand": "Meta_2026-10-08_28823801243971925-28794383930246982.pdf"
  },
  "ponto-24ead7b5-9d64-4984-ae90-effd1a2b782f": {
   "soort": "meta",
-  "label": "Meta-kwitantie 28770796055939105-28874006408951408 (2026-10-11) – in Lucy/Yuki",
+  "label": "Meta-kwitantie 28770796055939105-28874006408951408 (2026-10-11)",
   "transactie_id": "28770796055939105-28874006408951408",
   "leverancier": "Meta Platforms Ireland",
   "datum": "2026-10-11",
   "bedrag": 800.0,
-  "btw_type": "EU (verlegd)"
+  "btw_type": "EU (verlegd)",
+  "asset_id": "24dfa6ecdb140d755cb5d85fdc4a9fa7",
+  "bestand": "Meta_2026-10-11_28770796055939105-28874006408951408.pdf"
  },
  "ponto-91305d60-b596-4391-b69b-ca1a8aa6dd2f": {
   "soort": "meta",
-  "label": "Meta-kwitantie 28719082304443821-28719082454443806 (2026-10-14) – in Lucy/Yuki",
+  "label": "Meta-kwitantie 28719082304443821-28719082454443806 (2026-10-14)",
   "transactie_id": "28719082304443821-28719082454443806",
   "leverancier": "Meta Platforms Ireland",
   "datum": "2026-10-14",
   "bedrag": 800.0,
-  "btw_type": "EU (verlegd)"
+  "btw_type": "EU (verlegd)",
+  "asset_id": "81ba745a25557cd086c0c10f18cf2cb8",
+  "bestand": "Meta_2026-10-14_28719082304443821-28719082454443806.pdf"
  },
  "ponto-9e0de87c-4900-42b1-8875-1431a02df641": {
   "soort": "meta",
-  "label": "Meta-kwitantie 28824246560594057-28961227476895959 (2026-10-18) – in Lucy/Yuki",
+  "label": "Meta-kwitantie 28824246560594057-28961227476895959 (2026-10-18)",
   "transactie_id": "28824246560594057-28961227476895959",
   "leverancier": "Meta Platforms Ireland",
   "datum": "2026-10-18",
   "bedrag": 800.0,
-  "btw_type": "EU (verlegd)"
+  "btw_type": "EU (verlegd)",
+  "asset_id": "189ba028c0609826928f4de21890052d",
+  "bestand": "Meta_2026-10-18_28824246560594057-28961227476895959.pdf"
  },
  "ponto-5fc68572-d8a6-4609-96db-44c4b167d495": {
   "soort": "meta",
-  "label": "Meta-kwitantie 28937478365937539-29039294869089227 (2026-10-21) – in Lucy/Yuki",
+  "label": "Meta-kwitantie 28937478365937539-29039294869089227 (2026-10-21)",
   "transactie_id": "28937478365937539-29039294869089227",
   "leverancier": "Meta Platforms Ireland",
   "datum": "2026-10-21",
   "bedrag": 800.0,
-  "btw_type": "EU (verlegd)"
+  "btw_type": "EU (verlegd)",
+  "asset_id": "484c144bd518c539d8737fa6726fe351",
+  "bestand": "Meta_2026-10-21_28937478365937539-29039294869089227.pdf"
  },
  "ponto-1c654355-f71c-4531-b075-ba138365aa41": {
   "bedrag": 3251.79,
@@ -653,8 +665,8 @@
  ],
  "kaart-2103-2026-10-23-FACEBK *CNGZB8S7A4--621.34": {
   "soort": "upload",
-  "asset_id": "c2f38a286ac9c54e669ce8d2fb60594d",
-  "bestand": "2026-10-23_Meta_FBADS-210-106742402_621.34.pdf",
+  "asset_id": "e2d3d3b6be20772e650946443ec46eb6",
+  "bestand": "Meta_2026-10-23_28867302572955118-28867302652955110.pdf",
   "label": "Meta-factuur FBADS-210-106742402 (2026-10-23)",
   "leverancier": "Meta Platforms Ireland",
   "datum": "2026-10-23",
