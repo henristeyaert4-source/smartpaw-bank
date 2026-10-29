@@ -1,0 +1,7 @@
+{
+ "fouten": [
+  "https://api.yukiworks.be/ws: RuntimeError: OutstandingCreditorItems: HTTP 500 <?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><",
+  "https://api.yukiworks.nl/ws: RuntimeError: Authenticate: HTTP 500 <?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>"
+ ],
+ "opgehaald": "2026-10-29"
+}
