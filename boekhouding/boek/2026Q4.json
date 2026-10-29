@@ -3,7 +3,7 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "verklaard": 19,
+  "verklaard": 20,
   "gekoppeld": 12,
   "ontbreekt": 13
  },
@@ -32,6 +32,22 @@
     "btw_type": "Invoer buiten EU (verlegd, art. 41)",
     "btw_nummer": null,
     "uitleg": "Voorschot 30% ($5.047,50) op proforma PET2026102601 via Revolut SWIFT; saldo $11.777,50 vóór verzending. Banktoeslag $27,86 apart."
+   }
+  },
+  {
+   "id": "ponto-e0b07ea7-9aad-4630-9746-c1c639b91383",
+   "datum": "2026-10-27",
+   "bron": "KBC",
+   "tegenpartij": "STRIPE",
+   "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+   "bedrag": 379.67,
+   "categorie": "Omzet webshop (Shopify)",
+   "btw_type": "EU",
+   "vak": "88 / 55 / 59",
+   "status": "verklaard",
+   "bewijs": {
+    "soort": "regel",
+    "label": "uitbetaling Shopify Payments (verkopen in Shopify)"
    }
   },
   {
@@ -755,5 +771,5 @@
   "oss_eu": 6106.27,
   "btw_te_betalen": 2131.88
  },
- "bijgewerkt": "2026-10-28"
+ "bijgewerkt": "2026-10-29"
 }
