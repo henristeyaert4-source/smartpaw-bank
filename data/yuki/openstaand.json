@@ -168,17 +168,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "f58a8343-a858-4adb-9785-cbd892776784",
-   "datum": "2025-12-12",
-   "vervaldag": "",
-   "contact": "Google Ireland Limited",
-   "omschrijving": "Factuur van Google Ireland Limited, RECLAME ZONDER MERK",
-   "referentie": "A63950375647482350",
-   "open": 500.0,
-   "origineel": 500.0,
-   "betaalwijze": "Creditcard"
-  },
-  {
    "id": "15e86cdb-01b9-4abc-90ab-bc873f09cf1f",
    "datum": "2025-12-12",
    "vervaldag": "",
@@ -199,6 +188,17 @@
    "open": 800.23,
    "origineel": 800.23,
    "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "f58a8343-a858-4adb-9785-cbd892776784",
+   "datum": "2025-12-12",
+   "vervaldag": "",
+   "contact": "Google Ireland Limited",
+   "omschrijving": "Factuur van Google Ireland Limited, RECLAME ZONDER MERK",
+   "referentie": "A63950375647482350",
+   "open": 500.0,
+   "origineel": 500.0,
+   "betaalwijze": "Creditcard"
   },
   {
    "id": "3eccb0bd-047e-4646-b331-e8127cf4d200",
@@ -289,39 +289,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "2a84d01e-7b2a-43ca-b71c-671a06bd8a33",
-   "datum": "2026-04-23",
-   "vervaldag": "",
-   "contact": "Returngo",
-   "omschrijving": "Mastercard 24/03>23/04 / Returngo 03/04",
-   "referentie": "",
-   "open": -86.0,
-   "origineel": -86.0,
-   "betaalwijze": ""
-  },
-  {
-   "id": "1803a947-d118-4556-b8ad-404f4b451182",
-   "datum": "2026-04-23",
-   "vervaldag": "",
-   "contact": "Google Ireland Limited",
-   "omschrijving": "Mastercard 24/03>23/04 - Google ads 01/04",
-   "referentie": "",
-   "open": -79.73,
-   "origineel": -79.73,
-   "betaalwijze": ""
-  },
-  {
-   "id": "5d42cc61-f2c9-4ccc-8152-4256a01fb82f",
-   "datum": "2026-04-23",
-   "vervaldag": "",
-   "contact": "Shopify International Limited",
-   "omschrijving": "Mastercard 24/03>23/04",
-   "referentie": "",
-   "open": -120.66,
-   "origineel": -120.66,
-   "betaalwijze": ""
-  },
-  {
    "id": "e37c407b-4397-481b-8b42-41f5117a7964",
    "datum": "2026-04-23",
    "vervaldag": "",
@@ -355,6 +322,39 @@
    "betaalwijze": ""
   },
   {
+   "id": "1803a947-d118-4556-b8ad-404f4b451182",
+   "datum": "2026-04-23",
+   "vervaldag": "",
+   "contact": "Google Ireland Limited",
+   "omschrijving": "Mastercard 24/03>23/04 - Google ads 01/04",
+   "referentie": "",
+   "open": -79.73,
+   "origineel": -79.73,
+   "betaalwijze": ""
+  },
+  {
+   "id": "5d42cc61-f2c9-4ccc-8152-4256a01fb82f",
+   "datum": "2026-04-23",
+   "vervaldag": "",
+   "contact": "Shopify International Limited",
+   "omschrijving": "Mastercard 24/03>23/04",
+   "referentie": "",
+   "open": -120.66,
+   "origineel": -120.66,
+   "betaalwijze": ""
+  },
+  {
+   "id": "2a84d01e-7b2a-43ca-b71c-671a06bd8a33",
+   "datum": "2026-04-23",
+   "vervaldag": "",
+   "contact": "Returngo",
+   "omschrijving": "Mastercard 24/03>23/04 / Returngo 03/04",
+   "referentie": "",
+   "open": -86.0,
+   "origineel": -86.0,
+   "betaalwijze": ""
+  },
+  {
    "id": "ef3c6870-f1c2-4a7e-8420-796a9a84b33b",
    "datum": "2026-04-30",
    "vervaldag": "",
@@ -364,17 +364,6 @@
    "open": 10.08,
    "origineel": 10.08,
    "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "2df2ac86-bbe7-4730-bd46-fb392f05390e",
-   "datum": "2026-05-23",
-   "vervaldag": "",
-   "contact": "Shopify International Limited",
-   "omschrijving": "Mastercard 24/04>23/05 / Shopify 12/05",
-   "referentie": "",
-   "open": -139.02,
-   "origineel": -139.02,
-   "betaalwijze": ""
   },
   {
    "id": "e516fbef-a13b-42d9-a3b8-735f23993194",
@@ -388,14 +377,14 @@
    "betaalwijze": ""
   },
   {
-   "id": "039990c1-dd47-4de7-9be2-09a080b1e442",
-   "datum": "2026-06-23",
+   "id": "2df2ac86-bbe7-4730-bd46-fb392f05390e",
+   "datum": "2026-05-23",
    "vervaldag": "",
-   "contact": "Holo AI",
-   "omschrijving": "Mastercard 24/05>23/06 / Holo AI  47.19 USD",
+   "contact": "Shopify International Limited",
+   "omschrijving": "Mastercard 24/04>23/05 / Shopify 12/05",
    "referentie": "",
-   "open": -41.57,
-   "origineel": -41.57,
+   "open": -139.02,
+   "origineel": -139.02,
    "betaalwijze": ""
   },
   {
@@ -407,6 +396,17 @@
    "referentie": "",
    "open": -158.06,
    "origineel": -158.06,
+   "betaalwijze": ""
+  },
+  {
+   "id": "039990c1-dd47-4de7-9be2-09a080b1e442",
+   "datum": "2026-06-23",
+   "vervaldag": "",
+   "contact": "Holo AI",
+   "omschrijving": "Mastercard 24/05>23/06 / Holo AI  47.19 USD",
+   "referentie": "",
+   "open": -41.57,
+   "origineel": -41.57,
    "betaalwijze": ""
   },
   {
@@ -696,6 +696,28 @@
    "betaalwijze": "Overschrijving"
   },
   {
+   "id": "79db9d74-5c8c-4bbd-8fad-9fd413deb55d",
+   "datum": "2026-10-11",
+   "vervaldag": "",
+   "contact": "Meta Platforms Ireland Limited",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "referentie": "FBADS-210-106673724",
+   "open": 800.0,
+   "origineel": 800.0,
+   "betaalwijze": "Bancontact"
+  },
+  {
+   "id": "46c4b0d2-ef05-45f7-bb14-523044bbc2a9",
+   "datum": "2026-10-14",
+   "vervaldag": "",
+   "contact": "Meta Platforms Ireland Limited",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "referentie": "FBADS-210-106694009",
+   "open": 800.0,
+   "origineel": 800.0,
+   "betaalwijze": "Bancontact"
+  },
+  {
    "id": "9411fd52-c4b4-4ea1-9846-23214d66b329",
    "datum": "2026-10-15",
    "vervaldag": "2026-11-14",
@@ -707,6 +729,17 @@
    "betaalwijze": "Overschrijving"
   },
   {
+   "id": "77ec1d41-c00d-4e71-b97b-954fabc4639d",
+   "datum": "2026-10-18",
+   "vervaldag": "",
+   "contact": "Meta Platforms Ireland Limited",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "referentie": "FBADS-210-106714988",
+   "open": 800.0,
+   "origineel": 800.0,
+   "betaalwijze": "Bancontact"
+  },
+  {
    "id": "a4d9cdc0-ec8d-442d-8113-7bdc69ef62b1",
    "datum": "2026-10-19",
    "vervaldag": "2026-11-09",
@@ -716,6 +749,28 @@
    "open": 160.0,
    "origineel": 160.0,
    "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "52593c76-04d7-4561-8796-ba2912d78038",
+   "datum": "2026-10-21",
+   "vervaldag": "",
+   "contact": "Meta Platforms Ireland Limited",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "referentie": "FBADS-210-106730169",
+   "open": 800.0,
+   "origineel": 800.0,
+   "betaalwijze": "Bancontact"
+  },
+  {
+   "id": "55e05e1b-5d50-4439-847d-01d66777f9cc",
+   "datum": "2026-10-23",
+   "vervaldag": "",
+   "contact": "Meta Platforms Ireland Limited",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "referentie": "FBADS-210-106742402",
+   "open": 621.34,
+   "origineel": 621.34,
+   "betaalwijze": "Creditcard"
   }
  ],
  "debiteuren": [
@@ -885,17 +940,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "6604ba5b-b91d-491a-ada2-9279c7528ac7",
-   "datum": "2026-05-22",
-   "vervaldag": "2026-05-22",
-   "contact": "part",
-   "omschrijving": "Factuur voor Particulier",
-   "referentie": "1730 Karolien Tutenel",
-   "open": 150.0,
-   "origineel": 150.0,
-   "betaalwijze": "Overschrijving"
-  },
-  {
    "id": "a9c23ed9-54e7-4c16-9df7-751cb9bd7975",
    "datum": "2026-05-22",
    "vervaldag": "2026-05-22",
@@ -904,6 +948,17 @@
    "referentie": "1728 Greet Hostyn",
    "open": 135.0,
    "origineel": 270.0,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "6604ba5b-b91d-491a-ada2-9279c7528ac7",
+   "datum": "2026-05-22",
+   "vervaldag": "2026-05-22",
+   "contact": "part",
+   "omschrijving": "Factuur voor Particulier",
+   "referentie": "1730 Karolien Tutenel",
+   "open": 150.0,
+   "origineel": 150.0,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -1215,28 +1270,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "e57d76fb-abc3-4e0a-8f0e-415cec190c59",
-   "datum": "2026-09-30",
-   "vervaldag": "",
-   "contact": "Eric Soetens",
-   "omschrijving": "Factuur 1519 - refund geboekt, factuur niet - Eric soetens",
-   "referentie": "",
-   "open": -39.95,
-   "origineel": -39.95,
-   "betaalwijze": ""
-  },
-  {
-   "id": "9074f32d-6400-4dd5-a64c-5976cf0af9b3",
-   "datum": "2026-09-30",
-   "vervaldag": "",
-   "contact": "Petra Rebel",
-   "omschrijving": "Terugbetaling 1702 - Petra Rebel",
-   "referentie": "",
-   "open": 18.99,
-   "origineel": 18.99,
-   "betaalwijze": ""
-  },
-  {
    "id": "fb7ab88c-ba32-430c-98a8-99d9e896107a",
    "datum": "2026-09-30",
    "vervaldag": "",
@@ -1256,6 +1289,28 @@
    "referentie": "",
    "open": -109.14,
    "origineel": -109.14,
+   "betaalwijze": ""
+  },
+  {
+   "id": "e57d76fb-abc3-4e0a-8f0e-415cec190c59",
+   "datum": "2026-09-30",
+   "vervaldag": "",
+   "contact": "Eric Soetens",
+   "omschrijving": "Factuur 1519 - refund geboekt, factuur niet - Eric soetens",
+   "referentie": "",
+   "open": -39.95,
+   "origineel": -39.95,
+   "betaalwijze": ""
+  },
+  {
+   "id": "9074f32d-6400-4dd5-a64c-5976cf0af9b3",
+   "datum": "2026-09-30",
+   "vervaldag": "",
+   "contact": "Petra Rebel",
+   "omschrijving": "Terugbetaling 1702 - Petra Rebel",
+   "referentie": "",
+   "open": 18.99,
+   "origineel": 18.99,
    "betaalwijze": ""
   },
   {
@@ -1289,6 +1344,17 @@
    "referentie": "3916522505854",
    "open": 58.65,
    "origineel": 536.98,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "530b6e45-4bd7-440d-bd64-7ede0716b4b8",
+   "datum": "2026-10-29",
+   "vervaldag": "2026-11-12",
+   "contact": "Lieze Coenen",
+   "omschrijving": "Bestelling 2518",
+   "referentie": "2518",
+   "open": 45.25,
+   "origineel": 45.25,
    "betaalwijze": "Overschrijving"
   }
  ],
@@ -3058,6 +3124,20 @@
    "contact": "Meta Platforms Ireland Limited"
   },
   {
+   "id": "79db9d74-5c8c-4bbd-8fad-9fd413deb55d",
+   "datum": "2026-10-11",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "46c4b0d2-ef05-45f7-bb14-523044bbc2a9",
+   "datum": "2026-10-14",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
    "id": "9411fd52-c4b4-4ea1-9846-23214d66b329",
    "datum": "2026-10-15",
    "omschrijving": "Factuur van Bol.com B.V., Commissielonen",
@@ -3093,6 +3173,13 @@
    "contact": "Meta Platforms Ireland Limited"
   },
   {
+   "id": "77ec1d41-c00d-4e71-b97b-954fabc4639d",
+   "datum": "2026-10-18",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
    "id": "a4d9cdc0-ec8d-442d-8113-7bdc69ef62b1",
    "datum": "2026-10-19",
    "omschrijving": "Factuur van BELGIAN DOGGOS, Beroepsbijdragen",
@@ -3121,10 +3208,24 @@
    "contact": "Bpost"
   },
   {
+   "id": "52593c76-04d7-4561-8796-ba2912d78038",
+   "datum": "2026-10-21",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
    "id": "295b815c-06cb-43b2-9ed9-f70475300bb1",
    "datum": "2026-10-21",
    "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 895012 - Datum verrichting: 21-10-26 - Uur",
    "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "55e05e1b-5d50-4439-847d-01d66777f9cc",
+   "datum": "2026-10-23",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -621.34,
    "contact": "Meta Platforms Ireland Limited"
   },
   {

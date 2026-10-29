@@ -3,13 +3,13 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "in Yuki": 11,
-  "te boeken": 15,
+  "in Yuki": 24,
+  "te boeken": 2,
   "factuur ontbreekt": 0
  },
  "bedrag": {
-  "in Yuki": 1095.19,
-  "te boeken": 11042.76,
+  "in Yuki": 12000.15,
+  "te boeken": 137.8,
   "factuur ontbreekt": 0
  },
  "per_rekening": [
@@ -134,8 +134,8 @@
   },
   {
    "id": "rev-056da6af-d4ed-e3f3-02c0-04184029e287-056da6af-d4ed-e3f3-0000-04184029e287",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "d2b5ec40-7fdf-49b6-823f-a741e411c92c",
    "factuurdatum": "2026-10-27",
    "betaald_op": "2026-10-27",
    "leverancier": "Shenzhen Chongxin (Jess)",
@@ -160,8 +160,8 @@
   },
   {
    "id": "ponto-c016d93b-df6a-4197-8870-cbb244cd481d",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "3b11cdbd-9e80-4cab-bb20-0145c10745e8",
    "factuurdatum": "2026-09-10",
    "betaald_op": "2026-10-26",
    "leverancier": "KBC Verzekeringen (polis 37630975, BA bedrijfspolis aansprakelijkheid)",
@@ -212,8 +212,8 @@
   },
   {
    "id": "kaart-2103-2026-10-23-FACEBK *CNGZB8S7A4--621.34",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "55e05e1b-5d50-4439-847d-01d66777f9cc",
    "factuurdatum": "2026-10-23",
    "betaald_op": "2026-10-23",
    "leverancier": "Meta Platforms Ireland",
@@ -238,8 +238,8 @@
   },
   {
    "id": "ponto-5fc68572-d8a6-4609-96db-44c4b167d495",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "52593c76-04d7-4561-8796-ba2912d78038",
    "factuurdatum": "2026-10-21",
    "betaald_op": "2026-10-21",
    "leverancier": "Meta Platforms Ireland",
@@ -316,8 +316,8 @@
   },
   {
    "id": "ponto-9e0de87c-4900-42b1-8875-1431a02df641",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "77ec1d41-c00d-4e71-b97b-954fabc4639d",
    "factuurdatum": "2026-10-18",
    "betaald_op": "2026-10-18",
    "leverancier": "Meta Platforms Ireland",
@@ -368,8 +368,8 @@
   },
   {
    "id": "ponto-91305d60-b596-4391-b69b-ca1a8aa6dd2f",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "46c4b0d2-ef05-45f7-bb14-523044bbc2a9",
    "factuurdatum": "2026-10-14",
    "betaald_op": "2026-10-15",
    "leverancier": "Meta Platforms Ireland",
@@ -420,8 +420,8 @@
   },
   {
    "id": "kaart-6682-2026-10-14-ALIBABA.COM--779.1",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "9e290924-71bb-4fde-b53f-f5e510ed89df",
    "factuurdatum": "2026-10-14",
    "betaald_op": "2026-10-14",
    "leverancier": "Shenzhen Chongxin Technology Co. Ltd (via Alibaba.com Singapore)",
@@ -446,8 +446,8 @@
   },
   {
    "id": "ponto-24ead7b5-9d64-4984-ae90-effd1a2b782f",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "79db9d74-5c8c-4bbd-8fad-9fd413deb55d",
    "factuurdatum": "2026-10-11",
    "betaald_op": "2026-10-11",
    "leverancier": "Meta Platforms Ireland",
@@ -472,8 +472,8 @@
   },
   {
    "id": "kaart-6682-2026-10-10-KLAVIYO INC. SOFTWAR--63.59",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "bd3fef2d-4511-4928-b156-a4e8b773ad6e",
    "factuurdatum": "2026-10-10",
    "betaald_op": "2026-10-10",
    "leverancier": "Klaviyo Inc (Boston, US)",
@@ -550,8 +550,8 @@
   },
   {
    "id": "ponto-0fffef77-c5bd-4273-a91c-30d140e1e164",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "73b3666c-2fa1-4101-929f-80c22bf0bca8",
    "factuurdatum": "2026-10-08",
    "betaald_op": "2026-10-08",
    "leverancier": "Meta Platforms Ireland",
@@ -576,8 +576,8 @@
   },
   {
    "id": "kaart-6682-2026-10-08-HOLO AI--42.95",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "a3bd0730-bc95-4b97-8822-2ab988f31a8d",
    "factuurdatum": "2026-10-08",
    "betaald_op": "2026-10-08",
    "leverancier": "UAB Holo LT (Vilnius, LT)",
@@ -628,8 +628,8 @@
   },
   {
    "id": "ponto-b8bd72fa-7cb5-462d-a7d9-72e226f64646",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "6c7492cd-c6d8-4cd8-a8cf-22cd067d35fb",
    "factuurdatum": "2026-10-04",
    "betaald_op": "2026-10-04",
    "leverancier": "Meta Platforms Ireland",
@@ -654,8 +654,8 @@
   },
   {
    "id": "kaart-6682-2026-10-03-ALIBABA.COM--333.0",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "9e290924-71bb-4fde-b53f-f5e510ed89df",
    "factuurdatum": "2026-10-02",
    "betaald_op": "2026-10-03",
    "leverancier": "Shenzhen Chongxin Technology Co. Ltd (via Alibaba.com Singapore)",

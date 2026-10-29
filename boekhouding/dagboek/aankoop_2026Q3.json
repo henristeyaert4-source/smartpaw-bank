@@ -3,13 +3,13 @@
  "van": "2026-07-01",
  "tot": "2026-09-30",
  "telling": {
-  "in Yuki": 82,
-  "te boeken": 10,
+  "in Yuki": 86,
+  "te boeken": 6,
   "factuur ontbreekt": 17
  },
  "bedrag": {
-  "in Yuki": 52624.17,
-  "te boeken": 1771.37,
+  "in Yuki": 51962.89,
+  "te boeken": 2432.65,
   "factuur ontbreekt": 2603.94
  },
  "per_rekening": [
@@ -527,8 +527,8 @@
   },
   {
    "id": "ponto-cf04f994-11f4-4f0e-89fd-fee4c09a3ded",
-   "status": "in Yuki",
-   "yuki_id": "6c7492cd-c6d8-4cd8-a8cf-22cd067d35fb",
+   "status": "te boeken",
+   "yuki_id": null,
    "factuurdatum": "2026-09-27",
    "betaald_op": "2026-09-27",
    "leverancier": "Meta Platforms Ireland",
@@ -553,8 +553,8 @@
   },
   {
    "id": "ponto-4a7bfe9b-603b-4fdb-9d27-5118166e4f7e",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "e23f55ec-a9e0-4ed1-9df5-7749bbce0f28",
    "factuurdatum": "2026-08-10",
    "betaald_op": "2026-09-27",
    "leverancier": "KBC Verzekeringen (polis 37630975, BA bedrijfspolis aansprakelijkheid)",
@@ -1047,8 +1047,8 @@
   },
   {
    "id": "kaart-6682-2026-09-08-HOLO AI--41.33",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "3f62261f-14a5-4957-b6db-9e0e6d82e653",
    "factuurdatum": "2026-09-08",
    "betaald_op": "2026-09-08",
    "leverancier": "UAB Holo LT (Vilnius, LT)",
@@ -1281,8 +1281,8 @@
   },
   {
    "id": "ponto-4c9c9442-3ffe-47e0-9975-e10823fbc4f5",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "14db605d-d753-4d8d-b856-31e308df2308",
    "factuurdatum": "2026-07-10",
    "betaald_op": "2026-08-26",
    "leverancier": "KBC Verzekeringen (polis 37630975, BA bedrijfspolis aansprakelijkheid)",
@@ -2243,8 +2243,8 @@
   },
   {
    "id": "ponto-3598af3e-edda-4762-9c95-ed013096542f",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "4d79d056-b4b2-4379-89cd-263f3112bc83",
    "factuurdatum": "2026-06-10",
    "betaald_op": "2026-07-26",
    "leverancier": "KBC Verzekeringen (polis 37630975, BA bedrijfspolis aansprakelijkheid)",
@@ -2633,8 +2633,8 @@
   },
   {
    "id": "kaart-6682-2026-07-08-HOLO AI--41.98",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "d3817e04-c09e-48ac-b9c2-542a4b53328d",
    "factuurdatum": "2026-07-08",
    "betaald_op": "2026-07-08",
    "leverancier": "UAB Holo LT (Vilnius, LT)",
