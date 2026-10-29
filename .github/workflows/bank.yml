@@ -58,7 +58,7 @@ jobs:
         run: |
           git config user.name "smartpaw-bank-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data boekhouding/boek
+          git add data boekhouding/boek boekhouding/dagboek
           git diff --cached --quiet || git commit -m "Bank $(date -u +%F)"
           git pull --rebase -X theirs origin main || true
           git push

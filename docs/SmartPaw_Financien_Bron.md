@@ -70,3 +70,7 @@ Afspraak 26/10: opslag volgt de hoeveelheid stock (meer stock = duurder) en extr
 - Gekoppeld op 29/10: Compass-invoice FurVac 750 (CPS20260619, $21.784,75; betaald $6.535,43 + $10.000; saldo $5.249,32 ≈ €4.535 gepland 16/11), KBC BA-polis 37630975 vervaldagberichten (premie €18,47, vanaf 27/11 €19,05), Meta FBADS-210-106742402 (23/10, €621,34), Klaviyo T9T7QHZO-0015.
 - Stand: Q3 164/182 (90%), 18 ontbrekend (Shopify 5, Google Ads 3, markten 3, horeca 3, POM, Packaging €360, ReturnGO, Meta Verified). Q4: enkel GoDaddy €167,76.
 - Platform v32: "Nog te doen" bovenaan Boekhouding, per kwartaal en per leverancier met "waar vind je het".
+
+## Update 29/10 middag: aankoopdagboek
+- Nieuw: aankoopdagboek per kwartaal met boekingsvoorstel per factuur (grootboekrekening volgens Pro-count, btw-code, maatstaf, btw). Q3: 73 in Yuki, 11 te boeken (€4.906), 17 zonder factuur. Q4 tot nu: 8 in Yuki, 15 te boeken (€11.043, vooral Meta oktober + Jess-voorschot), 1 zonder factuur.
+- Nog van Pro-count nodig: hun Yuki-btw-codes, en bevestiging van de rekeningkeuzes (o.a. Packaging Discounter/Drukbedrijf als intracommunautaire verwerving, standgeld markten, POM).

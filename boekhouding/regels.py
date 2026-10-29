@@ -122,6 +122,18 @@ def main(kwartalen):
                "pakket": pakket, "bijgewerkt": date.today().isoformat()}
         (B / "boek" / f"{jaar}Q{k}.json").write_text(json.dumps(doc, ensure_ascii=False, indent=1))
         print(f"{jaar}Q{k}", telling)
+    # aankoopdagboek per kwartaal (boekingsvoorstel per factuur) en mee in het boek-document voor het platform
+    try:
+        import aankoopdagboek
+        aankoopdagboek.main(kwartalen)
+        for jaar, k in kwartalen:
+            bp, dp = B / "boek" / f"{jaar}Q{k}.json", B / "dagboek" / f"aankoop_{jaar}Q{k}.json"
+            if bp.exists() and dp.exists():
+                doc = json.loads(bp.read_text())
+                doc["aankoop"] = json.loads(dp.read_text())
+                bp.write_text(json.dumps(doc, ensure_ascii=False, separators=(",", ":")))
+    except Exception as e:  # het dagboek mag de bewijsstatus nooit blokkeren
+        print("aankoopdagboek mislukt:", e)
 
 
 if __name__ == "__main__":

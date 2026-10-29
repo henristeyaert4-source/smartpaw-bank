@@ -53,3 +53,12 @@ ads_google = som bankverrichtingen categorie "Ads Google"; betaalkosten = 2,5% v
 - `fin/prognose.advies[]` {titel, bedrag?, uitleg}: legale manieren om ruimte te maken. Ochtendcheck houdt dit actueel: bij rood altijd concrete, legale uitstelopties voorstellen (afbetalingsplan FOD, betaaltermijnen leveranciers, Creazy-pauze met addendum, pre-orders, ads), nooit iets illegaals (btw niet aangeven, facturen niet boeken).
 - Widem-facturen: factuur eind van de maand, betalen binnen 30 dagen → fulfilment van maand M vervalt eind M+1.
 - Afspraken 26/10: btw Q3 in 3 schijven (eind nov/dec/jan, aan te vragen via MyMinfin); Compass €4.535 moet; vervallen Widem-factuur betalen; rekening mag tot −€5.000; kredietkaarten niet gebruiken (Meta). Bestelling Jess = te beslissen.
+
+## Aankoopdagboek (29/10, v33–v34)
+- `boekhouding/aankoopdagboek.py [JJJJ k ...]` → `boekhouding/dagboek/aankoop_<JJJJ>Q<k>.json` {kwartaal, telling{in Yuki, te boeken, factuur ontbreekt}, bedrag, per_rekening[], lijnen[{status, factuurdatum, betaald_op, leverancier, btw_nummer, factuurnummer, document, asset_id, rekening, rekening_naam, rekening_bron, btw_code, roosters, maatstaf, btw, verlegde_btw, incl, betaald_via (550000 KBC · 550001/550002 Revolut EUR/USD · 434000 MC Henri · 434001 MC Kaydee), nakijken}]}.
+- Draait automatisch aan het einde van `regels.py` (nachtelijke GitHub Action + ochtendcheck) en wordt als veld `aankoop` in `boek/<JJJJ>Q<k>` meegeschreven; de pagina leest `aankoop/<JJJJ>Q<k>` of anders `boek/<Q>.aankoop` (de nieuwste wint).
+- Grootboekrekening: eerst per leverancier zoals Pro-count die in Yuki boekte (Meta 616502, Google 616501, Findajob 617000 Uitzendkrachten, Widem 612730, bpost 611030, bol 615000, online abonnementen 611080, fabriek 604000, restaurant 616680 (0% aftrek), klein materiaal 611200, beroepsbijdragen 616651, standgeld 616620, verpakking 601000), anders per platformcategorie (rekeningen_koppeling.json).
+- Status: "in Yuki" = Yuki-boeking met zelfde leverancier en bedrag (±2 ct, factuur −35…+75 d; fabriek ±2 % / ±7 d); "te boeken" = document bij ons, niet in Yuki; "factuur ontbreekt".
+- Btw-codes: eigen codes (BE21, BE21NA, EUDV, NEUDV, EUG, INVOER, GEEN, ?) met roosters, tot Pro-count hun Yuki-btw-codes bezorgt; dan mapping toevoegen in BTW.
+- Kwartaalpakket (`kwartaal.py`) heeft een tabblad "Aankoopdagboek" met dezelfde lijnen + totaal per rekening.
+- Platform: Boekhouding → paneel "Aankoopdagboek" (tegels, filter te boeken / zonder factuur / in Yuki / nakijken, tabel, totaal per rekening).

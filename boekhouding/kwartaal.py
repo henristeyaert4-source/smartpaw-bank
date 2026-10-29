@@ -154,6 +154,30 @@ def main(jaar=2026, k=3):
     z4 = a4 + len(rows) - 1
     k_.auto_filter.ref = f"A3:J{z4}"
 
+    # --- 3b. Aankoopdagboek (boekingsvoorstel per factuur, uit aankoopdagboek.py)
+    dpad = B / "dagboek" / f"aankoop_{jaar}Q{k}.json"
+    if dpad.exists():
+        dg = json.loads(dpad.read_text())
+        ad = wb.create_sheet("Aankoopdagboek")
+        t = dg["telling"]
+        ad["A1"] = (f"Aankoopdagboek Q{k} {jaar}: {t['te boeken']} te boeken, {t['in Yuki']} al in Yuki (ter controle), "
+                    f"{t['factuur ontbreekt']} zonder factuur. Grootboekrekeningen volgens jullie rekeningschema; btw-codes: eigen code + roosters.")
+        ad["A1"].font = bold
+        volg = {"te boeken": 0, "factuur ontbreekt": 1, "in Yuki": 2}
+        lij = sorted(dg["lijnen"], key=lambda l: (volg[l["status"]], l["factuurdatum"]))
+        tabel(ad, 3, ["Status", "Factuurdatum", "Leverancier", "Btw-nr", "Factuurnr", "Rekening", "Rekeningnaam", "Btw-code", "Roosters",
+                      "Maatstaf", "Btw aftrekbaar", "Verlegde btw", "Totaal betaald", "Betaald op", "Betaald via", "Document", "Opmerking"],
+              [[l["status"], l["factuurdatum"], l["leverancier"], l["btw_nummer"], l["factuurnummer"], l["rekening"], l["rekening_naam"],
+                l["btw_code"], l["roosters"], l["maatstaf"], l["btw"], l["verlegde_btw"], l["incl"], l["betaald_op"],
+                f'{l["betaald_via"]} {l["betaald_via_naam"]}', l["document"], ("NAKIJKEN: " if l["nakijken"] else "") + l["btw_uitleg"]]
+               for l in lij],
+              [12, 11, 30, 14, 20, 9, 30, 9, 16, 12, 12, 12, 12, 11, 26, 40, 50], geld=(10, 11, 12, 13))
+        ad.auto_filter.ref = f"A3:Q{3 + len(lij)}"
+        r0 = 5 + len(lij)
+        ad.cell(r0, 1, "Totaal per grootboekrekening").font = bold
+        tabel(ad, r0 + 1, ["Rekening", "Naam", "Aantal", "Maatstaf", "Btw aftrekbaar"],
+              [[p["rekening"], p["naam"], p["aantal"], p["maatstaf"], p["btw"]] for p in dg["per_rekening"]], None, geld=(4, 5))
+
     # --- 4. Btw-voorbereiding
     b = wb.create_sheet("Btw-voorbereiding")
     b["A1"] = f"Btw-aangifte Q{k} {jaar} — voorbereiding (ter controle door Pro-count)"; b["A1"].font = bold
@@ -268,7 +292,7 @@ def main(jaar=2026, k=3):
         x = s.cell(i, 2, f); x.font = bold if "Te betalen" in lbl or lbl == "Verschil" else norm
         if i < 11: x.number_format = eur
     s.column_dimensions["A"].width = 52; s.column_dimensions["B"].width = 18
-    s.cell(14, 1, "Tabbladen: Verkopen · Aankopen · Btw-voorbereiding · Bankafstemming · Documenten · Leningen · OSS").font = Font(name=F, size=9, italic=True)
+    s.cell(14, 1, "Tabbladen: Verkopen · Aankopen · Aankoopdagboek · Btw-voorbereiding · Bankafstemming · Documenten · Leningen · OSS").font = Font(name=F, size=9, italic=True)
 
     out = B / "rapporten"; out.mkdir(exist_ok=True)
     pad = out / f"SmartPaw_Q{k}-{jaar}.xlsx"
