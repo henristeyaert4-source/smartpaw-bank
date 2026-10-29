@@ -86,3 +86,10 @@ Yuki toont veel facturen als "open" die al betaald zijn (kaartbetalingen die Pro
 Stand 29/10: zo kwamen erbij Findajob F001/202600701 (€149,01) en F001/202600711 (€158,95), Almost 3000 (€314,60), Thomas More (€75), Proximus (€10), bpost 268565664 (€6,78), Pro-count 270345 (€242). Yuki-data komt pas sinds 29/10 08:35 binnen; de ochtendcheck van 29/10 (07:16) had ze nog niet.
 De oude "open" posten in Yuki (37 stuks, €4.851, vooral kaartbetalingen eind 2025) en de bol-verrekening zijn een opkuis voor Pro-count, niet iets om te betalen.
 - QR overal (29/10): elk te_betalen-item met een Belgische leverancier krijgt `iban` + `referentie` = de gestructureerde mededeling van de factuur (+++xxx/xxxx/xxxxx+++, uit Lucy/Peppol-pdf; anders het factuurnummer). IBAN's staan in data/iban-leveranciers.json (aangevuld 29/10 met Findajob, Almost 3000, Thomas More, Proximus, bpost, Pro-count BE28 0689 0720 1520, Belgian Doggos, Creazy). Geen QR voor USD-betalingen (Compass, Jess via Revolut SWIFT), de KBC-domiciliëring en ramingen zonder factuur.
+- Gestructureerde mededeling zonder Lucy (29/10): Yuki geeft factuurnummer, bedrag en vervaldag, maar geen IBAN of mededeling. IBAN komt uit data/iban-leveranciers.json. Mededeling = 10 cijfers + controle (10 cijfers mod 97, 0 → 97), te berekenen uit het factuurnummer voor:
+  · Widem: "00" + factuurnr (8 cijfers) → 26017495 → +++002/6017/49558+++
+  · Findajob: "001" + factuurnr zonder de eerste 2 cijfers → 202600711 → +++001/2600/71123+++
+  · bpost: "0" + factuurnr (9 cijfers) → 268565664 → +++026/8565/66418+++
+  · Thomas More: "22" + cijfers van TMM-nr → TMM-62204778 → +++226/2204/77872+++
+  · Proximus: geen gestructureerde mededeling; gebruik het factuurnummer.
+  Andere leveranciers (Pro-count, Almost 3000, Belgian Doggos, nieuwe): mededeling staat enkel op de factuur-pdf. Staat de pdf in de mail of in het platform, lees ze daar; anders QR met het factuurnummer als vrije mededeling en vermeld in de todo "mededeling nakijken op de factuur". Nieuwe leverancier zonder IBAN: geen QR, 1 aandachtspunt "IBAN van <leverancier> nodig".
