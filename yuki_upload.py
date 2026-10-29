@@ -48,7 +48,7 @@ def main():
         pdf, bedrag, bw, opm = Path(sys.argv[2]), sys.argv[3], sys.argv[4], sys.argv[5]
         def zoek(lijst, pat):
             for m in lijst:
-                if any(re.search(pat, str(v), re.I) for v in m.values()):
+                if "ID" in m and re.search(pat, m.get("Description", ""), re.I):
                     return next((m[k] for k in ("ID", "Id", "id") if k in m), None)
         folder = zoek(mappen, r"aankoop|inkoop|purchase")
         pm = zoek(betaal, bw)
