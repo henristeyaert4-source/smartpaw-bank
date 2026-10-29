@@ -3,12 +3,12 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "in Yuki": 8,
+  "in Yuki": 10,
   "te boeken": 16,
   "factuur ontbreekt": 0
  },
  "bedrag": {
-  "in Yuki": 525.43,
+  "in Yuki": 927.43,
   "te boeken": 11210.52,
   "factuur ontbreekt": 0
  },
@@ -37,9 +37,16 @@
   {
    "rekening": "615200",
    "naam": "Erelonen boekhouders en accountants",
+   "aantal": 2,
+   "maatstaf": 400.0,
+   "btw": 84.0
+  },
+  {
+   "rekening": "616651",
+   "naam": "Beroepsbijdragen",
    "aantal": 1,
-   "maatstaf": 200.0,
-   "btw": 42.0
+   "maatstaf": 160.0,
+   "btw": 0.0
   },
   {
    "rekening": "616501",
@@ -64,6 +71,60 @@
   }
  ],
  "lijnen": [
+  {
+   "id": "yuki-a4d9cdc0-ec8d-442d-8113-7bdc69ef62b1",
+   "status": "in Yuki",
+   "yuki_id": "a4d9cdc0-ec8d-442d-8113-7bdc69ef62b1",
+   "factuurdatum": "2026-10-19",
+   "betaald_op": "",
+   "leverancier": "BELGIAN DOGGOS",
+   "btw_nummer": "",
+   "factuurnummer": "2026-74",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "Factuur van BELGIAN DOGGOS, Beroepsbijdragen",
+   "rekening": "616651",
+   "rekening_naam": "Beroepsbijdragen",
+   "rekening_bron": "Yuki: Beroepsbijdragen",
+   "btw_code": "GEEN",
+   "btw_uitleg": "Yuki: geen btw / vrijgesteld",
+   "roosters": "82",
+   "incl": 160.0,
+   "maatstaf": 160.0,
+   "btw": 0.0,
+   "verlegde_btw": 0.0,
+   "betaald_via": "",
+   "betaald_via_naam": "nog te betalen (vervalt 2026-11-09)",
+   "nakijken": false,
+   "onbetaald": true
+  },
+  {
+   "id": "yuki-e158ec7d-30ad-4234-97b7-7debb223c1c4",
+   "status": "in Yuki",
+   "yuki_id": "e158ec7d-30ad-4234-97b7-7debb223c1c4",
+   "factuurdatum": "2026-10-07",
+   "betaald_op": "",
+   "leverancier": "Pro-Count",
+   "btw_nummer": "",
+   "factuurnummer": "270345",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "Factuur van Pro-Count, Erelonen boekhouders en accountants",
+   "rekening": "615200",
+   "rekening_naam": "Erelonen boekhouders en accountants",
+   "rekening_bron": "Yuki: Pro-count = Erelonen boekhouders",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 242.0,
+   "maatstaf": 200.0,
+   "btw": 42.0,
+   "verlegde_btw": 0.0,
+   "betaald_via": "",
+   "betaald_via_naam": "nog te betalen (vervalt 2026-11-06)",
+   "nakijken": false,
+   "onbetaald": true
+  },
   {
    "id": "rev-056da6af-d4ed-e3f3-02c0-04184029e287-056da6af-d4ed-e3f3-0000-04184029e287",
    "status": "te boeken",

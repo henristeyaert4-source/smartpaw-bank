@@ -47,6 +47,8 @@ LEVERANCIER = [
     (r"AMBULANTE", "616620", "standgeld markt = Beurzen en tentoonstellingen"),
     (r"PACKAGINGDISCOUNTER|SUPPY", "601000", "verpakking = Aankopen van hulpstoffen"),
     (r"KBC VERZEKERING", "613210", "BA-polis KBC"),
+    (r"ALMOST 3000", "615300", "Yuki: Almost 3000 = Overige erelonen"),
+    (r"PROXIMUS", "657000", "Yuki: Proximus = Diverse financiële kosten"),
 ]
 
 # Per platformcategorie (val terug als geen leveranciersregel past). Aanpassingen t.o.v. rekeningen_koppeling.json
@@ -217,6 +219,54 @@ def main(kwartalen):
                 "incl": incl, "maatstaf": maatstaf, "btw": btw, "verlegde_btw": verlegd,
                 "betaald_via": teg_nr, "betaald_via_naam": teg_naam,
                 "nakijken": typ in ("NAKIJKEN", "EUG") or not nr,
+            })
+        # Facturen die al in Yuki staan maar nog niet betaald zijn (geen bankverrichting): ook in het dagboek
+        AUTO = r"BOL\.?COM|META|FACEBOOK|GOOGLE|SHOPIFY|KLAVIYO|HIGGSFIELD|CANVA|AMAZON|APPSUMO|RETURNGO|MANYCHAT|KBC BANK|YUKI"
+        BTW_LEV = [(r"DOGGOS", "GEEN"), (r"THOMAS MORE", "NAKIJKEN")]
+        bank = json.loads((ROOT / "data/gecategoriseerd.json").read_text())
+        al_betaald = set()
+        def ogm(contact, ref):
+            d = re.sub(r"\D", "", ref or "")
+            base = None
+            if re.search("WIDEM", contact, re.I) and len(d) == 8: base = "00" + d
+            elif re.search("FINDAJOB", contact, re.I) and len(d) == 9: base = "001" + d[2:]
+            elif re.search("BPOST", contact, re.I) and len(d) == 9: base = "0" + d
+            elif re.search("THOMAS MORE", contact, re.I) and len(d) == 8: base = "22" + d
+            elif re.search("PRO.?COUNT", contact, re.I) and d == "270345": return "260100345155"
+            if not base: return None
+            return base + f"{(int(base) % 97) or 97:02d}"
+        handmatig = json.loads((B / "yuki_betaald.json").read_text()) if (B / "yuki_betaald.json").exists() else {}
+        def betaald(c):
+            if c.get("referentie") in handmatig:
+                return True
+            o = ogm(c["contact"], c.get("referentie"))
+            for r in bank:
+                if r["id"] in al_betaald or r["bedrag_eur"] >= 0 or abs(-r["bedrag_eur"] - c["open"]) > 0.051 or _dagen(r["datum"], c["datum"]) < -3:
+                    continue
+                med = re.sub(r"\D", "", r.get("mededeling") or "")
+                if o and len(med) == 12 and med != o:
+                    continue  # andere factuur van dezelfde leverancier
+                if o and med == o or (_tok(c["contact"]) & _tok(r.get("tegenpartij", ""))) or not (r.get("tegenpartij") or "").strip():
+                    al_betaald.add(r["id"]); return True
+            return False
+        for c in sorted(yuki.get("crediteuren", []), key=lambda c: c["datum"]):
+            if not (boek["van"] <= c["datum"] <= boek["tot"]) or (c.get("open") or 0) <= 0 or re.search(AUTO, c["contact"], re.I):
+                continue
+            if betaald(c):
+                continue  # in Yuki nog open, maar op de bank al betaald: hoort bij een bankverrichting hierboven
+            typ = next((t for pat, t in BTW_LEV if re.search(pat, c["contact"], re.I)), "BE21")
+            nr, nr_bron = rekening({"tegenpartij": c["contact"], "mededeling": c.get("omschrijving", ""), "categorie": ""}, {})
+            incl = round(c["open"], 2)
+            maatstaf, btw, verlegd = bedragen(typ, incl, {})
+            lijnen.append({
+                "id": "yuki-" + c["id"], "status": "in Yuki", "yuki_id": c["id"], "factuurdatum": c["datum"], "betaald_op": "",
+                "leverancier": c["contact"], "btw_nummer": "", "factuurnummer": c.get("referentie", ""), "document": "",
+                "asset_id": None, "omschrijving": (c.get("omschrijving") or "")[:120],
+                "rekening": nr, "rekening_naam": SCHEMA.get(nr, {}).get("naam", "?"), "rekening_bron": nr_bron,
+                "btw_code": BTW[typ]["code"], "btw_uitleg": BTW[typ]["uitleg"], "roosters": BTW[typ]["roosters"],
+                "incl": incl, "maatstaf": maatstaf, "btw": btw, "verlegde_btw": verlegd,
+                "betaald_via": "", "betaald_via_naam": "nog te betalen" + (f" (vervalt {c['vervaldag']})" if c.get("vervaldag") else ""),
+                "nakijken": typ == "NAKIJKEN" or not nr, "onbetaald": True,
             })
         tel = {s: sum(1 for l in lijnen if l["status"] == s) for s in ("in Yuki", "te boeken", "factuur ontbreekt")}
         som = {s: round(sum(l["incl"] for l in lijnen if l["status"] == s), 2) for s in tel}
