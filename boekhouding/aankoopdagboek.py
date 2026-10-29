@@ -103,6 +103,8 @@ def _dagen(a, b):
 
 
 def rekening(r, bw):
+    if re.search(r"proforma|\bPI[- ]|voorschot", str(bw.get("label", "")) + " " + str(bw.get("uitleg", "")), re.I):
+        return "406000", "voorschot op proforma: Vooruitbetalingen tot de factuur er is"
     t = " ".join(str(x) for x in (r.get("tegenpartij"), r.get("mededeling"), bw.get("leverancier"), bw.get("label"))).upper()
     for pat, nr, bron in LEVERANCIER:
         if re.search(pat, t, re.I):
@@ -168,6 +170,8 @@ def main(kwartalen):
             typ = btw_type(r, bw)
             nr, nr_bron = rekening(r, bw)
             teg_nr, teg_naam = tegenrekening(r)
+            if nr == "406000":
+                typ = "GEEN"  # voorschot: geen btw tot levering/factuur
             maatstaf, btw, verlegd = bedragen(typ, incl, bw)
             # Yuki-status
             yid = bw.get("yuki_id") if bw.get("soort") == "yuki" else None
