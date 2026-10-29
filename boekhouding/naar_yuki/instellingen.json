@@ -1,7 +1,26 @@
 {
  "_uitleg": "Automatisch doorsturen naar Yuki (nachtelijke Action, na regels.py). Enkel lijnen 'te boeken' met een pdf in boekhouding/naar_yuki/pdf/<asset_id>.pdf en betaald vanaf 'vanaf'. Oudere lijnen enkel als hun regel-id in 'ook_versturen' staat (na akkoord Henri/Kaydee). 'vanaf' = startdatum automatisch versturen (29/10/2026); de achterstand van vóór die datum gaat enkel mee na akkoord (regel-id's in ook_versturen).",
  "vanaf": "2026-10-29",
- "ook_versturen": [],
+ "ook_versturen": [
+  "ponto-4a7bfe9b-603b-4fdb-9d27-5118166e4f7e",
+  "kaart-6682-2026-09-08-HOLO AI--41.33",
+  "ponto-4c9c9442-3ffe-47e0-9975-e10823fbc4f5",
+  "ponto-3598af3e-edda-4762-9c95-ed013096542f",
+  "kaart-6682-2026-07-08-HOLO AI--41.98",
+  "rev-056da6af-d4ed-e3f3-02c0-04184029e287-056da6af-d4ed-e3f3-0000-04184029e287",
+  "ponto-c016d93b-df6a-4197-8870-cbb244cd481d",
+  "kaart-2103-2026-10-23-FACEBK *CNGZB8S7A4--621.34",
+  "ponto-5fc68572-d8a6-4609-96db-44c4b167d495",
+  "ponto-9e0de87c-4900-42b1-8875-1431a02df641",
+  "ponto-91305d60-b596-4391-b69b-ca1a8aa6dd2f",
+  "kaart-6682-2026-10-14-ALIBABA.COM--779.1",
+  "ponto-24ead7b5-9d64-4984-ae90-effd1a2b782f",
+  "kaart-6682-2026-10-10-KLAVIYO INC. SOFTWAR--63.59",
+  "ponto-0fffef77-c5bd-4273-a91c-30d140e1e164",
+  "kaart-6682-2026-10-08-HOLO AI--42.95",
+  "ponto-b8bd72fa-7cb5-462d-a7d9-72e226f64646",
+  "kaart-6682-2026-10-03-ALIBABA.COM--333.0"
+ ],
  "map_aankoop": 1,
  "betaalwijze": {
   "434000": 5,
@@ -9,5 +28,6 @@
   "550000": 4,
   "550001": 4,
   "550002": 4
- }
+ },
+ "_akkoord": "Henri 29/10/2026: achterstand oktober + Q3 (met pdf) doorsturen. Meta 30/9 niet (zit al in Lucy/Yuki)."
 }
