@@ -4,8 +4,8 @@
  "tot": "2026-12-31",
  "telling": {
   "verklaard": 20,
-  "gekoppeld": 12,
-  "ontbreekt": 13
+  "gekoppeld": 20,
+  "ontbreekt": 5
  },
  "regels": [
   {
@@ -192,8 +192,12 @@
    "categorie": "Verzending & retours (overig)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Bpost (2026-10-21)",
+    "yuki_id": "febe9ba4-4ca2-44b2-b639-35f2719de216"
+   }
   },
   {
    "id": "ponto-cdf7f46c-41c6-40c3-9f4c-d44e89194ba5",
@@ -205,8 +209,12 @@
    "categorie": "Marketing & content",
    "btw_type": "NONEU",
    "vak": "87 / 56 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Higgsfield Inc (2026-10-20)",
+    "yuki_id": "71182f0d-e1aa-4dd4-8db0-2b2b39468fc4"
+   }
   },
   {
    "id": "ponto-dee1dd6a-8459-46c9-8517-53cb15fc7bb3",
@@ -255,8 +263,12 @@
    "categorie": "Marketing & content",
    "btw_type": "NONEU",
    "vak": "87 / 56 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Higgsfield Inc (2026-10-16)",
+    "yuki_id": "d9e755a4-9d4a-4eee-b1f9-b1e6d8d79bdf"
+   }
   },
   {
    "id": "ponto-91305d60-b596-4391-b69b-ca1a8aa6dd2f",
@@ -337,8 +349,12 @@
    "categorie": "Marketing & content",
    "btw_type": "NONEU",
    "vak": "87 / 56 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Higgsfield Inc (2026-10-15)",
+    "yuki_id": "4f067930-f68c-4916-adef-f08b8c76bc97"
+   }
   },
   {
    "id": "ponto-208e5fe1-d3fc-4e6c-ad8a-1828f8ef8ff6",
@@ -630,8 +646,12 @@
    "categorie": "Boekhouder",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Pro-Count (2026-10-06)",
+    "yuki_id": "dcb05bb7-03ee-4d9d-a538-ee88bd89e975"
+   }
   },
   {
    "id": "ponto-b8bd72fa-7cb5-462d-a7d9-72e226f64646",
@@ -704,8 +724,12 @@
    "categorie": "Software & abonnementen",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Yuki works (2026-10-02)",
+    "yuki_id": "cd9d632b-123f-41a2-aada-33528ca8c3ad"
+   }
   },
   {
    "id": "ponto-bcd14b78-c08a-4312-87d1-81caed99a8d5",
@@ -717,8 +741,12 @@
    "categorie": "Software & abonnementen",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Google Ireland Limited (2026-10-02)",
+    "yuki_id": "e1e290e5-c783-4d0e-9b1e-67899fbf3713"
+   }
   },
   {
    "id": "ponto-aebfbd60-46d5-44d9-a997-2a8d7ba9c5d8",
@@ -762,8 +790,12 @@
    "categorie": "Ads Meta",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Mastercard (2026-10-02)",
+    "yuki_id": "3c6a7133-a42d-437f-be1b-66b8c00f1d25"
+   }
   }
  ],
  "pakket": {

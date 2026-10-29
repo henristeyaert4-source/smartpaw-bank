@@ -6,7 +6,7 @@ Elke regel (KBC, KBC-kaart, Revolut, PayPal) krijgt:
   ontbreekt  — nog geen document of uitleg
 Gebruik: python boekhouding/regels.py [JJJJ k ...]   (zonder argumenten: lopend en vorig kwartaal)
 """
-import json, sys
+import json, re, sys
 from datetime import date
 from pathlib import Path
 
@@ -29,6 +29,49 @@ VERKLAARD = {
     "Overige ontvangsten": "terugbetaling inschrijving (Hogeschool Gent)",
     "Betaalkosten": "PayPal-kosten (PayPal-overzicht)",
 }
+
+
+STOP = {"factuur", "van", "bvba", "limited", "ireland", "betaling", "inc", "nv", "bv", "belgium", "via", "mollie"}
+
+
+def _tok(s):
+    return {w for w in re.findall(r"[a-z]{4,}", (s or "").lower()) if w not in STOP}
+
+
+def _dagen(a, b):
+    return (date.fromisoformat(a[:10]) - date.fromisoformat(b[:10])).days
+
+
+def yuki_koppel(regels):
+    """Koppel ontbrekende regels aan facturen die al in Yuki geboekt zijn (Peppol, upload, Pro-count).
+    Pas 1: zelfde leverancier + bedrag (±2 cent), factuur tot 75 d vóór of 35 d na de betaling.
+    Pas 2: enkel bedrag (exact), factuur binnen 20 dagen. Elke Yuki-boeking wordt één keer gebruikt."""
+    pad = ROOT / "data/yuki/openstaand.json"
+    if not pad.exists():
+        return
+    yb = json.loads(pad.read_text()).get("leveranciers_boekingen", [])
+    gebruikt = set()
+    open_ = [r for r in regels if r["status"] == "ontbreekt"]
+    for pas in (1, 2):
+        for r in open_:
+            if r["status"] != "ontbreekt":
+                continue
+            beste = None
+            for e in yb:
+                if e["id"] in gebruikt:
+                    continue
+                verschil = abs(abs(e["bedrag"]) - abs(r["bedrag"]))
+                d = _dagen(r["datum"], e["datum"])  # >0: factuur vóór betaling
+                if pas == 1:
+                    ok = verschil <= 0.021 and -35 <= d <= 75 and (_tok(r["tegenpartij"] + " " + r["mededeling"]) & _tok(e["contact"]))
+                else:
+                    ok = verschil < 0.005 and abs(d) <= 20
+                if ok and (beste is None or abs(d) < abs(_dagen(r["datum"], beste["datum"]))):
+                    beste = e
+            if beste:
+                gebruikt.add(beste["id"])
+                r["status"] = "gekoppeld"
+                r["bewijs"] = {"soort": "yuki", "label": f"in Yuki: {beste['contact']} ({beste['datum']})", "yuki_id": beste["id"]}
 
 
 def main(kwartalen):
@@ -56,6 +99,8 @@ def main(kwartalen):
                            "tegenpartij": (r.get("tegenpartij") or r.get("mededeling") or "")[:50],
                            "mededeling": (r.get("mededeling") or "")[:70], "bedrag": round(r["bedrag_eur"], 2),
                            "categorie": cat, "btw_type": typ, "vak": VAK[typ], "status": status, "bewijs": bewijs})
+        yuki_koppel(regels)
+        telling = {k: sum(1 for r in regels if r["status"] == k) for k in ("verklaard", "gekoppeld", "ontbreekt")}
         pakket = {}
         xl = B / "rapporten" / f"SmartPaw_Q{k}-{jaar}.xlsx"
         if xl.exists():

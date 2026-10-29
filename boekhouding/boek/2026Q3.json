@@ -4,8 +4,8 @@
  "tot": "2026-09-30",
  "telling": {
   "verklaard": 78,
-  "gekoppeld": 39,
-  "ontbreekt": 65
+  "gekoppeld": 79,
+  "ontbreekt": 25
  },
  "regels": [
   {
@@ -103,8 +103,12 @@
    "categorie": "Personeel (student)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Findajob (2026-09-29)",
+    "yuki_id": "a66a7ea9-6710-4004-92fd-7f78ce294de9"
+   }
   },
   {
    "id": "ponto-d0d490f9-e230-47c8-867b-a292b6cf7cb1",
@@ -116,8 +120,12 @@
    "categorie": "Personeel (student)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Findajob (2026-09-29)",
+    "yuki_id": "afb2a268-096a-4d75-b038-81801e85cebd"
+   }
   },
   {
    "id": "ponto-96761de9-7a12-4d3c-a706-d3621982c77e",
@@ -129,8 +137,12 @@
    "categorie": "Boekhouder",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Pro-Count (2026-09-29)",
+    "yuki_id": "5ee3a1c1-2580-4cbe-909b-3014454a3abb"
+   }
   },
   {
    "id": "ponto-6813a826-ed34-4a37-abef-6c2cea4553b4",
@@ -142,8 +154,12 @@
    "categorie": "Verzending & retours (overig)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Bpost (2026-09-29)",
+    "yuki_id": "d84d59c2-4dce-4627-9f7a-e2c1d3f1f75a"
+   }
   },
   {
    "id": "ponto-1c654355-f71c-4531-b075-ba138365aa41",
@@ -176,8 +192,12 @@
    "categorie": "Personeel (student)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Findajob (2026-09-29)",
+    "yuki_id": "6097f1f1-6099-4d48-bac7-7ea2f718b73b"
+   }
   },
   {
    "id": "ponto-cf04f994-11f4-4f0e-89fd-fee4c09a3ded",
@@ -350,8 +370,12 @@
    "categorie": "Marketing & content",
    "btw_type": "NONEU",
    "vak": "87 / 56 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Higgsfield Inc (2026-09-20)",
+    "yuki_id": "bdc83d96-3eb9-4855-9bdc-94b2cc7007c4"
+   }
   },
   {
    "id": "ponto-02e753d1-505c-4192-ad2e-6691885488ee",
@@ -554,8 +578,12 @@
    "categorie": "Representatie & reizen",
    "btw_type": "BE21NA",
    "vak": "82 (btw niet aftrekbaar)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Haddok (2026-09-12)",
+    "yuki_id": "834afaf0-aee4-43c5-a48f-b84f7bc3f113"
+   }
   },
   {
    "id": "ponto-3f30e9b3-dc39-4f6b-8d25-c3545763a271",
@@ -704,8 +732,12 @@
    "categorie": "Widem (fulfilment, vracht, invoer)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Widem Logistics (2026-09-09)",
+    "yuki_id": "a23f00b4-b00f-478e-b0d2-8058670345a6"
+   }
   },
   {
    "id": "ponto-ce00f47d-1916-4f31-8456-f0349e3e3466",
@@ -733,8 +765,12 @@
    "categorie": "Personeel (student)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Findajob (2026-09-09)",
+    "yuki_id": "e523aa3d-bd42-4777-8b5c-884f3fa45d0f"
+   }
   },
   {
    "id": "ponto-95ddb1a3-c34d-4fd3-9537-74e3bcaaf5fc",
@@ -767,8 +803,12 @@
    "categorie": "Widem (fulfilment, vracht, invoer)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Widem Logistics (2026-09-09)",
+    "yuki_id": "3f4b8ca9-8ad2-4c2f-beb4-4de5190ddc04"
+   }
   },
   {
    "id": "ponto-81ae3004-f491-4484-9334-7363ec588592",
@@ -780,8 +820,12 @@
    "categorie": "Widem (fulfilment, vracht, invoer)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Widem Logistics (2026-09-09)",
+    "yuki_id": "6bf9fcb4-6d6c-4b76-af95-7b5a30bcd927"
+   }
   },
   {
    "id": "ponto-79bc1507-8046-4332-9bac-13c6fde4223f",
@@ -975,8 +1019,12 @@
    "categorie": "Software & abonnementen",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Google Ireland Limited (2026-09-02)",
+    "yuki_id": "9859f2e7-d77e-46bd-ad9a-f290da9220cc"
+   }
   },
   {
    "id": "ponto-126edf25-447b-4879-af91-018cea9c2d8d",
@@ -1004,8 +1052,12 @@
    "categorie": "Software & abonnementen",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Yuki works (2026-09-01)",
+    "yuki_id": "c9f7f90a-904d-4a8e-a0e7-948ff8779d26"
+   }
   },
   {
    "id": "kaart-2103-2026-09-01-METAPAY*MV4B--22.29",
@@ -1149,8 +1201,12 @@
    "categorie": "Personeel (student)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Findajob (2026-08-26)",
+    "yuki_id": "ccf35ad3-9219-4005-bcea-b94d9cfd1d47"
+   }
   },
   {
    "id": "ponto-c91a87a7-f5dc-46c2-a39f-cac8bd50c758",
@@ -1182,8 +1238,12 @@
    "categorie": "Widem (fulfilment, vracht, invoer)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Widem Logistics (2026-08-26)",
+    "yuki_id": "32a0d125-45ab-4320-b470-65b3e0615c59"
+   }
   },
   {
    "id": "ponto-9dda3749-7556-4533-a45e-6286dc107c10",
@@ -1301,8 +1361,12 @@
    "categorie": "Marketing & content",
    "btw_type": "NONEU",
    "vak": "87 / 56 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Higgsfield Inc (2026-08-20)",
+    "yuki_id": "a239f8d9-35d5-4e71-a63f-15313b324536"
+   }
   },
   {
    "id": "ponto-c2beac28-90e4-40d0-928e-e62c3ae8a69f",
@@ -1314,8 +1378,12 @@
    "categorie": "Personeel (student)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Findajob (2026-08-20)",
+    "yuki_id": "4ae9ff9c-8567-4f4e-a7d8-8a3001e4aa19"
+   }
   },
   {
    "id": "ponto-8fd6ac58-3735-4eaf-bb71-d82c6f64b50d",
@@ -1372,8 +1440,12 @@
    "categorie": "Representatie & reizen",
    "btw_type": "BE21NA",
    "vak": "82 (btw niet aftrekbaar)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: NENUPHAR (2026-08-18)",
+    "yuki_id": "18af1767-dacd-45de-bf34-38e9e189a0be"
+   }
   },
   {
    "id": "ponto-b4c4bd59-7516-44b2-9215-354b22be05de",
@@ -1486,8 +1558,12 @@
    "categorie": "Verzending & retours (overig)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Bpost (2026-08-17)",
+    "yuki_id": "28fce2e1-2e91-469f-90a7-37922d53e4c6"
+   }
   },
   {
    "id": "kaart-6682-2026-08-14-FACEBK *JHMLRWM8A2--800.0",
@@ -1615,8 +1691,12 @@
    "categorie": "Representatie & reizen",
    "btw_type": "GEEN",
    "vak": "82 zonder btw",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: HOTEL ON BOOKING AMSTERDAM (2026-08-11)",
+    "yuki_id": "8afe54ed-6b57-4830-a49d-87f845bbd7d3"
+   }
   },
   {
    "id": "ponto-890c03cc-9cd7-4966-a985-e012c8c6e7dc",
@@ -1712,8 +1792,12 @@
    "categorie": "Materiaal",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Action Belgium (2026-08-08)",
+    "yuki_id": "169ebb61-0042-4351-9ed5-63a483d9d68c"
+   }
   },
   {
    "id": "ponto-84367a6f-b9a1-484b-be89-b33d789d7cbd",
@@ -1873,8 +1957,12 @@
    "categorie": "Software & abonnementen",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Yuki works (2026-08-03)",
+    "yuki_id": "24ecf5e7-edea-4d12-bdc2-80e7eba8ddf0"
+   }
   },
   {
    "id": "ponto-b8dbd86d-b3c8-4bad-b3ea-3d901dcf9b1f",
@@ -1923,8 +2011,12 @@
    "categorie": "Verzending & retours (overig)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Bpost (2026-08-03)",
+    "yuki_id": "4afe822a-28d5-45bd-9c45-db51b123ac5b"
+   }
   },
   {
    "id": "ponto-365cc7d0-addf-46ab-adea-91ce6ce93070",
@@ -1936,8 +2028,12 @@
    "categorie": "Software & abonnementen",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Google Ireland Limited (2026-08-02)",
+    "yuki_id": "639f0fcb-dfbd-4a53-87ff-d6339fb9a59d"
+   }
   },
   {
    "id": "ponto-21866e30-eb73-4c8b-9dba-ae21daac4f13",
@@ -2047,8 +2143,12 @@
    "categorie": "Verzending & retours (overig)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Bpost (2026-07-28)",
+    "yuki_id": "741fbdb6-329e-44cd-b374-8fa8a374358c"
+   }
   },
   {
    "id": "ponto-9ab953b2-ebd0-44c7-8071-097dbee71963",
@@ -2060,8 +2160,12 @@
    "categorie": "Materiaal",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Diverse leveranciers (2026-07-29)",
+    "yuki_id": "1e63ca1c-16da-45eb-9163-a80c0c5980da"
+   }
   },
   {
    "id": "ponto-77cc790f-837c-41c7-9ef8-a1573b7a75b5",
@@ -2073,8 +2177,12 @@
    "categorie": "Verzending & retours (overig)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Bpost (2026-07-29)",
+    "yuki_id": "a8136e4e-992d-4c5d-b026-3c1a1c0578dd"
+   }
   },
   {
    "id": "ponto-dfdd6c55-22b0-473b-b196-3352a6bd7366",
@@ -2170,8 +2278,12 @@
    "categorie": "Personeel (student)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Findajob (2026-07-27)",
+    "yuki_id": "049e114c-2683-4269-a00d-eba33644b492"
+   }
   },
   {
    "id": "ponto-ee7028b0-884f-4d9d-9999-3e0aff6dfe3b",
@@ -2183,8 +2295,12 @@
    "categorie": "Verzending & retours (overig)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Bpost (2026-07-24)",
+    "yuki_id": "772913c5-c3e3-4f11-97cd-2d0aed13c965"
+   }
   },
   {
    "id": "ponto-3bd1448c-4490-4869-b9be-55117c4c050b",
@@ -2360,8 +2476,12 @@
    "categorie": "Marketing & content",
    "btw_type": "NONEU",
    "vak": "87 / 56 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Higgsfield Inc (2026-07-20)",
+    "yuki_id": "9cda2a62-dbb7-4c13-a09a-339ae1df09d1"
+   }
   },
   {
    "id": "ponto-e64985d0-356c-423c-821c-fa949f729182",
@@ -2569,8 +2689,12 @@
    "categorie": "Widem (fulfilment, vracht, invoer)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Widem Logistics (2026-07-10)",
+    "yuki_id": "3abc90bd-b870-43b5-b92e-e2220c454faf"
+   }
   },
   {
    "id": "ponto-5dc508c8-39e1-43fc-8062-dc864266f9e6",
@@ -2582,8 +2706,12 @@
    "categorie": "Widem (fulfilment, vracht, invoer)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Widem Logistics (2026-07-10)",
+    "yuki_id": "cc2115a1-549f-4fd7-972c-435d70385489"
+   }
   },
   {
    "id": "rev-0549e639-9a88-e356-02c0-04684b099b07-0549e639-9a88-e356-0000-04684b099b07",
@@ -2724,8 +2852,12 @@
    "categorie": "Boekhouder",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Pro-Count (2026-07-06)",
+    "yuki_id": "eb08a34f-b7e7-4f14-ab08-ca2a398d2891"
+   }
   },
   {
    "id": "ponto-f0125940-ef66-4808-be23-54058de99313",
@@ -2737,8 +2869,12 @@
    "categorie": "Boekhouder",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Pro-Count (2026-07-06)",
+    "yuki_id": "0364dd17-4ba8-4218-98b1-205fc9f77f33"
+   }
   },
   {
    "id": "ponto-e65f228a-f3d5-48a2-a831-5f63976af8f7",
@@ -2750,8 +2886,12 @@
    "categorie": "Widem (fulfilment, vracht, invoer)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Widem Logistics (2026-07-06)",
+    "yuki_id": "38391ac1-d3a3-4398-8d1f-384cc2c06689"
+   }
   },
   {
    "id": "ponto-c870083d-c7c0-42d1-a50e-5df836754982",
@@ -2763,8 +2903,12 @@
    "categorie": "Personeel (student)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Findajob (2026-07-06)",
+    "yuki_id": "19c4767b-2c51-467c-989e-3485e16624a2"
+   }
   },
   {
    "id": "ponto-63390d7b-570a-4fa0-95ff-2cc92f6c0ca7",
@@ -2792,8 +2936,12 @@
    "categorie": "Terugbetaling kosten aan Henri",
    "btw_type": "NAKIJKEN",
    "vak": "?",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Henri Steyaert (2026-07-06)",
+    "yuki_id": "9daaa2ef-3e6a-4c6b-bdbe-c063447ddafb"
+   }
   },
   {
    "id": "ponto-3374f494-8487-4c98-8e4b-dd0a03cec322",
@@ -2805,8 +2953,12 @@
    "categorie": "Personeel (student)",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Findajob (2026-07-06)",
+    "yuki_id": "9f958a4a-74ed-4c62-b148-f46a60716fbb"
+   }
   },
   {
    "id": "kaart-6682-2026-07-04-RETURNGO--86.0",
@@ -2868,8 +3020,12 @@
    "categorie": "Software & abonnementen",
    "btw_type": "EU",
    "vak": "88 / 55 / 59",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Google Ireland Limited (2026-07-02)",
+    "yuki_id": "758ac88c-c113-405f-b55e-5d9ce596423f"
+   }
   },
   {
    "id": "ponto-9422c740-5478-4bff-8959-3635c24c6744",
@@ -2913,8 +3069,12 @@
    "categorie": "Software & abonnementen",
    "btw_type": "BE21",
    "vak": "82 (+ btw in 59)",
-   "status": "ontbreekt",
-   "bewijs": null
+   "status": "gekoppeld",
+   "bewijs": {
+    "soort": "yuki",
+    "label": "in Yuki: Yuki works (2026-07-01)",
+    "yuki_id": "c2d0ee82-7c6f-46b7-bf8b-ae0562682417"
+   }
   },
   {
    "id": "kaart-2103-2026-07-01-Google ADS4790542578--158.5",
