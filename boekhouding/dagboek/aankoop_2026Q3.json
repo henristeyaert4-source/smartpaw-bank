@@ -3,13 +3,13 @@
  "van": "2026-07-01",
  "tot": "2026-09-30",
  "telling": {
-  "in Yuki": 86,
-  "te boeken": 6,
+  "in Yuki": 87,
+  "te boeken": 5,
   "factuur ontbreekt": 17
  },
  "bedrag": {
-  "in Yuki": 51962.89,
-  "te boeken": 2432.65,
+  "in Yuki": 52762.89,
+  "te boeken": 1632.65,
   "factuur ontbreekt": 2603.94
  },
  "per_rekening": [
@@ -527,8 +527,8 @@
   },
   {
    "id": "ponto-cf04f994-11f4-4f0e-89fd-fee4c09a3ded",
-   "status": "te boeken",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "6c7492cd-c6d8-4cd8-a8cf-22cd067d35fb",
    "factuurdatum": "2026-09-27",
    "betaald_op": "2026-09-27",
    "leverancier": "Meta Platforms Ireland",
@@ -2970,7 +2970,7 @@
    "nakijken": false
   }
  ],
- "yuki_opgehaald": "2026-10-29",
+ "yuki_opgehaald": "2026-10-30",
  "uitleg": "Elke aankoop met boekingsvoorstel. 'In Yuki' = Pro-count heeft ze al (enkel controle). 'Te boeken' = wij hebben het document, Yuki nog niet. Grootboekrekeningen volgen Pro-count's eigen boekingen; btw-codes zijn eigen codes tot Pro-count hun Yuki-codes bezorgt.",
- "bijgewerkt": "2026-10-29"
+ "bijgewerkt": "2026-10-30"
 }

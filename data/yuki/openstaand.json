@@ -1,6 +1,6 @@
 {
  "fouten": [],
- "opgehaald": "2026-10-29",
+ "opgehaald": "2026-10-30",
  "crediteuren": [
   {
    "id": "2c461500-88e2-4edc-9ed2-5c85720eb3f9",
@@ -685,6 +685,17 @@
    "betaalwijze": "Overschrijving"
   },
   {
+   "id": "7f366a35-c649-4d9e-ac0d-b0b83e1d2506",
+   "datum": "2026-10-04",
+   "vervaldag": "",
+   "contact": "Meta Platforms Ireland Limited",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "referentie": "FBADS-210-106635046",
+   "open": 800.0,
+   "origineel": 800.0,
+   "betaalwijze": "Bancontact"
+  },
+  {
    "id": "e158ec7d-30ad-4234-97b7-7debb223c1c4",
    "datum": "2026-10-07",
    "vervaldag": "2026-11-06",
@@ -1292,17 +1303,6 @@
    "betaalwijze": ""
   },
   {
-   "id": "e57d76fb-abc3-4e0a-8f0e-415cec190c59",
-   "datum": "2026-09-30",
-   "vervaldag": "",
-   "contact": "Eric Soetens",
-   "omschrijving": "Factuur 1519 - refund geboekt, factuur niet - Eric soetens",
-   "referentie": "",
-   "open": -39.95,
-   "origineel": -39.95,
-   "betaalwijze": ""
-  },
-  {
    "id": "9074f32d-6400-4dd5-a64c-5976cf0af9b3",
    "datum": "2026-09-30",
    "vervaldag": "",
@@ -1311,6 +1311,17 @@
    "referentie": "",
    "open": 18.99,
    "origineel": 18.99,
+   "betaalwijze": ""
+  },
+  {
+   "id": "e57d76fb-abc3-4e0a-8f0e-415cec190c59",
+   "datum": "2026-09-30",
+   "vervaldag": "",
+   "contact": "Eric Soetens",
+   "omschrijving": "Factuur 1519 - refund geboekt, factuur niet - Eric soetens",
+   "referentie": "",
+   "open": -39.95,
+   "origineel": -39.95,
    "betaalwijze": ""
   },
   {
@@ -1347,6 +1358,28 @@
    "betaalwijze": "Overschrijving"
   },
   {
+   "id": "918b629e-48a4-4ddd-8612-dff9fab73d09",
+   "datum": "2026-10-29",
+   "vervaldag": "2026-11-12",
+   "contact": "Hilde Lambrighs",
+   "omschrijving": "Bestelling 2520",
+   "referentie": "2520",
+   "open": 98.35,
+   "origineel": 98.35,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "07bdf09b-8c71-423c-9f6f-d38fa6a1f6e4",
+   "datum": "2026-10-29",
+   "vervaldag": "2026-11-12",
+   "contact": "Sofie Van den Bossche",
+   "omschrijving": "Bestelling 2521",
+   "referentie": "2521",
+   "open": 83.62,
+   "origineel": 83.62,
+   "betaalwijze": "Overschrijving"
+  },
+  {
    "id": "530b6e45-4bd7-440d-bd64-7ede0716b4b8",
    "datum": "2026-10-29",
    "vervaldag": "2026-11-12",
@@ -1355,6 +1388,28 @@
    "referentie": "2518",
    "open": 45.25,
    "origineel": 45.25,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "941974a6-9bf6-47c2-837c-cf46073af0c4",
+   "datum": "2026-10-29",
+   "vervaldag": "2026-11-12",
+   "contact": "Helene Paulus",
+   "omschrijving": "Bestelling 2522",
+   "referentie": "2522",
+   "open": 59.95,
+   "origineel": 59.95,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "b2f1fbe5-6410-4a4d-95f6-6b7957132ffd",
+   "datum": "2026-10-29",
+   "vervaldag": "2026-11-12",
+   "contact": "Noortje Fory",
+   "omschrijving": "Bestelling 2519",
+   "referentie": "2519",
+   "open": 32.5,
+   "origineel": 32.5,
    "betaalwijze": "Overschrijving"
   }
  ],
@@ -3089,6 +3144,13 @@
    "contact": "Yuki works"
   },
   {
+   "id": "7f366a35-c649-4d9e-ac0d-b0b83e1d2506",
+   "datum": "2026-10-04",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
    "id": "0c2d6aca-bdde-4fe3-a75e-18256055682f",
    "datum": "2026-10-05",
    "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 194463 - Datum verrichting: 04-10-26 - Uur",
@@ -3108,6 +3170,13 @@
    "omschrijving": "Factuur van Pro-Count, Erelonen boekhouders en accountants",
    "bedrag": -242.0,
    "contact": "Pro-Count"
+  },
+  {
+   "id": "3e426b93-02d0-45c4-ad0a-414ce4256577",
+   "datum": "2026-10-08",
+   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
+   "bedrag": -517.01,
+   "contact": "Meta Platforms Ireland Limited"
   },
   {
    "id": "249808ec-20ee-4f4d-ac42-8364034008b7",

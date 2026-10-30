@@ -262,5 +262,13 @@
   "bedrag": 621.34,
   "datum": "2026-10-23",
   "yuki_document": "eb125101-f0df-4dec-8e9d-e2ba5bbf5810"
+ },
+ "FBADS-210-106635046": {
+  "contact": "Meta Platforms Ireland Limited",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 800.0,
+  "datum": "2026-10-04",
+  "yuki_document": "c5805b1c-e633-4d92-8836-437bf8e27005"
  }
 }
