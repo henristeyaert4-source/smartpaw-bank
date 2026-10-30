@@ -61,8 +61,11 @@ def orders(bol):
             if oid in have and have[oid].get("_volledig"):
                 continue
             det = bol.get(f"/orders/{oid}") or o
+            land = (det.get("shipmentDetails") or {}).get("countryCode")
             for k in ("shipmentDetails", "billingDetails"):
                 det.pop(k, None)  # geen klantgegevens in de repo
+            if land:
+                det["land"] = land  # enkel het land (voor OSS), geen adres
             det["_volledig"] = True
             have[oid] = det; nieuw += 1
         page += 1
