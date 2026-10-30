@@ -149,7 +149,8 @@
    "ads_google": 1179.68,
    "vaste_kosten": 647.47,
    "vaste_detail": {
-    "Software & abonnementen": 201.52,
+    "Software & abonnementen": 166.52,
+    "Bankkosten": 35.0,
     "Verzekering": 18.41,
     "Materiaal": 21.86,
     "Representatie & reizen": 101.5,
@@ -191,8 +192,8 @@
    "ads_google": 1217.06,
    "vaste_kosten": 840.75,
    "vaste_detail": {
-    "Software & abonnementen": 195.98,
-    "Bankkosten": 361.0,
+    "Software & abonnementen": 160.98,
+    "Bankkosten": 396.0,
     "Verzekering": 18.41,
     "Administratie & lidmaatschappen": 16.64,
     "Marketing & content": 33.68,
@@ -243,9 +244,9 @@
    "ads_google": 79.89,
    "vaste_kosten": 738.37,
    "vaste_detail": {
-    "Software & abonnementen": 262.77,
+    "Software & abonnementen": 227.77,
     "Boekhouder": 200.0,
-    "Bankkosten": 36.01,
+    "Bankkosten": 71.01,
     "Verzekering": 18.41,
     "Rente KBC-krediet": 60.99,
     "Marketing & content": 34.32,
@@ -296,7 +297,8 @@
    "ads_google": 0,
    "vaste_kosten": 785.58,
    "vaste_detail": {
-    "Software & abonnementen": 398.81,
+    "Software & abonnementen": 363.81,
+    "Bankkosten": 35.0,
     "Verzekering": 18.47,
     "Rente KBC-krediet": 67.52,
     "Marketing & content": 109.71,
@@ -347,7 +349,8 @@
    "ads_google": 0,
    "vaste_kosten": 546.02,
    "vaste_detail": {
-    "Software & abonnementen": 278.75,
+    "Software & abonnementen": 243.75,
+    "Bankkosten": 35.0,
     "Verzekering": 18.41,
     "Rente KBC-krediet": 65.34,
     "Marketing & content": 41.02,
@@ -397,9 +400,9 @@
    "ads_google": 659.21,
    "vaste_kosten": 1090.73,
    "vaste_detail": {
-    "Software & abonnementen": 308.46,
+    "Software & abonnementen": 273.46,
     "Boekhouder": 400.0,
-    "Bankkosten": 108.2,
+    "Bankkosten": 143.2,
     "Verzekering": 18.35,
     "Materiaal": 4.13,
     "Rente KBC-krediet": 67.52,
@@ -450,8 +453,9 @@
    "ads_google": 701.72,
    "vaste_kosten": 2578.56,
    "vaste_detail": {
-    "Software & abonnementen": 308.21,
+    "Software & abonnementen": 273.21,
     "Boekhouder": 400.0,
+    "Bankkosten": 35.0,
     "Verzekering": 18.47,
     "Materiaal": 87.69,
     "Representatie & reizen": 15.0,
@@ -507,7 +511,8 @@
    "ads_google": 0,
    "vaste_kosten": 5627.25,
    "vaste_detail": {
-    "Software & abonnementen": 385.34,
+    "Software & abonnementen": 350.34,
+    "Bankkosten": 35.0,
     "Verzekering": 18.47,
     "Materiaal": 8.28,
     "Representatie & reizen": 370.25,
@@ -562,9 +567,9 @@
    "ads_google": 0,
    "vaste_kosten": 2352.38,
    "vaste_detail": {
-    "Software & abonnementen": 310.55,
+    "Software & abonnementen": 275.55,
     "Boekhouder": 200.0,
-    "Bankkosten": 25.47,
+    "Bankkosten": 60.47,
     "Verzekering": 18.47,
     "Administratie & lidmaatschappen": 148.0,
     "Representatie & reizen": 129.6,
@@ -581,9 +586,9 @@
   },
   {
    "maand": "2026-10",
-   "orders": 159,
-   "stuks": 633,
-   "omzet_shopify": 11179.25,
+   "orders": 169,
+   "stuks": 672,
+   "omzet_shopify": 11721.7,
    "omzet_bol": 884.79,
    "bol": {
     "bron": "raming uit bankuitbetalingen",
@@ -591,30 +596,31 @@
     "kostprijs_fulfilment": 398.15,
     "bijdrage": 486.63
    },
-   "korting": 2172.46,
+   "korting": 2328.31,
    "retours": 886.12,
-   "kostprijs": 4803.8,
-   "fulfilment": 1897.98,
+   "kostprijs": 5006.59,
+   "fulfilment": 2015.41,
    "fulfilment_bron": "raming: tarieven × 0.799 (gekalibreerd op de laatste Widem-facturen); opslag en admin bij de vaste kosten",
    "fulfilment_widem": null,
-   "betaalkosten": 213.02,
-   "brutomarge": 5149.24,
-   "ads_meta": 6744.51,
-   "ads_google": 32.9,
+   "betaalkosten": 226.74,
+   "brutomarge": 5357.75,
+   "ads_meta": 6967.07,
+   "ads_google": 35.7,
    "vaste_kosten": 1192.51,
    "vaste_detail": {
-    "Software & abonnementen": 473.87,
+    "Software & abonnementen": 438.87,
     "Boekhouder": 200.0,
+    "Bankkosten": 35.0,
     "Verzekering": 18.47,
     "Rente KBC-krediet": 58.47,
     "Marketing & content": 218.99,
     "Verzending & retours (overig)": 12.71,
     "Widem opslag + admin (raming, tot de factuur er is)": 210.0
    },
-   "resultaat": -2820.68,
-   "roas": 2.0,
-   "trueprofit": -2326.08,
-   "verschil_tp": -494.6
+   "resultaat": -2837.53,
+   "roas": 2.03,
+   "trueprofit": -2366.48,
+   "verschil_tp": -471.05
   }
  ],
  "lijnen": [
@@ -624,23 +630,23 @@
    "omzet": 68996.32,
    "kostprijs": 23781.36,
    "fulfilment": 7522.83,
-   "betaalkosten": 2901.7,
-   "marge_voor_ads": 34790.43,
-   "ads": 39661.22,
-   "na_ads": -4870.78,
+   "betaalkosten": 2901.93,
+   "marge_voor_ads": 34790.21,
+   "ads": 39661.29,
+   "na_ads": -4871.09,
    "roas_nodig": 2.4,
    "roas": 2.1
   },
   {
    "lijn": "Fonteinen",
-   "stuks": 1044,
-   "omzet": 18478.32,
-   "kostprijs": 6207.14,
-   "fulfilment": 4230.57,
-   "betaalkosten": 753.45,
-   "marge_voor_ads": 7287.17,
-   "ads": 8409.48,
-   "na_ads": -1122.31,
+   "stuks": 1083,
+   "omzet": 19011.2,
+   "kostprijs": 6409.93,
+   "fulfilment": 4332.17,
+   "betaalkosten": 766.15,
+   "marge_voor_ads": 7502.94,
+   "ads": 8664.24,
+   "na_ads": -1161.3,
    "roas_nodig": 3.07,
    "roas": 2.66
   },
@@ -650,12 +656,12 @@
    "omzet": 10458.27,
    "kostprijs": 5574.76,
    "fulfilment": 2301.84,
-   "betaalkosten": 538.61,
-   "marge_voor_ads": 2043.06,
-   "ads": 3997.72,
-   "na_ads": -1954.66,
-   "roas_nodig": 6.19,
-   "roas": 3.17
+   "betaalkosten": 539.39,
+   "marge_voor_ads": 2042.28,
+   "ads": 3968.24,
+   "na_ads": -1925.96,
+   "roas_nodig": 6.2,
+   "roas": 3.19
   },
   {
    "lijn": "Overig",
@@ -688,10 +694,10 @@
   },
   {
    "sku": "TK-WF119L",
-   "stuks": 157,
-   "omzet": 6225.28,
-   "kostprijs": 2119.32,
-   "marge_voor_fulfilment": 4105.96
+   "stuks": 159,
+   "omzet": 6301.42,
+   "kostprijs": 2147.04,
+   "marge_voor_fulfilment": 4154.38
   },
   {
    "sku": "(oud, zonder SKU)",
@@ -702,10 +708,10 @@
   },
   {
    "sku": "TK-WF007L",
-   "stuks": 105,
-   "omzet": 3085.5,
-   "kostprijs": 928.65,
-   "marge_voor_fulfilment": 2156.85
+   "stuks": 107,
+   "omzet": 3143.98,
+   "kostprijs": 947.07,
+   "marge_voor_fulfilment": 2196.91
   },
   {
    "sku": "Needle Comb",
@@ -723,10 +729,10 @@
   },
   {
    "sku": "WF315",
-   "stuks": 52,
-   "omzet": 2758.06,
-   "kostprijs": 1425.84,
-   "marge_voor_fulfilment": 1332.22
+   "stuks": 54,
+   "omzet": 2808.84,
+   "kostprijs": 1480.68,
+   "marge_voor_fulfilment": 1328.16
   },
   {
    "sku": "Deshedding Brush",
@@ -737,10 +743,10 @@
   },
   {
    "sku": "FF009L-PRE",
-   "stuks": 241,
-   "omzet": 2015.74,
-   "kostprijs": 619.37,
-   "marge_voor_fulfilment": 1396.37
+   "stuks": 249,
+   "omzet": 2077.78,
+   "kostprijs": 639.93,
+   "marge_voor_fulfilment": 1437.85
   },
   {
    "sku": "FF009L",
@@ -813,18 +819,18 @@
    "marge_voor_fulfilment": 419.33
   },
   {
+   "sku": "FF007-PRE",
+   "stuks": 60,
+   "omzet": 484.53,
+   "kostprijs": 127.8,
+   "marge_voor_fulfilment": 356.73
+  },
+  {
    "sku": "Hepa-filter",
    "stuks": 72,
    "omzet": 408.1,
    "kostprijs": 95.04,
    "marge_voor_fulfilment": 313.06
-  },
-  {
-   "sku": "FF007-PRE",
-   "stuks": 51,
-   "omzet": 406.34,
-   "kostprijs": 108.63,
-   "marge_voor_fulfilment": 297.71
   },
   {
    "sku": "Care-bundel-PRE",
@@ -876,11 +882,32 @@
    "marge_voor_fulfilment": 95.21
   },
   {
+   "sku": "TK-WF119L-PRE",
+   "stuks": 2,
+   "omzet": 82.86,
+   "kostprijs": 27.72,
+   "marge_voor_fulfilment": 55.14
+  },
+  {
    "sku": "Hepa-filter-PRE",
    "stuks": 28,
    "omzet": 81.01,
    "kostprijs": 36.96,
    "marge_voor_fulfilment": 44.05
+  },
+  {
+   "sku": "FF015-PRE",
+   "stuks": 8,
+   "omzet": 72.72,
+   "kostprijs": 18.4,
+   "marge_voor_fulfilment": 54.32
+  },
+  {
+   "sku": "FF009L-PREF",
+   "stuks": 8,
+   "omzet": 67.52,
+   "kostprijs": 20.56,
+   "marge_voor_fulfilment": 46.96
   },
   {
    "sku": "PF07 white",
@@ -930,13 +957,6 @@
    "omzet": 18.18,
    "kostprijs": 10.72,
    "marge_voor_fulfilment": 7.46
-  },
-  {
-   "sku": "FF015-PRE",
-   "stuks": 2,
-   "omzet": 15.85,
-   "kostprijs": 4.6,
-   "marge_voor_fulfilment": 11.25
   },
   {
    "sku": "2-1 Brush-PRE",
