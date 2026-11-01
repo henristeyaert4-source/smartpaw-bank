@@ -31,7 +31,8 @@ while d <= eind:
     m = M.get(k) or M[max(M)]
     dim = calendar.monthrange(d.year, d.month)[1]
     n, net = shop.get(ds, (0, 0.0))
-    fac = (m["omzet_shopify"] / netto_maand[k]) if netto_maand.get(k) else 1
+    # maand nog niet in winst-per-maand (bv. de 1e van een nieuwe maand): geen schaling, verhoudingen van de laatste maand
+    fac = (m["omzet_shopify"] / netto_maand[k]) if (k in M and netto_maand.get(k)) else 1
     omzet_shop = net * fac
     omzet = omzet_shop + m["omzet_bol"] / dim
     tot = m["omzet_shopify"] + m["omzet_bol"]
