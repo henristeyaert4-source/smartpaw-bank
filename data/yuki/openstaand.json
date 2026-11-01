@@ -1,6 +1,6 @@
 {
  "fouten": [],
- "opgehaald": "2026-10-31",
+ "opgehaald": "2026-11-01",
  "crediteuren": [
   {
    "id": "2c461500-88e2-4edc-9ed2-5c85720eb3f9",
@@ -1358,17 +1358,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "941974a6-9bf6-47c2-837c-cf46073af0c4",
-   "datum": "2026-10-29",
-   "vervaldag": "2026-11-12",
-   "contact": "Helene Paulus",
-   "omschrijving": "Bestelling 2522",
-   "referentie": "2522",
-   "open": 59.95,
-   "origineel": 59.95,
-   "betaalwijze": "Overschrijving"
-  },
-  {
    "id": "b2f1fbe5-6410-4a4d-95f6-6b7957132ffd",
    "datum": "2026-10-29",
    "vervaldag": "2026-11-12",
@@ -1380,14 +1369,14 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "918b629e-48a4-4ddd-8612-dff9fab73d09",
+   "id": "941974a6-9bf6-47c2-837c-cf46073af0c4",
    "datum": "2026-10-29",
    "vervaldag": "2026-11-12",
-   "contact": "Hilde Lambrighs",
-   "omschrijving": "Bestelling 2520",
-   "referentie": "2520",
-   "open": 98.35,
-   "origineel": 98.35,
+   "contact": "Helene Paulus",
+   "omschrijving": "Bestelling 2522",
+   "referentie": "2522",
+   "open": 59.95,
+   "origineel": 59.95,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -1413,6 +1402,17 @@
    "betaalwijze": "Overschrijving"
   },
   {
+   "id": "918b629e-48a4-4ddd-8612-dff9fab73d09",
+   "datum": "2026-10-29",
+   "vervaldag": "2026-11-12",
+   "contact": "Hilde Lambrighs",
+   "omschrijving": "Bestelling 2520",
+   "referentie": "2520",
+   "open": 98.35,
+   "origineel": 98.35,
+   "betaalwijze": "Overschrijving"
+  },
+  {
    "id": "0805e836-6452-4aee-bec6-34a9108a5a38",
    "datum": "2026-10-30",
    "vervaldag": "2026-11-13",
@@ -1432,17 +1432,6 @@
    "referentie": "2523",
    "open": 104.76,
    "origineel": 104.76,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "528894db-a196-4b2c-916f-4704da8d84c6",
-   "datum": "2026-10-30",
-   "vervaldag": "2026-11-13",
-   "contact": "Kilian Lietaert",
-   "omschrijving": "Bestelling 2528",
-   "referentie": "2528",
-   "open": 144.59,
-   "origineel": 144.59,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -1498,6 +1487,182 @@
    "referentie": "2530",
    "open": 36.33,
    "origineel": 36.33,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "528894db-a196-4b2c-916f-4704da8d84c6",
+   "datum": "2026-10-30",
+   "vervaldag": "2026-11-13",
+   "contact": "Kilian Lietaert",
+   "omschrijving": "Bestelling 2528",
+   "referentie": "2528",
+   "open": 144.59,
+   "origineel": 144.59,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "7fa58304-6bd8-4005-9917-a249c687cf2c",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-14",
+   "contact": "Hilde De Vos",
+   "omschrijving": "Bestelling 2545",
+   "referentie": "2545",
+   "open": 67.15,
+   "origineel": 67.15,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "6c2321d2-b878-4636-9bce-a5f4ae19723b",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-14",
+   "contact": "Ann Tempels",
+   "omschrijving": "Bestelling 2541",
+   "referentie": "2541",
+   "open": 83.62,
+   "origineel": 83.62,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "031611fd-d825-460d-a5f8-c2f87ecc87d9",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-14",
+   "contact": "Heidi Selleslagh",
+   "omschrijving": "Bestelling 2537",
+   "referentie": "2537",
+   "open": 67.15,
+   "origineel": 67.15,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "519f81f6-c3fd-4a40-826d-85deb0ee2dfd",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-14",
+   "contact": "Laura Bruggeman",
+   "omschrijving": "Bestelling 2534",
+   "referentie": "2534",
+   "open": 83.62,
+   "origineel": 83.62,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "f5af1e13-f4b9-4287-adf5-85af755ee54e",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-14",
+   "contact": "Jasper Verrelst",
+   "omschrijving": "Bestelling 2539",
+   "referentie": "2539",
+   "open": 67.15,
+   "origineel": 67.15,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "c218c622-fa9b-4e68-8e14-fbe41d1811ca",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-14",
+   "contact": "Tim Verstuyft",
+   "omschrijving": "Bestelling 2533",
+   "referentie": "2533",
+   "open": 83.62,
+   "origineel": 83.62,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "046aeccd-6702-4c76-979d-a47f79348f67",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-14",
+   "contact": "Anoucha Buiteel",
+   "omschrijving": "Bestelling 2542",
+   "referentie": "2542",
+   "open": 104.76,
+   "origineel": 104.76,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "cee6bc83-4937-45c1-8a9a-16b91240514b",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-14",
+   "contact": "steven andries",
+   "omschrijving": "Bestelling 2544",
+   "referentie": "2544",
+   "open": 167.24,
+   "origineel": 167.24,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "70e45c78-f96c-4c85-bb41-55681dd6ba96",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-14",
+   "contact": "Mathieu De Meue",
+   "omschrijving": "Bestelling 2543",
+   "referentie": "2543",
+   "open": 116.39,
+   "origineel": 116.39,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "aec7f5a7-6837-43f1-b0c8-b6695de9f54f",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-14",
+   "contact": "Emma Corveleyn",
+   "omschrijving": "Bestelling 2532",
+   "referentie": "2532",
+   "open": 83.62,
+   "origineel": 83.62,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "2290db03-263f-4347-94ca-afda4475a9ae",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-14",
+   "contact": "Maxim Storms",
+   "omschrijving": "Bestelling 2538",
+   "referentie": "2538",
+   "open": 67.15,
+   "origineel": 67.15,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "73ff4a6d-d514-45ba-bdfa-624a116224ce",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-14",
+   "contact": "Coolblue",
+   "omschrijving": "Bestelling 2535",
+   "referentie": "2535",
+   "open": 45.25,
+   "origineel": 45.25,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "fbb8dd1b-3aa3-437e-9ddb-a252c9c45798",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-14",
+   "contact": "Thomas Vanhyfte",
+   "omschrijving": "Bestelling 2536",
+   "referentie": "2536",
+   "open": 67.15,
+   "origineel": 67.15,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "f3f8607e-5039-4f98-abc2-54840746375c",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-14",
+   "contact": "Mathis Eykerman",
+   "omschrijving": "Bestelling 2540",
+   "referentie": "2540",
+   "open": 116.98,
+   "origineel": 116.98,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "aca136f8-a595-4437-b6a6-686eddee2509",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-14",
+   "contact": "Carine Dubois",
+   "omschrijving": "Bestelling 2531",
+   "referentie": "2531",
+   "open": 67.15,
+   "origineel": 67.15,
    "betaalwijze": "Overschrijving"
   }
  ],

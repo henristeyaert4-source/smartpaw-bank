@@ -380,6 +380,22 @@
      "omzet_incl": 79.99
     }
    }
+  },
+  {
+   "maand": "2026-10",
+   "orders": 2,
+   "stuks": 2,
+   "omzet_incl": 298.0,
+   "commissie": 38.84,
+   "bol_ads": 0.0,
+   "retourlabels": 3.42,
+   "andere_kosten": 0.0,
+   "per_ean": {
+    "5419980391100": {
+     "stuks": 2,
+     "omzet_incl": 298.0
+    }
+   }
   }
  ]
 }
