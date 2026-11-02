@@ -182,7 +182,7 @@ def main():
             "brutomarge": round(brutomarge, 2), "ads_meta": tot["ads_meta"][i], "ads_google": tot["ads_google"][i],
             "vaste_kosten": round(vast, 2), "vaste_detail": vast_det, "resultaat": round(resultaat, 2),
             "roas": round(tot["total_sales"][i] / ads, 2) if ads else None,
-            "trueprofit": tot["trueprofit_netto"][i], "verschil_tp": round(resultaat - tot["trueprofit_netto"][i], 2),
+            "trueprofit": (tot["trueprofit_netto"][i] if i < len(tot["trueprofit_netto"]) else None), "verschil_tp": (round(resultaat - tot["trueprofit_netto"][i], 2) if i < len(tot["trueprofit_netto"]) else None),
         })
     prod = [{"sku": k, "stuks": v["stuks"], "omzet": round(v["omzet"], 2), "kostprijs": round(v["kostprijs"], 2),
              "marge_voor_fulfilment": round(v["omzet"] - v["kostprijs"], 2)} for k, v in per_product.items()]
@@ -204,7 +204,7 @@ def main():
                         "Vaste kosten = echte bankuitgaven per categorie (zonder Meta/Google, die apart tellen; zonder kantoor, dat Creazy betaalt).",
                         "Retourkosten (transport + afhandeling) nog niet meegeteld."]}
     (W / "winst-per-maand.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
-    t = lambda k: round(sum(r[k] for r in uit), 0)
+    t = lambda k: round(sum((r[k] or 0) for r in uit), 0)
     for l in lijnen:
         print(l)
     print("resultaat", t("resultaat"), "trueprofit", t("trueprofit"), "ontbreekt", sorted(ontbreekt))
