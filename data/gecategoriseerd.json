@@ -1,5 +1,33 @@
 [
  {
+  "id": "ponto-d7862a28-6746-49d0-a6bc-cc3ffbd9ff12",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-01",
+  "bedrag": -1515.6,
+  "munt": "EUR",
+  "tegenpartij": "",
+  "tegenrekening": "",
+  "mededeling": "KBC-Mastercard Business Essential Afrekening 296 5478 35XX XXXX 6682",
+  "soort": "PMNT-CCRD-POSC",
+  "categorie": "Intern (kaartafrekening, detail apart)",
+  "bedrag_eur": -1515.6
+ },
+ {
+  "id": "ponto-481890b9-f67e-4c46-b4b1-3eab5e87433c",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-01",
+  "bedrag": -643.63,
+  "munt": "EUR",
+  "tegenpartij": "",
+  "tegenrekening": "",
+  "mededeling": "KBC-Mastercard Business Essential Afrekening 296 5478 35XX XXXX 2103",
+  "soort": "PMNT-CCRD-POSC",
+  "categorie": "Intern (kaartafrekening, detail apart)",
+  "bedrag_eur": -643.63
+ },
+ {
   "id": "ponto-ad602ab8-3095-462b-84cb-46611d1ee369",
   "bron": "KBC",
   "rekening": "SMARTPAW VOF",
