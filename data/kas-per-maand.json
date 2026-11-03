@@ -211,6 +211,13 @@
    "Bankkosten": -35.0,
    "Boekhouder": -242.0,
    "Software & abonnementen": -438.87
+  },
+  {
+   "maand": "2026-11",
+   "Software & abonnementen": -75.9,
+   "Omzet webshop (Shopify)": 982.71,
+   "Verzending & retours (overig)": -29.23,
+   "Omzet bol.com": 255.74
   }
  ],
  "groepen": {
@@ -250,5 +257,5 @@
   "Rente KBC-krediet": "Werking"
  },
  "onbekend": [],
- "bijgewerkt": "2026-11-02T04:56:46+00:00"
+ "bijgewerkt": "2026-11-03T03:55:27+00:00"
 }

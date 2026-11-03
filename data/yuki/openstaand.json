@@ -1,6 +1,6 @@
 {
  "fouten": [],
- "opgehaald": "2026-11-02",
+ "opgehaald": "2026-11-03",
  "crediteuren": [
   {
    "id": "2c461500-88e2-4edc-9ed2-5c85720eb3f9",
@@ -509,17 +509,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "a9f335c5-37b9-4510-8779-199452ebe5a3",
-   "datum": "2026-09-01",
-   "vervaldag": "2026-10-01",
-   "contact": "Bol.com B.V.",
-   "omschrijving": "Factuur van Bol.com B.V., Commissielonen",
-   "referentie": "3916269903575",
-   "open": 119.98,
-   "origineel": 119.98,
-   "betaalwijze": "Overschrijving"
-  },
-  {
    "id": "73503146-83ea-4150-8f8f-3292d35bc982",
    "datum": "2026-09-01",
    "vervaldag": "2026-10-01",
@@ -528,6 +517,17 @@
    "referentie": "3916269902630",
    "open": 45.49,
    "origineel": 45.49,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "a9f335c5-37b9-4510-8779-199452ebe5a3",
+   "datum": "2026-09-01",
+   "vervaldag": "2026-10-01",
+   "contact": "Bol.com B.V.",
+   "omschrijving": "Factuur van Bol.com B.V., Commissielonen",
+   "referentie": "3916269903575",
+   "open": 119.98,
+   "origineel": 119.98,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -564,17 +564,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "560816a2-b84c-4734-9766-34aeeb88d05c",
-   "datum": "2026-09-15",
-   "vervaldag": "2026-10-15",
-   "contact": "Bol.com B.V.",
-   "omschrijving": "Factuur van Bol.com B.V., RECLAME MET MERK",
-   "referentie": "3916348367627",
-   "open": 38.18,
-   "origineel": 38.18,
-   "betaalwijze": "Overschrijving"
-  },
-  {
    "id": "fdf4be1b-1dc2-4d48-b113-caa76974c0f2",
    "datum": "2026-09-15",
    "vervaldag": "2026-10-15",
@@ -583,6 +572,17 @@
    "referentie": "3916348493494",
    "open": 105.78,
    "origineel": 105.78,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "560816a2-b84c-4734-9766-34aeeb88d05c",
+   "datum": "2026-09-15",
+   "vervaldag": "2026-10-15",
+   "contact": "Bol.com B.V.",
+   "omschrijving": "Factuur van Bol.com B.V., RECLAME MET MERK",
+   "referentie": "3916348367627",
+   "open": 38.18,
+   "origineel": 38.18,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -630,6 +630,17 @@
    "betaalwijze": "Overschrijving"
   },
   {
+   "id": "e0fc5a91-31b9-49b8-9d53-4cdbe7940a6e",
+   "datum": "2026-09-30",
+   "vervaldag": "2026-10-08",
+   "contact": "Findajob",
+   "omschrijving": "Factuur van Findajob, Uitzendkrachten",
+   "referentie": "F001/202600711",
+   "open": 158.95,
+   "origineel": 158.95,
+   "betaalwijze": "Overschrijving"
+  },
+  {
    "id": "5bb5cdf2-b46a-4c78-9c99-6f095ff2a3f7",
    "datum": "2026-09-30",
    "vervaldag": "2026-10-30",
@@ -649,17 +660,6 @@
    "referentie": "2603246634",
    "open": 0.61,
    "origineel": 0.61,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "e0fc5a91-31b9-49b8-9d53-4cdbe7940a6e",
-   "datum": "2026-09-30",
-   "vervaldag": "2026-10-08",
-   "contact": "Findajob",
-   "omschrijving": "Factuur van Findajob, Uitzendkrachten",
-   "referentie": "F001/202600711",
-   "open": 158.95,
-   "origineel": 158.95,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -782,6 +782,17 @@
    "open": 621.34,
    "origineel": 621.34,
    "betaalwijze": "Creditcard"
+  },
+  {
+   "id": "72a37d76-1b0a-4b74-a315-029dc6f54aba",
+   "datum": "2026-11-03",
+   "vervaldag": "2026-12-03",
+   "contact": "Yuki works",
+   "omschrijving": "Factuur van Yuki works, ABONNEMENTEN",
+   "referentie": "425427",
+   "open": 2.42,
+   "origineel": 2.42,
+   "betaalwijze": "Overschrijving"
   }
  ],
  "debiteuren": [
@@ -3556,6 +3567,27 @@
    "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 8,600 : 1743348361 Online creation label(s) | bpost parcel",
    "bedrag": 8.6,
    "contact": "Bpost"
+  },
+  {
+   "id": "cfaf23f3-821c-45f9-aeba-28775cefd30b",
+   "datum": "2026-11-01",
+   "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 643,630 : Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000002103     - Uitgevende instelling:  - Factuurnummer: 296          - Identificatienummer:                 - Datum: |",
+   "bedrag": 643.63,
+   "contact": "Mastercard"
+  },
+  {
+   "id": "72a4fcea-d5ea-4f35-8df9-5f280b0b71a0",
+   "datum": "2026-11-01",
+   "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 1515,600 : | Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000006682     - Uitgevende instelling:  - Factuurnummer: 296          - Identificatienummer:                 - Datum: |",
+   "bedrag": 1515.6,
+   "contact": "Mastercard"
+  },
+  {
+   "id": "72a37d76-1b0a-4b74-a315-029dc6f54aba",
+   "datum": "2026-11-03",
+   "omschrijving": "Factuur van Yuki works, ABONNEMENTEN",
+   "bedrag": -2.42,
+   "contact": "Yuki works"
   }
  ],
  "leveranciers_van": "2026-04-01",

@@ -3,14 +3,14 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "in Yuki": 24,
+  "in Yuki": 25,
   "te boeken": 2,
-  "factuur ontbreekt": 0
+  "factuur ontbreekt": 3
  },
  "bedrag": {
-  "in Yuki": 12000.15,
+  "in Yuki": 12076.05,
   "te boeken": 137.8,
-  "factuur ontbreekt": 0
+  "factuur ontbreekt": 29.23
  },
  "per_rekening": [
   {
@@ -58,9 +58,16 @@
   {
    "rekening": "616501",
    "naam": "RECLAME ZONDER MERK",
-   "aantal": 1,
-   "maatstaf": 75.9,
+   "aantal": 2,
+   "maatstaf": 151.8,
    "btw": 0.0
+  },
+  {
+   "rekening": "611030",
+   "naam": "PORTKOSTEN",
+   "aantal": 5,
+   "maatstaf": 38.23,
+   "btw": 6.38
   },
   {
    "rekening": "613210",
@@ -68,13 +75,6 @@
    "aantal": 1,
    "maatstaf": 18.47,
    "btw": 0.0
-  },
-  {
-   "rekening": "611030",
-   "naam": "PORTKOSTEN",
-   "aantal": 2,
-   "maatstaf": 14.07,
-   "btw": 1.31
   }
  ],
  "lijnen": [
@@ -131,6 +131,110 @@
    "betaald_via_naam": "nog te betalen (vervalt 2026-11-06)",
    "nakijken": false,
    "onbetaald": true
+  },
+  {
+   "id": "ponto-d80140c5-843c-4880-8ea2-fe2d57937434",
+   "status": "in Yuki",
+   "yuki_id": "e1e290e5-c783-4d0e-9b1e-67899fbf3713",
+   "factuurdatum": "2026-11-01",
+   "betaald_op": "2026-11-01",
+   "leverancier": "GOOGLE*WORKSPACE SMART IED02 R296 CC GOOGLE.COM Be",
+   "btw_nummer": "",
+   "factuurnummer": "2026-10-02",
+   "document": "in Yuki: Google Ireland Limited (2026-10-02)",
+   "asset_id": null,
+   "omschrijving": "GOOGLE*WORKSPACE SMART IED02 R296 CC GOOGLE.COM Betaling met KBC-Debet",
+   "rekening": "616501",
+   "rekening_naam": "RECLAME ZONDER MERK",
+   "rekening_bron": "Yuki: Google = RECLAME ZONDER MERK",
+   "btw_code": "EUDV",
+   "btw_uitleg": "Yuki: intracommunautair diensten (verlegd)",
+   "roosters": "88 · 55 · 59",
+   "incl": 75.9,
+   "maatstaf": 75.9,
+   "btw": 0.0,
+   "verlegde_btw": 15.94,
+   "betaald_via": "550000",
+   "betaald_via_naam": "KBC zichtrekening",
+   "nakijken": false
+  },
+  {
+   "id": "ponto-bafeeb37-3437-4ad2-b6a0-d137208c7175",
+   "status": "factuur ontbreekt",
+   "yuki_id": null,
+   "factuurdatum": "2026-11-01",
+   "betaald_op": "2026-11-01",
+   "leverancier": "bpost parcel",
+   "btw_nummer": "",
+   "factuurnummer": "",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 17522695",
+   "rekening": "611030",
+   "rekening_naam": "PORTKOSTEN",
+   "rekening_bron": "Yuki: bpost = PORTKOSTEN",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 9.41,
+   "maatstaf": 7.78,
+   "btw": 1.63,
+   "verlegde_btw": 0.0,
+   "betaald_via": "550000",
+   "betaald_via_naam": "KBC zichtrekening",
+   "nakijken": false
+  },
+  {
+   "id": "ponto-1757b70d-934d-4eb0-89d2-b7c710e32411",
+   "status": "factuur ontbreekt",
+   "yuki_id": null,
+   "factuurdatum": "2026-11-01",
+   "betaald_op": "2026-11-01",
+   "leverancier": "bpost parcel",
+   "btw_nummer": "",
+   "factuurnummer": "",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 17522650",
+   "rekening": "611030",
+   "rekening_naam": "PORTKOSTEN",
+   "rekening_bron": "Yuki: bpost = PORTKOSTEN",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 10.32,
+   "maatstaf": 8.53,
+   "btw": 1.79,
+   "verlegde_btw": 0.0,
+   "betaald_via": "550000",
+   "betaald_via_naam": "KBC zichtrekening",
+   "nakijken": false
+  },
+  {
+   "id": "ponto-059d5b64-225d-4b89-b4a8-4aba9d654923",
+   "status": "factuur ontbreekt",
+   "yuki_id": null,
+   "factuurdatum": "2026-11-01",
+   "betaald_op": "2026-11-01",
+   "leverancier": "bpost parcel",
+   "btw_nummer": "",
+   "factuurnummer": "",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 17522540",
+   "rekening": "611030",
+   "rekening_naam": "PORTKOSTEN",
+   "rekening_bron": "Yuki: bpost = PORTKOSTEN",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 9.5,
+   "maatstaf": 7.85,
+   "btw": 1.65,
+   "verlegde_btw": 0.0,
+   "betaald_via": "550000",
+   "betaald_via_naam": "KBC zichtrekening",
+   "nakijken": false
   },
   {
    "id": "rev-056da6af-d4ed-e3f3-02c0-04184029e287-056da6af-d4ed-e3f3-0000-04184029e287",
@@ -707,13 +811,13 @@
   {
    "id": "ponto-bcd14b78-c08a-4312-87d1-81caed99a8d5",
    "status": "in Yuki",
-   "yuki_id": "e1e290e5-c783-4d0e-9b1e-67899fbf3713",
+   "yuki_id": "9859f2e7-d77e-46bd-ad9a-f290da9220cc",
    "factuurdatum": "2026-10-01",
    "betaald_op": "2026-10-01",
    "leverancier": "GOOGLE*WORKSPACE SMART IED02 R296 CC GOOGLE.COM Be",
    "btw_nummer": "",
-   "factuurnummer": "2026-10-02",
-   "document": "in Yuki: Google Ireland Limited (2026-10-02)",
+   "factuurnummer": "2026-09-02",
+   "document": "in Yuki: Google Ireland Limited (2026-09-02)",
    "asset_id": null,
    "omschrijving": "GOOGLE*WORKSPACE SMART IED02 R296 CC GOOGLE.COM Betaling met KBC-Debet",
    "rekening": "616501",
@@ -757,7 +861,7 @@
    "nakijken": false
   }
  ],
- "yuki_opgehaald": "2026-11-02",
+ "yuki_opgehaald": "2026-11-03",
  "uitleg": "Elke aankoop met boekingsvoorstel. 'In Yuki' = Pro-count heeft ze al (enkel controle). 'Te boeken' = wij hebben het document, Yuki nog niet. Grootboekrekeningen volgen Pro-count's eigen boekingen; btw-codes zijn eigen codes tot Pro-count hun Yuki-codes bezorgt.",
- "bijgewerkt": "2026-11-02"
+ "bijgewerkt": "2026-11-03"
 }

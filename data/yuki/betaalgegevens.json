@@ -270,5 +270,13 @@
   "bedrag": 800.0,
   "datum": "2026-10-04",
   "yuki_document": "c5805b1c-e633-4d92-8836-437bf8e27005"
+ },
+ "425427": {
+  "contact": "Yuki works",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 2.42,
+  "datum": "2026-11-03",
+  "yuki_document": "0116ab96-2135-413a-a71a-5a720992c44e"
  }
 }

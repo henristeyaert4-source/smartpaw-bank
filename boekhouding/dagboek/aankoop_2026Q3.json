@@ -128,33 +128,6 @@
  ],
  "lijnen": [
   {
-   "id": "yuki-e0fc5a91-31b9-49b8-9d53-4cdbe7940a6e",
-   "status": "in Yuki",
-   "yuki_id": "e0fc5a91-31b9-49b8-9d53-4cdbe7940a6e",
-   "factuurdatum": "2026-09-30",
-   "betaald_op": "",
-   "leverancier": "Findajob",
-   "btw_nummer": "",
-   "factuurnummer": "F001/202600711",
-   "document": "",
-   "asset_id": null,
-   "omschrijving": "Factuur van Findajob, Uitzendkrachten",
-   "rekening": "617000",
-   "rekening_naam": "Uitzendkrachten",
-   "rekening_bron": "Yuki: Findajob = Uitzendkrachten",
-   "btw_code": "BE21",
-   "btw_uitleg": "Yuki: 21%",
-   "roosters": "82 · 59",
-   "incl": 158.95,
-   "maatstaf": 131.36,
-   "btw": 27.59,
-   "verlegde_btw": 0.0,
-   "betaald_via": "",
-   "betaald_via_naam": "nog te betalen (vervalt 2026-10-08)",
-   "nakijken": false,
-   "onbetaald": true
-  },
-  {
    "id": "yuki-5bb5cdf2-b46a-4c78-9c99-6f095ff2a3f7",
    "status": "in Yuki",
    "yuki_id": "5bb5cdf2-b46a-4c78-9c99-6f095ff2a3f7",
@@ -178,6 +151,33 @@
    "verlegde_btw": 0.0,
    "betaald_via": "",
    "betaald_via_naam": "nog te betalen (vervalt 2026-10-30)",
+   "nakijken": false,
+   "onbetaald": true
+  },
+  {
+   "id": "yuki-e0fc5a91-31b9-49b8-9d53-4cdbe7940a6e",
+   "status": "in Yuki",
+   "yuki_id": "e0fc5a91-31b9-49b8-9d53-4cdbe7940a6e",
+   "factuurdatum": "2026-09-30",
+   "betaald_op": "",
+   "leverancier": "Findajob",
+   "btw_nummer": "",
+   "factuurnummer": "F001/202600711",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "Factuur van Findajob, Uitzendkrachten",
+   "rekening": "617000",
+   "rekening_naam": "Uitzendkrachten",
+   "rekening_bron": "Yuki: Findajob = Uitzendkrachten",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 158.95,
+   "maatstaf": 131.36,
+   "btw": 27.59,
+   "verlegde_btw": 0.0,
+   "betaald_via": "",
+   "betaald_via_naam": "nog te betalen (vervalt 2026-10-08)",
    "nakijken": false,
    "onbetaald": true
   },
@@ -2970,7 +2970,7 @@
    "nakijken": false
   }
  ],
- "yuki_opgehaald": "2026-11-02",
+ "yuki_opgehaald": "2026-11-03",
  "uitleg": "Elke aankoop met boekingsvoorstel. 'In Yuki' = Pro-count heeft ze al (enkel controle). 'Te boeken' = wij hebben het document, Yuki nog niet. Grootboekrekeningen volgen Pro-count's eigen boekingen; btw-codes zijn eigen codes tot Pro-count hun Yuki-codes bezorgt.",
- "bijgewerkt": "2026-11-02"
+ "bijgewerkt": "2026-11-03"
 }

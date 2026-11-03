@@ -1,5 +1,17 @@
 [
  {
+  "id": "ponto-d80140c5-843c-4880-8ea2-fe2d57937434",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-01",
+  "bedrag": -75.9,
+  "munt": "EUR",
+  "tegenpartij": "",
+  "tegenrekening": "",
+  "mededeling": "GOOGLE*WORKSPACE SMART IED02 R296 CC GOOGLE.COM Betaling met KBC-Debetkaart Business via Debit Mastercard 01-11-2026 om 14.55 uur 5559 20XX XXXX 6564 STEYAERT HENRI",
+  "soort": "PMNT-CCRD-POSD"
+ },
+ {
   "id": "ponto-d7862a28-6746-49d0-a6bc-cc3ffbd9ff12",
   "bron": "KBC",
   "rekening": "SMARTPAW VOF",
@@ -12,6 +24,30 @@
   "soort": "PMNT-CCRD-POSC"
  },
  {
+  "id": "ponto-ced25b18-77e2-4f81-9120-2dcc1ccd363f",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-01",
+  "bedrag": 982.71,
+  "munt": "EUR",
+  "tegenpartij": "STRIPE",
+  "tegenrekening": "NL41CITI2032304805",
+  "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+  "soort": "PMNT-RCDT-ESCT"
+ },
+ {
+  "id": "ponto-bafeeb37-3437-4ad2-b6a0-d137208c7175",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-01",
+  "bedrag": -9.41,
+  "munt": "EUR",
+  "tegenpartij": "bpost parcel",
+  "tegenrekening": "BE49735046248271",
+  "mededeling": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 1752269591 Online aanmaak verzendetiket(ten) KBC-Betaalknop",
+  "soort": "PMNT-ICDT-ESCT"
+ },
+ {
   "id": "ponto-481890b9-f67e-4c46-b4b1-3eab5e87433c",
   "bron": "KBC",
   "rekening": "SMARTPAW VOF",
@@ -22,5 +58,41 @@
   "tegenrekening": "",
   "mededeling": "KBC-Mastercard Business Essential Afrekening 296 5478 35XX XXXX 2103",
   "soort": "PMNT-CCRD-POSC"
+ },
+ {
+  "id": "ponto-1757b70d-934d-4eb0-89d2-b7c710e32411",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-01",
+  "bedrag": -10.32,
+  "munt": "EUR",
+  "tegenpartij": "bpost parcel",
+  "tegenrekening": "BE49735046248271",
+  "mededeling": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 1752265024 Online aanmaak verzendetiket(ten) KBC-Betaalknop",
+  "soort": "PMNT-ICDT-ESCT"
+ },
+ {
+  "id": "ponto-0ffd2a52-2f86-400e-8243-1928a9b7f33b",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-01",
+  "bedrag": 255.74,
+  "munt": "EUR",
+  "tegenpartij": "BOLCOM BV",
+  "tegenrekening": "NL45INGB0000257133",
+  "mededeling": "BOLCOM BV Overschrijving NL45 INGB 0000 2571 33 BIC: INGBNL2A BETALING BOL.COM 3916622472978. ZIE VERKOOPACCOUNT (1764709) VOOR FACTUUR.",
+  "soort": "PMNT-RCDT-ESCT"
+ },
+ {
+  "id": "ponto-059d5b64-225d-4b89-b4a8-4aba9d654923",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-01",
+  "bedrag": -9.5,
+  "munt": "EUR",
+  "tegenpartij": "bpost parcel",
+  "tegenrekening": "BE49735046248271",
+  "mededeling": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 1752254039 Online aanmaak verzendetiket(ten) KBC-Betaalknop",
+  "soort": "PMNT-ICDT-ESCT"
  }
 ]
