@@ -4,13 +4,13 @@
  "tot": "2026-12-31",
  "telling": {
   "in Yuki": 25,
-  "te boeken": 2,
-  "factuur ontbreekt": 3
+  "te boeken": 5,
+  "factuur ontbreekt": 0
  },
  "bedrag": {
   "in Yuki": 12076.05,
-  "te boeken": 137.8,
-  "factuur ontbreekt": 29.23
+  "te boeken": 167.03,
+  "factuur ontbreekt": 0
  },
  "per_rekening": [
   {
@@ -160,14 +160,14 @@
   },
   {
    "id": "ponto-bafeeb37-3437-4ad2-b6a0-d137208c7175",
-   "status": "factuur ontbreekt",
+   "status": "te boeken",
    "yuki_id": null,
-   "factuurdatum": "2026-11-01",
+   "factuurdatum": "2026-11-02",
    "betaald_op": "2026-11-01",
-   "leverancier": "bpost parcel",
+   "leverancier": "bpost",
    "btw_nummer": "",
-   "factuurnummer": "",
-   "document": "",
+   "factuurnummer": "12944526",
+   "document": "bpost-bestelling 12944526 (02/11)",
    "asset_id": null,
    "omschrijving": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 17522695",
    "rekening": "611030",
@@ -186,14 +186,14 @@
   },
   {
    "id": "ponto-1757b70d-934d-4eb0-89d2-b7c710e32411",
-   "status": "factuur ontbreekt",
+   "status": "te boeken",
    "yuki_id": null,
-   "factuurdatum": "2026-11-01",
+   "factuurdatum": "2026-11-02",
    "betaald_op": "2026-11-01",
-   "leverancier": "bpost parcel",
+   "leverancier": "bpost",
    "btw_nummer": "",
-   "factuurnummer": "",
-   "document": "",
+   "factuurnummer": "12944462",
+   "document": "bpost-bestelling 12944462 (02/11)",
    "asset_id": null,
    "omschrijving": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 17522650",
    "rekening": "611030",
@@ -212,14 +212,14 @@
   },
   {
    "id": "ponto-059d5b64-225d-4b89-b4a8-4aba9d654923",
-   "status": "factuur ontbreekt",
+   "status": "te boeken",
    "yuki_id": null,
-   "factuurdatum": "2026-11-01",
+   "factuurdatum": "2026-11-02",
    "betaald_op": "2026-11-01",
-   "leverancier": "bpost parcel",
+   "leverancier": "bpost",
    "btw_nummer": "",
-   "factuurnummer": "",
-   "document": "",
+   "factuurnummer": "12944362",
+   "document": "bpost-bestelling 12944362 (02/11)",
    "asset_id": null,
    "omschrijving": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 17522540",
    "rekening": "611030",

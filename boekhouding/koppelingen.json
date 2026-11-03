@@ -705,5 +705,32 @@
   "factuurnummer": "7038004865",
   "uitleg": "Microsoft 365 E-mail Essentieel, verlenging 1 jaar voor henristeyaert@smartpaw.be en info@smartpaw.be (2 x €83,88). Op naam SmartPaw VOF, BE1028566224.",
   "yuki_document": "b6c4ece3-4d15-4cac-badd-2f756b90420c"
+ },
+ "ponto-bafeeb37-3437-4ad2-b6a0-d137208c7175": {
+  "soort": "mail",
+  "label": "bpost-bestelling 12944526 (02/11)",
+  "mail": "notify@bpost.be · Bevestiging van je bestelling · 2026-11-02",
+  "leverancier": "bpost",
+  "datum": "2026-11-02",
+  "bedrag": -9.41,
+  "btw": 1.63
+ },
+ "ponto-1757b70d-934d-4eb0-89d2-b7c710e32411": {
+  "soort": "mail",
+  "label": "bpost-bestelling 12944462 (02/11)",
+  "mail": "notify@bpost.be · Bevestiging van je bestelling · 2026-11-02",
+  "leverancier": "bpost",
+  "datum": "2026-11-02",
+  "bedrag": -10.32,
+  "btw": 1.79
+ },
+ "ponto-059d5b64-225d-4b89-b4a8-4aba9d654923": {
+  "soort": "mail",
+  "label": "bpost-bestelling 12944362 (02/11)",
+  "mail": "notify@bpost.be · Bevestiging van je bestelling · 2026-11-02",
+  "leverancier": "bpost",
+  "datum": "2026-11-02",
+  "bedrag": -9.5,
+  "btw": 1.65
  }
 }
