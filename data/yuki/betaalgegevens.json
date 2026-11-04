@@ -278,5 +278,13 @@
   "bedrag": 2.42,
   "datum": "2026-11-03",
   "yuki_document": "0116ab96-2135-413a-a71a-5a720992c44e"
+ },
+ "2603626030": {
+  "contact": "KBC Bank",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 1.83,
+  "datum": "2026-10-30",
+  "yuki_document": "5f90e425-1c09-4fbb-ab7b-332693f36045"
  }
 }

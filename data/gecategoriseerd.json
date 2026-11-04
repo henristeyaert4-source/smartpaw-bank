@@ -1,5 +1,47 @@
 [
  {
+  "id": "ponto-ba49580a-8e6c-4a74-8d3a-f7bf4890202a",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-02",
+  "bedrag": -11.29,
+  "munt": "EUR",
+  "tegenpartij": "bpost parcel",
+  "tegenrekening": "BE49735046248271",
+  "mededeling": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 1753769527 Online aanmaak verzendetiket(ten) KBC-Betaalknop",
+  "soort": "PMNT-ICDT-ESCT",
+  "categorie": "Verzending & retours (overig)",
+  "bedrag_eur": -11.29
+ },
+ {
+  "id": "ponto-91892afa-71dd-4a6c-b2c6-72fe881d70fb",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-02",
+  "bedrag": -2.42,
+  "munt": "EUR",
+  "tegenpartij": "Yuki Works NV via Mollie",
+  "tegenrekening": "BE63825701151808",
+  "mededeling": "Yuki Works NV via Mollie Domiciliëring SD15-2412-1433-3424 STICHTING MOLLIE PAYMENTS MD93-2441-0591-9773 LUCY Business Pro Month",
+  "soort": "PMNT-IDDT-PMDD",
+  "categorie": "Software & abonnementen",
+  "bedrag_eur": -2.42
+ },
+ {
+  "id": "ponto-24e14332-db8b-4172-a6d3-79de0d1a3646",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-02",
+  "bedrag": 749.28,
+  "munt": "EUR",
+  "tegenpartij": "STRIPE",
+  "tegenrekening": "NL41CITI2032304805",
+  "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+  "soort": "PMNT-RCDT-ESCT",
+  "categorie": "Omzet webshop (Shopify)",
+  "bedrag_eur": 749.28
+ },
+ {
   "id": "ponto-d80140c5-843c-4880-8ea2-fe2d57937434",
   "bron": "KBC",
   "rekening": "SMARTPAW VOF",

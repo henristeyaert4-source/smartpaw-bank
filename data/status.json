@@ -1,14 +1,14 @@
 {
- "opgehaald": "2026-11-03T04:56:18+00:00",
- "vanaf": "2026-10-29",
- "nieuwe_verrichtingen": 0,
+ "opgehaald": "2026-11-04T03:56:52+00:00",
+ "vanaf": "2026-10-25",
+ "nieuwe_verrichtingen": 3,
  "saldi": [
   {
    "bron": "KBC (Ponto)",
    "rekening": "SMARTPAW VOF",
    "iban": "BE84731070760259",
-   "saldo": 1876.86,
-   "beschikbaar": 1876.86,
+   "saldo": 2612.43,
+   "beschikbaar": 2612.43,
    "munt": "EUR",
    "bijgewerkt_bank": null
   },
@@ -45,14 +45,14 @@
    "rekening": "PayPal",
    "saldo": 86.91,
    "munt": "EUR",
-   "bijgewerkt_bank": "2026-11-03T01:59:59Z"
+   "bijgewerkt_bank": "2026-11-04T01:59:59Z"
   },
   {
    "bron": "PayPal",
    "rekening": "PayPal",
    "saldo": 0.0,
    "munt": "USD",
-   "bijgewerkt_bank": "2026-11-03T01:59:59Z"
+   "bijgewerkt_bank": "2026-11-04T01:59:59Z"
   }
  ],
  "fouten": []

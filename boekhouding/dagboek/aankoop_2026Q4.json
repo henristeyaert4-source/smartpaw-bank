@@ -3,14 +3,14 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "in Yuki": 25,
+  "in Yuki": 26,
   "te boeken": 5,
-  "factuur ontbreekt": 0
+  "factuur ontbreekt": 1
  },
  "bedrag": {
-  "in Yuki": 12076.05,
+  "in Yuki": 12078.47,
   "te boeken": 167.03,
-  "factuur ontbreekt": 0
+  "factuur ontbreekt": 11.29
  },
  "per_rekening": [
   {
@@ -37,9 +37,9 @@
   {
    "rekening": "611080",
    "naam": "ABONNEMENTEN",
-   "aantal": 9,
-   "maatstaf": 603.83,
-   "btw": 0.42
+   "aantal": 10,
+   "maatstaf": 605.83,
+   "btw": 0.84
   },
   {
    "rekening": "615200",
@@ -65,9 +65,9 @@
   {
    "rekening": "611030",
    "naam": "PORTKOSTEN",
-   "aantal": 5,
-   "maatstaf": 38.23,
-   "btw": 6.38
+   "aantal": 6,
+   "maatstaf": 47.56,
+   "btw": 8.34
   },
   {
    "rekening": "613210",
@@ -133,15 +133,67 @@
    "onbetaald": true
   },
   {
+   "id": "ponto-ba49580a-8e6c-4a74-8d3a-f7bf4890202a",
+   "status": "factuur ontbreekt",
+   "yuki_id": null,
+   "factuurdatum": "2026-11-02",
+   "betaald_op": "2026-11-02",
+   "leverancier": "bpost parcel",
+   "btw_nummer": "",
+   "factuurnummer": "",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 17537695",
+   "rekening": "611030",
+   "rekening_naam": "PORTKOSTEN",
+   "rekening_bron": "Yuki: bpost = PORTKOSTEN",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 11.29,
+   "maatstaf": 9.33,
+   "btw": 1.96,
+   "verlegde_btw": 0.0,
+   "betaald_via": "550000",
+   "betaald_via_naam": "KBC zichtrekening",
+   "nakijken": false
+  },
+  {
+   "id": "ponto-91892afa-71dd-4a6c-b2c6-72fe881d70fb",
+   "status": "in Yuki",
+   "yuki_id": "72a37d76-1b0a-4b74-a315-029dc6f54aba",
+   "factuurdatum": "2026-11-02",
+   "betaald_op": "2026-11-02",
+   "leverancier": "Yuki Works NV via Mollie",
+   "btw_nummer": "",
+   "factuurnummer": "2026-11-03",
+   "document": "in Yuki: Yuki works (2026-11-03)",
+   "asset_id": null,
+   "omschrijving": "Yuki Works NV via Mollie Domiciliëring SD15-2412-1433-3424 STICHTING M",
+   "rekening": "611080",
+   "rekening_naam": "ABONNEMENTEN",
+   "rekening_bron": "Yuki: Yuki works = ABONNEMENTEN",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 2.42,
+   "maatstaf": 2.0,
+   "btw": 0.42,
+   "verlegde_btw": 0.0,
+   "betaald_via": "550000",
+   "betaald_via_naam": "KBC zichtrekening",
+   "nakijken": false
+  },
+  {
    "id": "ponto-d80140c5-843c-4880-8ea2-fe2d57937434",
    "status": "in Yuki",
-   "yuki_id": "e1e290e5-c783-4d0e-9b1e-67899fbf3713",
+   "yuki_id": "e12e2408-6029-4595-bdf7-08ee7dee87b7",
    "factuurdatum": "2026-11-01",
    "betaald_op": "2026-11-01",
    "leverancier": "GOOGLE*WORKSPACE SMART IED02 R296 CC GOOGLE.COM Be",
    "btw_nummer": "",
-   "factuurnummer": "2026-10-02",
-   "document": "in Yuki: Google Ireland Limited (2026-10-02)",
+   "factuurnummer": "2026-11-02",
+   "document": "in Yuki: Google Ireland Limited (2026-11-02)",
    "asset_id": null,
    "omschrijving": "GOOGLE*WORKSPACE SMART IED02 R296 CC GOOGLE.COM Betaling met KBC-Debet",
    "rekening": "616501",
@@ -811,13 +863,13 @@
   {
    "id": "ponto-bcd14b78-c08a-4312-87d1-81caed99a8d5",
    "status": "in Yuki",
-   "yuki_id": "9859f2e7-d77e-46bd-ad9a-f290da9220cc",
+   "yuki_id": "e1e290e5-c783-4d0e-9b1e-67899fbf3713",
    "factuurdatum": "2026-10-01",
    "betaald_op": "2026-10-01",
    "leverancier": "GOOGLE*WORKSPACE SMART IED02 R296 CC GOOGLE.COM Be",
    "btw_nummer": "",
-   "factuurnummer": "2026-09-02",
-   "document": "in Yuki: Google Ireland Limited (2026-09-02)",
+   "factuurnummer": "2026-10-02",
+   "document": "in Yuki: Google Ireland Limited (2026-10-02)",
    "asset_id": null,
    "omschrijving": "GOOGLE*WORKSPACE SMART IED02 R296 CC GOOGLE.COM Betaling met KBC-Debet",
    "rekening": "616501",
@@ -861,7 +913,7 @@
    "nakijken": false
   }
  ],
- "yuki_opgehaald": "2026-11-03",
+ "yuki_opgehaald": "2026-11-04",
  "uitleg": "Elke aankoop met boekingsvoorstel. 'In Yuki' = Pro-count heeft ze al (enkel controle). 'Te boeken' = wij hebben het document, Yuki nog niet. Grootboekrekeningen volgen Pro-count's eigen boekingen; btw-codes zijn eigen codes tot Pro-count hun Yuki-codes bezorgt.",
- "bijgewerkt": "2026-11-03"
+ "bijgewerkt": "2026-11-04"
 }

@@ -1,6 +1,6 @@
 {
  "fouten": [],
- "opgehaald": "2026-11-03",
+ "opgehaald": "2026-11-04",
  "crediteuren": [
   {
    "id": "2c461500-88e2-4edc-9ed2-5c85720eb3f9",
@@ -782,6 +782,17 @@
    "open": 621.34,
    "origineel": 621.34,
    "betaalwijze": "Creditcard"
+  },
+  {
+   "id": "f3ac18f2-4471-4f5f-b29a-14e26d6db135",
+   "datum": "2026-10-30",
+   "vervaldag": "",
+   "contact": "KBC Bank",
+   "omschrijving": "Factuur van KBC Bank, Bankkosten",
+   "referentie": "2603626030",
+   "open": 1.83,
+   "origineel": 1.83,
+   "betaalwijze": "Overschrijving"
   },
   {
    "id": "72a37d76-1b0a-4b74-a315-029dc6f54aba",
@@ -3569,6 +3580,13 @@
    "contact": "Bpost"
   },
   {
+   "id": "f3ac18f2-4471-4f5f-b29a-14e26d6db135",
+   "datum": "2026-10-30",
+   "omschrijving": "Factuur van KBC Bank, Bankkosten",
+   "bedrag": -1.83,
+   "contact": "KBC Bank"
+  },
+  {
    "id": "cfaf23f3-821c-45f9-aeba-28775cefd30b",
    "datum": "2026-11-01",
    "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 643,630 : Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000002103     - Uitgevende instelling:  - Factuurnummer: 296          - Identificatienummer:                 - Datum: |",
@@ -3581,6 +3599,34 @@
    "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 1515,600 : | Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000006682     - Uitgevende instelling:  - Factuurnummer: 296          - Identificatienummer:                 - Datum: |",
    "bedrag": 1515.6,
    "contact": "Mastercard"
+  },
+  {
+   "id": "707e74cf-18d0-459d-9502-51431f68c202",
+   "datum": "2026-11-02",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 9,500 : 1752254039 Online aanmaak verzendetiket(ten) | bpost parcel",
+   "bedrag": 9.5,
+   "contact": "Bpost"
+  },
+  {
+   "id": "1df79557-30f6-43d6-bcf8-5c57e41c6907",
+   "datum": "2026-11-02",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 10,320 : 1752265024 Online aanmaak verzendetiket(ten) | bpost parcel",
+   "bedrag": 10.32,
+   "contact": "Bpost"
+  },
+  {
+   "id": "4b60ad8a-f6df-4e33-b360-d39c831016fb",
+   "datum": "2026-11-02",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 9,410 : 1752269591 Online aanmaak verzendetiket(ten) | bpost parcel",
+   "bedrag": 9.41,
+   "contact": "Bpost"
+  },
+  {
+   "id": "e12e2408-6029-4595-bdf7-08ee7dee87b7",
+   "datum": "2026-11-02",
+   "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 75,900 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 452288 - Datum verrichting: 01-11-26 - Uur",
+   "bedrag": 75.9,
+   "contact": "Google Ireland Limited"
   },
   {
    "id": "72a37d76-1b0a-4b74-a315-029dc6f54aba",
