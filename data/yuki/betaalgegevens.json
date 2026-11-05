@@ -286,5 +286,21 @@
   "bedrag": 1.83,
   "datum": "2026-10-30",
   "yuki_document": "5f90e425-1c09-4fbb-ab7b-332693f36045"
+ },
+ "26019558": {
+  "contact": "Widem Logistics",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 2336.76,
+  "datum": "2026-10-31",
+  "yuki_document": "9a8fb06d-abc0-4977-a1f5-97100cd36c33"
+ },
+ "267021148": {
+  "contact": "Bpost",
+  "iban": "BE50000400000718",
+  "ogm": null,
+  "bedrag": 15.38,
+  "datum": "2026-10-31",
+  "yuki_document": "858bc53e-e42c-4101-ade4-e10c909cb2ba"
  }
 }

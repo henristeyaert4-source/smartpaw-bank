@@ -1,6 +1,6 @@
 {
  "fouten": [],
- "opgehaald": "2026-11-04",
+ "opgehaald": "2026-11-05",
  "crediteuren": [
   {
    "id": "2c461500-88e2-4edc-9ed2-5c85720eb3f9",
@@ -289,6 +289,28 @@
    "betaalwijze": "Overschrijving"
   },
   {
+   "id": "2a84d01e-7b2a-43ca-b71c-671a06bd8a33",
+   "datum": "2026-04-23",
+   "vervaldag": "",
+   "contact": "Returngo",
+   "omschrijving": "Mastercard 24/03>23/04 / Returngo 03/04",
+   "referentie": "",
+   "open": -86.0,
+   "origineel": -86.0,
+   "betaalwijze": ""
+  },
+  {
+   "id": "063db495-a817-4eda-8854-982a2cb5c648",
+   "datum": "2026-04-23",
+   "vervaldag": "",
+   "contact": "Fiverr",
+   "omschrijving": "Mastercard 24/03>23/04 / Fiverr 06/04",
+   "referentie": "",
+   "open": -75.27,
+   "origineel": -75.27,
+   "betaalwijze": ""
+  },
+  {
    "id": "e37c407b-4397-481b-8b42-41f5117a7964",
    "datum": "2026-04-23",
    "vervaldag": "",
@@ -311,17 +333,6 @@
    "betaalwijze": ""
   },
   {
-   "id": "063db495-a817-4eda-8854-982a2cb5c648",
-   "datum": "2026-04-23",
-   "vervaldag": "",
-   "contact": "Fiverr",
-   "omschrijving": "Mastercard 24/03>23/04 / Fiverr 06/04",
-   "referentie": "",
-   "open": -75.27,
-   "origineel": -75.27,
-   "betaalwijze": ""
-  },
-  {
    "id": "1803a947-d118-4556-b8ad-404f4b451182",
    "datum": "2026-04-23",
    "vervaldag": "",
@@ -341,17 +352,6 @@
    "referentie": "",
    "open": -120.66,
    "origineel": -120.66,
-   "betaalwijze": ""
-  },
-  {
-   "id": "2a84d01e-7b2a-43ca-b71c-671a06bd8a33",
-   "datum": "2026-04-23",
-   "vervaldag": "",
-   "contact": "Returngo",
-   "omschrijving": "Mastercard 24/03>23/04 / Returngo 03/04",
-   "referentie": "",
-   "open": -86.0,
-   "origineel": -86.0,
    "betaalwijze": ""
   },
   {
@@ -476,17 +476,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "045164c7-fa4f-4282-b021-e3c1b8b091a6",
-   "datum": "2026-08-15",
-   "vervaldag": "2026-09-14",
-   "contact": "Bol.com B.V.",
-   "omschrijving": "Factuur van Bol.com B.V., RECLAME MET MERK",
-   "referentie": "3916172390531",
-   "open": 116.33,
-   "origineel": 116.33,
-   "betaalwijze": "Overschrijving"
-  },
-  {
    "id": "4485fd73-fad0-4089-b655-9109c7df88b0",
    "datum": "2026-08-15",
    "vervaldag": "2026-09-14",
@@ -495,6 +484,17 @@
    "referentie": "3916172378261",
    "open": 111.27,
    "origineel": 111.27,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "045164c7-fa4f-4282-b021-e3c1b8b091a6",
+   "datum": "2026-08-15",
+   "vervaldag": "2026-09-14",
+   "contact": "Bol.com B.V.",
+   "omschrijving": "Factuur van Bol.com B.V., RECLAME MET MERK",
+   "referentie": "3916172390531",
+   "open": 116.33,
+   "origineel": 116.33,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -509,17 +509,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "73503146-83ea-4150-8f8f-3292d35bc982",
-   "datum": "2026-09-01",
-   "vervaldag": "2026-10-01",
-   "contact": "Bol.com B.V.",
-   "omschrijving": "Factuur van Bol.com B.V., RECLAME MET MERK",
-   "referentie": "3916269902630",
-   "open": 45.49,
-   "origineel": 45.49,
-   "betaalwijze": "Overschrijving"
-  },
-  {
    "id": "a9f335c5-37b9-4510-8779-199452ebe5a3",
    "datum": "2026-09-01",
    "vervaldag": "2026-10-01",
@@ -528,6 +517,17 @@
    "referentie": "3916269903575",
    "open": 119.98,
    "origineel": 119.98,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "73503146-83ea-4150-8f8f-3292d35bc982",
+   "datum": "2026-09-01",
+   "vervaldag": "2026-10-01",
+   "contact": "Bol.com B.V.",
+   "omschrijving": "Factuur van Bol.com B.V., RECLAME MET MERK",
+   "referentie": "3916269902630",
+   "open": 45.49,
+   "origineel": 45.49,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -564,17 +564,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "fdf4be1b-1dc2-4d48-b113-caa76974c0f2",
-   "datum": "2026-09-15",
-   "vervaldag": "2026-10-15",
-   "contact": "Bol.com B.V.",
-   "omschrijving": "Factuur van Bol.com B.V., Commissielonen, Portkosten",
-   "referentie": "3916348493494",
-   "open": 105.78,
-   "origineel": 105.78,
-   "betaalwijze": "Overschrijving"
-  },
-  {
    "id": "560816a2-b84c-4734-9766-34aeeb88d05c",
    "datum": "2026-09-15",
    "vervaldag": "2026-10-15",
@@ -583,6 +572,17 @@
    "referentie": "3916348367627",
    "open": 38.18,
    "origineel": 38.18,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "fdf4be1b-1dc2-4d48-b113-caa76974c0f2",
+   "datum": "2026-09-15",
+   "vervaldag": "2026-10-15",
+   "contact": "Bol.com B.V.",
+   "omschrijving": "Factuur van Bol.com B.V., Commissielonen, Portkosten",
+   "referentie": "3916348493494",
+   "open": 105.78,
+   "origineel": 105.78,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -641,6 +641,17 @@
    "betaalwijze": "Overschrijving"
   },
   {
+   "id": "574b8ddb-1857-40d4-9977-7f98eef2f02b",
+   "datum": "2026-09-30",
+   "vervaldag": "2026-10-30",
+   "contact": "Bpost",
+   "omschrijving": "Factuur van Bpost, Portkosten",
+   "referentie": "268571407",
+   "open": 6.78,
+   "origineel": 6.78,
+   "betaalwijze": "Overschrijving"
+  },
+  {
    "id": "5bb5cdf2-b46a-4c78-9c99-6f095ff2a3f7",
    "datum": "2026-09-30",
    "vervaldag": "2026-10-30",
@@ -660,17 +671,6 @@
    "referentie": "2603246634",
    "open": 0.61,
    "origineel": 0.61,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "574b8ddb-1857-40d4-9977-7f98eef2f02b",
-   "datum": "2026-09-30",
-   "vervaldag": "2026-10-30",
-   "contact": "Bpost",
-   "omschrijving": "Factuur van Bpost, Portkosten",
-   "referentie": "268571407",
-   "open": 6.78,
-   "origineel": 6.78,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -792,6 +792,28 @@
    "referentie": "2603626030",
    "open": 1.83,
    "origineel": 1.83,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "34ac9cc9-93f4-4da5-9fdc-c8d31eca2b89",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-30",
+   "contact": "Widem Logistics",
+   "omschrijving": "Factuur van Widem Logistics, TRANSPORTEN AAN DERDEN",
+   "referentie": "26019558",
+   "open": 2336.76,
+   "origineel": 2336.76,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "36d97a9a-9e40-42cf-8c76-812e930f880b",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-30",
+   "contact": "Bpost",
+   "omschrijving": "Factuur van Bpost, Portkosten",
+   "referentie": "267021148",
+   "open": 15.38,
+   "origineel": 15.38,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -3587,6 +3609,20 @@
    "contact": "KBC Bank"
   },
   {
+   "id": "36d97a9a-9e40-42cf-8c76-812e930f880b",
+   "datum": "2026-10-31",
+   "omschrijving": "Factuur van Bpost, Portkosten",
+   "bedrag": -15.38,
+   "contact": "Bpost"
+  },
+  {
+   "id": "34ac9cc9-93f4-4da5-9fdc-c8d31eca2b89",
+   "datum": "2026-10-31",
+   "omschrijving": "Factuur van Widem Logistics, TRANSPORTEN AAN DERDEN",
+   "bedrag": -2336.76,
+   "contact": "Widem Logistics"
+  },
+  {
    "id": "cfaf23f3-821c-45f9-aeba-28775cefd30b",
    "datum": "2026-11-01",
    "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 643,630 : Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000002103     - Uitgevende instelling:  - Factuurnummer: 296          - Identificatienummer:                 - Datum: |",
@@ -3627,6 +3663,20 @@
    "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 75,900 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 452288 - Datum verrichting: 01-11-26 - Uur",
    "bedrag": 75.9,
    "contact": "Google Ireland Limited"
+  },
+  {
+   "id": "3a6a3802-7f0d-42f7-9437-726b471e3806",
+   "datum": "2026-11-03",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 11,290 : 1753769527 Online aanmaak verzendetiket(ten) | bpost parcel",
+   "bedrag": 11.29,
+   "contact": "Bpost"
+  },
+  {
+   "id": "6524b299-e2eb-47d3-a033-dcfa4d6ab685",
+   "datum": "2026-11-03",
+   "omschrijving": "Domiciliëringen - Direct debit : Betaling | Netto bedrag: 2,420 : Europese domiciliëring - Datum: 03-11-26 - Type domiciliëring: recurrent - Schema domiciliëring: SEPA core - Betaling: betaald - Identificatiecode van de schuldeiser: NL08ZZZ502057730000",
+   "bedrag": 2.42,
+   "contact": "Yuki works"
   },
   {
    "id": "72a37d76-1b0a-4b74-a315-029dc6f54aba",

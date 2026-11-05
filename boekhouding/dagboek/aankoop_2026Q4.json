@@ -3,14 +3,14 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "in Yuki": 26,
+  "in Yuki": 29,
   "te boeken": 5,
-  "factuur ontbreekt": 1
+  "factuur ontbreekt": 0
  },
  "bedrag": {
-  "in Yuki": 12078.47,
+  "in Yuki": 14441.9,
   "te boeken": 167.03,
-  "factuur ontbreekt": 11.29
+  "factuur ontbreekt": 0
  },
  "per_rekening": [
   {
@@ -26,6 +26,13 @@
    "aantal": 1,
    "maatstaf": 4529.5,
    "btw": 0.0
+  },
+  {
+   "rekening": "612730",
+   "naam": "TRANSPORTEN AAN DERDEN",
+   "aantal": 1,
+   "maatstaf": 1931.21,
+   "btw": 405.55
   },
   {
    "rekening": "604000",
@@ -65,9 +72,9 @@
   {
    "rekening": "611030",
    "naam": "PORTKOSTEN",
-   "aantal": 6,
-   "maatstaf": 47.56,
-   "btw": 8.34
+   "aantal": 7,
+   "maatstaf": 60.27,
+   "btw": 11.01
   },
   {
    "rekening": "613210",
@@ -78,6 +85,60 @@
   }
  ],
  "lijnen": [
+  {
+   "id": "yuki-36d97a9a-9e40-42cf-8c76-812e930f880b",
+   "status": "in Yuki",
+   "yuki_id": "36d97a9a-9e40-42cf-8c76-812e930f880b",
+   "factuurdatum": "2026-10-31",
+   "betaald_op": "",
+   "leverancier": "Bpost",
+   "btw_nummer": "",
+   "factuurnummer": "267021148",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "Factuur van Bpost, Portkosten",
+   "rekening": "611030",
+   "rekening_naam": "PORTKOSTEN",
+   "rekening_bron": "Yuki: bpost = PORTKOSTEN",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 15.38,
+   "maatstaf": 12.71,
+   "btw": 2.67,
+   "verlegde_btw": 0.0,
+   "betaald_via": "",
+   "betaald_via_naam": "nog te betalen (vervalt 2026-11-30)",
+   "nakijken": false,
+   "onbetaald": true
+  },
+  {
+   "id": "yuki-34ac9cc9-93f4-4da5-9fdc-c8d31eca2b89",
+   "status": "in Yuki",
+   "yuki_id": "34ac9cc9-93f4-4da5-9fdc-c8d31eca2b89",
+   "factuurdatum": "2026-10-31",
+   "betaald_op": "",
+   "leverancier": "Widem Logistics",
+   "btw_nummer": "",
+   "factuurnummer": "26019558",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "Factuur van Widem Logistics, TRANSPORTEN AAN DERDEN",
+   "rekening": "612730",
+   "rekening_naam": "TRANSPORTEN AAN DERDEN",
+   "rekening_bron": "Yuki: Widem = TRANSPORTEN AAN DERDEN",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 2336.76,
+   "maatstaf": 1931.21,
+   "btw": 405.55,
+   "verlegde_btw": 0.0,
+   "betaald_via": "",
+   "betaald_via_naam": "nog te betalen (vervalt 2026-11-30)",
+   "nakijken": false,
+   "onbetaald": true
+  },
   {
    "id": "yuki-a4d9cdc0-ec8d-442d-8113-7bdc69ef62b1",
    "status": "in Yuki",
@@ -134,14 +195,14 @@
   },
   {
    "id": "ponto-ba49580a-8e6c-4a74-8d3a-f7bf4890202a",
-   "status": "factuur ontbreekt",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "3a6a3802-7f0d-42f7-9437-726b471e3806",
    "factuurdatum": "2026-11-02",
    "betaald_op": "2026-11-02",
    "leverancier": "bpost parcel",
    "btw_nummer": "",
-   "factuurnummer": "",
-   "document": "",
+   "factuurnummer": "2026-11-03",
+   "document": "in Yuki: Bpost (2026-11-03)",
    "asset_id": null,
    "omschrijving": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 17537695",
    "rekening": "611030",
@@ -161,7 +222,7 @@
   {
    "id": "ponto-91892afa-71dd-4a6c-b2c6-72fe881d70fb",
    "status": "in Yuki",
-   "yuki_id": "72a37d76-1b0a-4b74-a315-029dc6f54aba",
+   "yuki_id": "6524b299-e2eb-47d3-a033-dcfa4d6ab685",
    "factuurdatum": "2026-11-02",
    "betaald_op": "2026-11-02",
    "leverancier": "Yuki Works NV via Mollie",
@@ -913,7 +974,7 @@
    "nakijken": false
   }
  ],
- "yuki_opgehaald": "2026-11-04",
+ "yuki_opgehaald": "2026-11-05",
  "uitleg": "Elke aankoop met boekingsvoorstel. 'In Yuki' = Pro-count heeft ze al (enkel controle). 'Te boeken' = wij hebben het document, Yuki nog niet. Grootboekrekeningen volgen Pro-count's eigen boekingen; btw-codes zijn eigen codes tot Pro-count hun Yuki-codes bezorgt.",
- "bijgewerkt": "2026-11-04"
+ "bijgewerkt": "2026-11-05"
 }
