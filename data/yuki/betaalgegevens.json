@@ -302,5 +302,53 @@
   "bedrag": 15.38,
   "datum": "2026-10-31",
   "yuki_document": "858bc53e-e42c-4101-ade4-e10c909cb2ba"
+ },
+ "HOLO-202610-DB395": {
+  "contact": "Holo AI",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 42.12,
+  "datum": "2026-10-08",
+  "yuki_document": "a3bd0730-bc95-4b97-8822-2ab988f31a8d"
+ },
+ "T9T7QHZO-0015": {
+  "contact": "Klaviyo",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 62.47,
+  "datum": "2026-10-10",
+  "yuki_document": "bd3fef2d-4511-4928-b156-a4e8b773ad6e"
+ },
+ "#33333736501041123": {
+  "contact": "shenzhen Chongxin Technologie",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 1112.1,
+  "datum": "2026-10-25",
+  "yuki_document": "9e290924-71bb-4fde-b53f-f5e510ed89df"
+ },
+ "2026102601": {
+  "contact": "shenzhen Chongxin Technologie",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 10538.92,
+  "datum": "2026-10-27",
+  "yuki_document": "d2b5ec40-7fdf-49b6-823f-a741e411c92c"
+ },
+ "7038004865": {
+  "contact": "GoDaddy Europe Limited",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 167.76,
+  "datum": "2026-10-10",
+  "yuki_document": "b6c4ece3-4d15-4cac-badd-2f756b90420c"
+ },
+ "268559657": {
+  "contact": "Bpost",
+  "iban": "BE50000400000718",
+  "ogm": "026855965725",
+  "bedrag": 6.78,
+  "datum": "2026-08-31",
+  "yuki_document": "0d971bee-a8da-4986-9372-701c9d8cba81"
  }
 }

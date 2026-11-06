@@ -1,73 +1,7 @@
 {
  "fouten": [],
- "opgehaald": "2026-11-05",
+ "opgehaald": "2026-11-06",
  "crediteuren": [
-  {
-   "id": "2c461500-88e2-4edc-9ed2-5c85720eb3f9",
-   "datum": "2025-10-30",
-   "vervaldag": "",
-   "contact": "Canva Pty Ltd",
-   "omschrijving": "Factuur van Canva Pty Ltd, ABONNEMENTEN",
-   "referentie": "04685-22461994",
-   "open": 109.99,
-   "origineel": 109.99,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "bd892fe6-8598-4b15-85cb-d28f35de331b",
-   "datum": "2025-11-01",
-   "vervaldag": "",
-   "contact": "Meta Platforms Ireland Limited",
-   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
-   "referentie": "FBADS-210-105062638",
-   "open": 800.05,
-   "origineel": 800.05,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "0f7884a1-0b68-4474-bb12-ea62787cd68d",
-   "datum": "2025-11-05",
-   "vervaldag": "",
-   "contact": "Google Ireland Limited",
-   "omschrijving": "Factuur van Google Ireland Limited, RECLAME ZONDER MERK",
-   "referentie": "A25372481745965040",
-   "open": 134.23,
-   "origineel": 134.23,
-   "betaalwijze": "Creditcard"
-  },
-  {
-   "id": "4e8e825a-0867-4226-a338-5a05ad9718f8",
-   "datum": "2025-11-08",
-   "vervaldag": "",
-   "contact": "Meta Platforms Ireland Limited",
-   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
-   "referentie": "FBADS-210-105087787",
-   "open": 339.6,
-   "origineel": 339.6,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "3d47870c-5bea-44be-872a-371acd79f47b",
-   "datum": "2025-11-15",
-   "vervaldag": "",
-   "contact": "Amazon Fees",
-   "omschrijving": "Factuur van Amazon Fees, TRANSACTIEKOSTEN",
-   "referentie": "Fee 15/11",
-   "open": 47.19,
-   "origineel": 47.19,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "f01c0268-27d9-4b13-9bc1-8b48660632c4",
-   "datum": "2025-11-25",
-   "vervaldag": "",
-   "contact": "Manychat",
-   "omschrijving": "Factuur van Manychat, ABONNEMENTEN",
-   "referentie": "3903777-2",
-   "open": 38.18,
-   "origineel": 38.18,
-   "betaalwijze": "Overschrijving"
-  },
   {
    "id": "4d9b547c-7975-4294-9410-22fa5fec7d58",
    "datum": "2025-11-28",
@@ -80,171 +14,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "98e15000-50af-4af8-b52e-24ef05c557ac",
-   "datum": "2025-12-01",
-   "vervaldag": "",
-   "contact": "Google Ireland Limited",
-   "omschrijving": "Factuur van Google Ireland Limited, RECLAME ZONDER MERK",
-   "referentie": "A75188370527329251",
-   "open": 95.05,
-   "origineel": 95.05,
-   "betaalwijze": "Creditcard"
-  },
-  {
-   "id": "d4c43b28-d61d-413c-8abb-5e77551a1e8f",
-   "datum": "2025-12-01",
-   "vervaldag": "",
-   "contact": "Google Ireland Limited",
-   "omschrijving": "Factuur van Google Ireland Limited, RECLAME ZONDER MERK",
-   "referentie": "01-12-2025-1060",
-   "open": 500.0,
-   "origineel": 500.0,
-   "betaalwijze": "Creditcard"
-  },
-  {
-   "id": "99935a82-6d56-4dba-a483-c1748f94388a",
-   "datum": "2025-12-01",
-   "vervaldag": "2025-12-01",
-   "contact": "Pureto",
-   "omschrijving": "Factuur van Pureto, RESTAURANTKOSTEN",
-   "referentie": "01-12-2025-1086",
-   "open": 35.8,
-   "origineel": 35.8,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "39eb3399-38f3-4052-b7ed-716cb5813b4e",
-   "datum": "2025-12-01",
-   "vervaldag": "2025-12-01",
-   "contact": "TEMU",
-   "omschrijving": "Factuur van TEMU, Aankopen van handelsgoederen",
-   "referentie": "16800669996150325",
-   "open": 77.55,
-   "origineel": 77.55,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "5ae1f9d3-2bcc-4867-9b2a-81d9caf5a5fd",
-   "datum": "2025-12-03",
-   "vervaldag": "",
-   "contact": "Together for Entrepreneurship, Networking and Technology",
-   "omschrijving": "Factuur van Together for Entrepreneurship, Networking and Technology, RESTAURANTKOSTEN",
-   "referentie": "03-12-2025-1028",
-   "open": 11.4,
-   "origineel": 11.4,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "5fa7a1cd-3846-4b00-9915-f066736d118f",
-   "datum": "2025-12-06",
-   "vervaldag": "",
-   "contact": "Google Ireland Limited",
-   "omschrijving": "Factuur van Google Ireland Limited, RECLAME ZONDER MERK",
-   "referentie": "A28836959043631161",
-   "open": 500.0,
-   "origineel": 500.0,
-   "betaalwijze": "Creditcard"
-  },
-  {
-   "id": "51a67cf9-911e-46f4-87e3-0f3a2d74050e",
-   "datum": "2025-12-07",
-   "vervaldag": "",
-   "contact": "Meta Platforms Ireland Limited",
-   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
-   "referentie": "FBADS-210-105198574",
-   "open": 800.0,
-   "origineel": 800.0,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "a41229a0-f6dc-4790-84d1-e704f674ba0c",
-   "datum": "2025-12-10",
-   "vervaldag": "2025-12-10",
-   "contact": "Klaviyo",
-   "omschrijving": "Factuur van KLAVIYO, SOFTWARE KOSTEN",
-   "referentie": "T9T7QHZO-0005",
-   "open": 38.7,
-   "origineel": 38.7,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "15e86cdb-01b9-4abc-90ab-bc873f09cf1f",
-   "datum": "2025-12-12",
-   "vervaldag": "",
-   "contact": "Macadoh",
-   "omschrijving": "Factuur van Macadoh, RESTAURANTKOSTEN",
-   "referentie": "4923",
-   "open": 32.3,
-   "origineel": 32.3,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "4b4d83e9-51de-4c94-be2d-453f27589085",
-   "datum": "2025-12-12",
-   "vervaldag": "",
-   "contact": "Meta Platforms Ireland Limited",
-   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
-   "referentie": "FBADS-210-105215402",
-   "open": 800.23,
-   "origineel": 800.23,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "f58a8343-a858-4adb-9785-cbd892776784",
-   "datum": "2025-12-12",
-   "vervaldag": "",
-   "contact": "Google Ireland Limited",
-   "omschrijving": "Factuur van Google Ireland Limited, RECLAME ZONDER MERK",
-   "referentie": "A63950375647482350",
-   "open": 500.0,
-   "origineel": 500.0,
-   "betaalwijze": "Creditcard"
-  },
-  {
-   "id": "3eccb0bd-047e-4646-b331-e8127cf4d200",
-   "datum": "2025-12-12",
-   "vervaldag": "",
-   "contact": "Action Belgium",
-   "omschrijving": "Factuur van Action Belgium, Klein materiaal",
-   "referentie": "12-12-2025-1072",
-   "open": 25.91,
-   "origineel": 25.91,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "48f7adf7-79a0-483c-ab8e-3633bd56ccaa",
-   "datum": "2025-12-13",
-   "vervaldag": "",
-   "contact": "Shopify International Limited",
-   "omschrijving": "Factuur van Shopify International Limited, ABONNEMENTEN",
-   "referentie": "458354027",
-   "open": 144.88,
-   "origineel": 144.88,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "866fae47-57a6-4071-97bc-415d8a4a8833",
-   "datum": "2025-12-14",
-   "vervaldag": "",
-   "contact": "Gustum",
-   "omschrijving": "Factuur van Gustum, RESTAURANTKOSTEN",
-   "referentie": "14-12-2025-1010",
-   "open": 35.8,
-   "origineel": 35.8,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "3d34bfd9-9811-4f37-b9c2-1f3e6006b947",
-   "datum": "2025-12-16",
-   "vervaldag": "",
-   "contact": "Google Ireland Limited",
-   "omschrijving": "Factuur van Google Ireland Limited, RECLAME ZONDER MERK",
-   "referentie": "A19959665149098896",
-   "open": 500.0,
-   "origineel": 500.0,
-   "betaalwijze": "Creditcard"
-  },
-  {
    "id": "6e247012-1844-4885-8aa0-6a5819da7f9b",
    "datum": "2025-12-22",
    "vervaldag": "",
@@ -253,17 +22,6 @@
    "referentie": "22-12-2025-1743",
    "open": 120.0,
    "origineel": 120.0,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "d25ad7df-6e4b-4052-ab30-10557de590eb",
-   "datum": "2026-01-31",
-   "vervaldag": "2026-01-31",
-   "contact": "Amazon Eu Sarl",
-   "omschrijving": "Factuur van Amazon Eu Sarl, Doorgerekende Kosten Voor verkoop",
-   "referentie": "BE-AEU-2026-5891",
-   "open": 2.71,
-   "origineel": 2.71,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -289,70 +47,15 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "2a84d01e-7b2a-43ca-b71c-671a06bd8a33",
-   "datum": "2026-04-23",
-   "vervaldag": "",
-   "contact": "Returngo",
-   "omschrijving": "Mastercard 24/03>23/04 / Returngo 03/04",
-   "referentie": "",
-   "open": -86.0,
-   "origineel": -86.0,
-   "betaalwijze": ""
-  },
-  {
-   "id": "063db495-a817-4eda-8854-982a2cb5c648",
-   "datum": "2026-04-23",
-   "vervaldag": "",
-   "contact": "Fiverr",
-   "omschrijving": "Mastercard 24/03>23/04 / Fiverr 06/04",
-   "referentie": "",
-   "open": -75.27,
-   "origineel": -75.27,
-   "betaalwijze": ""
-  },
-  {
-   "id": "e37c407b-4397-481b-8b42-41f5117a7964",
-   "datum": "2026-04-23",
-   "vervaldag": "",
-   "contact": "Appsumo.com",
-   "omschrijving": "Mastercard 24/03>23/04 /  Appsumo 124.2USD 11/04",
-   "referentie": "",
-   "open": -108.07,
-   "origineel": -108.07,
-   "betaalwijze": ""
-  },
-  {
-   "id": "382d9613-b96a-400e-83f0-708ff4555ad2",
-   "datum": "2026-04-23",
-   "vervaldag": "",
-   "contact": "Holo AI",
-   "omschrijving": "Mastercard 24/03>23/04 / Holo AI 39USD 07/04",
-   "referentie": "",
-   "open": -34.44,
-   "origineel": -34.44,
-   "betaalwijze": ""
-  },
-  {
-   "id": "1803a947-d118-4556-b8ad-404f4b451182",
-   "datum": "2026-04-23",
-   "vervaldag": "",
-   "contact": "Google Ireland Limited",
-   "omschrijving": "Mastercard 24/03>23/04 - Google ads 01/04",
-   "referentie": "",
-   "open": -79.73,
-   "origineel": -79.73,
-   "betaalwijze": ""
-  },
-  {
-   "id": "5d42cc61-f2c9-4ccc-8152-4256a01fb82f",
-   "datum": "2026-04-23",
-   "vervaldag": "",
-   "contact": "Shopify International Limited",
-   "omschrijving": "Mastercard 24/03>23/04",
-   "referentie": "",
-   "open": -120.66,
-   "origineel": -120.66,
-   "betaalwijze": ""
+   "id": "d25ad7df-6e4b-4052-ab30-10557de590eb",
+   "datum": "2026-01-31",
+   "vervaldag": "2026-01-31",
+   "contact": "Amazon Eu Sarl",
+   "omschrijving": "Factuur van Amazon Eu Sarl, Doorgerekende Kosten Voor verkoop",
+   "referentie": "BE-AEU-2026-5891",
+   "open": 2.71,
+   "origineel": 2.71,
+   "betaalwijze": "Overschrijving"
   },
   {
    "id": "ef3c6870-f1c2-4a7e-8420-796a9a84b33b",
@@ -363,61 +66,6 @@
    "referentie": "BE-AEU-2026-24655",
    "open": 10.08,
    "origineel": 10.08,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "e516fbef-a13b-42d9-a3b8-735f23993194",
-   "datum": "2026-05-23",
-   "vervaldag": "",
-   "contact": "Holo AI",
-   "omschrijving": "Mastercard 24/04>23/05 / Holo AI  47.19 USD",
-   "referentie": "",
-   "open": -41.02,
-   "origineel": -41.02,
-   "betaalwijze": ""
-  },
-  {
-   "id": "2df2ac86-bbe7-4730-bd46-fb392f05390e",
-   "datum": "2026-05-23",
-   "vervaldag": "",
-   "contact": "Shopify International Limited",
-   "omschrijving": "Mastercard 24/04>23/05 / Shopify 12/05",
-   "referentie": "",
-   "open": -139.02,
-   "origineel": -139.02,
-   "betaalwijze": ""
-  },
-  {
-   "id": "0eb3edd3-d09e-426f-ae40-aa3e6242d4ee",
-   "datum": "2026-06-23",
-   "vervaldag": "",
-   "contact": "Shopify International Limited",
-   "omschrijving": "Mastercard 24/05>23/06 / Shopify 542513124 11/06",
-   "referentie": "",
-   "open": -158.06,
-   "origineel": -158.06,
-   "betaalwijze": ""
-  },
-  {
-   "id": "039990c1-dd47-4de7-9be2-09a080b1e442",
-   "datum": "2026-06-23",
-   "vervaldag": "",
-   "contact": "Holo AI",
-   "omschrijving": "Mastercard 24/05>23/06 / Holo AI  47.19 USD",
-   "referentie": "",
-   "open": -41.57,
-   "origineel": -41.57,
-   "betaalwijze": ""
-  },
-  {
-   "id": "6dd9f507-0e7e-4cd9-8c54-60204d8c1aa9",
-   "datum": "2026-07-01",
-   "vervaldag": "2026-07-31",
-   "contact": "Bol.com B.V.",
-   "omschrijving": "Factuur van Bol.com B.V., Commissielonen",
-   "referentie": "3915905790518",
-   "open": 50.34,
-   "origineel": 50.34,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -432,14 +80,14 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "8b2de297-92be-4d42-8684-b3603a31ca21",
-   "datum": "2026-07-15",
-   "vervaldag": "2026-08-14",
-   "contact": "Bol.com B.V.",
-   "omschrijving": "Factuur van Bol.com B.V., Commissielonen",
-   "referentie": "3915995846201",
-   "open": 53.57,
-   "origineel": 53.57,
+   "id": "c087b314-42a5-40ca-9c24-aa677d572ab4",
+   "datum": "2026-07-31",
+   "vervaldag": "",
+   "contact": "KBC Bank",
+   "omschrijving": "Factuur van KBC Bank, Bankkosten",
+   "referentie": "2602498584",
+   "open": 0.61,
+   "origineel": 0.61,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -454,50 +102,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "c087b314-42a5-40ca-9c24-aa677d572ab4",
-   "datum": "2026-07-31",
-   "vervaldag": "",
-   "contact": "KBC Bank",
-   "omschrijving": "Factuur van KBC Bank, Bankkosten",
-   "referentie": "2602498584",
-   "open": 0.61,
-   "origineel": 0.61,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "e0f79b05-98b3-47ad-987f-ed85c692e8f8",
-   "datum": "2026-08-01",
-   "vervaldag": "2026-08-31",
-   "contact": "Bol.com B.V.",
-   "omschrijving": "Factuur van Bol.com B.V., Commissielonen, Portkosten",
-   "referentie": "3916097980219",
-   "open": 107.54,
-   "origineel": 107.54,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "4485fd73-fad0-4089-b655-9109c7df88b0",
-   "datum": "2026-08-15",
-   "vervaldag": "2026-09-14",
-   "contact": "Bol.com B.V.",
-   "omschrijving": "Factuur van Bol.com B.V., Portkosten, Commissielonen",
-   "referentie": "3916172378261",
-   "open": 111.27,
-   "origineel": 111.27,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "045164c7-fa4f-4282-b021-e3c1b8b091a6",
-   "datum": "2026-08-15",
-   "vervaldag": "2026-09-14",
-   "contact": "Bol.com B.V.",
-   "omschrijving": "Factuur van Bol.com B.V., RECLAME MET MERK",
-   "referentie": "3916172390531",
-   "open": 116.33,
-   "origineel": 116.33,
-   "betaalwijze": "Overschrijving"
-  },
-  {
    "id": "11aaea71-1be7-497f-a7fe-6ea49add087f",
    "datum": "2026-08-31",
    "vervaldag": "",
@@ -509,25 +113,14 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "a9f335c5-37b9-4510-8779-199452ebe5a3",
-   "datum": "2026-09-01",
-   "vervaldag": "2026-10-01",
-   "contact": "Bol.com B.V.",
-   "omschrijving": "Factuur van Bol.com B.V., Commissielonen",
-   "referentie": "3916269903575",
-   "open": 119.98,
-   "origineel": 119.98,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "73503146-83ea-4150-8f8f-3292d35bc982",
-   "datum": "2026-09-01",
-   "vervaldag": "2026-10-01",
-   "contact": "Bol.com B.V.",
-   "omschrijving": "Factuur van Bol.com B.V., RECLAME MET MERK",
-   "referentie": "3916269902630",
-   "open": 45.49,
-   "origineel": 45.49,
+   "id": "ade34d62-5b3d-464a-bb44-726603f54e59",
+   "datum": "2026-08-31",
+   "vervaldag": "2026-09-30",
+   "contact": "Bpost",
+   "omschrijving": "Factuur van Bpost, Portkosten",
+   "referentie": "268559657",
+   "open": 6.78,
+   "origineel": 6.78,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -550,39 +143,6 @@
    "referentie": "Almost3000BV-011",
    "open": 314.6,
    "origineel": 314.6,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "834afaf0-aee4-43c5-a48f-b84f7bc3f113",
-   "datum": "2026-09-12",
-   "vervaldag": "",
-   "contact": "Haddok",
-   "omschrijving": "Factuur van Haddok, Restaurantkosten",
-   "referentie": "12-09-2026-8368",
-   "open": 121.5,
-   "origineel": 121.5,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "560816a2-b84c-4734-9766-34aeeb88d05c",
-   "datum": "2026-09-15",
-   "vervaldag": "2026-10-15",
-   "contact": "Bol.com B.V.",
-   "omschrijving": "Factuur van Bol.com B.V., RECLAME MET MERK",
-   "referentie": "3916348367627",
-   "open": 38.18,
-   "origineel": 38.18,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "fdf4be1b-1dc2-4d48-b113-caa76974c0f2",
-   "datum": "2026-09-15",
-   "vervaldag": "2026-10-15",
-   "contact": "Bol.com B.V.",
-   "omschrijving": "Factuur van Bol.com B.V., Commissielonen, Portkosten",
-   "referentie": "3916348493494",
-   "open": 105.78,
-   "origineel": 105.78,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -641,17 +201,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "574b8ddb-1857-40d4-9977-7f98eef2f02b",
-   "datum": "2026-09-30",
-   "vervaldag": "2026-10-30",
-   "contact": "Bpost",
-   "omschrijving": "Factuur van Bpost, Portkosten",
-   "referentie": "268571407",
-   "open": 6.78,
-   "origineel": 6.78,
-   "betaalwijze": "Overschrijving"
-  },
-  {
    "id": "5bb5cdf2-b46a-4c78-9c99-6f095ff2a3f7",
    "datum": "2026-09-30",
    "vervaldag": "2026-10-30",
@@ -674,28 +223,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "41d34715-58e5-43d3-b626-11fe5573cb0b",
-   "datum": "2026-10-01",
-   "vervaldag": "2026-10-31",
-   "contact": "Bol.com B.V.",
-   "omschrijving": "Factuur van Bol.com B.V., Portkosten, Commissielonen",
-   "referentie": "3916443769981",
-   "open": 52.73,
-   "origineel": 52.73,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "7f366a35-c649-4d9e-ac0d-b0b83e1d2506",
-   "datum": "2026-10-04",
-   "vervaldag": "",
-   "contact": "Meta Platforms Ireland Limited",
-   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
-   "referentie": "FBADS-210-106635046",
-   "open": 800.0,
-   "origineel": 800.0,
-   "betaalwijze": "Bancontact"
-  },
-  {
    "id": "e158ec7d-30ad-4234-97b7-7debb223c1c4",
    "datum": "2026-10-07",
    "vervaldag": "2026-11-06",
@@ -707,48 +234,37 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "79db9d74-5c8c-4bbd-8fad-9fd413deb55d",
-   "datum": "2026-10-11",
-   "vervaldag": "",
-   "contact": "Meta Platforms Ireland Limited",
-   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
-   "referentie": "FBADS-210-106673724",
-   "open": 800.0,
-   "origineel": 800.0,
-   "betaalwijze": "Bancontact"
+   "id": "ec5b10d4-8df8-4d44-9281-e68dd46fa786",
+   "datum": "2026-10-08",
+   "vervaldag": "2026-10-08",
+   "contact": "Holo AI",
+   "omschrijving": "Factuur van Holo AI, ABONNEMENTEN",
+   "referentie": "HOLO-202610-DB395",
+   "open": 42.12,
+   "origineel": 42.12,
+   "betaalwijze": "Creditcard"
   },
   {
-   "id": "46c4b0d2-ef05-45f7-bb14-523044bbc2a9",
-   "datum": "2026-10-14",
-   "vervaldag": "",
-   "contact": "Meta Platforms Ireland Limited",
-   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
-   "referentie": "FBADS-210-106694009",
-   "open": 800.0,
-   "origineel": 800.0,
-   "betaalwijze": "Bancontact"
-  },
-  {
-   "id": "9411fd52-c4b4-4ea1-9846-23214d66b329",
-   "datum": "2026-10-15",
-   "vervaldag": "2026-11-14",
-   "contact": "Bol.com B.V.",
-   "omschrijving": "Factuur van Bol.com B.V., Commissielonen",
-   "referentie": "3916522505854",
-   "open": 58.65,
-   "origineel": 58.65,
+   "id": "1ef7d4a9-a0b1-46c8-bad6-1b5b527849d1",
+   "datum": "2026-10-10",
+   "vervaldag": "2026-10-10",
+   "contact": "Klaviyo",
+   "omschrijving": "Factuur van Klaviyo, SOFTWARE KOSTEN",
+   "referentie": "T9T7QHZO-0015",
+   "open": 62.47,
+   "origineel": 62.47,
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "77ec1d41-c00d-4e71-b97b-954fabc4639d",
-   "datum": "2026-10-18",
+   "id": "34d58ed0-444d-4015-b2be-92bdd3253546",
+   "datum": "2026-10-10",
    "vervaldag": "",
-   "contact": "Meta Platforms Ireland Limited",
-   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
-   "referentie": "FBADS-210-106714988",
-   "open": 800.0,
-   "origineel": 800.0,
-   "betaalwijze": "Bancontact"
+   "contact": "GoDaddy Europe Limited",
+   "omschrijving": "Factuur van GoDaddy Europe Limited, SOFTWARE KOSTEN",
+   "referentie": "7038004865",
+   "open": 167.76,
+   "origineel": 167.76,
+   "betaalwijze": "Creditcard"
   },
   {
    "id": "a4d9cdc0-ec8d-442d-8113-7bdc69ef62b1",
@@ -762,17 +278,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "52593c76-04d7-4561-8796-ba2912d78038",
-   "datum": "2026-10-21",
-   "vervaldag": "",
-   "contact": "Meta Platforms Ireland Limited",
-   "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
-   "referentie": "FBADS-210-106730169",
-   "open": 800.0,
-   "origineel": 800.0,
-   "betaalwijze": "Bancontact"
-  },
-  {
    "id": "55e05e1b-5d50-4439-847d-01d66777f9cc",
    "datum": "2026-10-23",
    "vervaldag": "",
@@ -781,6 +286,28 @@
    "referentie": "FBADS-210-106742402",
    "open": 621.34,
    "origineel": 621.34,
+   "betaalwijze": "Creditcard"
+  },
+  {
+   "id": "2b88e18d-1223-4687-b53e-652cf845e2c2",
+   "datum": "2026-10-25",
+   "vervaldag": "2026-10-25",
+   "contact": "shenzhen Chongxin Technologie",
+   "omschrijving": "Factuur van shenzhen Chongxin Technologie, Aankopen van handelsgoederen",
+   "referentie": "#33333736501041123",
+   "open": 1112.1,
+   "origineel": 1112.1,
+   "betaalwijze": "Creditcard"
+  },
+  {
+   "id": "e06680ae-9a28-48ce-a700-6bd362472552",
+   "datum": "2026-10-27",
+   "vervaldag": "2026-10-27",
+   "contact": "shenzhen Chongxin Technologie",
+   "omschrijving": "Factuur van shenzhen Chongxin Technologie, Aankopen van handelsgoederen",
+   "referentie": "2026102601",
+   "open": 10538.92,
+   "origineel": 10538.92,
    "betaalwijze": "Creditcard"
   },
   {
@@ -814,17 +341,6 @@
    "referentie": "267021148",
    "open": 15.38,
    "origineel": 15.38,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "72a37d76-1b0a-4b74-a315-029dc6f54aba",
-   "datum": "2026-11-03",
-   "vervaldag": "2026-12-03",
-   "contact": "Yuki works",
-   "omschrijving": "Factuur van Yuki works, ABONNEMENTEN",
-   "referentie": "425427",
-   "open": 2.42,
-   "origineel": 2.42,
    "betaalwijze": "Overschrijving"
   }
  ],
@@ -1094,28 +610,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "75e30a70-de71-4cb1-9d35-fe5fa50a8690",
-   "datum": "2026-07-01",
-   "vervaldag": "2026-07-31",
-   "contact": "Bol.com bv",
-   "omschrijving": "Factuur voor Bol.com bv",
-   "referentie": "3915905790518",
-   "open": 50.34,
-   "origineel": 365.74,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "f4fdf49b-105e-4379-ae96-e8a4aab969e0",
-   "datum": "2026-07-15",
-   "vervaldag": "2026-08-14",
-   "contact": "Bol.com bv",
-   "omschrijving": "Factuur voor Bol.com bv",
-   "referentie": "3915995846201",
-   "open": 53.57,
-   "origineel": 401.85,
-   "betaalwijze": "Overschrijving"
-  },
-  {
    "id": "fb41131a-3299-4b45-a541-3a21d3d111cc",
    "datum": "2026-07-27",
    "vervaldag": "2026-07-27",
@@ -1135,17 +629,6 @@
    "referentie": "2006  - Thierry Vanhamme",
    "open": 29.95,
    "origineel": 29.95,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "a93ebf4b-037b-43fd-b6aa-f12c7b800b31",
-   "datum": "2026-08-01",
-   "vervaldag": "2026-08-31",
-   "contact": "Bol.com bv",
-   "omschrijving": "Factuur voor Bol.com bv",
-   "referentie": "3916097980219",
-   "open": 107.54,
-   "origineel": 777.85,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -1171,14 +654,14 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "c2c94363-60c8-43c0-9d5f-5822317cd502",
-   "datum": "2026-08-15",
-   "vervaldag": "2026-09-14",
-   "contact": "Bol.com bv",
-   "omschrijving": "Factuur voor Bol.com bv",
-   "referentie": "3916172378261",
-   "open": 227.6,
-   "origineel": 809.15,
+   "id": "9c27fe79-3765-43a1-a92d-0e55cd2417c4",
+   "datum": "2026-08-16",
+   "vervaldag": "2026-08-16",
+   "contact": "Particulier",
+   "omschrijving": "Factuur voor Particulier",
+   "referentie": "2125",
+   "open": 51.29,
+   "origineel": 51.29,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -1193,17 +676,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "9c27fe79-3765-43a1-a92d-0e55cd2417c4",
-   "datum": "2026-08-16",
-   "vervaldag": "2026-08-16",
-   "contact": "Particulier",
-   "omschrijving": "Factuur voor Particulier",
-   "referentie": "2125",
-   "open": 51.29,
-   "origineel": 51.29,
-   "betaalwijze": "Overschrijving"
-  },
-  {
    "id": "7196a5f9-f269-4a68-bd59-5a688c67a524",
    "datum": "2026-08-19",
    "vervaldag": "2026-08-19",
@@ -1215,17 +687,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "15fe8c0a-5c7d-49af-a2d6-5a8d0d1ea0ea",
-   "datum": "2026-09-01",
-   "vervaldag": "2026-10-01",
-   "contact": "Bol.com bv",
-   "omschrijving": "Factuur voor Bol.com bv",
-   "referentie": "3916269903575",
-   "open": 165.47,
-   "origineel": 913.0,
-   "betaalwijze": "Overschrijving"
-  },
-  {
    "id": "d680239c-e24c-4f94-8ff1-973d1b9520c6",
    "datum": "2026-09-04",
    "vervaldag": "",
@@ -1234,17 +695,6 @@
    "referentie": "2240 - Kirby Van Deurme",
    "open": 125.98,
    "origineel": 125.98,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "8e5ac04a-099e-4a71-bb9e-a84d96b63cab",
-   "datum": "2026-09-15",
-   "vervaldag": "2026-10-15",
-   "contact": "Bol.com bv",
-   "omschrijving": "Factuur voor Bol.com bv",
-   "referentie": "3916348493494",
-   "open": 143.96,
-   "origineel": 953.0,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -1270,17 +720,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "c7e3cfed-9250-4cf5-bf55-a33858f7149d",
-   "datum": "2026-09-28",
-   "vervaldag": "",
-   "contact": "Particulier",
-   "omschrijving": "Factuur voor Particulier",
-   "referentie": "2347 - Karel Hauben",
-   "open": 7.0,
-   "origineel": 7.0,
-   "betaalwijze": "Overschrijving"
-  },
-  {
    "id": "0fee6b3b-aa68-42d8-863a-fe9669ccd4fe",
    "datum": "2026-09-28",
    "vervaldag": "",
@@ -1289,6 +728,17 @@
    "referentie": "2348 - Ken Decleer 4Reel",
    "open": 93.35,
    "origineel": 93.35,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "c7e3cfed-9250-4cf5-bf55-a33858f7149d",
+   "datum": "2026-09-28",
+   "vervaldag": "",
+   "contact": "Particulier",
+   "omschrijving": "Factuur voor Particulier",
+   "referentie": "2347 - Karel Hauben",
+   "open": 7.0,
+   "origineel": 7.0,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -1314,17 +764,6 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "20666b11-bcfd-43aa-936c-d10167cbe85a",
-   "datum": "2026-09-30",
-   "vervaldag": "",
-   "contact": "Particulier",
-   "omschrijving": "Factuur voor Particulier",
-   "referentie": "2351 - Sarah Schellekens",
-   "open": 89.99,
-   "origineel": 89.99,
-   "betaalwijze": "Overschrijving"
-  },
-  {
    "id": "fb7ab88c-ba32-430c-98a8-99d9e896107a",
    "datum": "2026-09-30",
    "vervaldag": "",
@@ -1333,6 +772,17 @@
    "referentie": "2352 - Jan Hus",
    "open": 98.35,
    "origineel": 98.35,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "20666b11-bcfd-43aa-936c-d10167cbe85a",
+   "datum": "2026-09-30",
+   "vervaldag": "",
+   "contact": "Particulier",
+   "omschrijving": "Factuur voor Particulier",
+   "referentie": "2351 - Sarah Schellekens",
+   "open": 89.99,
+   "origineel": 89.99,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -1380,25 +830,14 @@
    "betaalwijze": ""
   },
   {
-   "id": "2d029caf-9ef9-493f-904f-fdc03a04391d",
-   "datum": "2026-10-01",
-   "vervaldag": "2026-10-31",
-   "contact": "Bol.com bv",
-   "omschrijving": "Factuur voor Bol.com bv",
-   "referentie": "3916443769981",
-   "open": 52.73,
-   "origineel": 644.99,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "b716dee5-bb3f-4673-af0a-2905e5ea72a6",
-   "datum": "2026-10-15",
-   "vervaldag": "2026-11-14",
-   "contact": "Bol.com bv",
-   "omschrijving": "Factuur voor Bol.com bv",
-   "referentie": "3916522505854",
-   "open": 58.65,
-   "origineel": 536.98,
+   "id": "941974a6-9bf6-47c2-837c-cf46073af0c4",
+   "datum": "2026-10-29",
+   "vervaldag": "2026-11-12",
+   "contact": "Helene Paulus",
+   "omschrijving": "Bestelling 2522",
+   "referentie": "2522",
+   "open": 59.95,
+   "origineel": 59.95,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -1410,17 +849,6 @@
    "referentie": "2519",
    "open": 32.5,
    "origineel": 32.5,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "941974a6-9bf6-47c2-837c-cf46073af0c4",
-   "datum": "2026-10-29",
-   "vervaldag": "2026-11-12",
-   "contact": "Helene Paulus",
-   "omschrijving": "Bestelling 2522",
-   "referentie": "2522",
-   "open": 59.95,
-   "origineel": 59.95,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -1479,6 +907,17 @@
    "betaalwijze": "Overschrijving"
   },
   {
+   "id": "de6dc360-aaea-466e-bc20-4707754bbd8e",
+   "datum": "2026-10-30",
+   "vervaldag": "2026-11-13",
+   "contact": "Bart Kalenga",
+   "omschrijving": "Bestelling 2525",
+   "referentie": "2525",
+   "open": 83.62,
+   "origineel": 83.62,
+   "betaalwijze": "Overschrijving"
+  },
+  {
    "id": "eec74f86-96c8-4fbe-840c-721e991ae0ab",
    "datum": "2026-10-30",
    "vervaldag": "2026-11-13",
@@ -1512,14 +951,14 @@
    "betaalwijze": "Overschrijving"
   },
   {
-   "id": "de6dc360-aaea-466e-bc20-4707754bbd8e",
+   "id": "528894db-a196-4b2c-916f-4704da8d84c6",
    "datum": "2026-10-30",
    "vervaldag": "2026-11-13",
-   "contact": "Bart Kalenga",
-   "omschrijving": "Bestelling 2525",
-   "referentie": "2525",
-   "open": 83.62,
-   "origineel": 83.62,
+   "contact": "Kilian Lietaert",
+   "omschrijving": "Bestelling 2528",
+   "referentie": "2528",
+   "open": 144.59,
+   "origineel": 144.59,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -1531,17 +970,6 @@
    "referentie": "2530",
    "open": 36.33,
    "origineel": 36.33,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "528894db-a196-4b2c-916f-4704da8d84c6",
-   "datum": "2026-10-30",
-   "vervaldag": "2026-11-13",
-   "contact": "Kilian Lietaert",
-   "omschrijving": "Bestelling 2528",
-   "referentie": "2528",
-   "open": 144.59,
-   "origineel": 144.59,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -1578,6 +1006,28 @@
    "betaalwijze": "Overschrijving"
   },
   {
+   "id": "046aeccd-6702-4c76-979d-a47f79348f67",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-14",
+   "contact": "Anoucha Buiteel",
+   "omschrijving": "Bestelling 2542",
+   "referentie": "2542",
+   "open": 104.76,
+   "origineel": 104.76,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "cee6bc83-4937-45c1-8a9a-16b91240514b",
+   "datum": "2026-10-31",
+   "vervaldag": "2026-11-14",
+   "contact": "steven andries",
+   "omschrijving": "Bestelling 2544",
+   "referentie": "2544",
+   "open": 167.24,
+   "origineel": 167.24,
+   "betaalwijze": "Overschrijving"
+  },
+  {
    "id": "519f81f6-c3fd-4a40-826d-85deb0ee2dfd",
    "datum": "2026-10-31",
    "vervaldag": "2026-11-14",
@@ -1608,28 +1058,6 @@
    "referentie": "2533",
    "open": 83.62,
    "origineel": 83.62,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "046aeccd-6702-4c76-979d-a47f79348f67",
-   "datum": "2026-10-31",
-   "vervaldag": "2026-11-14",
-   "contact": "Anoucha Buiteel",
-   "omschrijving": "Bestelling 2542",
-   "referentie": "2542",
-   "open": 104.76,
-   "origineel": 104.76,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "cee6bc83-4937-45c1-8a9a-16b91240514b",
-   "datum": "2026-10-31",
-   "vervaldag": "2026-11-14",
-   "contact": "steven andries",
-   "omschrijving": "Bestelling 2544",
-   "referentie": "2544",
-   "open": 167.24,
-   "origineel": 167.24,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -1712,17 +1140,17 @@
  ],
  "leveranciers_boekingen": [
   {
-   "id": "120aa1be-71dc-4692-ab5a-b619fbb783f0",
-   "datum": "2026-04-01",
-   "omschrijving": "BOL AFB Kost > Omzet - 3915368674021",
-   "bedrag": 44.89,
-   "contact": "Bol.com B.V."
-  },
-  {
    "id": "8a7a4fd4-7228-4417-befe-3e7e85add574",
    "datum": "2026-04-01",
    "omschrijving": "Factuur van Bol.com B.V., Commissielonen",
    "bedrag": -44.89,
+   "contact": "Bol.com B.V."
+  },
+  {
+   "id": "120aa1be-71dc-4692-ab5a-b619fbb783f0",
+   "datum": "2026-04-01",
+   "omschrijving": "BOL AFB Kost > Omzet - 3915368674021",
+   "bedrag": 44.89,
    "contact": "Bol.com B.V."
   },
   {
@@ -1737,6 +1165,13 @@
    "datum": "2026-04-01",
    "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 259,670 : | Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000006682     - Uitgevende instelling:  - Factuurnummer: 082          - Identificatienummer:                 - Datum: |",
    "bedrag": 259.67,
+   "contact": "Mastercard"
+  },
+  {
+   "id": "d08f7ef9-39d7-4f1a-8892-31976a127e17",
+   "datum": "2026-04-01",
+   "omschrijving": "Betaling MC 23/03",
+   "bedrag": -259.67,
    "contact": "Mastercard"
   },
   {
@@ -1761,11 +1196,32 @@
    "contact": "Yuki works"
   },
   {
-   "id": "0592f7c1-488b-474d-ba9d-9059fc444243",
+   "id": "25afea6c-82b8-4926-9142-a6f904f4723c",
+   "datum": "2026-04-03",
+   "omschrijving": "MC 24/03>23/04 - Returngo",
+   "bedrag": 86.0,
+   "contact": "Returngo"
+  },
+  {
+   "id": "fe9c2681-3193-4d21-a783-efd98d3c5e56",
+   "datum": "2026-04-06",
+   "omschrijving": "MC 24/02>23/03 - Fiverr",
+   "bedrag": 75.27,
+   "contact": "Fiverr"
+  },
+  {
+   "id": "585f110d-6127-4873-b9dc-e81091578ff3",
    "datum": "2026-04-06",
    "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 30,000 : Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: Bancontact - Terminalnummer: 000000 - Volgnummer verrichting: 094827 - Datum verrichting: 06-04-26 -",
    "bedrag": 30.0,
-   "contact": "Lovable Labs"
+   "contact": "lovable Labs Incorporated"
+  },
+  {
+   "id": "8da6a655-626e-45dc-b989-7e478c7f9609",
+   "datum": "2026-04-07",
+   "omschrijving": "MC 24/02>23/03 - Holo AI 39USD",
+   "bedrag": 34.44,
+   "contact": "Holo AI"
   },
   {
    "id": "51801165-7ade-4f05-bfd8-6c715099b41f",
@@ -1773,6 +1229,20 @@
    "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 876,780 : Fulfilment Februari | WIDEM LOGISTICS",
    "bedrag": 876.78,
    "contact": "Widem Logistics"
+  },
+  {
+   "id": "313e09e3-d448-43fc-a8d0-4439abe9b554",
+   "datum": "2026-04-10",
+   "omschrijving": "MC 24/02>23/03 - Klaviyo 60USD",
+   "bedrag": 52.36,
+   "contact": "Klaviyo"
+  },
+  {
+   "id": "1a5ed5a3-3d2e-44a8-9beb-4b2d01654e6f",
+   "datum": "2026-04-10",
+   "omschrijving": "Factuur van KLAVIYO, ABONNEMENTEN",
+   "bedrag": -1.06,
+   "contact": "Klaviyo"
   },
   {
    "id": "a30c3d08-814d-4cd5-9a74-65497d5bf9f8",
@@ -1787,6 +1257,20 @@
    "omschrijving": "Factuur van Pro-Count, Erelonen boekhouders en accountants",
    "bedrag": -242.0,
    "contact": "Pro-Count"
+  },
+  {
+   "id": "73b46bf8-98c2-4939-9e58-772eeb31a9d6",
+   "datum": "2026-04-11",
+   "omschrijving": "MC 24/02>23/03 - Appsumo 124.20 USD",
+   "bedrag": 108.07,
+   "contact": "Appsumo.com"
+  },
+  {
+   "id": "5dd4f800-1646-4138-8e43-f611a436eb90",
+   "datum": "2026-04-12",
+   "omschrijving": "MC 24/02>23/03 - Shopify",
+   "bedrag": 120.66,
+   "contact": "Shopify International Limited"
   },
   {
    "id": "bba72110-e5f8-4834-8276-45639b09709f",
@@ -1810,81 +1294,11 @@
    "contact": "lovable Labs Incorporated"
   },
   {
-   "id": "e37c407b-4397-481b-8b42-41f5117a7964",
-   "datum": "2026-04-23",
-   "omschrijving": "Mastercard 24/03>23/04 /  Appsumo 124.2USD 11/04",
-   "bedrag": 108.07,
-   "contact": "Appsumo.com"
-  },
-  {
-   "id": "063db495-a817-4eda-8854-982a2cb5c648",
-   "datum": "2026-04-23",
-   "omschrijving": "Mastercard 24/03>23/04 / Fiverr 06/04",
-   "bedrag": 75.27,
-   "contact": "Fiverr"
-  },
-  {
-   "id": "1803a947-d118-4556-b8ad-404f4b451182",
-   "datum": "2026-04-23",
-   "omschrijving": "Mastercard 24/03>23/04 - Google ads 01/04",
-   "bedrag": 79.73,
-   "contact": "Google Ireland Limited"
-  },
-  {
-   "id": "382d9613-b96a-400e-83f0-708ff4555ad2",
-   "datum": "2026-04-23",
-   "omschrijving": "Mastercard 24/03>23/04 / Holo AI 39USD 07/04",
-   "bedrag": 34.44,
-   "contact": "Holo AI"
-  },
-  {
-   "id": "6df7ad90-62d3-40d9-b7e5-a3007327fbb8",
-   "datum": "2026-04-23",
-   "omschrijving": "Factuur van KLAVIYO, ABONNEMENTEN",
-   "bedrag": -1.06,
-   "contact": "Klaviyo"
-  },
-  {
-   "id": "2124511c-f828-4764-aa2e-ee614546320e",
-   "datum": "2026-04-23",
-   "omschrijving": "Mastercard 24/03>23/04 / Klaviyo 60USD 10/04",
-   "bedrag": 52.36,
-   "contact": "Klaviyo"
-  },
-  {
-   "id": "945953f1-862f-4f76-999b-501d89a078b9",
-   "datum": "2026-04-23",
-   "omschrijving": "Mastercard 24/03>23/04 / Lovable Labs 19/04",
+   "id": "42cd2522-9a30-4206-9ae1-634d6fe81ca1",
+   "datum": "2026-04-19",
+   "omschrijving": "MC 24/02>23/03 - Lovable",
    "bedrag": 25.0,
    "contact": "lovable Labs Incorporated"
-  },
-  {
-   "id": "bdff6464-f7c9-4bb5-8726-2be8c9b152f7",
-   "datum": "2026-04-23",
-   "omschrijving": "Mastercard 24/03>23/04 - Google ads 01/04",
-   "bedrag": -79.73,
-   "contact": "Mastercard"
-  },
-  {
-   "id": "d7b5e950-376d-4685-892c-cfb06bc2785e",
-   "datum": "2026-04-23",
-   "omschrijving": "Mastercard 24/03>23/04",
-   "bedrag": -501.8,
-   "contact": "Mastercard"
-  },
-  {
-   "id": "2a84d01e-7b2a-43ca-b71c-671a06bd8a33",
-   "datum": "2026-04-23",
-   "omschrijving": "Mastercard 24/03>23/04 / Returngo 03/04",
-   "bedrag": 86.0,
-   "contact": "Returngo"
-  },
-  {
-   "id": "5d42cc61-f2c9-4ccc-8152-4256a01fb82f",
-   "datum": "2026-04-23",
-   "omschrijving": "Mastercard 24/03>23/04",
-   "bedrag": 120.66,
-   "contact": "Shopify International Limited"
   },
   {
    "id": "c01854e5-bb5c-4ba1-a0f4-ce116e94cdef",
@@ -1943,6 +1357,13 @@
    "contact": "Mastercard"
   },
   {
+   "id": "4a1e1599-7b92-4be9-9bbe-4ef551fe7d68",
+   "datum": "2026-05-02",
+   "omschrijving": "Betaling MC 23/04",
+   "bedrag": -501.8,
+   "contact": "Mastercard"
+  },
+  {
    "id": "463ec1c7-28e5-4a4b-b600-25191e076131",
    "datum": "2026-05-02",
    "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 79,730 : Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000002103     - Uitgevende instelling:  - Factuurnummer: 113          - Identificatienummer:                 - Datum: |",
@@ -1964,6 +1385,13 @@
    "contact": "Yuki works"
   },
   {
+   "id": "716e05d3-d94c-4f17-a957-99deff9653c4",
+   "datum": "2026-05-07",
+   "omschrijving": "MC 24/04>23/05 - Holo AI",
+   "bedrag": 41.02,
+   "contact": "Holo AI"
+  },
+  {
    "id": "c938e7ee-68d2-4643-83c3-ebd559baa3d8",
    "datum": "2026-05-08",
    "omschrijving": "Factuur van Pro-Count, Erelonen boekhouders en accountants",
@@ -1978,53 +1406,39 @@
    "contact": "Klaviyo"
   },
   {
+   "id": "c1ac55de-b5c9-4b2e-a421-63b5c310aab3",
+   "datum": "2026-05-10",
+   "omschrijving": "MC 24/04>23/05 - Klaviyo",
+   "bedrag": 52.01,
+   "contact": "Klaviyo"
+  },
+  {
+   "id": "60b27591-b5f6-41b8-8ec6-ac1ac989015e",
+   "datum": "2026-05-10",
+   "omschrijving": "MC 24/04>23/05 - Klaviyo",
+   "bedrag": -1.11,
+   "contact": "Klaviyo"
+  },
+  {
+   "id": "7264b59a-d34d-41ab-a538-3c4df5891838",
+   "datum": "2026-05-12",
+   "omschrijving": "MC 24/04>23/05 - Shopify",
+   "bedrag": 139.02,
+   "contact": "Shopify International Limited"
+  },
+  {
+   "id": "15e25bca-f005-46d9-ad28-940981ec0108",
+   "datum": "2026-05-19",
+   "omschrijving": "MC 24/04>23/05 - Lovable",
+   "bedrag": 25.0,
+   "contact": "lovable Labs Incorporated"
+  },
+  {
    "id": "70477864-186c-47d9-9804-dc9652ad0c77",
    "datum": "2026-05-19",
    "omschrijving": "Factuur van lovable Labs Incorporated, ABONNEMENTEN",
    "bedrag": -25.0,
    "contact": "lovable Labs Incorporated"
-  },
-  {
-   "id": "e516fbef-a13b-42d9-a3b8-735f23993194",
-   "datum": "2026-05-23",
-   "omschrijving": "Mastercard 24/04>23/05 / Holo AI  47.19 USD",
-   "bedrag": 41.02,
-   "contact": "Holo AI"
-  },
-  {
-   "id": "ef4020ec-3ef0-4fce-b5b8-39f3f0a9a3d9",
-   "datum": "2026-05-23",
-   "omschrijving": "Factuur van Klaviyo, ABONNEMENTEN",
-   "bedrag": -1.11,
-   "contact": "Klaviyo"
-  },
-  {
-   "id": "0da8efc7-9ee2-45b2-b8a0-40d23d6495ea",
-   "datum": "2026-05-23",
-   "omschrijving": "Mastercard 24/04>23/05 / Klaviyo 10/05",
-   "bedrag": 52.01,
-   "contact": "Klaviyo"
-  },
-  {
-   "id": "d379d714-6bbf-4e7c-a615-de02a7cc45d8",
-   "datum": "2026-05-23",
-   "omschrijving": "Mastercard 24/04>23/05 / Lovable 19/05",
-   "bedrag": 25.0,
-   "contact": "lovable Labs Incorporated"
-  },
-  {
-   "id": "851da189-4a20-49e0-8e99-6a7046901a34",
-   "datum": "2026-05-23",
-   "omschrijving": "Mastercard 24/04>23/05",
-   "bedrag": -257.05,
-   "contact": "Mastercard"
-  },
-  {
-   "id": "2df2ac86-bbe7-4730-bd46-fb392f05390e",
-   "datum": "2026-05-23",
-   "omschrijving": "Mastercard 24/04>23/05 / Shopify 12/05",
-   "bedrag": 139.02,
-   "contact": "Shopify International Limited"
   },
   {
    "id": "1838c727-b570-435e-a2fe-27a76f92d5bb",
@@ -2060,6 +1474,13 @@
    "omschrijving": "BOL AFB Kost > Omzet - 3915713125451",
    "bedrag": 10.27,
    "contact": "Bol.com B.V."
+  },
+  {
+   "id": "afba304e-ee0e-4fed-929c-ce1114c08b09",
+   "datum": "2026-06-01",
+   "omschrijving": "Betaling MC 23/05",
+   "bedrag": -257.05,
+   "contact": "Mastercard"
   },
   {
    "id": "0702366d-4ca9-44d0-853d-aee73604f5f7",
@@ -2125,6 +1546,13 @@
    "contact": "Pro-Count"
   },
   {
+   "id": "c683aba6-400b-4fbe-8555-4de4a403033d",
+   "datum": "2026-06-08",
+   "omschrijving": "MC 24/05>23/06 - Holo AI 47.19USD",
+   "bedrag": 41.57,
+   "contact": "Holo AI"
+  },
+  {
    "id": "8c405fb4-3a14-48a4-9d33-c42468962ed4",
    "datum": "2026-06-08",
    "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 309,640 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 006042 - Volgnummer verrichting: 579350 - Datum verrichting: 08-06-26 - Uur",
@@ -2139,11 +1567,39 @@
    "contact": "Widem Logistics"
   },
   {
+   "id": "302912fc-4e55-46d1-a947-edd3a45b77a5",
+   "datum": "2026-06-10",
+   "omschrijving": "Factuur van Kbc Verzekeringen, BURGERLIJKE AANSPRAKELIJKHEID",
+   "bedrag": -18.47,
+   "contact": "Kbc Verzekeringen"
+  },
+  {
+   "id": "e10fab37-25b7-4f8b-aae5-524211719be3",
+   "datum": "2026-06-10",
+   "omschrijving": "MC 24/04>23/05 - Klaviyo",
+   "bedrag": 52.89,
+   "contact": "Klaviyo"
+  },
+  {
    "id": "e7e9fa22-4e5f-4af6-afbc-9eb108ceb47d",
    "datum": "2026-06-10",
    "omschrijving": "Factuur van Klaviyo, ABONNEMENTEN",
    "bedrag": -52.01,
    "contact": "Klaviyo"
+  },
+  {
+   "id": "003b5f66-c093-4f99-ad98-bcebdd394ee0",
+   "datum": "2026-06-10",
+   "omschrijving": "MC 24/04>23/05 - Klaviyo",
+   "bedrag": -0.88,
+   "contact": "Klaviyo"
+  },
+  {
+   "id": "c9017f1f-fd6c-43d5-9a93-d8a9ac68b447",
+   "datum": "2026-06-11",
+   "omschrijving": "MC 24/04>23/05 - Shopify",
+   "bedrag": 158.06,
+   "contact": "Shopify International Limited"
   },
   {
    "id": "6a7a2c0e-26d8-4a2d-8a0d-0d64b02ff783",
@@ -2158,6 +1614,13 @@
    "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 2173,080 : | Overschrijving of storting met een gestructureerde mededeling: 002600779659 | Widem Logistics NV",
    "bedrag": 2173.08,
    "contact": "Widem Logistics"
+  },
+  {
+   "id": "b1844235-bf3f-423a-a362-614b082254c8",
+   "datum": "2026-06-19",
+   "omschrijving": "MC 24/04>23/05 - Lovable",
+   "bedrag": 25.0,
+   "contact": "lovable Labs Incorporated"
   },
   {
    "id": "c1df2bc3-6ba2-48c8-a890-bdd1c3e3bf14",
@@ -2179,48 +1642,6 @@
    "omschrijving": "Factuur van Findajob, Uitzendkrachten",
    "bedrag": -75.78,
    "contact": "Findajob"
-  },
-  {
-   "id": "039990c1-dd47-4de7-9be2-09a080b1e442",
-   "datum": "2026-06-23",
-   "omschrijving": "Mastercard 24/05>23/06 / Holo AI  47.19 USD",
-   "bedrag": 41.57,
-   "contact": "Holo AI"
-  },
-  {
-   "id": "03163ad5-2bb9-4e23-a718-14a95a8b5095",
-   "datum": "2026-06-23",
-   "omschrijving": "Mastercard 24/05>23/06 / Klaviyo 60USD 10/06",
-   "bedrag": 52.89,
-   "contact": "Klaviyo"
-  },
-  {
-   "id": "06c46f9a-e74b-4776-b69c-76f0dbdccbfc",
-   "datum": "2026-06-23",
-   "omschrijving": "Factuur van Klaviyo, ABONNEMENTEN",
-   "bedrag": -0.88,
-   "contact": "Klaviyo"
-  },
-  {
-   "id": "d379233a-7023-4638-afd2-a59d3602fdc2",
-   "datum": "2026-06-23",
-   "omschrijving": "Mastercard 24/05>23/06 / Lovable 19/06",
-   "bedrag": 25.0,
-   "contact": "lovable Labs Incorporated"
-  },
-  {
-   "id": "409ecb7a-e962-41a9-8685-065273252b74",
-   "datum": "2026-06-23",
-   "omschrijving": "Mastercard 24/05>23/06",
-   "bedrag": -277.52,
-   "contact": "Mastercard"
-  },
-  {
-   "id": "0eb3edd3-d09e-426f-ae40-aa3e6242d4ee",
-   "datum": "2026-06-23",
-   "omschrijving": "Mastercard 24/05>23/06 / Shopify 542513124 11/06",
-   "bedrag": 158.06,
-   "contact": "Shopify International Limited"
   },
   {
    "id": "b05c5b59-0d11-4c6d-b28b-eab264645d58",
@@ -2251,6 +1672,13 @@
    "contact": "Meta Platforms Ireland Limited"
   },
   {
+   "id": "9680d419-f716-47c4-a5f5-b0ebb44e0ddc",
+   "datum": "2026-06-28",
+   "omschrijving": "MC 24/06>23/07 - Google",
+   "bedrag": 500.0,
+   "contact": "Google Ireland Limited"
+  },
+  {
    "id": "1a184b12-dd1d-4366-8092-232012b2c0e1",
    "datum": "2026-06-28",
    "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 5,000 : Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: Bancontact - Terminalnummer: 012037 - Volgnummer verrichting: 788026 - Datum verrichting: 28-06-26 - U",
@@ -2279,11 +1707,25 @@
    "contact": "Widem Logistics"
   },
   {
+   "id": "a6a50ee7-52ae-4865-8094-563c212b3fc3",
+   "datum": "2026-07-01",
+   "omschrijving": "BOL afb 3915905790518",
+   "bedrag": 50.34,
+   "contact": "Bol.com B.V."
+  },
+  {
    "id": "6dd9f507-0e7e-4cd9-8c54-60204d8c1aa9",
    "datum": "2026-07-01",
    "omschrijving": "Factuur van Bol.com B.V., Commissielonen",
    "bedrag": -50.34,
    "contact": "Bol.com B.V."
+  },
+  {
+   "id": "20d00fb3-ecc2-46ee-adbd-d252a0a65d07",
+   "datum": "2026-07-01",
+   "omschrijving": "MC 24/06>23/07 - Google",
+   "bedrag": 158.5,
+   "contact": "Google Ireland Limited"
   },
   {
    "id": "af52f0c8-bd42-460d-9200-eb9764ad6c94",
@@ -2314,6 +1756,13 @@
    "contact": "Mastercard"
   },
   {
+   "id": "e81774fb-da5a-4e58-bb26-fdbc60f0abab",
+   "datum": "2026-07-02",
+   "omschrijving": "Betaling MC 23/06",
+   "bedrag": -277.52,
+   "contact": "Mastercard"
+  },
+  {
    "id": "650e60d4-be0e-4984-8956-cc92544f2b8c",
    "datum": "2026-07-02",
    "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 959266 - Datum verrichting: 01-07-26 - Uur",
@@ -2326,6 +1775,13 @@
    "omschrijving": "Domiciliëringen - Direct debit : Betaling | Netto bedrag: 2,420 : | Europese domiciliëring - Datum: 02-07-26 - Type domiciliëring: recurrent - Schema domiciliëring: SEPA core - Betaling: betaald - Identificatiecode van de schuldeiser: NL08ZZZ502057730000",
    "bedrag": 2.42,
    "contact": "Yuki works"
+  },
+  {
+   "id": "bdcde747-ce15-48b8-91ca-7eebd385a8ae",
+   "datum": "2026-07-04",
+   "omschrijving": "MC 24/06>23/07 - Returngo",
+   "bedrag": 86.0,
+   "contact": "Returngo"
   },
   {
    "id": "19c4767b-2c51-467c-989e-3485e16624a2",
@@ -2391,6 +1847,27 @@
    "contact": "Widem Logistics"
   },
   {
+   "id": "6a03eca4-f494-42ea-86fa-88ff94a98e48",
+   "datum": "2026-07-08",
+   "omschrijving": "MC 24/06>23/07 - Holo AI 47.19USD",
+   "bedrag": -0.61,
+   "contact": "Holo AI"
+  },
+  {
+   "id": "f2384a76-7eb4-4e31-be10-a2ed1cc37922",
+   "datum": "2026-07-08",
+   "omschrijving": "Factuur van Holo AI, ABONNEMENTEN",
+   "bedrag": -41.37,
+   "contact": "Holo AI"
+  },
+  {
+   "id": "0fde9f61-544e-4da1-bdc8-e1fd610d8b39",
+   "datum": "2026-07-08",
+   "omschrijving": "MC 24/06>23/07 - Holo AI 47.19USD",
+   "bedrag": 41.98,
+   "contact": "Holo AI"
+  },
+  {
    "id": "ffdb9b0a-031f-4d5d-ace9-6df731ff2910",
    "datum": "2026-07-08",
    "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
@@ -2403,6 +1880,20 @@
    "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 278,570 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 693084 - Datum verrichting: 08-07-26 - Uur",
    "bedrag": 278.57,
    "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "b77dd530-cb9e-4aed-ac25-1f43fd4d7634",
+   "datum": "2026-07-10",
+   "omschrijving": "Factuur van Kbc Verzekeringen, BURGERLIJKE AANSPRAKELIJKHEID",
+   "bedrag": -18.47,
+   "contact": "Kbc Verzekeringen"
+  },
+  {
+   "id": "6f05c692-d49a-4075-86ea-14ee104f4d3f",
+   "datum": "2026-07-10",
+   "omschrijving": "MC 24/06>23/07 - Klaviyo",
+   "bedrag": 53.5,
+   "contact": "Klaviyo"
   },
   {
    "id": "cc2115a1-549f-4fd7-972c-435d70385489",
@@ -2426,6 +1917,20 @@
    "contact": "Widem Logistics"
   },
   {
+   "id": "e295b2d1-d9e2-4e60-9895-2e7a0f768a52",
+   "datum": "2026-07-11",
+   "omschrijving": "MC 24/06>23/07 - Shopify",
+   "bedrag": 141.39,
+   "contact": "Shopify International Limited"
+  },
+  {
+   "id": "e1bd719b-6a9e-4f5e-86a1-4f7814ff2fe5",
+   "datum": "2026-07-12",
+   "omschrijving": "MC 24/06>23/07 - Google",
+   "bedrag": 500.0,
+   "contact": "Google Ireland Limited"
+  },
+  {
    "id": "2794d6d1-463c-4862-bded-a219eed7c71c",
    "datum": "2026-07-13",
    "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
@@ -2438,6 +1943,20 @@
    "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 949248 - Datum verrichting: 13-07-26 - Uur",
    "bedrag": 800.0,
    "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "aeb64411-5e3d-462a-aead-31ab3581f58b",
+   "datum": "2026-07-14",
+   "omschrijving": "MC 24/06>23/07 - Paypal Smartpaw",
+   "bedrag": 200.0,
+   "contact": "Paypal"
+  },
+  {
+   "id": "8d3c612c-038e-4248-9bd7-7bcff7963d9e",
+   "datum": "2026-07-15",
+   "omschrijving": "BOL AFB 3915995846201",
+   "bedrag": 53.57,
+   "contact": "Bol.com B.V."
   },
   {
    "id": "8b2de297-92be-4d42-8684-b3603a31ca21",
@@ -2466,6 +1985,20 @@
    "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 624790 - Datum verrichting: 19-07-26 - Uur",
    "bedrag": 800.0,
    "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "1f15d663-fceb-4551-9acd-0041d0e62d56",
+   "datum": "2026-07-20",
+   "omschrijving": "MC 24/06>23/07 - SP Packagingdiscounter",
+   "bedrag": 360.0,
+   "contact": "PACKAGINGDISCOUNTER"
+  },
+  {
+   "id": "c09dbbf1-a2d6-45a1-b968-5f2044a1d30a",
+   "datum": "2026-07-20",
+   "omschrijving": "MC 24/06>23/07 - SP Packageingdiscounter",
+   "bedrag": 665.0,
+   "contact": "PACKAGINGDISCOUNTER"
   },
   {
    "id": "ca7365d3-eb36-4319-bfad-fc90f3fe7d98",
@@ -2501,6 +2034,13 @@
    "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 293,640 | FINDAJOB BV",
    "bedrag": 293.64,
    "contact": "Findajob"
+  },
+  {
+   "id": "f7baaa56-f81e-44e7-a982-55c769b9b5bc",
+   "datum": "2026-07-27",
+   "omschrijving": "Domiciliëringen - Direct debit : Betaling | Netto bedrag: 18,470 : Europese domiciliëring - Datum: 27-07-26 - Type domiciliëring: recurrent - Schema domiciliëring: SEPA core - Betaling: betaald - Identificatiecode van de schuldeiser: BE61ZZZ0403552563",
+   "bedrag": 18.47,
+   "contact": "Kbc Verzekeringen"
   },
   {
    "id": "915c30c3-6f4f-44a9-8f4e-9b8186fa6927",
@@ -2587,6 +2127,13 @@
    "contact": "Widem Logistics"
   },
   {
+   "id": "1cce7d86-fd76-43f7-b1f0-42499bf97e91",
+   "datum": "2026-08-01",
+   "omschrijving": "BOL AFB 3916097980219",
+   "bedrag": 107.54,
+   "contact": "Bol.com B.V."
+  },
+  {
    "id": "e0f79b05-98b3-47ad-987f-ed85c692e8f8",
    "datum": "2026-08-01",
    "omschrijving": "Factuur van Bol.com B.V., Commissielonen, Portkosten",
@@ -2594,10 +2141,17 @@
    "contact": "Bol.com B.V."
   },
   {
-   "id": "775559f9-8e3b-4c71-8b50-00031dfd216a",
+   "id": "e0799a68-3e16-4e5e-a52e-b531e3697a65",
    "datum": "2026-08-01",
-   "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 1158,500 : | Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000002103     - Uitgevende instelling:  - Factuurnummer: 204          - Identificatienummer:                 - Datum: |",
-   "bedrag": 1158.5,
+   "omschrijving": "MC 24/07>23/08 - Google",
+   "bedrag": 198.56,
+   "contact": "Google Ireland Limited"
+  },
+  {
+   "id": "c09d6219-20ea-4c07-8f7b-47af0608c838",
+   "datum": "2026-08-01",
+   "omschrijving": "Betaling MC 23/07",
+   "bedrag": -1158.5,
    "contact": "Mastercard"
   },
   {
@@ -2605,6 +2159,20 @@
    "datum": "2026-08-01",
    "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 1547,870 : Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000006682     - Uitgevende instelling:  - Factuurnummer: 204          - Identificatienummer:                 - Datum: |",
    "bedrag": 1547.87,
+   "contact": "Mastercard"
+  },
+  {
+   "id": "979b9772-bac6-48a2-8714-b07223fd5b3e",
+   "datum": "2026-08-01",
+   "omschrijving": "Betaling MC 23/07",
+   "bedrag": -1547.87,
+   "contact": "Mastercard"
+  },
+  {
+   "id": "775559f9-8e3b-4c71-8b50-00031dfd216a",
+   "datum": "2026-08-01",
+   "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 1158,500 : | Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000002103     - Uitgevende instelling:  - Factuurnummer: 204          - Identificatienummer:                 - Datum: |",
+   "bedrag": 1158.5,
    "contact": "Mastercard"
   },
   {
@@ -2664,6 +2232,13 @@
    "contact": "Meta Platforms Ireland Limited"
   },
   {
+   "id": "1725b61c-7483-480e-a0a5-94ee47190a49",
+   "datum": "2026-08-06",
+   "omschrijving": "MC 24/07>23/08 - Shopify",
+   "bedrag": 174.81,
+   "contact": "Shopify International Limited"
+  },
+  {
    "id": "6b060ae9-f87a-494d-b3fb-ce3caed4b2fb",
    "datum": "2026-08-07",
    "omschrijving": "Factuur van Action Belgium, Klein materiaal",
@@ -2690,6 +2265,20 @@
    "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
    "bedrag": -757.53,
    "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "c77fd962-2b5c-4fe4-b113-79dc0a5c3701",
+   "datum": "2026-08-10",
+   "omschrijving": "Factuur van Kbc Verzekeringen, BURGERLIJKE AANSPRAKELIJKHEID",
+   "bedrag": -18.47,
+   "contact": "Kbc Verzekeringen"
+  },
+  {
+   "id": "b90fe444-5212-41fe-8bb0-754ae399161a",
+   "datum": "2026-08-10",
+   "omschrijving": "MC 24/07>23/08 - Klaviyo",
+   "bedrag": 52.94,
+   "contact": "Klaviyo"
   },
   {
    "id": "efd36b43-9b9d-4487-93d0-87eb431e0afb",
@@ -2741,6 +2330,20 @@
    "contact": "Widem Logistics"
   },
   {
+   "id": "f7e636a9-de97-4811-9d9c-a8119fbeed01",
+   "datum": "2026-08-14",
+   "omschrijving": "MC 24/07>23/08 - Shopify",
+   "bedrag": 32.0,
+   "contact": "Shopify International Limited"
+  },
+  {
+   "id": "5660f289-a456-4a65-8812-773959a44e44",
+   "datum": "2026-08-15",
+   "omschrijving": "BOL AFB 3916172378261",
+   "bedrag": 111.27,
+   "contact": "Bol.com B.V."
+  },
+  {
    "id": "4485fd73-fad0-4089-b655-9109c7df88b0",
    "datum": "2026-08-15",
    "omschrijving": "Factuur van Bol.com B.V., Portkosten, Commissielonen",
@@ -2752,6 +2355,13 @@
    "datum": "2026-08-15",
    "omschrijving": "Factuur van Bol.com B.V., RECLAME MET MERK",
    "bedrag": -116.33,
+   "contact": "Bol.com B.V."
+  },
+  {
+   "id": "6256f4a9-ed5c-46d5-bd43-e42ea25c315b",
+   "datum": "2026-08-15",
+   "omschrijving": "BOL AFB 3916172390531",
+   "bedrag": 116.33,
    "contact": "Bol.com B.V."
   },
   {
@@ -2797,11 +2407,25 @@
    "contact": "Higgsfield Inc"
   },
   {
+   "id": "4b67a63a-cfb8-4fb6-8b47-6e68c38f9a9b",
+   "datum": "2026-08-19",
+   "omschrijving": "MC 24/07>23/08 - FB",
+   "bedrag": 800.0,
+   "contact": "Meta Platforms Ireland Limited"
+  },
+  {
    "id": "46243f34-576d-43e3-9415-e51fb845857d",
    "datum": "2026-08-19",
    "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 249,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006896 - Kaartschema: TINA - Terminalnummer: 200569 - Volgnummer verrichting: 541217 - Datum verrichting: 18-08-26 - Uur",
    "bedrag": 249.0,
    "contact": "NENUPHAR"
+  },
+  {
+   "id": "3ea3bb90-e2e8-45be-9b45-14b455286716",
+   "datum": "2026-08-19",
+   "omschrijving": "MC 24/07>23/08 - Shopify",
+   "bedrag": 12.27,
+   "contact": "Shopify International Limited"
   },
   {
    "id": "4ae9ff9c-8567-4f4e-a7d8-8a3001e4aa19",
@@ -2888,6 +2512,13 @@
    "contact": "Widem Logistics"
   },
   {
+   "id": "2abb788f-7be3-4ca4-9bca-c51687495d13",
+   "datum": "2026-08-27",
+   "omschrijving": "Domiciliëringen - Direct debit : Betaling | Netto bedrag: 18,470 : Europese domiciliëring - Datum: 27-08-26 - Type domiciliëring: recurrent - Schema domiciliëring: SEPA core - Betaling: betaald - Identificatiecode van de schuldeiser: BE61ZZZ0403552563",
+   "bedrag": 18.47,
+   "contact": "Kbc Verzekeringen"
+  },
+  {
    "id": "e1dda517-68b3-46c9-b3cf-0932639c85a8",
    "datum": "2026-08-27",
    "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 755940 - Datum verrichting: 26-08-26 - Uur",
@@ -2951,11 +2582,18 @@
    "contact": "Bol.com B.V."
   },
   {
-   "id": "efd2454a-7f48-4f72-a35f-3afe0b7ad864",
+   "id": "e5e24379-64bc-421c-9248-62b7d2e50c3f",
    "datum": "2026-09-01",
-   "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 1072,020 : | Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000006682     - Uitgevende instelling:  - Factuurnummer: 235          - Identificatienummer:                 - Datum: |",
-   "bedrag": 1072.02,
-   "contact": "Mastercard"
+   "omschrijving": "BOL AFB 3916269902630",
+   "bedrag": 45.49,
+   "contact": "Bol.com B.V."
+  },
+  {
+   "id": "3af951e5-ff69-4b16-85b1-68a9c1358281",
+   "datum": "2026-09-01",
+   "omschrijving": "BOL afb 3916172378261",
+   "bedrag": 119.98,
+   "contact": "Bol.com B.V."
   },
   {
    "id": "2598dbb9-1873-47d6-a296-82885d743c84",
@@ -2963,6 +2601,34 @@
    "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 198,560 : | Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000002103     - Uitgevende instelling:  - Factuurnummer: 235          - Identificatienummer:                 - Datum: |",
    "bedrag": 198.56,
    "contact": "Mastercard"
+  },
+  {
+   "id": "efd2454a-7f48-4f72-a35f-3afe0b7ad864",
+   "datum": "2026-09-01",
+   "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 1072,020 : | Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000006682     - Uitgevende instelling:  - Factuurnummer: 235          - Identificatienummer:                 - Datum: |",
+   "bedrag": 1072.02,
+   "contact": "Mastercard"
+  },
+  {
+   "id": "fc3b1ecd-ce0c-4935-b761-59214014a647",
+   "datum": "2026-09-01",
+   "omschrijving": "Betaling MC 23/08",
+   "bedrag": -198.56,
+   "contact": "Mastercard"
+  },
+  {
+   "id": "baa4b273-5fcd-4ec1-9273-e5319358cec9",
+   "datum": "2026-09-01",
+   "omschrijving": "Betaling MC 23/08",
+   "bedrag": -1072.02,
+   "contact": "Mastercard"
+  },
+  {
+   "id": "7ca83a5c-24b1-4bcd-b8d5-f6ad863a98c6",
+   "datum": "2026-09-01",
+   "omschrijving": "MC 24/08>23/09 - Metapay",
+   "bedrag": 22.29,
+   "contact": "Meta Platforms Ireland Limited"
   },
   {
    "id": "c9f7f90a-904d-4a8e-a0e7-948ff8779d26",
@@ -3004,6 +2670,13 @@
    "datum": "2026-09-02",
    "omschrijving": "EUR > USD 9.165,25 euro",
    "bedrag": -9152.73,
+   "contact": "suzhou Compass Machinery"
+  },
+  {
+   "id": "e09edeac-c65f-4577-979c-5629b35c75cb",
+   "datum": "2026-09-02",
+   "omschrijving": "Suzhou Compass Machinery 10.610,49 USD",
+   "bedrag": -12.52,
    "contact": "suzhou Compass Machinery"
   },
   {
@@ -3070,6 +2743,27 @@
    "contact": "Findajob"
   },
   {
+   "id": "b095b529-57af-460d-a8e6-f697a8c9c51c",
+   "datum": "2026-09-08",
+   "omschrijving": "MC 24/08>23/09 - Holo AI 47.19USD",
+   "bedrag": -0.74,
+   "contact": "Holo AI"
+  },
+  {
+   "id": "8f6e759a-dfa7-47e4-97d9-87effddab843",
+   "datum": "2026-09-08",
+   "omschrijving": "MC 24/08>23/09 - Holo AI 47.19USD",
+   "bedrag": 41.33,
+   "contact": "Holo AI"
+  },
+  {
+   "id": "67ac2feb-5303-4bdf-9320-938ea413367a",
+   "datum": "2026-09-08",
+   "omschrijving": "Factuur van Holo AI, ABONNEMENTEN",
+   "bedrag": -40.59,
+   "contact": "Holo AI"
+  },
+  {
    "id": "dc523213-c0a7-4e85-ac6a-025d9f395bef",
    "datum": "2026-09-08",
    "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
@@ -3091,11 +2785,11 @@
    "contact": "Findajob"
   },
   {
-   "id": "4207de3d-ab2f-42d0-a9ff-fab410e04b96",
+   "id": "67adb3b3-d985-4b5e-b551-17db27d46dab",
    "datum": "2026-09-09",
-   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 3135,000 : | Overschrijving of storting met een gestructureerde mededeling: 002601202116 | Widem Logistics NV",
-   "bedrag": 3135.0,
-   "contact": "Widem Logistics"
+   "omschrijving": "MC 24/08>23/09 - Shopify",
+   "bedrag": 136.02,
+   "contact": "Shopify International Limited"
   },
   {
    "id": "51721a5d-65ee-40a3-a722-1f47f020c9aa",
@@ -3126,11 +2820,32 @@
    "contact": "Widem Logistics"
   },
   {
+   "id": "4207de3d-ab2f-42d0-a9ff-fab410e04b96",
+   "datum": "2026-09-09",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 3135,000 : | Overschrijving of storting met een gestructureerde mededeling: 002601202116 | Widem Logistics NV",
+   "bedrag": 3135.0,
+   "contact": "Widem Logistics"
+  },
+  {
    "id": "f1c3bfd3-1654-4093-811d-98be5bdf208d",
    "datum": "2026-09-10",
    "omschrijving": "Factuur van Almost 3000, Overige erelonen",
    "bedrag": -314.6,
    "contact": "Almost 3000"
+  },
+  {
+   "id": "180ac55b-4e3d-46ff-8cc1-7c26114425bf",
+   "datum": "2026-09-10",
+   "omschrijving": "Factuur van Kbc Verzekeringen, BURGERLIJKE AANSPRAKELIJKHEID",
+   "bedrag": -18.47,
+   "contact": "Kbc Verzekeringen"
+  },
+  {
+   "id": "7522d90a-437b-4f4f-a1f7-82bfd061904b",
+   "datum": "2026-09-10",
+   "omschrijving": "MC 24/08>23/09 - Klaviyo 70USD",
+   "bedrag": 61.21,
+   "contact": "Klaviyo"
   },
   {
    "id": "4f709521-5dca-49bb-8601-8790b8b73718",
@@ -3151,7 +2866,7 @@
    "datum": "2026-09-12",
    "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 121,500 : Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: Bancontact - Terminalnummer: 953025 - Volgnummer verrichting: 535630 - Datum verrichting: 12-09-26 -",
    "bedrag": 121.5,
-   "contact": "Diverse leveranciers"
+   "contact": "Haddok"
   },
   {
    "id": "834afaf0-aee4-43c5-a48f-b84f7bc3f113",
@@ -3175,10 +2890,24 @@
    "contact": "Meta Platforms Ireland Limited"
   },
   {
+   "id": "8c08b611-e09a-4874-956f-10cc5e47dc04",
+   "datum": "2026-09-15",
+   "omschrijving": "BOL AFB 3916348493494",
+   "bedrag": 105.78,
+   "contact": "Bol.com B.V."
+  },
+  {
    "id": "560816a2-b84c-4734-9766-34aeeb88d05c",
    "datum": "2026-09-15",
    "omschrijving": "Factuur van Bol.com B.V., RECLAME MET MERK",
    "bedrag": -38.18,
+   "contact": "Bol.com B.V."
+  },
+  {
+   "id": "757d6e8d-e518-40a8-b91b-83f05abcad71",
+   "datum": "2026-09-15",
+   "omschrijving": "BOL AFB 3916348367627",
+   "bedrag": 38.18,
    "contact": "Bol.com B.V."
   },
   {
@@ -3301,6 +3030,13 @@
    "contact": "Meta Platforms Ireland Limited"
   },
   {
+   "id": "94d3b93c-8f5d-47b4-a10f-be718923d034",
+   "datum": "2026-09-28",
+   "omschrijving": "Domiciliëringen - Direct debit : Betaling | Netto bedrag: 18,470 : Europese domiciliëring - Datum: 28-09-26 - Type domiciliëring: recurrent - Schema domiciliëring: SEPA core - Betaling: betaald - Identificatiecode van de schuldeiser: BE61ZZZ0403552563",
+   "bedrag": 18.47,
+   "contact": "Kbc Verzekeringen"
+  },
+  {
    "id": "d84d59c2-4dce-4627-9f7a-e2c1d3f1f75a",
    "datum": "2026-09-29",
    "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 6,780 : | Overschrijving of storting met een gestructureerde mededeling: 026855965725 | bpost",
@@ -3399,6 +3135,13 @@
    "contact": "Bol.com B.V."
   },
   {
+   "id": "5cb40f89-8c73-4757-b83c-452938d5a105",
+   "datum": "2026-10-01",
+   "omschrijving": "BOL AFB 3916443769981",
+   "bedrag": 52.73,
+   "contact": "Bol.com B.V."
+  },
+  {
    "id": "bbdba0d8-5e7b-4fe2-b9e5-f359b641fa41",
    "datum": "2026-10-01",
    "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 800,000 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 204968 - Datum verrichting: 30-09-26 - Uur",
@@ -3413,17 +3156,17 @@
    "contact": "Google Ireland Limited"
   },
   {
-   "id": "3c6a7133-a42d-437f-be1b-66b8c00f1d25",
-   "datum": "2026-10-02",
-   "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 22,290 : | Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000002103     - Uitgevende instelling:  - Factuurnummer: 266          - Identificatienummer:                 - Datum: |",
-   "bedrag": 22.29,
-   "contact": "Mastercard"
-  },
-  {
    "id": "4e9c96c9-eac1-4543-812e-286314339a34",
    "datum": "2026-10-02",
    "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 238,560 : Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000006682     - Uitgevende instelling:  - Factuurnummer: 266          - Identificatienummer:                 - Datum: |",
    "bedrag": 238.56,
+   "contact": "Mastercard"
+  },
+  {
+   "id": "3c6a7133-a42d-437f-be1b-66b8c00f1d25",
+   "datum": "2026-10-02",
+   "omschrijving": "Kaarten : Afrekening kredietkaarten | Netto bedrag: 22,290 : | Nummer kredietkaart - Gemaskeerde PAN of kaartnummer: 5478350000002103     - Uitgevende instelling:  - Factuurnummer: 266          - Identificatienummer:                 - Datum: |",
+   "bedrag": 22.29,
    "contact": "Mastercard"
   },
   {
@@ -3469,6 +3212,13 @@
    "contact": "Pro-Count"
   },
   {
+   "id": "ec5b10d4-8df8-4d44-9281-e68dd46fa786",
+   "datum": "2026-10-08",
+   "omschrijving": "Factuur van Holo AI, ABONNEMENTEN",
+   "bedrag": -42.12,
+   "contact": "Holo AI"
+  },
+  {
    "id": "3e426b93-02d0-45c4-ad0a-414ce4256577",
    "datum": "2026-10-08",
    "omschrijving": "Factuur van Meta Platforms Ireland Limited, RECLAME MET MERK",
@@ -3481,6 +3231,20 @@
    "omschrijving": "Kaarten : Betaling met debetkaart binnen eurozone | Netto bedrag: 517,010 : | Debet ATM/POS - Gemaskeerde PAN of kaartnummer: 5559200000006564 - Kaartschema: TINA - Terminalnummer: 000000 - Volgnummer verrichting: 222148 - Datum verrichting: 08-10-26 - Uur",
    "bedrag": 517.01,
    "contact": "Meta Platforms Ireland Limited"
+  },
+  {
+   "id": "34d58ed0-444d-4015-b2be-92bdd3253546",
+   "datum": "2026-10-10",
+   "omschrijving": "Factuur van GoDaddy Europe Limited, SOFTWARE KOSTEN",
+   "bedrag": -167.76,
+   "contact": "GoDaddy Europe Limited"
+  },
+  {
+   "id": "1ef7d4a9-a0b1-46c8-bad6-1b5b527849d1",
+   "datum": "2026-10-10",
+   "omschrijving": "Factuur van Klaviyo, SOFTWARE KOSTEN",
+   "bedrag": -62.47,
+   "contact": "Klaviyo"
   },
   {
    "id": "2a3620b9-7951-404d-81c5-7999d493d9e7",
@@ -3508,6 +3272,13 @@
    "datum": "2026-10-15",
    "omschrijving": "Factuur van Bol.com B.V., Commissielonen",
    "bedrag": -58.65,
+   "contact": "Bol.com B.V."
+  },
+  {
+   "id": "3db352d1-f53d-475e-82d1-a033bac23e6d",
+   "datum": "2026-10-15",
+   "omschrijving": "BOL AFB 3916522505854",
+   "bedrag": 58.65,
    "contact": "Bol.com B.V."
   },
   {
@@ -3595,11 +3366,32 @@
    "contact": "Meta Platforms Ireland Limited"
   },
   {
+   "id": "2b88e18d-1223-4687-b53e-652cf845e2c2",
+   "datum": "2026-10-25",
+   "omschrijving": "Factuur van shenzhen Chongxin Technologie, Aankopen van handelsgoederen",
+   "bedrag": -1112.1,
+   "contact": "shenzhen Chongxin Technologie"
+  },
+  {
    "id": "8f15787c-d136-47e0-aa3f-8fb4c0d6ca0f",
    "datum": "2026-10-26",
    "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 8,600 : 1743348361 Online creation label(s) | bpost parcel",
    "bedrag": 8.6,
    "contact": "Bpost"
+  },
+  {
+   "id": "05fce9ef-ab12-404c-a4d1-94904cfbaa94",
+   "datum": "2026-10-27",
+   "omschrijving": "Domiciliëringen - Direct debit : Betaling | Netto bedrag: 18,470 : Europese domiciliëring - Datum: 27-10-26 - Type domiciliëring: recurrent - Schema domiciliëring: SEPA core - Betaling: betaald - Identificatiecode van de schuldeiser: BE61ZZZ0403552563",
+   "bedrag": 18.47,
+   "contact": "Kbc Verzekeringen"
+  },
+  {
+   "id": "e06680ae-9a28-48ce-a700-6bd362472552",
+   "datum": "2026-10-27",
+   "omschrijving": "Factuur van shenzhen Chongxin Technologie, Aankopen van handelsgoederen",
+   "bedrag": -10538.92,
+   "contact": "shenzhen Chongxin Technologie"
   },
   {
    "id": "f3ac18f2-4471-4f5f-b29a-14e26d6db135",
@@ -3672,17 +3464,17 @@
    "contact": "Bpost"
   },
   {
+   "id": "7b4dc6a5-fc9b-44a9-8fe8-d2edf63d0b87",
+   "datum": "2026-11-03",
+   "omschrijving": "Factuur van Yuki works, KOSTEN DIGITALISERING",
+   "bedrag": -2.42,
+   "contact": "Yuki works"
+  },
+  {
    "id": "6524b299-e2eb-47d3-a033-dcfa4d6ab685",
    "datum": "2026-11-03",
    "omschrijving": "Domiciliëringen - Direct debit : Betaling | Netto bedrag: 2,420 : Europese domiciliëring - Datum: 03-11-26 - Type domiciliëring: recurrent - Schema domiciliëring: SEPA core - Betaling: betaald - Identificatiecode van de schuldeiser: NL08ZZZ502057730000",
    "bedrag": 2.42,
-   "contact": "Yuki works"
-  },
-  {
-   "id": "72a37d76-1b0a-4b74-a315-029dc6f54aba",
-   "datum": "2026-11-03",
-   "omschrijving": "Factuur van Yuki works, ABONNEMENTEN",
-   "bedrag": -2.42,
    "contact": "Yuki works"
   }
  ],

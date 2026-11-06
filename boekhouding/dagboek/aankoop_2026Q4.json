@@ -3,16 +3,23 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "in Yuki": 29,
+  "in Yuki": 32,
   "te boeken": 5,
-  "factuur ontbreekt": 0
+  "factuur ontbreekt": 1
  },
  "bedrag": {
-  "in Yuki": 14441.9,
+  "in Yuki": 26135.04,
   "te boeken": 167.03,
-  "factuur ontbreekt": 0
+  "factuur ontbreekt": 36.91
  },
  "per_rekening": [
+  {
+   "rekening": "604000",
+   "naam": "Aankopen van handelsgoederen",
+   "aantal": 4,
+   "maatstaf": 10741.04,
+   "btw": 2022.08
+  },
   {
    "rekening": "616502",
    "naam": "RECLAME MET MERK",
@@ -35,18 +42,11 @@
    "btw": 405.55
   },
   {
-   "rekening": "604000",
-   "naam": "Aankopen van handelsgoederen",
-   "aantal": 2,
-   "maatstaf": 1112.1,
-   "btw": 0.0
-  },
-  {
    "rekening": "611080",
    "naam": "ABONNEMENTEN",
-   "aantal": 10,
-   "maatstaf": 605.83,
-   "btw": 0.84
+   "aantal": 12,
+   "maatstaf": 677.55,
+   "btw": 8.15
   },
   {
    "rekening": "615200",
@@ -140,6 +140,60 @@
    "onbetaald": true
   },
   {
+   "id": "yuki-e06680ae-9a28-48ce-a700-6bd362472552",
+   "status": "in Yuki",
+   "yuki_id": "e06680ae-9a28-48ce-a700-6bd362472552",
+   "factuurdatum": "2026-10-27",
+   "betaald_op": "",
+   "leverancier": "shenzhen Chongxin Technologie",
+   "btw_nummer": "",
+   "factuurnummer": "2026102601",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "Factuur van shenzhen Chongxin Technologie, Aankopen van handelsgoederen",
+   "rekening": "604000",
+   "rekening_naam": "Aankopen van handelsgoederen",
+   "rekening_bron": "Yuki: fabriek = Aankopen van handelsgoederen",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 10538.92,
+   "maatstaf": 8709.85,
+   "btw": 1829.07,
+   "verlegde_btw": 0.0,
+   "betaald_via": "",
+   "betaald_via_naam": "nog te betalen (vervalt 2026-10-27)",
+   "nakijken": false,
+   "onbetaald": true
+  },
+  {
+   "id": "yuki-2b88e18d-1223-4687-b53e-652cf845e2c2",
+   "status": "in Yuki",
+   "yuki_id": "2b88e18d-1223-4687-b53e-652cf845e2c2",
+   "factuurdatum": "2026-10-25",
+   "betaald_op": "",
+   "leverancier": "shenzhen Chongxin Technologie",
+   "btw_nummer": "",
+   "factuurnummer": "#33333736501041123",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "Factuur van shenzhen Chongxin Technologie, Aankopen van handelsgoederen",
+   "rekening": "604000",
+   "rekening_naam": "Aankopen van handelsgoederen",
+   "rekening_bron": "Yuki: fabriek = Aankopen van handelsgoederen",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 1112.1,
+   "maatstaf": 919.09,
+   "btw": 193.01,
+   "verlegde_btw": 0.0,
+   "betaald_via": "",
+   "betaald_via_naam": "nog te betalen (vervalt 2026-10-25)",
+   "nakijken": false,
+   "onbetaald": true
+  },
+  {
    "id": "yuki-a4d9cdc0-ec8d-442d-8113-7bdc69ef62b1",
    "status": "in Yuki",
    "yuki_id": "a4d9cdc0-ec8d-442d-8113-7bdc69ef62b1",
@@ -163,6 +217,33 @@
    "verlegde_btw": 0.0,
    "betaald_via": "",
    "betaald_via_naam": "nog te betalen (vervalt 2026-11-09)",
+   "nakijken": false,
+   "onbetaald": true
+  },
+  {
+   "id": "yuki-ec5b10d4-8df8-4d44-9281-e68dd46fa786",
+   "status": "in Yuki",
+   "yuki_id": "ec5b10d4-8df8-4d44-9281-e68dd46fa786",
+   "factuurdatum": "2026-10-08",
+   "betaald_op": "",
+   "leverancier": "Holo AI",
+   "btw_nummer": "",
+   "factuurnummer": "HOLO-202610-DB395",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "Factuur van Holo AI, ABONNEMENTEN",
+   "rekening": "611080",
+   "rekening_naam": "ABONNEMENTEN",
+   "rekening_bron": "Yuki: online abonnementen = ABONNEMENTEN",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 42.12,
+   "maatstaf": 34.81,
+   "btw": 7.31,
+   "verlegde_btw": 0.0,
+   "betaald_via": "",
+   "betaald_via_naam": "nog te betalen (vervalt 2026-10-08)",
    "nakijken": false,
    "onbetaald": true
   },
@@ -194,6 +275,32 @@
    "onbetaald": true
   },
   {
+   "id": "ponto-b1bbf62b-f17b-461c-8d44-76ca4f7fe07f",
+   "status": "factuur ontbreekt",
+   "yuki_id": null,
+   "factuurdatum": "2026-11-05",
+   "betaald_op": "2026-11-05",
+   "leverancier": "HIGGSFIELD INC. US94105 SAN FRANCISCO Betaling met",
+   "btw_nummer": "",
+   "factuurnummer": "",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "HIGGSFIELD INC. US94105 SAN FRANCISCO Betaling met M4M - MDES for merc",
+   "rekening": "611080",
+   "rekening_naam": "ABONNEMENTEN",
+   "rekening_bron": "Yuki: online abonnementen = ABONNEMENTEN",
+   "btw_code": "NEUDV",
+   "btw_uitleg": "Yuki: btw verlegd (dienst buiten EU)",
+   "roosters": "87 · 56 · 59",
+   "incl": 36.91,
+   "maatstaf": 36.91,
+   "btw": 0.0,
+   "verlegde_btw": 7.75,
+   "betaald_via": "550000",
+   "betaald_via_naam": "KBC zichtrekening",
+   "nakijken": false
+  },
+  {
    "id": "ponto-ba49580a-8e6c-4a74-8d3a-f7bf4890202a",
    "status": "in Yuki",
    "yuki_id": "3a6a3802-7f0d-42f7-9437-726b471e3806",
@@ -222,7 +329,7 @@
   {
    "id": "ponto-91892afa-71dd-4a6c-b2c6-72fe881d70fb",
    "status": "in Yuki",
-   "yuki_id": "6524b299-e2eb-47d3-a033-dcfa4d6ab685",
+   "yuki_id": "7b4dc6a5-fc9b-44a9-8fe8-d2edf63d0b87",
    "factuurdatum": "2026-11-02",
    "betaald_op": "2026-11-02",
    "leverancier": "Yuki Works NV via Mollie",
@@ -378,7 +485,7 @@
   {
    "id": "ponto-c016d93b-df6a-4197-8870-cbb244cd481d",
    "status": "in Yuki",
-   "yuki_id": "3b11cdbd-9e80-4cab-bb20-0145c10745e8",
+   "yuki_id": "180ac55b-4e3d-46ff-8cc1-7c26114425bf",
    "factuurdatum": "2026-09-10",
    "betaald_op": "2026-10-26",
    "leverancier": "KBC Verzekeringen (polis 37630975, BA bedrijfspolis aansprakelijkheid)",
@@ -716,7 +823,7 @@
   {
    "id": "kaart-6682-2026-10-10-GODADDY*#7038004865--167.76",
    "status": "in Yuki",
-   "yuki_id": "b6c4ece3-4d15-4cac-badd-2f756b90420c",
+   "yuki_id": "34d58ed0-444d-4015-b2be-92bdd3253546",
    "factuurdatum": "2026-10-10",
    "betaald_op": "2026-10-10",
    "leverancier": "GoDaddy Europe Limited (Nottingham, UK)",
@@ -974,7 +1081,7 @@
    "nakijken": false
   }
  ],
- "yuki_opgehaald": "2026-11-05",
+ "yuki_opgehaald": "2026-11-06",
  "uitleg": "Elke aankoop met boekingsvoorstel. 'In Yuki' = Pro-count heeft ze al (enkel controle). 'Te boeken' = wij hebben het document, Yuki nog niet. Grootboekrekeningen volgen Pro-count's eigen boekingen; btw-codes zijn eigen codes tot Pro-count hun Yuki-codes bezorgt.",
- "bijgewerkt": "2026-11-05"
+ "bijgewerkt": "2026-11-06"
 }

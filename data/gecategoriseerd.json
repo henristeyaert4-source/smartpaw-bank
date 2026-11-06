@@ -1,5 +1,33 @@
 [
  {
+  "id": "ponto-b1bbf62b-f17b-461c-8d44-76ca4f7fe07f",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-05",
+  "bedrag": -36.91,
+  "munt": "EUR",
+  "tegenpartij": "",
+  "tegenrekening": "",
+  "mededeling": "HIGGSFIELD INC. US94105 SAN FRANCISCO Betaling met M4M - MDES for merchants via Debit Mastercard 05-11-2026 om 04.30 uur 5559 20XX XXXX 6564 5372 28XX XXXX 2446 STEYAERT HENRI",
+  "soort": "PMNT-CCRD-POSD",
+  "categorie": "Marketing & content",
+  "bedrag_eur": -36.91
+ },
+ {
+  "id": "ponto-e5166dac-2dd2-437a-8569-6146a43118ef",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-04",
+  "bedrag": 2359.51,
+  "munt": "EUR",
+  "tegenpartij": "STRIPE",
+  "tegenrekening": "NL41CITI2032304805",
+  "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+  "soort": "PMNT-RCDT-ESCT",
+  "categorie": "Omzet webshop (Shopify)",
+  "bedrag_eur": 2359.51
+ },
+ {
   "id": "ponto-3b912745-fe4c-448c-9189-5a776cb1a29a",
   "bron": "KBC",
   "rekening": "SMARTPAW VOF",
