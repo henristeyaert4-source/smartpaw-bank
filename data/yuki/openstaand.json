@@ -1,6 +1,6 @@
 {
  "fouten": [],
- "opgehaald": "2026-11-06",
+ "opgehaald": "2026-11-07",
  "crediteuren": [
   {
    "id": "4d9b547c-7975-4294-9410-22fa5fec7d58",
@@ -341,6 +341,17 @@
    "referentie": "267021148",
    "open": 15.38,
    "origineel": 15.38,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "0e7bbd87-b53a-453d-a80e-02b18d52496c",
+   "datum": "2026-11-06",
+   "vervaldag": "2026-12-06",
+   "contact": "Pro-Count",
+   "omschrijving": "Factuur van Pro-Count, Erelonen boekhouders en accountants",
+   "referentie": "270710",
+   "open": 242.0,
+   "origineel": 242.0,
    "betaalwijze": "Overschrijving"
   }
  ],
@@ -3476,6 +3487,13 @@
    "omschrijving": "Domiciliëringen - Direct debit : Betaling | Netto bedrag: 2,420 : Europese domiciliëring - Datum: 03-11-26 - Type domiciliëring: recurrent - Schema domiciliëring: SEPA core - Betaling: betaald - Identificatiecode van de schuldeiser: NL08ZZZ502057730000",
    "bedrag": 2.42,
    "contact": "Yuki works"
+  },
+  {
+   "id": "0e7bbd87-b53a-453d-a80e-02b18d52496c",
+   "datum": "2026-11-06",
+   "omschrijving": "Factuur van Pro-Count, Erelonen boekhouders en accountants",
+   "bedrag": -242.0,
+   "contact": "Pro-Count"
   }
  ],
  "leveranciers_van": "2026-04-01",

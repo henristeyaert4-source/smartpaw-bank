@@ -350,5 +350,13 @@
   "bedrag": 6.78,
   "datum": "2026-08-31",
   "yuki_document": "0d971bee-a8da-4986-9372-701c9d8cba81"
+ },
+ "270710": {
+  "contact": "Pro-Count",
+  "iban": "BE28068907201520",
+  "ogm": "260100710119",
+  "bedrag": 242.0,
+  "datum": "2026-11-06",
+  "yuki_document": "479754f4-16b7-4e8b-9dfd-0e4deab3e947"
  }
 }

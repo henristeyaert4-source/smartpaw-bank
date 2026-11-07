@@ -3,12 +3,12 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "in Yuki": 32,
+  "in Yuki": 33,
   "te boeken": 5,
   "factuur ontbreekt": 1
  },
  "bedrag": {
-  "in Yuki": 26135.04,
+  "in Yuki": 26377.04,
   "te boeken": 167.03,
   "factuur ontbreekt": 36.91
  },
@@ -51,9 +51,9 @@
   {
    "rekening": "615200",
    "naam": "Erelonen boekhouders en accountants",
-   "aantal": 2,
-   "maatstaf": 400.0,
-   "btw": 84.0
+   "aantal": 3,
+   "maatstaf": 600.0,
+   "btw": 126.0
   },
   {
    "rekening": "616651",
@@ -85,6 +85,33 @@
   }
  ],
  "lijnen": [
+  {
+   "id": "yuki-0e7bbd87-b53a-453d-a80e-02b18d52496c",
+   "status": "in Yuki",
+   "yuki_id": "0e7bbd87-b53a-453d-a80e-02b18d52496c",
+   "factuurdatum": "2026-11-06",
+   "betaald_op": "",
+   "leverancier": "Pro-Count",
+   "btw_nummer": "",
+   "factuurnummer": "270710",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "Factuur van Pro-Count, Erelonen boekhouders en accountants",
+   "rekening": "615200",
+   "rekening_naam": "Erelonen boekhouders en accountants",
+   "rekening_bron": "Yuki: Pro-count = Erelonen boekhouders",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 242.0,
+   "maatstaf": 200.0,
+   "btw": 42.0,
+   "verlegde_btw": 0.0,
+   "betaald_via": "",
+   "betaald_via_naam": "nog te betalen (vervalt 2026-12-06)",
+   "nakijken": false,
+   "onbetaald": true
+  },
   {
    "id": "yuki-36d97a9a-9e40-42cf-8c76-812e930f880b",
    "status": "in Yuki",
@@ -1081,7 +1108,7 @@
    "nakijken": false
   }
  ],
- "yuki_opgehaald": "2026-11-06",
+ "yuki_opgehaald": "2026-11-07",
  "uitleg": "Elke aankoop met boekingsvoorstel. 'In Yuki' = Pro-count heeft ze al (enkel controle). 'Te boeken' = wij hebben het document, Yuki nog niet. Grootboekrekeningen volgen Pro-count's eigen boekingen; btw-codes zijn eigen codes tot Pro-count hun Yuki-codes bezorgt.",
- "bijgewerkt": "2026-11-06"
+ "bijgewerkt": "2026-11-07"
 }

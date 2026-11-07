@@ -14,6 +14,20 @@
   "bedrag_eur": -36.91
  },
  {
+  "id": "ponto-02b9aa5c-d2a2-46cd-9819-6d74cea610b4",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-05",
+  "bedrag": 523.72,
+  "munt": "EUR",
+  "tegenpartij": "STRIPE",
+  "tegenrekening": "NL41CITI2032304805",
+  "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+  "soort": "PMNT-RCDT-ESCT",
+  "categorie": "Omzet webshop (Shopify)",
+  "bedrag_eur": 523.72
+ },
+ {
   "id": "ponto-e5166dac-2dd2-437a-8569-6146a43118ef",
   "bron": "KBC",
   "rekening": "SMARTPAW VOF",
