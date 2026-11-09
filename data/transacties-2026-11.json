@@ -1,5 +1,44 @@
 [
  {
+  "id": "rev-05717c67-cf94-e3d4-02c0-04c2e4a072d8-05717c67-cf94-e3d4-0001-04c2e4a072d8",
+  "bron": "Revolut",
+  "rekening": "EUR",
+  "datum": "2026-11-08",
+  "bedrag": 21.76,
+  "munt": "EUR",
+  "tegenpartij": "",
+  "tegenrekening": "",
+  "mededeling": "Transfer to Main to recover negative balance",
+  "soort": "exchange",
+  "status": "completed"
+ },
+ {
+  "id": "rev-05717c67-cf94-e3d4-02c0-04c2e4a072d8-05717c67-cf94-e3d4-0000-04c2e4a072d8",
+  "bron": "Revolut",
+  "rekening": "USD",
+  "datum": "2026-11-08",
+  "bedrag": -24.23,
+  "munt": "USD",
+  "tegenpartij": "",
+  "tegenrekening": "",
+  "mededeling": "Transfer to Main to recover negative balance",
+  "soort": "exchange",
+  "status": "completed"
+ },
+ {
+  "id": "rev-05717c67-c430-e3d5-02c0-048182441701-05717c67-c430-e3d5-0000-048182441701",
+  "bron": "Revolut",
+  "rekening": "EUR",
+  "datum": "2026-11-08",
+  "bedrag": -35.0,
+  "munt": "EUR",
+  "tegenpartij": "",
+  "tegenrekening": "",
+  "mededeling": "Company Pro plan fee",
+  "soort": "charge",
+  "status": "completed"
+ },
+ {
   "id": "ponto-b1bbf62b-f17b-461c-8d44-76ca4f7fe07f",
   "bron": "KBC",
   "rekening": "SMARTPAW VOF",
