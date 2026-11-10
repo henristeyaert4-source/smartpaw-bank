@@ -86,7 +86,7 @@
   "mededeling": "Saldo compass Furvac's",
   "soort": "topup",
   "status": "completed",
-  "categorie": "Voorraad (fabriek)",
+  "categorie": "Intern (KBC↔Revolut)",
   "bedrag_eur": 5000.0
  },
  {

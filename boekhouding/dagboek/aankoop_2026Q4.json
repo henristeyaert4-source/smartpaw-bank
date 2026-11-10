@@ -4,13 +4,13 @@
  "tot": "2026-12-31",
  "telling": {
   "in Yuki": 34,
-  "te boeken": 5,
-  "factuur ontbreekt": 2
+  "te boeken": 6,
+  "factuur ontbreekt": 1
  },
  "bedrag": {
   "in Yuki": 26383.82,
-  "te boeken": 167.03,
-  "factuur ontbreekt": 4724.69
+  "te boeken": 4854.81,
+  "factuur ontbreekt": 36.91
  },
  "per_rekening": [
   {
@@ -303,16 +303,16 @@
   },
   {
    "id": "rev-0571dd4a-d257-e3bf-02c0-046bdc490d48-0571dd4a-d257-e3bf-0000-046bdc490d48",
-   "status": "factuur ontbreekt",
+   "status": "te boeken",
    "yuki_id": null,
    "factuurdatum": "2026-11-09",
    "betaald_op": "2026-11-09",
-   "leverancier": "Second part order Furvac 750 pcs",
+   "leverancier": "Suzhou Compass Machinery & Electric Co., Ltd. (CN)",
    "btw_nummer": "",
-   "factuurnummer": "",
-   "document": "",
-   "asset_id": null,
-   "omschrijving": "Second part order Furvac 750 pcs",
+   "factuurnummer": "CPS20260619",
+   "document": "2026-06-24_Compass_FurVac750_21784.75USD.pdf",
+   "asset_id": "0713334c10c9d3cdbc560e0598bbb62d",
+   "omschrijving": "Saldo Compass-invoice CPS20260619 ($5.249,32) betaald 09/11/2026 via Revolut USD; totaal $21.784,75 = $6.535,43 + $10.00",
    "rekening": "604000",
    "rekening_naam": "Aankopen van handelsgoederen",
    "rekening_bron": "Yuki: fabriek = Aankopen van handelsgoederen",

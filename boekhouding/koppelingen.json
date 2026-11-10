@@ -732,5 +732,20 @@
   "datum": "2026-11-02",
   "bedrag": -9.5,
   "btw": 1.65
+ },
+ "rev-0571dd4a-d257-e3bf-02c0-046bdc490d48-0571dd4a-d257-e3bf-0000-046bdc490d48": {
+  "soort": "upload",
+  "asset_id": "0713334c10c9d3cdbc560e0598bbb62d",
+  "bestand": "2026-06-24_Compass_FurVac750_21784.75USD.pdf",
+  "leverancier": "Suzhou Compass Machinery & Electric Co., Ltd. (CN)",
+  "datum": "2026-11-09",
+  "bedrag_usd_totaal": 21784.75,
+  "btw": 0,
+  "btw_type": "INVOER (btw via invoeraangifte Widem WID202608397)",
+  "btw_nummer": null,
+  "label": "Compass invoice CPS20260619 – saldo $5.249,32",
+  "bedrag": 5249.32,
+  "bedrag_usd": 5249.32,
+  "uitleg": "Saldo Compass-invoice CPS20260619 ($5.249,32) betaald 09/11/2026 via Revolut USD; totaal $21.784,75 = $6.535,43 + $10.000 + $5.249,32."
  }
 }
