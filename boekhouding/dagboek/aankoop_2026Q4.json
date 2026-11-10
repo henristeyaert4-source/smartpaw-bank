@@ -3,21 +3,21 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "in Yuki": 33,
+  "in Yuki": 34,
   "te boeken": 5,
-  "factuur ontbreekt": 1
+  "factuur ontbreekt": 2
  },
  "bedrag": {
-  "in Yuki": 26377.04,
+  "in Yuki": 26383.82,
   "te boeken": 167.03,
-  "factuur ontbreekt": 36.91
+  "factuur ontbreekt": 4724.69
  },
  "per_rekening": [
   {
    "rekening": "604000",
    "naam": "Aankopen van handelsgoederen",
-   "aantal": 4,
-   "maatstaf": 10741.04,
+   "aantal": 5,
+   "maatstaf": 15428.82,
    "btw": 2022.08
   },
   {
@@ -72,9 +72,9 @@
   {
    "rekening": "611030",
    "naam": "PORTKOSTEN",
-   "aantal": 7,
-   "maatstaf": 60.27,
-   "btw": 11.01
+   "aantal": 8,
+   "maatstaf": 65.87,
+   "btw": 12.19
   },
   {
    "rekening": "613210",
@@ -300,6 +300,58 @@
    "betaald_via_naam": "nog te betalen (vervalt 2026-11-06)",
    "nakijken": false,
    "onbetaald": true
+  },
+  {
+   "id": "rev-0571dd4a-d257-e3bf-02c0-046bdc490d48-0571dd4a-d257-e3bf-0000-046bdc490d48",
+   "status": "factuur ontbreekt",
+   "yuki_id": null,
+   "factuurdatum": "2026-11-09",
+   "betaald_op": "2026-11-09",
+   "leverancier": "Second part order Furvac 750 pcs",
+   "btw_nummer": "",
+   "factuurnummer": "",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "Second part order Furvac 750 pcs",
+   "rekening": "604000",
+   "rekening_naam": "Aankopen van handelsgoederen",
+   "rekening_bron": "Yuki: fabriek = Aankopen van handelsgoederen",
+   "btw_code": "INVOER",
+   "btw_uitleg": "Yuki: invoer met verlegging (art. 41, invoeraangifte Widem)",
+   "roosters": "87 · 56 · 59 (op invoeraangifte)",
+   "incl": 4687.78,
+   "maatstaf": 4687.78,
+   "btw": 0.0,
+   "verlegde_btw": 984.43,
+   "betaald_via": "550001",
+   "betaald_via_naam": "Revolut EUR",
+   "nakijken": false
+  },
+  {
+   "id": "ponto-accc74ef-5dd0-43bd-8519-ba1200243642",
+   "status": "in Yuki",
+   "yuki_id": "febe9ba4-4ca2-44b2-b639-35f2719de216",
+   "factuurdatum": "2026-11-08",
+   "betaald_op": "2026-11-08",
+   "leverancier": "bpost parcel",
+   "btw_nummer": "",
+   "factuurnummer": "2026-10-21",
+   "document": "in Yuki: Bpost (2026-10-21)",
+   "asset_id": null,
+   "omschrijving": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 17618156",
+   "rekening": "611030",
+   "rekening_naam": "PORTKOSTEN",
+   "rekening_bron": "Yuki: bpost = PORTKOSTEN",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 6.78,
+   "maatstaf": 5.6,
+   "btw": 1.18,
+   "verlegde_btw": 0.0,
+   "betaald_via": "550000",
+   "betaald_via_naam": "KBC zichtrekening",
+   "nakijken": false
   },
   {
    "id": "ponto-b1bbf62b-f17b-461c-8d44-76ca4f7fe07f",
@@ -616,13 +668,13 @@
   {
    "id": "ponto-8d423deb-a993-4ae6-896e-5697b58aff14",
    "status": "in Yuki",
-   "yuki_id": "febe9ba4-4ca2-44b2-b639-35f2719de216",
+   "yuki_id": "42608de6-367e-417f-8884-62ddd850bd94",
    "factuurdatum": "2026-10-20",
    "betaald_op": "2026-10-20",
    "leverancier": "BPOST NV BE1000 BRUXELLES Betaling met KBC-Debetka",
    "btw_nummer": "",
-   "factuurnummer": "2026-10-21",
-   "document": "in Yuki: Bpost (2026-10-21)",
+   "factuurnummer": "2026-10-16",
+   "document": "in Yuki: Bpost (2026-10-16)",
    "asset_id": null,
    "omschrijving": "BPOST NV BE1000 BRUXELLES Betaling met KBC-Debetkaart Business via Ban",
    "rekening": "611030",
@@ -1108,7 +1160,7 @@
    "nakijken": false
   }
  ],
- "yuki_opgehaald": "2026-11-09",
+ "yuki_opgehaald": "2026-11-10",
  "uitleg": "Elke aankoop met boekingsvoorstel. 'In Yuki' = Pro-count heeft ze al (enkel controle). 'Te boeken' = wij hebben het document, Yuki nog niet. Grootboekrekeningen volgen Pro-count's eigen boekingen; btw-codes zijn eigen codes tot Pro-count hun Yuki-codes bezorgt.",
- "bijgewerkt": "2026-11-09"
+ "bijgewerkt": "2026-11-10"
 }

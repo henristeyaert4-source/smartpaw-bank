@@ -214,10 +214,11 @@
   },
   {
    "maand": "2026-11",
+   "Voorraad (fabriek)": 312.22,
    "Bankkosten": -35.0,
+   "Verzending & retours (overig)": -47.3,
+   "Omzet webshop (Shopify)": 5592.35,
    "Marketing & content": -36.91,
-   "Omzet webshop (Shopify)": 5342.08,
-   "Verzending & retours (overig)": -40.52,
    "Software & abonnementen": -78.32,
    "Omzet bol.com": 255.74
   }
@@ -259,5 +260,5 @@
   "Rente KBC-krediet": "Werking"
  },
  "onbekend": [],
- "bijgewerkt": "2026-11-09T04:55:45+00:00"
+ "bijgewerkt": "2026-11-10T03:55:28+00:00"
 }
