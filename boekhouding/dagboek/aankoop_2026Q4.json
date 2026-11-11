@@ -330,13 +330,13 @@
   {
    "id": "ponto-accc74ef-5dd0-43bd-8519-ba1200243642",
    "status": "in Yuki",
-   "yuki_id": "febe9ba4-4ca2-44b2-b639-35f2719de216",
+   "yuki_id": "68dac1dc-4970-4537-911d-d7fb5c5bd250",
    "factuurdatum": "2026-11-08",
    "betaald_op": "2026-11-08",
    "leverancier": "bpost parcel",
    "btw_nummer": "",
-   "factuurnummer": "2026-10-21",
-   "document": "in Yuki: Bpost (2026-10-21)",
+   "factuurnummer": "2026-11-09",
+   "document": "in Yuki: Bpost (2026-11-09)",
    "asset_id": null,
    "omschrijving": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 17618156",
    "rekening": "611030",
@@ -668,13 +668,13 @@
   {
    "id": "ponto-8d423deb-a993-4ae6-896e-5697b58aff14",
    "status": "in Yuki",
-   "yuki_id": "42608de6-367e-417f-8884-62ddd850bd94",
+   "yuki_id": "febe9ba4-4ca2-44b2-b639-35f2719de216",
    "factuurdatum": "2026-10-20",
    "betaald_op": "2026-10-20",
    "leverancier": "BPOST NV BE1000 BRUXELLES Betaling met KBC-Debetka",
    "btw_nummer": "",
-   "factuurnummer": "2026-10-16",
-   "document": "in Yuki: Bpost (2026-10-16)",
+   "factuurnummer": "2026-10-21",
+   "document": "in Yuki: Bpost (2026-10-21)",
    "asset_id": null,
    "omschrijving": "BPOST NV BE1000 BRUXELLES Betaling met KBC-Debetkaart Business via Ban",
    "rekening": "611030",
@@ -1160,7 +1160,7 @@
    "nakijken": false
   }
  ],
- "yuki_opgehaald": "2026-11-10",
+ "yuki_opgehaald": "2026-11-11",
  "uitleg": "Elke aankoop met boekingsvoorstel. 'In Yuki' = Pro-count heeft ze al (enkel controle). 'Te boeken' = wij hebben het document, Yuki nog niet. Grootboekrekeningen volgen Pro-count's eigen boekingen; btw-codes zijn eigen codes tot Pro-count hun Yuki-codes bezorgt.",
- "bijgewerkt": "2026-11-10"
+ "bijgewerkt": "2026-11-11"
 }

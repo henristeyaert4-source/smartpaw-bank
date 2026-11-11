@@ -1,6 +1,6 @@
 {
  "fouten": [],
- "opgehaald": "2026-11-10",
+ "opgehaald": "2026-11-11",
  "crediteuren": [
   {
    "id": "4d9b547c-7975-4294-9410-22fa5fec7d58",
@@ -3494,6 +3494,13 @@
    "omschrijving": "Factuur van Pro-Count, Erelonen boekhouders en accountants",
    "bedrag": -242.0,
    "contact": "Pro-Count"
+  },
+  {
+   "id": "68dac1dc-4970-4537-911d-d7fb5c5bd250",
+   "datum": "2026-11-09",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 6,780 : 1761815651 Online creation label(s) | bpost parcel",
+   "bedrag": 6.78,
+   "contact": "Bpost"
   }
  ],
  "leveranciers_van": "2026-04-01",
