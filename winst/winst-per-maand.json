@@ -629,9 +629,9 @@
   },
   {
    "maand": "2026-11",
-   "orders": 44,
-   "stuks": 529,
-   "omzet_shopify": 3408.36,
+   "orders": 49,
+   "stuks": 554,
+   "omzet_shopify": 3789.19,
    "omzet_bol": 211.36,
    "bol": {
     "bron": "raming uit bankuitbetalingen",
@@ -639,16 +639,16 @@
     "kostprijs_fulfilment": 95.11,
     "bijdrage": 116.25
    },
-   "korting": 4359.75,
-   "retours": 500.75,
-   "kostprijs": 1973.95,
-   "fulfilment": 871.33,
+   "korting": 4380.39,
+   "retours": 592.88,
+   "kostprijs": 2093.08,
+   "fulfilment": 935.45,
    "fulfilment_bron": "raming: tarieven × 0.799 (gekalibreerd op de laatste Widem-facturen); opslag en admin bij de vaste kosten",
    "fulfilment_widem": null,
-   "betaalkosten": 83.73,
-   "brutomarge": 690.71,
-   "ads_meta": 1772.67,
-   "ads_google": 28.9,
+   "betaalkosten": 85.68,
+   "brutomarge": 886.34,
+   "ads_meta": 1923.97,
+   "ads_google": 31.22,
    "vaste_kosten": 399.32,
    "vaste_detail": {
     "Software & abonnementen": 78.32,
@@ -657,50 +657,50 @@
     "Verzending & retours (overig)": 39.09,
     "Widem opslag + admin (raming, tot de factuur er is)": 210.0
    },
-   "resultaat": -1510.18,
-   "roas": 2.29,
-   "trueprofit": -546.24,
-   "verschil_tp": -963.94
+   "resultaat": -1468.17,
+   "roas": 2.35,
+   "trueprofit": -567.55,
+   "verschil_tp": -900.62
   }
  ],
  "lijnen": [
   {
    "lijn": "FurVac",
-   "stuks": 1552,
-   "omzet": 69322.54,
-   "kostprijs": 23930.63,
-   "fulfilment": 7566.08,
-   "betaalkosten": 2909.78,
-   "marge_voor_ads": 34916.05,
-   "ads": 39664.34,
-   "na_ads": -4748.28,
+   "stuks": 1551,
+   "omzet": 69230.41,
+   "kostprijs": 23889.83,
+   "fulfilment": 7556.98,
+   "betaalkosten": 2907.09,
+   "marge_voor_ads": 34876.5,
+   "ads": 39663.5,
+   "na_ads": -4787.0,
    "roas_nodig": 2.4,
    "roas": 2.11
   },
   {
    "lijn": "Fonteinen",
-   "stuks": 1692,
-   "omzet": 23063.35,
-   "kostprijs": 8462.62,
-   "fulfilment": 5357.83,
-   "betaalkosten": 857.86,
-   "marge_voor_ads": 8385.04,
-   "ads": 10625.73,
-   "na_ads": -2240.68,
-   "roas_nodig": 3.33,
-   "roas": 2.63
+   "stuks": 1717,
+   "omzet": 23453.67,
+   "kostprijs": 8589.39,
+   "fulfilment": 5421.95,
+   "betaalkosten": 861.53,
+   "marge_voor_ads": 8580.8,
+   "ads": 10750.51,
+   "na_ads": -2169.7,
+   "roas_nodig": 3.31,
+   "roas": 2.64
   },
   {
    "lijn": "Voerbakken",
-   "stuks": 349,
-   "omzet": 11077.31,
-   "kostprijs": 5858.59,
-   "fulfilment": 2453.22,
-   "betaalkosten": 553.6,
-   "marge_voor_ads": 2211.91,
-   "ads": 4200.45,
-   "na_ads": -1988.54,
-   "roas_nodig": 6.06,
+   "stuks": 350,
+   "omzet": 11159.95,
+   "kostprijs": 5891.75,
+   "fulfilment": 2462.31,
+   "betaalkosten": 554.56,
+   "marge_voor_ads": 2251.33,
+   "ads": 4230.13,
+   "na_ads": -1978.8,
+   "roas_nodig": 6.0,
    "roas": 3.19
   },
   {
@@ -748,24 +748,17 @@
   },
   {
    "sku": "TK-WF007L",
-   "stuks": 126,
-   "omzet": 3708.83,
-   "kostprijs": 1122.06,
-   "marge_voor_fulfilment": 2586.77
+   "stuks": 127,
+   "omzet": 3738.43,
+   "kostprijs": 1131.27,
+   "marge_voor_fulfilment": 2607.16
   },
   {
    "sku": "WF315",
-   "stuks": 61,
-   "omzet": 3189.44,
-   "kostprijs": 1672.62,
-   "marge_voor_fulfilment": 1516.82
-  },
-  {
-   "sku": "Furvac-PRE",
-   "stuks": 34,
-   "omzet": 3053.45,
-   "kostprijs": 1387.2,
-   "marge_voor_fulfilment": 1666.25
+   "stuks": 62,
+   "omzet": 3249.18,
+   "kostprijs": 1700.04,
+   "marge_voor_fulfilment": 1549.14
   },
   {
    "sku": "Needle Comb",
@@ -773,6 +766,13 @@
    "omzet": 2972.07,
    "kostprijs": 529.74,
    "marge_voor_fulfilment": 2442.33
+  },
+  {
+   "sku": "Furvac-PRE",
+   "stuks": 33,
+   "omzet": 2961.32,
+   "kostprijs": 1346.4,
+   "marge_voor_fulfilment": 1614.92
   },
   {
    "sku": "Deshedding Brush",
@@ -796,25 +796,25 @@
    "marge_voor_fulfilment": 734.38
   },
   {
-   "sku": "FF007",
-   "stuks": 294,
-   "omzet": 1638.59,
-   "kostprijs": 600.57,
-   "marge_voor_fulfilment": 1038.02
+   "sku": "PF09 black",
+   "stuks": 29,
+   "omzet": 1699.9,
+   "kostprijs": 961.64,
+   "marge_voor_fulfilment": 738.26
   },
   {
-   "sku": "PF09 black",
-   "stuks": 28,
-   "omzet": 1617.26,
-   "kostprijs": 928.48,
-   "marge_voor_fulfilment": 688.78
+   "sku": "FF007",
+   "stuks": 298,
+   "omzet": 1670.15,
+   "kostprijs": 609.09,
+   "marge_voor_fulfilment": 1061.06
   },
   {
    "sku": "TK-WF119L-PRE",
-   "stuks": 30,
-   "omzet": 1210.93,
-   "kostprijs": 415.8,
-   "marge_voor_fulfilment": 795.13
+   "stuks": 33,
+   "omzet": 1336.16,
+   "kostprijs": 457.38,
+   "marge_voor_fulfilment": 878.78
   },
   {
    "sku": "Anti-static Brush",
@@ -838,18 +838,18 @@
    "marge_voor_fulfilment": 1029.14
   },
   {
+   "sku": "FF009L-PREF",
+   "stuks": 128,
+   "omzet": 1061.55,
+   "kostprijs": 328.96,
+   "marge_voor_fulfilment": 732.59
+  },
+  {
    "sku": "TT002",
    "stuks": 10,
    "omzet": 1020.98,
    "kostprijs": 475.2,
    "marge_voor_fulfilment": 545.78
-  },
-  {
-   "sku": "FF009L-PREF",
-   "stuks": 116,
-   "omzet": 959.48,
-   "kostprijs": 298.12,
-   "marge_voor_fulfilment": 661.36
   },
   {
    "sku": "FF015",
@@ -881,10 +881,10 @@
   },
   {
    "sku": "FF015-PRE",
-   "stuks": 46,
-   "omzet": 468.41,
-   "kostprijs": 105.8,
-   "marge_voor_fulfilment": 362.61
+   "stuks": 50,
+   "omzet": 510.53,
+   "kostprijs": 115.0,
+   "marge_voor_fulfilment": 395.53
   },
   {
    "sku": "Hepa-filter",
