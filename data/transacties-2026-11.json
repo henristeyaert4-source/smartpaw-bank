@@ -1,10 +1,34 @@
 [
  {
+  "id": "ponto-f3e5b125-9927-49cd-8756-08b6942f9052",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-12",
+  "bedrag": -40.84,
+  "munt": "EUR",
+  "tegenpartij": "",
+  "tegenrekening": "",
+  "mededeling": "Printdealbe BV BE2000 Antwerpen Betaling met KBC-Debetkaart Business via Bancontact 12-11-2026 om 17.12 uur 5559 20XX XXXX 6896 GIELEN KAYDEE Info van de handelaar: printdealbeorder15965357",
+  "soort": "PMNT-CCRD-POSD"
+ },
+ {
   "id": "ponto-edf349ab-1daf-4d98-bf92-39f40799deb2",
   "bron": "KBC",
   "rekening": "SMARTPAW VOF",
   "datum": "2026-11-11",
   "bedrag": 461.7,
+  "munt": "EUR",
+  "tegenpartij": "STRIPE",
+  "tegenrekening": "NL41CITI2032304805",
+  "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+  "soort": "PMNT-RCDT-ESCT"
+ },
+ {
+  "id": "ponto-c65d0961-69b3-4446-af07-856114bce8d6",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-11",
+  "bedrag": 1102.42,
   "munt": "EUR",
   "tegenpartij": "STRIPE",
   "tegenrekening": "NL41CITI2032304805",

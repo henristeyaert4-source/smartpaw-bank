@@ -5,12 +5,12 @@
  "telling": {
   "in Yuki": 34,
   "te boeken": 6,
-  "factuur ontbreekt": 1
+  "factuur ontbreekt": 2
  },
  "bedrag": {
   "in Yuki": 26383.82,
   "te boeken": 4854.81,
-  "factuur ontbreekt": 36.91
+  "factuur ontbreekt": 77.75
  },
  "per_rekening": [
   {
@@ -75,6 +75,13 @@
    "aantal": 8,
    "maatstaf": 65.87,
    "btw": 12.19
+  },
+  {
+   "rekening": "611200",
+   "naam": "Klein materiaal",
+   "aantal": 1,
+   "maatstaf": 33.75,
+   "btw": 7.09
   },
   {
    "rekening": "613210",
@@ -300,6 +307,32 @@
    "betaald_via_naam": "nog te betalen (vervalt 2026-11-06)",
    "nakijken": false,
    "onbetaald": true
+  },
+  {
+   "id": "ponto-f3e5b125-9927-49cd-8756-08b6942f9052",
+   "status": "factuur ontbreekt",
+   "yuki_id": null,
+   "factuurdatum": "2026-11-12",
+   "betaald_op": "2026-11-12",
+   "leverancier": "Printdealbe BV BE2000 Antwerpen Betaling met KBC-D",
+   "btw_nummer": "",
+   "factuurnummer": "",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "Printdealbe BV BE2000 Antwerpen Betaling met KBC-Debetkaart Business v",
+   "rekening": "611200",
+   "rekening_naam": "Klein materiaal",
+   "rekening_bron": "Yuki: Klein materiaal",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 40.84,
+   "maatstaf": 33.75,
+   "btw": 7.09,
+   "verlegde_btw": 0.0,
+   "betaald_via": "550000",
+   "betaald_via_naam": "KBC zichtrekening",
+   "nakijken": false
   },
   {
    "id": "rev-0571dd4a-d257-e3bf-02c0-046bdc490d48-0571dd4a-d257-e3bf-0000-046bdc490d48",
@@ -1160,7 +1193,7 @@
    "nakijken": false
   }
  ],
- "yuki_opgehaald": "2026-11-12",
+ "yuki_opgehaald": "2026-11-13",
  "uitleg": "Elke aankoop met boekingsvoorstel. 'In Yuki' = Pro-count heeft ze al (enkel controle). 'Te boeken' = wij hebben het document, Yuki nog niet. Grootboekrekeningen volgen Pro-count's eigen boekingen; btw-codes zijn eigen codes tot Pro-count hun Yuki-codes bezorgt.",
- "bijgewerkt": "2026-11-12"
+ "bijgewerkt": "2026-11-13"
 }
