@@ -629,9 +629,9 @@
   },
   {
    "maand": "2026-11",
-   "orders": 49,
-   "stuks": 554,
-   "omzet_shopify": 3789.19,
+   "orders": 52,
+   "stuks": 565,
+   "omzet_shopify": 3977.47,
    "omzet_bol": 211.36,
    "bol": {
     "bron": "raming uit bankuitbetalingen",
@@ -639,28 +639,28 @@
     "kostprijs_fulfilment": 95.11,
     "bijdrage": 116.25
    },
-   "korting": 4380.39,
-   "retours": 592.88,
-   "kostprijs": 2093.08,
-   "fulfilment": 935.45,
+   "korting": 4384.52,
+   "retours": 599.74,
+   "kostprijs": 2145.38,
+   "fulfilment": 969.99,
    "fulfilment_bron": "raming: tarieven × 0.799 (gekalibreerd op de laatste Widem-facturen); opslag en admin bij de vaste kosten",
    "fulfilment_widem": null,
-   "betaalkosten": 85.68,
-   "brutomarge": 886.34,
-   "ads_meta": 1923.97,
-   "ads_google": 31.22,
-   "vaste_kosten": 399.32,
+   "betaalkosten": 89.72,
+   "brutomarge": 983.73,
+   "ads_meta": 2040.99,
+   "ads_google": 32.83,
+   "vaste_kosten": 440.16,
    "vaste_detail": {
     "Software & abonnementen": 78.32,
     "Bankkosten": 35.0,
-    "Marketing & content": 36.91,
+    "Marketing & content": 77.75,
     "Verzending & retours (overig)": 39.09,
     "Widem opslag + admin (raming, tot de factuur er is)": 210.0
    },
-   "resultaat": -1468.17,
-   "roas": 2.35,
-   "trueprofit": -567.55,
-   "verschil_tp": -900.62
+   "resultaat": -1530.25,
+   "roas": 2.33,
+   "trueprofit": -642.69,
+   "verschil_tp": -887.56
   }
  ],
  "lijnen": [
@@ -670,36 +670,36 @@
    "omzet": 69230.41,
    "kostprijs": 23889.83,
    "fulfilment": 7556.98,
-   "betaalkosten": 2907.09,
-   "marge_voor_ads": 34876.5,
+   "betaalkosten": 2907.08,
+   "marge_voor_ads": 34876.51,
    "ads": 39663.5,
-   "na_ads": -4787.0,
+   "na_ads": -4786.99,
    "roas_nodig": 2.4,
    "roas": 2.11
   },
   {
    "lijn": "Fonteinen",
-   "stuks": 1717,
-   "omzet": 23453.67,
-   "kostprijs": 8589.39,
-   "fulfilment": 5421.95,
-   "betaalkosten": 861.53,
-   "marge_voor_ads": 8580.8,
-   "ads": 10750.51,
-   "na_ads": -2169.7,
-   "roas_nodig": 3.31,
-   "roas": 2.64
+   "stuks": 1728,
+   "omzet": 23648.81,
+   "kostprijs": 8645.12,
+   "fulfilment": 5456.49,
+   "betaalkosten": 865.77,
+   "marge_voor_ads": 8681.43,
+   "ads": 10870.68,
+   "na_ads": -2189.25,
+   "roas_nodig": 3.3,
+   "roas": 2.63
   },
   {
    "lijn": "Voerbakken",
    "stuks": 350,
-   "omzet": 11159.95,
-   "kostprijs": 5891.75,
+   "omzet": 11153.09,
+   "kostprijs": 5888.32,
    "fulfilment": 2462.31,
-   "betaalkosten": 554.56,
-   "marge_voor_ads": 2251.33,
-   "ads": 4230.13,
-   "na_ads": -1978.8,
+   "betaalkosten": 554.38,
+   "marge_voor_ads": 2248.09,
+   "ads": 4228.58,
+   "na_ads": -1980.49,
    "roas_nodig": 6.0,
    "roas": 3.19
   },
@@ -742,16 +742,16 @@
   {
    "sku": "(oud, zonder SKU)",
    "stuks": 185,
-   "omzet": 6045.37,
-   "kostprijs": 3177.45,
-   "marge_voor_fulfilment": 2867.92
+   "omzet": 6038.51,
+   "kostprijs": 3174.02,
+   "marge_voor_fulfilment": 2864.49
   },
   {
    "sku": "TK-WF007L",
-   "stuks": 127,
-   "omzet": 3738.43,
-   "kostprijs": 1131.27,
-   "marge_voor_fulfilment": 2607.16
+   "stuks": 128,
+   "omzet": 3770.04,
+   "kostprijs": 1140.48,
+   "marge_voor_fulfilment": 2629.56
   },
   {
    "sku": "WF315",
@@ -796,6 +796,13 @@
    "marge_voor_fulfilment": 734.38
   },
   {
+   "sku": "FF007",
+   "stuks": 302,
+   "omzet": 1703.84,
+   "kostprijs": 617.61,
+   "marge_voor_fulfilment": 1086.23
+  },
+  {
    "sku": "PF09 black",
    "stuks": 29,
    "omzet": 1699.9,
@@ -803,18 +810,11 @@
    "marge_voor_fulfilment": 738.26
   },
   {
-   "sku": "FF007",
-   "stuks": 298,
-   "omzet": 1670.15,
-   "kostprijs": 609.09,
-   "marge_voor_fulfilment": 1061.06
-  },
-  {
    "sku": "TK-WF119L-PRE",
-   "stuks": 33,
-   "omzet": 1336.16,
-   "kostprijs": 457.38,
-   "marge_voor_fulfilment": 878.78
+   "stuks": 35,
+   "omzet": 1429.5,
+   "kostprijs": 485.1,
+   "marge_voor_fulfilment": 944.4
   },
   {
    "sku": "Anti-static Brush",
@@ -839,10 +839,10 @@
   },
   {
    "sku": "FF009L-PREF",
-   "stuks": 128,
-   "omzet": 1061.55,
-   "kostprijs": 328.96,
-   "marge_voor_fulfilment": 732.59
+   "stuks": 132,
+   "omzet": 1098.05,
+   "kostprijs": 339.24,
+   "marge_voor_fulfilment": 758.81
   },
   {
    "sku": "TT002",
