@@ -358,5 +358,13 @@
   "bedrag": 242.0,
   "datum": "2026-11-06",
   "yuki_document": "479754f4-16b7-4e8b-9dfd-0e4deab3e947"
+ },
+ "2026-0736": {
+  "contact": "Suppy",
+  "iban": "BE31363233577555",
+  "ogm": "295578573283",
+  "bedrag": 544.5,
+  "datum": "2026-11-12",
+  "yuki_document": "6a67b2a6-8c3a-4cd3-8f4f-1b93e89c1b4b"
  }
 }

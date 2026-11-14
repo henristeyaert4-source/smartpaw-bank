@@ -12,6 +12,18 @@
   "soort": "PMNT-CCRD-POSD"
  },
  {
+  "id": "ponto-2ff03fd0-1d68-43ac-b0e2-e67ffc110158",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-12",
+  "bedrag": 176.09,
+  "munt": "EUR",
+  "tegenpartij": "STRIPE",
+  "tegenrekening": "NL41CITI2032304805",
+  "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+  "soort": "PMNT-RCDT-ESCT"
+ },
+ {
   "id": "ponto-edf349ab-1daf-4d98-bf92-39f40799deb2",
   "bron": "KBC",
   "rekening": "SMARTPAW VOF",

@@ -1,6 +1,6 @@
 {
  "fouten": [],
- "opgehaald": "2026-11-13",
+ "opgehaald": "2026-11-14",
  "crediteuren": [
   {
    "id": "4d9b547c-7975-4294-9410-22fa5fec7d58",
@@ -245,17 +245,6 @@
    "betaalwijze": "Creditcard"
   },
   {
-   "id": "1ef7d4a9-a0b1-46c8-bad6-1b5b527849d1",
-   "datum": "2026-10-10",
-   "vervaldag": "2026-10-10",
-   "contact": "Klaviyo",
-   "omschrijving": "Factuur van Klaviyo, SOFTWARE KOSTEN",
-   "referentie": "T9T7QHZO-0015",
-   "open": 62.47,
-   "origineel": 62.47,
-   "betaalwijze": "Overschrijving"
-  },
-  {
    "id": "34d58ed0-444d-4015-b2be-92bdd3253546",
    "datum": "2026-10-10",
    "vervaldag": "",
@@ -265,6 +254,17 @@
    "open": 167.76,
    "origineel": 167.76,
    "betaalwijze": "Creditcard"
+  },
+  {
+   "id": "1ef7d4a9-a0b1-46c8-bad6-1b5b527849d1",
+   "datum": "2026-10-10",
+   "vervaldag": "2026-10-10",
+   "contact": "Klaviyo",
+   "omschrijving": "Factuur van Klaviyo, SOFTWARE KOSTEN",
+   "referentie": "T9T7QHZO-0015",
+   "open": 62.47,
+   "origineel": 62.47,
+   "betaalwijze": "Overschrijving"
   },
   {
    "id": "a4d9cdc0-ec8d-442d-8113-7bdc69ef62b1",
@@ -352,6 +352,17 @@
    "referentie": "270710",
    "open": 242.0,
    "origineel": 242.0,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "ab0f657a-65f0-4114-b4d8-fbb8325307d9",
+   "datum": "2026-11-12",
+   "vervaldag": "2026-12-12",
+   "contact": "Suppy",
+   "omschrijving": "Factuur van Suppy, Aankopen van handelsgoederen",
+   "referentie": "2026-0736",
+   "open": 544.5,
+   "origineel": 544.5,
    "betaalwijze": "Overschrijving"
   }
  ],
@@ -3501,6 +3512,13 @@
    "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 6,780 : 1761815651 Online creation label(s) | bpost parcel",
    "bedrag": 6.78,
    "contact": "Bpost"
+  },
+  {
+   "id": "ab0f657a-65f0-4114-b4d8-fbb8325307d9",
+   "datum": "2026-11-12",
+   "omschrijving": "Factuur van Suppy, Aankopen van handelsgoederen",
+   "bedrag": -544.5,
+   "contact": "Suppy"
   }
  ],
  "leveranciers_van": "2026-04-01",

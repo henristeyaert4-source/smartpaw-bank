@@ -3,12 +3,12 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "in Yuki": 34,
+  "in Yuki": 35,
   "te boeken": 6,
   "factuur ontbreekt": 2
  },
  "bedrag": {
-  "in Yuki": 26383.82,
+  "in Yuki": 26928.32,
   "te boeken": 4854.81,
   "factuur ontbreekt": 77.75
  },
@@ -56,6 +56,13 @@
    "btw": 126.0
   },
   {
+   "rekening": "601000",
+   "naam": "Aankopen van hulpstoffen",
+   "aantal": 1,
+   "maatstaf": 450.0,
+   "btw": 94.5
+  },
+  {
    "rekening": "616651",
    "naam": "Beroepsbijdragen",
    "aantal": 1,
@@ -92,6 +99,33 @@
   }
  ],
  "lijnen": [
+  {
+   "id": "yuki-ab0f657a-65f0-4114-b4d8-fbb8325307d9",
+   "status": "in Yuki",
+   "yuki_id": "ab0f657a-65f0-4114-b4d8-fbb8325307d9",
+   "factuurdatum": "2026-11-12",
+   "betaald_op": "",
+   "leverancier": "Suppy",
+   "btw_nummer": "",
+   "factuurnummer": "2026-0736",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "Factuur van Suppy, Aankopen van handelsgoederen",
+   "rekening": "601000",
+   "rekening_naam": "Aankopen van hulpstoffen",
+   "rekening_bron": "verpakking = Aankopen van hulpstoffen",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 544.5,
+   "maatstaf": 450.0,
+   "btw": 94.5,
+   "verlegde_btw": 0.0,
+   "betaald_via": "",
+   "betaald_via_naam": "nog te betalen (vervalt 2026-12-12)",
+   "nakijken": false,
+   "onbetaald": true
+  },
   {
    "id": "yuki-0e7bbd87-b53a-453d-a80e-02b18d52496c",
    "status": "in Yuki",
@@ -1193,7 +1227,7 @@
    "nakijken": false
   }
  ],
- "yuki_opgehaald": "2026-11-13",
+ "yuki_opgehaald": "2026-11-14",
  "uitleg": "Elke aankoop met boekingsvoorstel. 'In Yuki' = Pro-count heeft ze al (enkel controle). 'Te boeken' = wij hebben het document, Yuki nog niet. Grootboekrekeningen volgen Pro-count's eigen boekingen; btw-codes zijn eigen codes tot Pro-count hun Yuki-codes bezorgt.",
- "bijgewerkt": "2026-11-13"
+ "bijgewerkt": "2026-11-14"
 }
