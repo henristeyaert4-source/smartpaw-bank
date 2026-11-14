@@ -629,9 +629,9 @@
   },
   {
    "maand": "2026-11",
-   "orders": 52,
-   "stuks": 565,
-   "omzet_shopify": 3977.47,
+   "orders": 53,
+   "stuks": 566,
+   "omzet_shopify": 3994.65,
    "omzet_bol": 211.36,
    "bol": {
     "bron": "raming uit bankuitbetalingen",
@@ -641,14 +641,14 @@
    },
    "korting": 4384.52,
    "retours": 599.74,
-   "kostprijs": 2145.38,
-   "fulfilment": 969.99,
+   "kostprijs": 2147.68,
+   "fulfilment": 978.88,
    "fulfilment_bron": "raming: tarieven × 0.799 (gekalibreerd op de laatste Widem-facturen); opslag en admin bij de vaste kosten",
    "fulfilment_widem": null,
-   "betaalkosten": 89.72,
-   "brutomarge": 983.73,
-   "ads_meta": 2040.99,
-   "ads_google": 32.83,
+   "betaalkosten": 90.11,
+   "brutomarge": 989.34,
+   "ads_meta": 2169.67,
+   "ads_google": 35.8,
    "vaste_kosten": 440.16,
    "vaste_detail": {
     "Software & abonnementen": 78.32,
@@ -657,10 +657,10 @@
     "Verzending & retours (overig)": 39.09,
     "Widem opslag + admin (raming, tot de factuur er is)": 210.0
    },
-   "resultaat": -1530.25,
-   "roas": 2.33,
-   "trueprofit": -642.69,
-   "verschil_tp": -887.56
+   "resultaat": -1656.29,
+   "roas": 2.2,
+   "trueprofit": -799.53,
+   "verschil_tp": -856.76
   }
  ],
  "lijnen": [
@@ -670,25 +670,25 @@
    "omzet": 69230.41,
    "kostprijs": 23889.83,
    "fulfilment": 7556.98,
-   "betaalkosten": 2907.08,
+   "betaalkosten": 2907.09,
    "marge_voor_ads": 34876.51,
-   "ads": 39663.5,
-   "na_ads": -4786.99,
+   "ads": 39663.65,
+   "na_ads": -4787.15,
    "roas_nodig": 2.4,
    "roas": 2.11
   },
   {
    "lijn": "Fonteinen",
-   "stuks": 1728,
-   "omzet": 23648.81,
-   "kostprijs": 8645.12,
-   "fulfilment": 5456.49,
-   "betaalkosten": 865.77,
-   "marge_voor_ads": 8681.43,
-   "ads": 10870.68,
-   "na_ads": -2189.25,
-   "roas_nodig": 3.3,
-   "roas": 2.63
+   "stuks": 1729,
+   "omzet": 23661.21,
+   "kostprijs": 8647.42,
+   "fulfilment": 5457.47,
+   "betaalkosten": 866.14,
+   "marge_voor_ads": 8690.18,
+   "ads": 10984.42,
+   "na_ads": -2294.23,
+   "roas_nodig": 3.29,
+   "roas": 2.61
   },
   {
    "lijn": "Voerbakken",
@@ -696,12 +696,12 @@
    "omzet": 11153.09,
    "kostprijs": 5888.32,
    "fulfilment": 2462.31,
-   "betaalkosten": 554.38,
-   "marge_voor_ads": 2248.09,
-   "ads": 4228.58,
-   "na_ads": -1980.49,
+   "betaalkosten": 554.39,
+   "marge_voor_ads": 2248.07,
+   "ads": 4246.34,
+   "na_ads": -1998.27,
    "roas_nodig": 6.0,
-   "roas": 3.19
+   "roas": 3.18
   },
   {
    "lijn": "Overig",
@@ -853,10 +853,10 @@
   },
   {
    "sku": "FF015",
-   "stuks": 89,
-   "omzet": 946.49,
-   "kostprijs": 204.7,
-   "marge_voor_fulfilment": 741.79
+   "stuks": 90,
+   "omzet": 958.89,
+   "kostprijs": 207.0,
+   "marge_voor_fulfilment": 751.89
   },
   {
    "sku": "FF007-PRE",
