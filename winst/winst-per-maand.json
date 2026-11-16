@@ -629,9 +629,9 @@
   },
   {
    "maand": "2026-11",
-   "orders": 59,
-   "stuks": 596,
-   "omzet_shopify": 4486.97,
+   "orders": 63,
+   "stuks": 611,
+   "omzet_shopify": 4757.79,
    "omzet_bol": 211.36,
    "bol": {
     "bron": "raming uit bankuitbetalingen",
@@ -641,26 +641,27 @@
    },
    "korting": 4384.52,
    "retours": 599.74,
-   "kostprijs": 2298.59,
-   "fulfilment": 1055.82,
+   "kostprijs": 2374.88,
+   "fulfilment": 1102.2,
    "fulfilment_bron": "raming: tarieven × 0.799 (gekalibreerd op de laatste Widem-facturen); opslag en admin bij de vaste kosten",
    "fulfilment_widem": null,
-   "betaalkosten": 98.62,
-   "brutomarge": 1245.29,
-   "ads_meta": 2297.12,
-   "ads_google": 38.84,
-   "vaste_kosten": 440.16,
+   "betaalkosten": 101.08,
+   "brutomarge": 1390.98,
+   "ads_meta": 2441.99,
+   "ads_google": 41.1,
+   "vaste_kosten": 498.79,
    "vaste_detail": {
     "Software & abonnementen": 78.32,
     "Bankkosten": 35.0,
+    "Rente KBC-krediet": 58.63,
     "Marketing & content": 77.75,
     "Verzending & retours (overig)": 39.09,
     "Widem opslag + admin (raming, tot de factuur er is)": 210.0
    },
-   "resultaat": -1530.83,
-   "roas": 2.33,
-   "trueprofit": -664.05,
-   "verschil_tp": -866.78
+   "resultaat": -1590.9,
+   "roas": 2.32,
+   "trueprofit": -662.58,
+   "verschil_tp": -928.32
   }
  ],
  "lijnen": [
@@ -670,24 +671,24 @@
    "omzet": 69230.41,
    "kostprijs": 23889.83,
    "fulfilment": 7556.98,
-   "betaalkosten": 2906.96,
-   "marge_voor_ads": 34876.63,
-   "ads": 39663.59,
-   "na_ads": -4786.96,
+   "betaalkosten": 2906.81,
+   "marge_voor_ads": 34876.79,
+   "ads": 39663.58,
+   "na_ads": -4786.8,
    "roas_nodig": 2.4,
    "roas": 2.11
   },
   {
    "lijn": "Fonteinen",
-   "stuks": 1759,
-   "omzet": 24153.53,
-   "kostprijs": 8798.33,
-   "fulfilment": 5534.41,
-   "betaalkosten": 875.09,
-   "marge_voor_ads": 8945.69,
-   "ads": 11134.83,
-   "na_ads": -2189.13,
-   "roas_nodig": 3.27,
+   "stuks": 1774,
+   "omzet": 24424.35,
+   "kostprijs": 8874.62,
+   "fulfilment": 5572.89,
+   "betaalkosten": 878.11,
+   "marge_voor_ads": 9098.74,
+   "ads": 11282.12,
+   "na_ads": -2183.38,
+   "roas_nodig": 3.25,
    "roas": 2.62
   },
   {
@@ -696,10 +697,10 @@
    "omzet": 11153.09,
    "kostprijs": 5888.32,
    "fulfilment": 2462.31,
-   "betaalkosten": 554.07,
-   "marge_voor_ads": 2248.39,
-   "ads": 4226.49,
-   "na_ads": -1978.1,
+   "betaalkosten": 553.67,
+   "marge_voor_ads": 2248.79,
+   "ads": 4226.33,
+   "na_ads": -1977.54,
    "roas_nodig": 6.0,
    "roas": 3.19
   },
@@ -748,10 +749,10 @@
   },
   {
    "sku": "TK-WF007L",
-   "stuks": 129,
-   "omzet": 3801.65,
-   "kostprijs": 1149.69,
-   "marge_voor_fulfilment": 2651.96
+   "stuks": 130,
+   "omzet": 3833.26,
+   "kostprijs": 1158.9,
+   "marge_voor_fulfilment": 2674.36
   },
   {
    "sku": "WF315",
@@ -783,17 +784,17 @@
   },
   {
    "sku": "FF009L-PRE",
-   "stuks": 231,
-   "omzet": 1904.04,
-   "kostprijs": 593.67,
-   "marge_voor_fulfilment": 1310.37
+   "stuks": 235,
+   "omzet": 1946.98,
+   "kostprijs": 603.95,
+   "marge_voor_fulfilment": 1343.03
   },
   {
    "sku": "FF007",
-   "stuks": 306,
-   "omzet": 1737.53,
-   "kostprijs": 626.13,
-   "marge_voor_fulfilment": 1111.4
+   "stuks": 310,
+   "omzet": 1771.22,
+   "kostprijs": 634.65,
+   "marge_voor_fulfilment": 1136.57
   },
   {
    "sku": "FF009L",
@@ -811,17 +812,17 @@
   },
   {
    "sku": "TK-WF119L-PRE",
-   "stuks": 39,
-   "omzet": 1608.66,
-   "kostprijs": 540.54,
-   "marge_voor_fulfilment": 1068.12
+   "stuks": 41,
+   "omzet": 1698.24,
+   "kostprijs": 568.26,
+   "marge_voor_fulfilment": 1129.98
   },
   {
    "sku": "FF009L-PREF",
-   "stuks": 148,
-   "omzet": 1244.05,
-   "kostprijs": 380.36,
-   "marge_voor_fulfilment": 863.69
+   "stuks": 156,
+   "omzet": 1317.05,
+   "kostprijs": 400.92,
+   "marge_voor_fulfilment": 916.13
   },
   {
    "sku": "Anti-static Brush",
