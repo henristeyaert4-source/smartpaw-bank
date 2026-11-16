@@ -214,6 +214,8 @@
   },
   {
    "maand": "2026-11",
+   "Aflossing KBC-krediet": -530.24,
+   "Rente KBC-krediet": -58.63,
    "Marketing & content": -77.75,
    "Omzet webshop (Shopify)": 7802.6,
    "Voorraad (fabriek)": -4687.78,
@@ -260,5 +262,5 @@
   "Rente KBC-krediet": "Werking"
  },
  "onbekend": [],
- "bijgewerkt": "2026-11-15T04:55:44+00:00"
+ "bijgewerkt": "2026-11-16T04:18:24+00:00"
 }

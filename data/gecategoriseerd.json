@@ -1,5 +1,33 @@
 [
  {
+  "id": "ponto-81178e50-fb48-44b2-b50a-82edd9d22740",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-15",
+  "bedrag": -588.87,
+  "munt": "EUR",
+  "tegenpartij": "SMARTPAW VOF",
+  "tegenrekening": "BE29420695088364",
+  "mededeling": "Betaling Investeringskrediet Referentie 420-6950883-64 Kapitaal 530,24 Rente 58,63",
+  "soort": "LDAS-FTLN-PPAY",
+  "categorie": "Aflossing KBC-krediet",
+  "bedrag_eur": -530.24
+ },
+ {
+  "id": "ponto-81178e50-fb48-44b2-b50a-82edd9d22740",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-15",
+  "bedrag": -588.87,
+  "munt": "EUR",
+  "tegenpartij": "SMARTPAW VOF",
+  "tegenrekening": "BE29420695088364",
+  "mededeling": "Betaling Investeringskrediet Referentie 420-6950883-64 Kapitaal 530,24 Rente 58,63",
+  "soort": "LDAS-FTLN-PPAY",
+  "categorie": "Rente KBC-krediet",
+  "bedrag_eur": -58.63
+ },
+ {
   "id": "ponto-f3e5b125-9927-49cd-8756-08b6942f9052",
   "bron": "KBC",
   "rekening": "SMARTPAW VOF",
