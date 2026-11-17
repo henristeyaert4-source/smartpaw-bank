@@ -4,13 +4,13 @@
  "tot": "2026-12-31",
  "telling": {
   "in Yuki": 36,
-  "te boeken": 6,
-  "factuur ontbreekt": 5
+  "te boeken": 8,
+  "factuur ontbreekt": 3
  },
  "bedrag": {
   "in Yuki": 26937.73,
-  "te boeken": 4854.81,
-  "factuur ontbreekt": 249.34
+  "te boeken": 4930.2,
+  "factuur ontbreekt": 173.95
  },
  "per_rekening": [
   {
@@ -30,8 +30,8 @@
   {
    "rekening": "406000",
    "naam": "Vooruitbetalingen",
-   "aantal": 1,
-   "maatstaf": 4529.5,
+   "aantal": 3,
+   "maatstaf": 4604.89,
    "btw": 0.0
   },
   {
@@ -74,13 +74,6 @@
    "naam": "RECLAME ZONDER MERK",
    "aantal": 2,
    "maatstaf": 151.8,
-   "btw": 0.0
-  },
-  {
-   "rekening": null,
-   "naam": "?",
-   "aantal": 2,
-   "maatstaf": 75.39,
    "btw": 0.0
   },
   {
@@ -351,55 +344,55 @@
   },
   {
    "id": "rev-05741b39-3224-e35e-02c0-040a5b6867bd-05741b39-3224-e35e-0000-040a5b6867bd",
-   "status": "factuur ontbreekt",
+   "status": "te boeken",
    "yuki_id": null,
    "factuurdatum": "2026-11-16",
    "betaald_op": "2026-11-16",
-   "leverancier": "7CATS2026111102",
+   "leverancier": "Shenzhen 7CATS-Smartpet Technology (CN)",
    "btw_nummer": "",
-   "factuurnummer": "",
-   "document": "",
+   "factuurnummer": "7CATS",
+   "document": "7CATS staal-PI 7CATS2026111102 (mail 11/11) – deel 1",
    "asset_id": null,
-   "omschrijving": "7CATS2026111102",
-   "rekening": null,
-   "rekening_naam": "?",
-   "rekening_bron": "volgens platformcategorie",
-   "btw_code": "?",
-   "btw_uitleg": "btw-behandeling nakijken",
-   "roosters": "?",
+   "omschrijving": "Staal Large Dog Fountain PW7-11S ($31) + DDP DHL ($52) = $83, betaald in 2 Revolut-overschrijvingen (€28,15 + €47,24).",
+   "rekening": "406000",
+   "rekening_naam": "Vooruitbetalingen",
+   "rekening_bron": "voorschot op proforma: Vooruitbetalingen tot de factuur er is",
+   "btw_code": "GEEN",
+   "btw_uitleg": "Yuki: geen btw / vrijgesteld",
+   "roosters": "82",
    "incl": 28.15,
    "maatstaf": 28.15,
    "btw": 0.0,
    "verlegde_btw": 0.0,
    "betaald_via": "550001",
    "betaald_via_naam": "Revolut EUR",
-   "nakijken": true
+   "nakijken": false
   },
   {
    "id": "rev-057418f5-597d-e380-02c0-04106f262d0c-057418f5-597d-e380-0000-04106f262d0c",
-   "status": "factuur ontbreekt",
+   "status": "te boeken",
    "yuki_id": null,
    "factuurdatum": "2026-11-16",
    "betaald_op": "2026-11-16",
-   "leverancier": "7CATS2026111102",
+   "leverancier": "Shenzhen 7CATS-Smartpet Technology (CN)",
    "btw_nummer": "",
-   "factuurnummer": "",
-   "document": "",
+   "factuurnummer": "7CATS",
+   "document": "7CATS staal-PI 7CATS2026111102 (mail 11/11) – deel 2",
    "asset_id": null,
-   "omschrijving": "7CATS2026111102",
-   "rekening": null,
-   "rekening_naam": "?",
-   "rekening_bron": "volgens platformcategorie",
-   "btw_code": "?",
-   "btw_uitleg": "btw-behandeling nakijken",
-   "roosters": "?",
+   "omschrijving": "Staal Large Dog Fountain PW7-11S ($31) + DDP DHL ($52) = $83, betaald in 2 Revolut-overschrijvingen (€28,15 + €47,24).",
+   "rekening": "406000",
+   "rekening_naam": "Vooruitbetalingen",
+   "rekening_bron": "voorschot op proforma: Vooruitbetalingen tot de factuur er is",
+   "btw_code": "GEEN",
+   "btw_uitleg": "Yuki: geen btw / vrijgesteld",
+   "roosters": "82",
    "incl": 47.24,
    "maatstaf": 47.24,
    "btw": 0.0,
    "verlegde_btw": 0.0,
    "betaald_via": "550001",
    "betaald_via_naam": "Revolut EUR",
-   "nakijken": true
+   "nakijken": false
   },
   {
    "id": "ponto-f5b51b47-c98d-40fe-a3d8-4eb69bfb5151",
