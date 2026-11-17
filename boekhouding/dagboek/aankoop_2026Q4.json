@@ -3,14 +3,14 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "in Yuki": 35,
+  "in Yuki": 36,
   "te boeken": 6,
-  "factuur ontbreekt": 2
+  "factuur ontbreekt": 5
  },
  "bedrag": {
-  "in Yuki": 26928.32,
+  "in Yuki": 26937.73,
   "te boeken": 4854.81,
-  "factuur ontbreekt": 77.75
+  "factuur ontbreekt": 249.34
  },
  "per_rekening": [
   {
@@ -44,8 +44,8 @@
   {
    "rekening": "611080",
    "naam": "ABONNEMENTEN",
-   "aantal": 12,
-   "maatstaf": 677.55,
+   "aantal": 13,
+   "maatstaf": 773.75,
    "btw": 8.15
   },
   {
@@ -77,11 +77,18 @@
    "btw": 0.0
   },
   {
+   "rekening": null,
+   "naam": "?",
+   "aantal": 2,
+   "maatstaf": 75.39,
+   "btw": 0.0
+  },
+  {
    "rekening": "611030",
    "naam": "PORTKOSTEN",
-   "aantal": 8,
-   "maatstaf": 65.87,
-   "btw": 12.19
+   "aantal": 9,
+   "maatstaf": 73.65,
+   "btw": 13.82
   },
   {
    "rekening": "611200",
@@ -341,6 +348,110 @@
    "betaald_via_naam": "nog te betalen (vervalt 2026-11-06)",
    "nakijken": false,
    "onbetaald": true
+  },
+  {
+   "id": "rev-05741b39-3224-e35e-02c0-040a5b6867bd-05741b39-3224-e35e-0000-040a5b6867bd",
+   "status": "factuur ontbreekt",
+   "yuki_id": null,
+   "factuurdatum": "2026-11-16",
+   "betaald_op": "2026-11-16",
+   "leverancier": "7CATS2026111102",
+   "btw_nummer": "",
+   "factuurnummer": "",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "7CATS2026111102",
+   "rekening": null,
+   "rekening_naam": "?",
+   "rekening_bron": "volgens platformcategorie",
+   "btw_code": "?",
+   "btw_uitleg": "btw-behandeling nakijken",
+   "roosters": "?",
+   "incl": 28.15,
+   "maatstaf": 28.15,
+   "btw": 0.0,
+   "verlegde_btw": 0.0,
+   "betaald_via": "550001",
+   "betaald_via_naam": "Revolut EUR",
+   "nakijken": true
+  },
+  {
+   "id": "rev-057418f5-597d-e380-02c0-04106f262d0c-057418f5-597d-e380-0000-04106f262d0c",
+   "status": "factuur ontbreekt",
+   "yuki_id": null,
+   "factuurdatum": "2026-11-16",
+   "betaald_op": "2026-11-16",
+   "leverancier": "7CATS2026111102",
+   "btw_nummer": "",
+   "factuurnummer": "",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "7CATS2026111102",
+   "rekening": null,
+   "rekening_naam": "?",
+   "rekening_bron": "volgens platformcategorie",
+   "btw_code": "?",
+   "btw_uitleg": "btw-behandeling nakijken",
+   "roosters": "?",
+   "incl": 47.24,
+   "maatstaf": 47.24,
+   "btw": 0.0,
+   "verlegde_btw": 0.0,
+   "betaald_via": "550001",
+   "betaald_via_naam": "Revolut EUR",
+   "nakijken": true
+  },
+  {
+   "id": "ponto-f5b51b47-c98d-40fe-a3d8-4eb69bfb5151",
+   "status": "factuur ontbreekt",
+   "yuki_id": null,
+   "factuurdatum": "2026-11-15",
+   "betaald_op": "2026-11-15",
+   "leverancier": "HIGGSFIELD INC. US94105 SAN FRANCISCO Betaling met",
+   "btw_nummer": "",
+   "factuurnummer": "",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "HIGGSFIELD INC. US94105 SAN FRANCISCO Betaling met M4M - MDES for merc",
+   "rekening": "611080",
+   "rekening_naam": "ABONNEMENTEN",
+   "rekening_bron": "Yuki: online abonnementen = ABONNEMENTEN",
+   "btw_code": "NEUDV",
+   "btw_uitleg": "Yuki: btw verlegd (dienst buiten EU)",
+   "roosters": "87 · 56 · 59",
+   "incl": 96.2,
+   "maatstaf": 96.2,
+   "btw": 0.0,
+   "verlegde_btw": 20.2,
+   "betaald_via": "550000",
+   "betaald_via_naam": "KBC zichtrekening",
+   "nakijken": false
+  },
+  {
+   "id": "ponto-5fcf10a0-99b4-4d43-a6ac-e65b718ddb42",
+   "status": "in Yuki",
+   "yuki_id": "4b60ad8a-f6df-4e33-b360-d39c831016fb",
+   "factuurdatum": "2026-11-15",
+   "betaald_op": "2026-11-15",
+   "leverancier": "bpost parcel",
+   "btw_nummer": "",
+   "factuurnummer": "2026-11-02",
+   "document": "in Yuki: Bpost (2026-11-02)",
+   "asset_id": null,
+   "omschrijving": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 17718922",
+   "rekening": "611030",
+   "rekening_naam": "PORTKOSTEN",
+   "rekening_bron": "Yuki: bpost = PORTKOSTEN",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 9.41,
+   "maatstaf": 7.78,
+   "btw": 1.63,
+   "verlegde_btw": 0.0,
+   "betaald_via": "550000",
+   "betaald_via_naam": "KBC zichtrekening",
+   "nakijken": false
   },
   {
    "id": "ponto-f3e5b125-9927-49cd-8756-08b6942f9052",
@@ -1227,7 +1338,7 @@
    "nakijken": false
   }
  ],
- "yuki_opgehaald": "2026-11-16",
+ "yuki_opgehaald": "2026-11-17",
  "uitleg": "Elke aankoop met boekingsvoorstel. 'In Yuki' = Pro-count heeft ze al (enkel controle). 'Te boeken' = wij hebben het document, Yuki nog niet. Grootboekrekeningen volgen Pro-count's eigen boekingen; btw-codes zijn eigen codes tot Pro-count hun Yuki-codes bezorgt.",
- "bijgewerkt": "2026-11-16"
+ "bijgewerkt": "2026-11-17"
 }

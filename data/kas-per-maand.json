@@ -214,15 +214,16 @@
   },
   {
    "maand": "2026-11",
+   "Te bekijken": -75.39,
+   "Marketing & content": -173.95,
    "Aflossing KBC-krediet": -530.24,
    "Rente KBC-krediet": -58.63,
-   "Marketing & content": -77.75,
-   "Omzet webshop (Shopify)": 7802.6,
+   "Verzending & retours (overig)": -56.71,
+   "Omzet webshop (Shopify)": 8254.6,
+   "Omzet bol.com": 291.94,
    "Voorraad (fabriek)": -4687.78,
    "Bankkosten": -35.0,
-   "Verzending & retours (overig)": -47.3,
-   "Software & abonnementen": -78.32,
-   "Omzet bol.com": 255.74
+   "Software & abonnementen": -78.32
   }
  ],
  "groepen": {
@@ -261,6 +262,21 @@
   "Aflossing KBC-krediet": "Financiering",
   "Rente KBC-krediet": "Werking"
  },
- "onbekend": [],
- "bijgewerkt": "2026-11-16T04:56:15+00:00"
+ "onbekend": [
+  {
+   "datum": "2026-11-16",
+   "bron": "Revolut",
+   "bedrag": -28.15,
+   "tegenpartij": "",
+   "mededeling": "7CATS2026111102"
+  },
+  {
+   "datum": "2026-11-16",
+   "bron": "Revolut",
+   "bedrag": -47.24,
+   "tegenpartij": "",
+   "mededeling": "7CATS2026111102"
+  }
+ ],
+ "bijgewerkt": "2026-11-17T03:58:09+00:00"
 }
