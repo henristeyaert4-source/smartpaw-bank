@@ -3539,6 +3539,13 @@
    "contact": "Bpost"
   },
   {
+   "id": "921bbcf4-4a78-4e16-91cc-8e4caa82430a",
+   "datum": "2026-11-17",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 9,410 : 1772853088 Online creation label(s) | bpost parcel",
+   "bedrag": 9.41,
+   "contact": "Bpost"
+  },
+  {
    "id": "93bbc7e5-967d-4da7-841b-ed6ce6939fc9",
    "datum": "2026-11-17",
    "omschrijving": "Factuur van Printdeal.be, CATALOGI EN DRUKWERKEN",
