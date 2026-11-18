@@ -366,5 +366,13 @@
   "bedrag": 544.5,
   "datum": "2026-11-12",
   "yuki_document": "6a67b2a6-8c3a-4cd3-8f4f-1b93e89c1b4b"
+ },
+ "27B0044083": {
+  "contact": "Printdeal.be",
+  "iban": null,
+  "ogm": null,
+  "bedrag": 40.84,
+  "datum": "2026-11-17",
+  "yuki_document": "7cf22378-1e95-4314-bbc9-9d09db6a0b6c"
  }
 }

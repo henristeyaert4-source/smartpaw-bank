@@ -1,6 +1,6 @@
 {
  "fouten": [],
- "opgehaald": "2026-11-17",
+ "opgehaald": "2026-11-18",
  "crediteuren": [
   {
    "id": "4d9b547c-7975-4294-9410-22fa5fec7d58",
@@ -363,6 +363,17 @@
    "referentie": "2026-0736",
    "open": 544.5,
    "origineel": 544.5,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "93bbc7e5-967d-4da7-841b-ed6ce6939fc9",
+   "datum": "2026-11-17",
+   "vervaldag": "2026-12-01",
+   "contact": "Printdeal.be",
+   "omschrijving": "Factuur van Printdeal.be, CATALOGI EN DRUKWERKEN",
+   "referentie": "27B0044083",
+   "open": 40.84,
+   "origineel": 40.84,
    "betaalwijze": "Overschrijving"
   }
  ],
@@ -3519,6 +3530,20 @@
    "omschrijving": "Factuur van Suppy, Aankopen van handelsgoederen",
    "bedrag": -544.5,
    "contact": "Suppy"
+  },
+  {
+   "id": "e91998d2-ca80-4fd5-b70d-c2306caffe40",
+   "datum": "2026-11-16",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 9,410 : 1771892236 Online creation label(s) | bpost parcel",
+   "bedrag": 9.41,
+   "contact": "Bpost"
+  },
+  {
+   "id": "93bbc7e5-967d-4da7-841b-ed6ce6939fc9",
+   "datum": "2026-11-17",
+   "omschrijving": "Factuur van Printdeal.be, CATALOGI EN DRUKWERKEN",
+   "bedrag": -40.84,
+   "contact": "Printdeal.be"
   }
  ],
  "leveranciers_van": "2026-04-01",

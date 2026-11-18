@@ -3,14 +3,14 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "in Yuki": 36,
+  "in Yuki": 39,
   "te boeken": 8,
-  "factuur ontbreekt": 3
+  "factuur ontbreekt": 2
  },
  "bedrag": {
-  "in Yuki": 26937.73,
+  "in Yuki": 27028.82,
   "te boeken": 4930.2,
-  "factuur ontbreekt": 173.95
+  "factuur ontbreekt": 133.11
  },
  "per_rekening": [
   {
@@ -44,9 +44,9 @@
   {
    "rekening": "611080",
    "naam": "ABONNEMENTEN",
-   "aantal": 13,
-   "maatstaf": 773.75,
-   "btw": 8.15
+   "aantal": 14,
+   "maatstaf": 807.5,
+   "btw": 15.24
   },
   {
    "rekening": "615200",
@@ -79,9 +79,9 @@
   {
    "rekening": "611030",
    "naam": "PORTKOSTEN",
-   "aantal": 9,
-   "maatstaf": 73.65,
-   "btw": 13.82
+   "aantal": 10,
+   "maatstaf": 81.43,
+   "btw": 15.45
   },
   {
    "rekening": "611200",
@@ -99,6 +99,33 @@
   }
  ],
  "lijnen": [
+  {
+   "id": "yuki-93bbc7e5-967d-4da7-841b-ed6ce6939fc9",
+   "status": "in Yuki",
+   "yuki_id": "93bbc7e5-967d-4da7-841b-ed6ce6939fc9",
+   "factuurdatum": "2026-11-17",
+   "betaald_op": "",
+   "leverancier": "Printdeal.be",
+   "btw_nummer": "",
+   "factuurnummer": "27B0044083",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "Factuur van Printdeal.be, CATALOGI EN DRUKWERKEN",
+   "rekening": "611200",
+   "rekening_naam": "Klein materiaal",
+   "rekening_bron": "Yuki: Klein materiaal",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 40.84,
+   "maatstaf": 33.75,
+   "btw": 7.09,
+   "verlegde_btw": 0.0,
+   "betaald_via": "",
+   "betaald_via_naam": "nog te betalen (vervalt 2026-12-01)",
+   "nakijken": false,
+   "onbetaald": true
+  },
   {
    "id": "yuki-ab0f657a-65f0-4114-b4d8-fbb8325307d9",
    "status": "in Yuki",
@@ -395,6 +422,32 @@
    "nakijken": false
   },
   {
+   "id": "ponto-075cb0e7-5f0a-42e5-a9e9-b15d595a36a0",
+   "status": "in Yuki",
+   "yuki_id": "e91998d2-ca80-4fd5-b70d-c2306caffe40",
+   "factuurdatum": "2026-11-16",
+   "betaald_op": "2026-11-16",
+   "leverancier": "bpost parcel",
+   "btw_nummer": "",
+   "factuurnummer": "2026-11-16",
+   "document": "in Yuki: Bpost (2026-11-16)",
+   "asset_id": null,
+   "omschrijving": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 17728530",
+   "rekening": "611030",
+   "rekening_naam": "PORTKOSTEN",
+   "rekening_bron": "Yuki: bpost = PORTKOSTEN",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 9.41,
+   "maatstaf": 7.78,
+   "btw": 1.63,
+   "verlegde_btw": 0.0,
+   "betaald_via": "550000",
+   "betaald_via_naam": "KBC zichtrekening",
+   "nakijken": false
+  },
+  {
    "id": "ponto-f5b51b47-c98d-40fe-a3d8-4eb69bfb5151",
    "status": "factuur ontbreekt",
    "yuki_id": null,
@@ -448,19 +501,19 @@
   },
   {
    "id": "ponto-f3e5b125-9927-49cd-8756-08b6942f9052",
-   "status": "factuur ontbreekt",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "93bbc7e5-967d-4da7-841b-ed6ce6939fc9",
    "factuurdatum": "2026-11-12",
    "betaald_op": "2026-11-12",
    "leverancier": "Printdealbe BV BE2000 Antwerpen Betaling met KBC-D",
    "btw_nummer": "",
-   "factuurnummer": "",
-   "document": "",
+   "factuurnummer": "2026-11-17",
+   "document": "in Yuki: Printdeal.be (2026-11-17)",
    "asset_id": null,
    "omschrijving": "Printdealbe BV BE2000 Antwerpen Betaling met KBC-Debetkaart Business v",
-   "rekening": "611200",
-   "rekening_naam": "Klein materiaal",
-   "rekening_bron": "Yuki: Klein materiaal",
+   "rekening": "611080",
+   "rekening_naam": "ABONNEMENTEN",
+   "rekening_bron": "Yuki: Yuki works = ABONNEMENTEN",
    "btw_code": "BE21",
    "btw_uitleg": "Yuki: 21%",
    "roosters": "82 · 59",
@@ -1331,7 +1384,7 @@
    "nakijken": false
   }
  ],
- "yuki_opgehaald": "2026-11-17",
+ "yuki_opgehaald": "2026-11-18",
  "uitleg": "Elke aankoop met boekingsvoorstel. 'In Yuki' = Pro-count heeft ze al (enkel controle). 'Te boeken' = wij hebben het document, Yuki nog niet. Grootboekrekeningen volgen Pro-count's eigen boekingen; btw-codes zijn eigen codes tot Pro-count hun Yuki-codes bezorgt.",
- "bijgewerkt": "2026-11-17"
+ "bijgewerkt": "2026-11-18"
 }
