@@ -629,9 +629,9 @@
   },
   {
    "maand": "2026-11",
-   "orders": 66,
-   "stuks": 627,
-   "omzet_shopify": 4994.75,
+   "orders": 67,
+   "stuks": 632,
+   "omzet_shopify": 5060.05,
    "omzet_bol": 241.27,
    "bol": {
     "bron": "raming uit bankuitbetalingen",
@@ -641,27 +641,27 @@
    },
    "korting": 4384.52,
    "retours": 599.74,
-   "kostprijs": 2450.42,
-   "fulfilment": 1141.66,
+   "kostprijs": 2468.15,
+   "fulfilment": 1154.48,
    "fulfilment_bron": "raming: tarieven × 0.799 (gekalibreerd op de laatste Widem-facturen); opslag en admin bij de vaste kosten",
    "fulfilment_widem": null,
-   "betaalkosten": 102.25,
-   "brutomarge": 1541.69,
-   "ads_meta": 2566.13,
+   "betaalkosten": 102.64,
+   "brutomarge": 1576.05,
+   "ads_meta": 2712.2,
    "ads_google": 42.4,
-   "vaste_kosten": 602.77,
+   "vaste_kosten": 610.54,
    "vaste_detail": {
     "Software & abonnementen": 78.32,
     "Bankkosten": 35.0,
     "Rente KBC-krediet": 58.63,
     "Marketing & content": 173.95,
-    "Verzending & retours (overig)": 46.87,
+    "Verzending & retours (overig)": 54.64,
     "Widem opslag + admin (raming, tot de factuur er is)": 210.0
    },
-   "resultaat": -1669.61,
-   "roas": 2.32,
-   "trueprofit": -682.82,
-   "verschil_tp": -986.79
+   "resultaat": -1789.09,
+   "roas": 2.23,
+   "trueprofit": -1201.13,
+   "verschil_tp": -587.96
   }
  ],
  "lijnen": [
@@ -671,25 +671,25 @@
    "omzet": 69230.41,
    "kostprijs": 23889.83,
    "fulfilment": 7556.98,
-   "betaalkosten": 2906.64,
-   "marge_voor_ads": 34876.95,
-   "ads": 39663.55,
-   "na_ads": -4786.6,
+   "betaalkosten": 2906.6,
+   "marge_voor_ads": 34876.99,
+   "ads": 39663.53,
+   "na_ads": -4786.54,
    "roas_nodig": 2.4,
    "roas": 2.11
   },
   {
    "lijn": "Fonteinen",
-   "stuks": 1790,
-   "omzet": 24661.31,
-   "kostprijs": 8936.7,
-   "fulfilment": 5604.43,
-   "betaalkosten": 879.86,
-   "marge_voor_ads": 9240.32,
-   "ads": 11408.08,
-   "na_ads": -2167.76,
+   "stuks": 1795,
+   "omzet": 24726.61,
+   "kostprijs": 8954.43,
+   "fulfilment": 5617.25,
+   "betaalkosten": 880.39,
+   "marge_voor_ads": 9274.54,
+   "ads": 11541.91,
+   "na_ads": -2267.38,
    "roas_nodig": 3.23,
-   "roas": 2.62
+   "roas": 2.59
   },
   {
    "lijn": "Voerbakken",
@@ -697,12 +697,12 @@
    "omzet": 11153.09,
    "kostprijs": 5888.32,
    "fulfilment": 2462.31,
-   "betaalkosten": 553.25,
-   "marge_voor_ads": 2249.21,
-   "ads": 4225.84,
-   "na_ads": -1976.63,
+   "betaalkosten": 553.15,
+   "marge_voor_ads": 2249.31,
+   "ads": 4238.1,
+   "na_ads": -1988.79,
    "roas_nodig": 6.0,
-   "roas": 3.19
+   "roas": 3.18
   },
   {
    "lijn": "Overig",
@@ -749,10 +749,10 @@
   },
   {
    "sku": "TK-WF007L",
-   "stuks": 130,
-   "omzet": 3833.26,
-   "kostprijs": 1158.9,
-   "marge_voor_fulfilment": 2674.36
+   "stuks": 131,
+   "omzet": 3864.87,
+   "kostprijs": 1168.11,
+   "marge_voor_fulfilment": 2696.76
   },
   {
    "sku": "WF315",
@@ -790,18 +790,18 @@
    "marge_voor_fulfilment": 1343.03
   },
   {
+   "sku": "FF007",
+   "stuks": 314,
+   "omzet": 1804.91,
+   "kostprijs": 643.17,
+   "marge_voor_fulfilment": 1161.74
+  },
+  {
    "sku": "TK-WF119L-PRE",
    "stuks": 43,
    "omzet": 1787.82,
    "kostprijs": 595.98,
    "marge_voor_fulfilment": 1191.84
-  },
-  {
-   "sku": "FF007",
-   "stuks": 310,
-   "omzet": 1771.22,
-   "kostprijs": 634.65,
-   "marge_voor_fulfilment": 1136.57
   },
   {
    "sku": "FF009L",
