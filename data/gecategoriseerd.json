@@ -1,5 +1,33 @@
 [
  {
+  "id": "ponto-bb0f43fb-ef38-4b60-9430-585f8b9c013f",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-17",
+  "bedrag": 21.61,
+  "munt": "EUR",
+  "tegenpartij": "STRIPE",
+  "tegenrekening": "NL41CITI2032304805",
+  "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+  "soort": "PMNT-RCDT-ESCT",
+  "categorie": "Omzet webshop (Shopify)",
+  "bedrag_eur": 21.61
+ },
+ {
+  "id": "ponto-a438d1d4-4f50-4932-bea8-633909a3ac16",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-17",
+  "bedrag": -9.41,
+  "munt": "EUR",
+  "tegenpartij": "bpost parcel",
+  "tegenrekening": "BE49735046248271",
+  "mededeling": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 1774407011 Online creation label(s) KBC-Betaalknop",
+  "soort": "PMNT-ICDT-ESCT",
+  "categorie": "Verzending & retours (overig)",
+  "bedrag_eur": -9.41
+ },
+ {
   "id": "rev-05741b39-3224-e35e-02c0-040a5b6867bd-05741b39-3224-e35e-0000-040a5b6867bd",
   "bron": "Revolut",
   "rekening": "EUR",

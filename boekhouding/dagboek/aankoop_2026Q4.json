@@ -3,12 +3,12 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "in Yuki": 37,
+  "in Yuki": 38,
   "te boeken": 10,
   "factuur ontbreekt": 2
  },
  "bedrag": {
-  "in Yuki": 27010.0,
+  "in Yuki": 27019.41,
   "te boeken": 4949.02,
   "factuur ontbreekt": 133.11
  },
@@ -79,9 +79,9 @@
   {
    "rekening": "611030",
    "naam": "PORTKOSTEN",
-   "aantal": 10,
-   "maatstaf": 81.43,
-   "btw": 15.45
+   "aantal": 11,
+   "maatstaf": 89.21,
+   "btw": 17.08
   },
   {
    "rekening": "611200",
@@ -368,6 +368,32 @@
    "betaald_via_naam": "nog te betalen (vervalt 2026-11-06)",
    "nakijken": false,
    "onbetaald": true
+  },
+  {
+   "id": "ponto-a438d1d4-4f50-4932-bea8-633909a3ac16",
+   "status": "in Yuki",
+   "yuki_id": "921bbcf4-4a78-4e16-91cc-8e4caa82430a",
+   "factuurdatum": "2026-11-17",
+   "betaald_op": "2026-11-17",
+   "leverancier": "bpost parcel",
+   "btw_nummer": "",
+   "factuurnummer": "2026-11-17",
+   "document": "in Yuki: Bpost (2026-11-17)",
+   "asset_id": null,
+   "omschrijving": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 17744070",
+   "rekening": "611030",
+   "rekening_naam": "PORTKOSTEN",
+   "rekening_bron": "Yuki: bpost = PORTKOSTEN",
+   "btw_code": "BE21",
+   "btw_uitleg": "Yuki: 21%",
+   "roosters": "82 · 59",
+   "incl": 9.41,
+   "maatstaf": 7.78,
+   "btw": 1.63,
+   "verlegde_btw": 0.0,
+   "betaald_via": "550000",
+   "betaald_via_naam": "KBC zichtrekening",
+   "nakijken": false
   },
   {
    "id": "rev-05741b39-3224-e35e-02c0-040a5b6867bd-05741b39-3224-e35e-0000-040a5b6867bd",
@@ -1384,7 +1410,7 @@
    "nakijken": false
   }
  ],
- "yuki_opgehaald": "2026-11-18",
+ "yuki_opgehaald": "2026-11-19",
  "uitleg": "Elke aankoop met boekingsvoorstel. 'In Yuki' = Pro-count heeft ze al (enkel controle). 'Te boeken' = wij hebben het document, Yuki nog niet. Grootboekrekeningen volgen Pro-count's eigen boekingen; btw-codes zijn eigen codes tot Pro-count hun Yuki-codes bezorgt.",
- "bijgewerkt": "2026-11-18"
+ "bijgewerkt": "2026-11-19"
 }
