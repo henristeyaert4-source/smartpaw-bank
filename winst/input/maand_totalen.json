@@ -1,5 +1,5 @@
 {
- "_bron": "Shopify Analytics, Meta API, TrueProfit — opgehaald 18/11/2026, nov t/m 17/11 (orders = TrueProfit: Shopify telt 94 herberekende pre-order-orders op 9/11)",
+ "_bron": "Shopify Analytics, Meta API — opgehaald 19/11/2026, nov t/m 18/11. Nov zonder TrueProfit (opgezegd, loopt af 19/11): orders = 67 (TrueProfit t/m 17/11; 18/11 geen betaalde orders — Shopify telt 94 herberekende pre-orders op 9/11 en 44 omgezette FurVac-pre-orders van €0 op 18/11), betaalkosten 2,5% van total_sales, ads_google = bank, trueprofit_netto leeg. SKU-rijen nov zonder de €0-omzettingen van 18/11 (anders dubbele kostprijs).",
  "maanden": [
   "2025-10",
   "2025-11",
@@ -46,7 +46,7 @@
   19615.81,
   15753.29,
   16744.05,
-  10025.17
+  16859.75
  ],
  "discounts": [
   -248.33,
@@ -62,7 +62,7 @@
   -1370.1,
   -3732.7,
   -2549.2,
-  -4384.52
+  -11219.1
  ],
  "returns": [
   0,
@@ -78,7 +78,7 @@
   -353.18,
   -223.53,
   -944.24,
-  -599.74
+  -584.44
  ],
  "net_sales": [
   3024.16,
@@ -94,7 +94,7 @@
   17892.53,
   11797.06,
   13250.61,
-  5040.91
+  5056.21
  ],
  "shipping": [
   53.65,
@@ -126,7 +126,7 @@
   3815.73,
   2489.99,
   2803.57,
-  1069.98
+  1054.68
  ],
  "total_sales": [
   3719.31,
@@ -158,7 +158,7 @@
   7744.09,
   7406.09,
   7350.54,
-  2712.2
+  2840.48
  ],
  "ads_google": [
   134.23,
@@ -190,7 +190,7 @@
   425.99,
   240.57,
   256.77,
-  102.64
+  153.35
  ],
  "trueprofit_netto": [
   -2933.39,
@@ -205,7 +205,6 @@
   -819.76,
   1561.58,
   -1614.11,
-  -2203.76,
-  -1201.13
+  -2203.76
  ]
 }

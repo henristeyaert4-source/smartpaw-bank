@@ -630,8 +630,8 @@
   {
    "maand": "2026-11",
    "orders": 67,
-   "stuks": 632,
-   "omzet_shopify": 5060.05,
+   "stuks": 628,
+   "omzet_shopify": 5075.35,
    "omzet_bol": 241.27,
    "bol": {
     "bron": "raming uit bankuitbetalingen",
@@ -639,29 +639,29 @@
     "kostprijs_fulfilment": 108.57,
     "bijdrage": 132.7
    },
-   "korting": 4384.52,
-   "retours": 599.74,
-   "kostprijs": 2468.15,
-   "fulfilment": 1154.48,
+   "korting": 11219.1,
+   "retours": 584.44,
+   "kostprijs": 2477.55,
+   "fulfilment": 1150.15,
    "fulfilment_bron": "raming: tarieven × 0.799 (gekalibreerd op de laatste Widem-facturen); opslag en admin bij de vaste kosten",
    "fulfilment_widem": null,
-   "betaalkosten": 102.64,
-   "brutomarge": 1576.05,
-   "ads_meta": 2712.2,
+   "betaalkosten": 153.35,
+   "brutomarge": 1535.57,
+   "ads_meta": 2840.48,
    "ads_google": 42.4,
-   "vaste_kosten": 610.54,
+   "vaste_kosten": 618.32,
    "vaste_detail": {
     "Software & abonnementen": 78.32,
     "Bankkosten": 35.0,
     "Rente KBC-krediet": 58.63,
     "Marketing & content": 173.95,
-    "Verzending & retours (overig)": 54.64,
+    "Verzending & retours (overig)": 62.42,
     "Widem opslag + admin (raming, tot de factuur er is)": 210.0
    },
-   "resultaat": -1789.09,
-   "roas": 2.23,
-   "trueprofit": -1201.13,
-   "verschil_tp": -587.96
+   "resultaat": -1965.63,
+   "roas": 2.13,
+   "trueprofit": null,
+   "verschil_tp": null
   }
  ],
  "lijnen": [
@@ -671,10 +671,10 @@
    "omzet": 69230.41,
    "kostprijs": 23889.83,
    "fulfilment": 7556.98,
-   "betaalkosten": 2906.6,
-   "marge_voor_ads": 34876.99,
-   "ads": 39663.53,
-   "na_ads": -4786.54,
+   "betaalkosten": 2908.7,
+   "marge_voor_ads": 34874.9,
+   "ads": 39663.52,
+   "na_ads": -4788.62,
    "roas_nodig": 2.4,
    "roas": 2.11
   },
@@ -684,25 +684,25 @@
    "omzet": 24726.61,
    "kostprijs": 8954.43,
    "fulfilment": 5617.25,
-   "betaalkosten": 880.39,
-   "marge_voor_ads": 9274.54,
-   "ads": 11541.91,
-   "na_ads": -2267.38,
-   "roas_nodig": 3.23,
-   "roas": 2.59
+   "betaalkosten": 923.19,
+   "marge_voor_ads": 9231.73,
+   "ads": 11647.86,
+   "na_ads": -2416.13,
+   "roas_nodig": 3.24,
+   "roas": 2.57
   },
   {
    "lijn": "Voerbakken",
-   "stuks": 350,
-   "omzet": 11153.09,
-   "kostprijs": 5888.32,
-   "fulfilment": 2462.31,
-   "betaalkosten": 553.15,
-   "marge_voor_ads": 2249.31,
-   "ads": 4238.1,
-   "na_ads": -1988.79,
-   "roas_nodig": 6.0,
-   "roas": 3.18
+   "stuks": 346,
+   "omzet": 11168.39,
+   "kostprijs": 5897.72,
+   "fulfilment": 2442.16,
+   "betaalkosten": 558.97,
+   "marge_voor_ads": 2269.55,
+   "ads": 4260.44,
+   "na_ads": -1990.89,
+   "roas_nodig": 5.95,
+   "roas": 3.17
   },
   {
    "lijn": "Overig",
@@ -742,10 +742,10 @@
   },
   {
    "sku": "(oud, zonder SKU)",
-   "stuks": 185,
-   "omzet": 6038.51,
-   "kostprijs": 3174.02,
-   "marge_voor_fulfilment": 2864.49
+   "stuks": 184,
+   "omzet": 6126.7,
+   "kostprijs": 3218.11,
+   "marge_voor_fulfilment": 2908.58
   },
   {
    "sku": "TK-WF007L",
@@ -832,18 +832,18 @@
    "marge_voor_fulfilment": 971.58
   },
   {
-   "sku": "PF07 black",
-   "stuks": 23,
-   "omzet": 1148.19,
-   "kostprijs": 690.0,
-   "marge_voor_fulfilment": 458.19
-  },
-  {
    "sku": "Massage Comb",
    "stuks": 126,
    "omzet": 1137.5,
    "kostprijs": 108.36,
    "marge_voor_fulfilment": 1029.14
+  },
+  {
+   "sku": "PF07 black",
+   "stuks": 22,
+   "omzet": 1091.65,
+   "kostprijs": 660.0,
+   "marge_voor_fulfilment": 431.65
   },
   {
    "sku": "TT002",
@@ -868,10 +868,10 @@
   },
   {
    "sku": "DESBAG",
-   "stuks": 86,
-   "omzet": 650.34,
-   "kostprijs": 202.1,
-   "marge_voor_fulfilment": 448.24
+   "stuks": 84,
+   "omzet": 633.99,
+   "kostprijs": 197.4,
+   "marge_voor_fulfilment": 436.59
   },
   {
    "sku": "Trimmer",
