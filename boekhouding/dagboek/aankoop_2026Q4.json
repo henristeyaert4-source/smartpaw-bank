@@ -3,13 +3,13 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "in Yuki": 38,
-  "te boeken": 10,
+  "in Yuki": 37,
+  "te boeken": 11,
   "factuur ontbreekt": 2
  },
  "bedrag": {
-  "in Yuki": 27019.41,
-  "te boeken": 4949.02,
+  "in Yuki": 27010.0,
+  "te boeken": 4958.43,
   "factuur ontbreekt": 133.11
  },
  "per_rekening": [
@@ -371,14 +371,14 @@
   },
   {
    "id": "ponto-a438d1d4-4f50-4932-bea8-633909a3ac16",
-   "status": "in Yuki",
-   "yuki_id": "921bbcf4-4a78-4e16-91cc-8e4caa82430a",
-   "factuurdatum": "2026-11-17",
+   "status": "te boeken",
+   "yuki_id": null,
+   "factuurdatum": "2026-11-18",
    "betaald_op": "2026-11-17",
-   "leverancier": "bpost parcel",
+   "leverancier": "bpost",
    "btw_nummer": "",
-   "factuurnummer": "2026-11-17",
-   "document": "in Yuki: Bpost (2026-11-17)",
+   "factuurnummer": "13067827",
+   "document": "bpost-bestelling 13067827 (18/11)",
    "asset_id": null,
    "omschrijving": "bpost parcel Overschrijving BE49 7350 4624 8271 BIC: KREDBEBB 17744070",
    "rekening": "611030",
