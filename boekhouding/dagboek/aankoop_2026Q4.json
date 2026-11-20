@@ -5,12 +5,12 @@
  "telling": {
   "in Yuki": 37,
   "te boeken": 11,
-  "factuur ontbreekt": 2
+  "factuur ontbreekt": 3
  },
  "bedrag": {
   "in Yuki": 27010.0,
   "te boeken": 4958.43,
-  "factuur ontbreekt": 133.11
+  "factuur ontbreekt": 833.36
  },
  "per_rekening": [
   {
@@ -44,9 +44,16 @@
   {
    "rekening": "611080",
    "naam": "ABONNEMENTEN",
-   "aantal": 14,
-   "maatstaf": 807.5,
+   "aantal": 15,
+   "maatstaf": 967.5,
    "btw": 15.24
+  },
+  {
+   "rekening": null,
+   "naam": "?",
+   "aantal": 1,
+   "maatstaf": 700.25,
+   "btw": 0.0
   },
   {
    "rekening": "615200",
@@ -61,13 +68,6 @@
    "aantal": 1,
    "maatstaf": 450.0,
    "btw": 94.5
-  },
-  {
-   "rekening": "616651",
-   "naam": "Beroepsbijdragen",
-   "aantal": 1,
-   "maatstaf": 160.0,
-   "btw": 0.0
   },
   {
    "rekening": "616501",
@@ -289,33 +289,6 @@
    "onbetaald": true
   },
   {
-   "id": "yuki-a4d9cdc0-ec8d-442d-8113-7bdc69ef62b1",
-   "status": "in Yuki",
-   "yuki_id": "a4d9cdc0-ec8d-442d-8113-7bdc69ef62b1",
-   "factuurdatum": "2026-10-19",
-   "betaald_op": "",
-   "leverancier": "BELGIAN DOGGOS",
-   "btw_nummer": "",
-   "factuurnummer": "2026-74",
-   "document": "",
-   "asset_id": null,
-   "omschrijving": "Factuur van BELGIAN DOGGOS, Beroepsbijdragen",
-   "rekening": "616651",
-   "rekening_naam": "Beroepsbijdragen",
-   "rekening_bron": "Yuki: Beroepsbijdragen",
-   "btw_code": "GEEN",
-   "btw_uitleg": "Yuki: geen btw / vrijgesteld",
-   "roosters": "82",
-   "incl": 160.0,
-   "maatstaf": 160.0,
-   "btw": 0.0,
-   "verlegde_btw": 0.0,
-   "betaald_via": "",
-   "betaald_via_naam": "nog te betalen (vervalt 2026-11-09)",
-   "nakijken": false,
-   "onbetaald": true
-  },
-  {
    "id": "yuki-ec5b10d4-8df8-4d44-9281-e68dd46fa786",
    "status": "in Yuki",
    "yuki_id": "ec5b10d4-8df8-4d44-9281-e68dd46fa786",
@@ -368,6 +341,58 @@
    "betaald_via_naam": "nog te betalen (vervalt 2026-11-06)",
    "nakijken": false,
    "onbetaald": true
+  },
+  {
+   "id": "rev-0575158b-75ae-e31a-02c0-04b198115b26-0575158b-75ae-e31a-0000-04b198115b26",
+   "status": "factuur ontbreekt",
+   "yuki_id": null,
+   "factuurdatum": "2026-11-20",
+   "betaald_op": "2026-11-20",
+   "leverancier": "Facebook",
+   "btw_nummer": "",
+   "factuurnummer": "",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "Facebook",
+   "rekening": null,
+   "rekening_naam": "?",
+   "rekening_bron": "volgens platformcategorie",
+   "btw_code": "?",
+   "btw_uitleg": "btw-behandeling nakijken",
+   "roosters": "?",
+   "incl": 700.25,
+   "maatstaf": 700.25,
+   "btw": 0.0,
+   "verlegde_btw": 0.0,
+   "betaald_via": "550001",
+   "betaald_via_naam": "Revolut EUR",
+   "nakijken": true
+  },
+  {
+   "id": "ponto-ac930059-13a6-4265-a0cd-e1ce9a6d414a",
+   "status": "in Yuki",
+   "yuki_id": "a4d9cdc0-ec8d-442d-8113-7bdc69ef62b1",
+   "factuurdatum": "2026-11-18",
+   "betaald_op": "2026-11-18",
+   "leverancier": "VZW Belgian Doggos",
+   "btw_nummer": "",
+   "factuurnummer": "2026-10-19",
+   "document": "in Yuki: BELGIAN DOGGOS (2026-10-19)",
+   "asset_id": null,
+   "omschrijving": "000000060826",
+   "rekening": "611080",
+   "rekening_naam": "ABONNEMENTEN",
+   "rekening_bron": "Yuki: Yuki works = ABONNEMENTEN",
+   "btw_code": "?",
+   "btw_uitleg": "btw-behandeling nakijken",
+   "roosters": "?",
+   "incl": 160.0,
+   "maatstaf": 160.0,
+   "btw": 0.0,
+   "verlegde_btw": 0.0,
+   "betaald_via": "550000",
+   "betaald_via_naam": "KBC zichtrekening",
+   "nakijken": true
   },
   {
    "id": "ponto-a438d1d4-4f50-4932-bea8-633909a3ac16",
@@ -1410,7 +1435,7 @@
    "nakijken": false
   }
  ],
- "yuki_opgehaald": "2026-11-19",
+ "yuki_opgehaald": "2026-11-20",
  "uitleg": "Elke aankoop met boekingsvoorstel. 'In Yuki' = Pro-count heeft ze al (enkel controle). 'Te boeken' = wij hebben het document, Yuki nog niet. Grootboekrekeningen volgen Pro-count's eigen boekingen; btw-codes zijn eigen codes tot Pro-count hun Yuki-codes bezorgt.",
- "bijgewerkt": "2026-11-19"
+ "bijgewerkt": "2026-11-20"
 }

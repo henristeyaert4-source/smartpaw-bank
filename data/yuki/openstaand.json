@@ -1,6 +1,6 @@
 {
  "fouten": [],
- "opgehaald": "2026-11-19",
+ "opgehaald": "2026-11-20",
  "crediteuren": [
   {
    "id": "4d9b547c-7975-4294-9410-22fa5fec7d58",
@@ -3551,6 +3551,13 @@
    "omschrijving": "Factuur van Printdeal.be, CATALOGI EN DRUKWERKEN",
    "bedrag": -40.84,
    "contact": "Printdeal.be"
+  },
+  {
+   "id": "3377b8bf-d4cd-4a44-ac1b-4b618d5a8794",
+   "datum": "2026-11-18",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 9,410 : 1774407011 Online creation label(s) | bpost parcel",
+   "bedrag": 9.41,
+   "contact": "Bpost"
   }
  ],
  "leveranciers_van": "2026-04-01",

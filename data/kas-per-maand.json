@@ -214,9 +214,9 @@
   },
   {
    "maand": "2026-11",
-   "Omzet webshop (Shopify)": 8508.28,
+   "Te bekijken": -235.64,
+   "Omzet webshop (Shopify)": 9531.91,
    "Verzending & retours (overig)": -75.53,
-   "Te bekijken": -75.39,
    "Marketing & content": -173.95,
    "Aflossing KBC-krediet": -530.24,
    "Rente KBC-krediet": -58.63,
@@ -264,6 +264,34 @@
  },
  "onbekend": [
   {
+   "datum": "2026-11-20",
+   "bron": "Revolut",
+   "bedrag": -700.25,
+   "tegenpartij": "Facebook",
+   "mededeling": "Facebook"
+  },
+  {
+   "datum": "2026-11-19",
+   "bron": "Revolut",
+   "bedrag": 0.0,
+   "tegenpartij": "Facebook",
+   "mededeling": "Facebook"
+  },
+  {
+   "datum": "2026-11-19",
+   "bron": "Revolut",
+   "bedrag": 700.0,
+   "tegenpartij": "",
+   "mededeling": "Meta"
+  },
+  {
+   "datum": "2026-11-18",
+   "bron": "KBC",
+   "bedrag": -160.0,
+   "tegenpartij": "VZW Belgian Doggos",
+   "mededeling": "000000060826"
+  },
+  {
    "datum": "2026-11-16",
    "bron": "Revolut",
    "bedrag": -28.15,
@@ -278,5 +306,5 @@
    "mededeling": "7CATS2026111102"
   }
  ],
- "bijgewerkt": "2026-11-19T11:31:40+00:00"
+ "bijgewerkt": "2026-11-20T04:56:22+00:00"
 }
