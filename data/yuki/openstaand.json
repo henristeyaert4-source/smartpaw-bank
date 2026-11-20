@@ -36,17 +36,6 @@
    "betaalwijze": "Wordt teruggestort"
   },
   {
-   "id": "fbf7155d-1f07-48ec-aca7-8c8699004a7a",
-   "datum": "2026-01-31",
-   "vervaldag": "",
-   "contact": "Amazon Eu Sarl",
-   "omschrijving": "Factuur van Amazon Eu Sarl, Doorgerekende Kosten Voor verkoop",
-   "referentie": "BE-AEU-2026-5445",
-   "open": 47.19,
-   "origineel": 47.19,
-   "betaalwijze": "Overschrijving"
-  },
-  {
    "id": "d25ad7df-6e4b-4052-ab30-10557de590eb",
    "datum": "2026-01-31",
    "vervaldag": "2026-01-31",
@@ -55,6 +44,17 @@
    "referentie": "BE-AEU-2026-5891",
    "open": 2.71,
    "origineel": 2.71,
+   "betaalwijze": "Overschrijving"
+  },
+  {
+   "id": "fbf7155d-1f07-48ec-aca7-8c8699004a7a",
+   "datum": "2026-01-31",
+   "vervaldag": "",
+   "contact": "Amazon Eu Sarl",
+   "omschrijving": "Factuur van Amazon Eu Sarl, Doorgerekende Kosten Voor verkoop",
+   "referentie": "BE-AEU-2026-5445",
+   "open": 47.19,
+   "origineel": 47.19,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -264,17 +264,6 @@
    "referentie": "T9T7QHZO-0015",
    "open": 62.47,
    "origineel": 62.47,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "a4d9cdc0-ec8d-442d-8113-7bdc69ef62b1",
-   "datum": "2026-10-19",
-   "vervaldag": "2026-11-09",
-   "contact": "BELGIAN DOGGOS",
-   "omschrijving": "Factuur van BELGIAN DOGGOS, Beroepsbijdragen",
-   "referentie": "2026-74",
-   "open": 160.0,
-   "origineel": 160.0,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -3558,6 +3547,13 @@
    "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 9,410 : 1774407011 Online creation label(s) | bpost parcel",
    "bedrag": 9.41,
    "contact": "Bpost"
+  },
+  {
+   "id": "a4c2b2b7-7f28-421c-9190-4e36f3aecd19",
+   "datum": "2026-11-19",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 160,000 : | Overschrijving of storting met een gestructureerde mededeling: 000000060826 | VZW Belgian Doggos",
+   "bedrag": 160.0,
+   "contact": "BELGIAN DOGGOS"
   }
  ],
  "leveranciers_van": "2026-04-01",
