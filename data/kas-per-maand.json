@@ -214,8 +214,8 @@
   },
   {
    "maand": "2026-11",
-   "Te bekijken": -235.64,
-   "Omzet webshop (Shopify)": 9531.91,
+   "Te bekijken": -310.64,
+   "Omzet webshop (Shopify)": 9610.53,
    "Verzending & retours (overig)": -75.53,
    "Marketing & content": -173.95,
    "Aflossing KBC-krediet": -530.24,
@@ -285,6 +285,13 @@
    "mededeling": "Meta"
   },
   {
+   "datum": "2026-11-19",
+   "bron": "KBC",
+   "bedrag": -75.0,
+   "tegenpartij": "Thomas More Mechelen-Antwerpen vzw",
+   "mededeling": "226220477872"
+  },
+  {
    "datum": "2026-11-18",
    "bron": "KBC",
    "bedrag": -160.0,
@@ -306,5 +313,5 @@
    "mededeling": "7CATS2026111102"
   }
  ],
- "bijgewerkt": "2026-11-20T11:28:04+00:00"
+ "bijgewerkt": "2026-11-21T04:55:42+00:00"
 }

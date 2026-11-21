@@ -39,6 +39,30 @@
   "status": "completed"
  },
  {
+  "id": "ponto-ec36ff66-6328-4553-ab67-5f18608f2042",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-19",
+  "bedrag": 78.62,
+  "munt": "EUR",
+  "tegenpartij": "STRIPE",
+  "tegenrekening": "NL41CITI2032304805",
+  "mededeling": "STRIPE Overschrijving NL41 CITI 2032 3048 05 BIC: CITINL2X SHOPIFY",
+  "soort": "PMNT-RCDT-ESCT"
+ },
+ {
+  "id": "ponto-58c2b7b6-7949-4411-b68d-366ac3350c26",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-19",
+  "bedrag": -75.0,
+  "munt": "EUR",
+  "tegenpartij": "Thomas More Mechelen-Antwerpen vzw",
+  "tegenrekening": "BE69002034961178",
+  "mededeling": "226220477872",
+  "soort": "PMNT-IRCT-ESCT"
+ },
+ {
   "id": "ponto-ac930059-13a6-4265-a0cd-e1ce9a6d414a",
   "bron": "KBC",
   "rekening": "SMARTPAW VOF",

@@ -3,12 +3,12 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "in Yuki": 37,
+  "in Yuki": 38,
   "te boeken": 12,
   "factuur ontbreekt": 2
  },
  "bedrag": {
-  "in Yuki": 27010.0,
+  "in Yuki": 27085.0,
   "te boeken": 5658.68,
   "factuur ontbreekt": 133.11
  },
@@ -44,8 +44,8 @@
   {
    "rekening": "611080",
    "naam": "ABONNEMENTEN",
-   "aantal": 15,
-   "maatstaf": 967.5,
+   "aantal": 16,
+   "maatstaf": 1042.5,
    "btw": 15.24
   },
   {
@@ -359,6 +359,32 @@
    "verlegde_btw": 0.0,
    "betaald_via": "550001",
    "betaald_via_naam": "Revolut EUR",
+   "nakijken": true
+  },
+  {
+   "id": "ponto-58c2b7b6-7949-4411-b68d-366ac3350c26",
+   "status": "in Yuki",
+   "yuki_id": "a0af2148-ad3d-441b-90fe-acb29672e889",
+   "factuurdatum": "2026-11-19",
+   "betaald_op": "2026-11-19",
+   "leverancier": "Thomas More Mechelen-Antwerpen vzw",
+   "btw_nummer": "",
+   "factuurnummer": "2026-09-17",
+   "document": "in Yuki: Thomas More Mechelen-Antwerpen (2026-09-17)",
+   "asset_id": null,
+   "omschrijving": "226220477872",
+   "rekening": "611080",
+   "rekening_naam": "ABONNEMENTEN",
+   "rekening_bron": "Yuki: Yuki works = ABONNEMENTEN",
+   "btw_code": "?",
+   "btw_uitleg": "btw-behandeling nakijken",
+   "roosters": "?",
+   "incl": 75.0,
+   "maatstaf": 75.0,
+   "btw": 0.0,
+   "verlegde_btw": 0.0,
+   "betaald_via": "550000",
+   "betaald_via_naam": "KBC zichtrekening",
    "nakijken": true
   },
   {
@@ -1428,7 +1454,7 @@
    "nakijken": false
   }
  ],
- "yuki_opgehaald": "2026-11-20",
+ "yuki_opgehaald": "2026-11-21",
  "uitleg": "Elke aankoop met boekingsvoorstel. 'In Yuki' = Pro-count heeft ze al (enkel controle). 'Te boeken' = wij hebben het document, Yuki nog niet. Grootboekrekeningen volgen Pro-count's eigen boekingen; btw-codes zijn eigen codes tot Pro-count hun Yuki-codes bezorgt.",
- "bijgewerkt": "2026-11-20"
+ "bijgewerkt": "2026-11-21"
 }

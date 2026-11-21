@@ -3,12 +3,12 @@
  "van": "2026-07-01",
  "tot": "2026-09-30",
  "telling": {
-  "in Yuki": 97,
+  "in Yuki": 96,
   "te boeken": 5,
   "factuur ontbreekt": 7
  },
  "bedrag": {
-  "in Yuki": 54498.73,
+  "in Yuki": 54423.73,
   "te boeken": 1632.65,
   "factuur ontbreekt": 868.1
  },
@@ -93,8 +93,8 @@
   {
    "rekening": "616651",
    "naam": "Beroepsbijdragen",
-   "aantal": 2,
-   "maatstaf": 223.0,
+   "aantal": 1,
+   "maatstaf": 148.0,
    "btw": 0.0
   },
   {
@@ -233,33 +233,6 @@
    "betaald_via": "",
    "betaald_via_naam": "nog te betalen (vervalt 2026-10-24)",
    "nakijken": false,
-   "onbetaald": true
-  },
-  {
-   "id": "yuki-a0af2148-ad3d-441b-90fe-acb29672e889",
-   "status": "in Yuki",
-   "yuki_id": "a0af2148-ad3d-441b-90fe-acb29672e889",
-   "factuurdatum": "2026-09-17",
-   "betaald_op": "",
-   "leverancier": "Thomas More Mechelen-Antwerpen",
-   "btw_nummer": "",
-   "factuurnummer": "TMM-62204778",
-   "document": "",
-   "asset_id": null,
-   "omschrijving": "Factuur van Thomas More Mechelen-Antwerpen, Beroepsbijdragen",
-   "rekening": "616651",
-   "rekening_naam": "Beroepsbijdragen",
-   "rekening_bron": "Yuki: Beroepsbijdragen",
-   "btw_code": "?",
-   "btw_uitleg": "btw-behandeling nakijken",
-   "roosters": "?",
-   "incl": 75.0,
-   "maatstaf": 75.0,
-   "btw": 0.0,
-   "verlegde_btw": 0.0,
-   "betaald_via": "",
-   "betaald_via_naam": "nog te betalen (vervalt 2026-10-17)",
-   "nakijken": true,
    "onbetaald": true
   },
   {
@@ -2970,7 +2943,7 @@
    "nakijken": false
   }
  ],
- "yuki_opgehaald": "2026-11-20",
+ "yuki_opgehaald": "2026-11-21",
  "uitleg": "Elke aankoop met boekingsvoorstel. 'In Yuki' = Pro-count heeft ze al (enkel controle). 'Te boeken' = wij hebben het document, Yuki nog niet. Grootboekrekeningen volgen Pro-count's eigen boekingen; btw-codes zijn eigen codes tot Pro-count hun Yuki-codes bezorgt.",
- "bijgewerkt": "2026-11-20"
+ "bijgewerkt": "2026-11-21"
 }
