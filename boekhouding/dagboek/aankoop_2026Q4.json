@@ -364,13 +364,13 @@
   {
    "id": "ponto-58c2b7b6-7949-4411-b68d-366ac3350c26",
    "status": "in Yuki",
-   "yuki_id": "a0af2148-ad3d-441b-90fe-acb29672e889",
+   "yuki_id": "9e31b110-6e67-48ea-b24a-8169dbe292b6",
    "factuurdatum": "2026-11-19",
    "betaald_op": "2026-11-19",
    "leverancier": "Thomas More Mechelen-Antwerpen vzw",
    "btw_nummer": "",
-   "factuurnummer": "2026-09-17",
-   "document": "in Yuki: Thomas More Mechelen-Antwerpen (2026-09-17)",
+   "factuurnummer": "2026-11-20",
+   "document": "in Yuki: Thomas More Mechelen-Antwerpen (2026-11-20)",
    "asset_id": null,
    "omschrijving": "226220477872",
    "rekening": "611080",
@@ -1454,7 +1454,7 @@
    "nakijken": false
   }
  ],
- "yuki_opgehaald": "2026-11-21",
+ "yuki_opgehaald": "2026-11-22",
  "uitleg": "Elke aankoop met boekingsvoorstel. 'In Yuki' = Pro-count heeft ze al (enkel controle). 'Te boeken' = wij hebben het document, Yuki nog niet. Grootboekrekeningen volgen Pro-count's eigen boekingen; btw-codes zijn eigen codes tot Pro-count hun Yuki-codes bezorgt.",
- "bijgewerkt": "2026-11-21"
+ "bijgewerkt": "2026-11-22"
 }

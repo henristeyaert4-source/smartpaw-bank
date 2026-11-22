@@ -1,6 +1,6 @@
 {
  "fouten": [],
- "opgehaald": "2026-11-21",
+ "opgehaald": "2026-11-22",
  "crediteuren": [
   {
    "id": "4d9b547c-7975-4294-9410-22fa5fec7d58",
@@ -154,17 +154,6 @@
    "referentie": "268565664",
    "open": 6.78,
    "origineel": 6.78,
-   "betaalwijze": "Overschrijving"
-  },
-  {
-   "id": "a0af2148-ad3d-441b-90fe-acb29672e889",
-   "datum": "2026-09-17",
-   "vervaldag": "2026-10-17",
-   "contact": "Thomas More Mechelen-Antwerpen",
-   "omschrijving": "Factuur van Thomas More Mechelen-Antwerpen, Beroepsbijdragen",
-   "referentie": "TMM-62204778",
-   "open": 75.0,
-   "origineel": 75.0,
    "betaalwijze": "Overschrijving"
   },
   {
@@ -3554,6 +3543,13 @@
    "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 160,000 : | Overschrijving of storting met een gestructureerde mededeling: 000000060826 | VZW Belgian Doggos",
    "bedrag": 160.0,
    "contact": "BELGIAN DOGGOS"
+  },
+  {
+   "id": "9e31b110-6e67-48ea-b24a-8169dbe292b6",
+   "datum": "2026-11-20",
+   "omschrijving": "Binnenlandse overschrijvingen - SEPA credit transfers : Enkelvoudige overschrijving | Netto bedrag: 75,000 : | Overschrijving of storting met een gestructureerde mededeling: 226220477872 | Thomas More Mechelen-Antwerpen vzw",
+   "bedrag": 75.0,
+   "contact": "Thomas More Mechelen-Antwerpen"
   }
  ],
  "leveranciers_van": "2026-04-01",
