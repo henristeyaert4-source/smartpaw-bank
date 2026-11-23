@@ -1,5 +1,57 @@
 [
  {
+  "id": "rev-05764cb8-f7a9-e398-02c0-048e066877aa-05764cb8-f7a9-e398-0000-048e066877aa",
+  "bron": "Revolut",
+  "rekening": "USD",
+  "datum": "2026-11-23",
+  "bedrag": -2499.0,
+  "munt": "USD",
+  "tegenpartij": "",
+  "tegenrekening": "",
+  "mededeling": "PET2026102601 70% off airproducts",
+  "soort": "transfer",
+  "status": "pending"
+ },
+ {
+  "id": "rev-05764ca7-05a4-e399-02c0-0475aa442af9-05764ca7-05a4-e399-0001-0475aa442af9",
+  "bron": "Revolut",
+  "rekening": "USD",
+  "datum": "2026-11-23",
+  "bedrag": 2883.55,
+  "munt": "USD",
+  "tegenpartij": "",
+  "tegenrekening": "",
+  "mededeling": "Exchanged from EUR Main",
+  "soort": "exchange",
+  "status": "completed"
+ },
+ {
+  "id": "rev-05764ca7-05a4-e399-02c0-0475aa442af9-05764ca7-05a4-e399-0000-0475aa442af9",
+  "bron": "Revolut",
+  "rekening": "EUR",
+  "datum": "2026-11-23",
+  "bedrag": -2623.0,
+  "munt": "EUR",
+  "tegenpartij": "",
+  "tegenrekening": "",
+  "mededeling": "Exchanged to USD Main",
+  "soort": "exchange",
+  "status": "completed"
+ },
+ {
+  "id": "rev-05764c9e-babf-e30e-02c0-049c004a3eb6-05764c9e-babf-e30e-0000-049c004a3eb6",
+  "bron": "Revolut",
+  "rekening": "EUR",
+  "datum": "2026-11-23",
+  "bedrag": 2400.0,
+  "munt": "EUR",
+  "tegenpartij": "",
+  "tegenrekening": "",
+  "mededeling": "Jess air",
+  "soort": "topup",
+  "status": "completed"
+ },
+ {
   "id": "rev-0575158b-75ae-e31a-02c0-04b198115b26-0575158b-75ae-e31a-0000-04b198115b26",
   "bron": "Revolut",
   "rekening": "EUR",

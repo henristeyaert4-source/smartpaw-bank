@@ -214,14 +214,14 @@
   },
   {
    "maand": "2026-11",
-   "Te bekijken": -310.64,
+   "Voorraad (fabriek)": -6960.98,
+   "Te bekijken": 2089.36,
    "Omzet webshop (Shopify)": 9610.53,
    "Verzending & retours (overig)": -75.53,
    "Marketing & content": -173.95,
    "Aflossing KBC-krediet": -530.24,
    "Rente KBC-krediet": -58.63,
    "Omzet bol.com": 291.94,
-   "Voorraad (fabriek)": -4687.78,
    "Bankkosten": -35.0,
    "Software & abonnementen": -78.32
   }
@@ -263,6 +263,13 @@
   "Rente KBC-krediet": "Werking"
  },
  "onbekend": [
+  {
+   "datum": "2026-11-23",
+   "bron": "Revolut",
+   "bedrag": 2400.0,
+   "tegenpartij": "",
+   "mededeling": "Jess air"
+  },
   {
    "datum": "2026-11-20",
    "bron": "Revolut",
@@ -313,5 +320,5 @@
    "mededeling": "7CATS2026111102"
   }
  ],
- "bijgewerkt": "2026-11-23T04:56:28+00:00"
+ "bijgewerkt": "2026-11-23T08:50:08+00:00"
 }

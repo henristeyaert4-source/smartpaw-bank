@@ -5,19 +5,19 @@
  "telling": {
   "in Yuki": 38,
   "te boeken": 12,
-  "factuur ontbreekt": 2
+  "factuur ontbreekt": 3
  },
  "bedrag": {
   "in Yuki": 27085.0,
   "te boeken": 5658.68,
-  "factuur ontbreekt": 133.11
+  "factuur ontbreekt": 2406.31
  },
  "per_rekening": [
   {
    "rekening": "604000",
    "naam": "Aankopen van handelsgoederen",
-   "aantal": 5,
-   "maatstaf": 15428.82,
+   "aantal": 6,
+   "maatstaf": 17702.02,
    "btw": 2022.08
   },
   {
@@ -334,6 +334,32 @@
    "betaald_via_naam": "nog te betalen (vervalt 2026-11-06)",
    "nakijken": false,
    "onbetaald": true
+  },
+  {
+   "id": "rev-05764cb8-f7a9-e398-02c0-048e066877aa-05764cb8-f7a9-e398-0000-048e066877aa",
+   "status": "factuur ontbreekt",
+   "yuki_id": null,
+   "factuurdatum": "2026-11-23",
+   "betaald_op": "2026-11-23",
+   "leverancier": "PET2026102601 70% off airproducts",
+   "btw_nummer": "",
+   "factuurnummer": "",
+   "document": "",
+   "asset_id": null,
+   "omschrijving": "PET2026102601 70% off airproducts",
+   "rekening": "604000",
+   "rekening_naam": "Aankopen van handelsgoederen",
+   "rekening_bron": "Yuki: fabriek = Aankopen van handelsgoederen",
+   "btw_code": "INVOER",
+   "btw_uitleg": "Yuki: invoer met verlegging (art. 41, invoeraangifte Widem)",
+   "roosters": "87 · 56 · 59 (op invoeraangifte)",
+   "incl": 2273.2,
+   "maatstaf": 2273.2,
+   "btw": 0.0,
+   "verlegde_btw": 477.37,
+   "betaald_via": "550001",
+   "betaald_via_naam": "Revolut EUR",
+   "nakijken": false
   },
   {
    "id": "rev-0575158b-75ae-e31a-02c0-04b198115b26-0575158b-75ae-e31a-0000-04b198115b26",
