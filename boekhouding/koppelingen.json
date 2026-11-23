@@ -805,5 +805,19 @@
   "datum": "2026-11-19",
   "bedrag": 700.25,
   "btw_type": "EU (verlegd)"
+ },
+ "rev-05764cb8-f7a9-e398-02c0-048e066877aa-05764cb8-f7a9-e398-0000-048e066877aa": {
+  "soort": "upload",
+  "asset_id": "c67de2a67b38a9dfa0d075d132c2d654",
+  "label": "Proforma PI-PET2026102601 (Shenzhen Chongxin, 27/10) – saldo 70% luchtdeel",
+  "bestand": "2026-10-27_ShenzhenChongxin_PI-PET2026102601.pdf",
+  "leverancier": "Shenzhen Chongxin (Jess)",
+  "datum": "2026-11-23",
+  "bedrag": -2273.2,
+  "bedrag_usd": 2499.0,
+  "btw": 0,
+  "btw_type": "Invoer buiten EU (verlegd, art. 41)",
+  "btw_nummer": null,
+  "uitleg": "Saldo 70% luchtdeel ($2.499) op proforma PET2026102601 via Revolut USD (wissel €2.623 → $2.883,55 op 23/11). Gepland was $1.936,20: verschil $562,80 nakijken op de aangepaste PI van Jess."
  }
 }

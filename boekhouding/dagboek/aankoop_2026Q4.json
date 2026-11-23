@@ -3,35 +3,35 @@
  "van": "2026-10-01",
  "tot": "2026-12-31",
  "telling": {
-  "in Yuki": 38,
+  "in Yuki": 39,
   "te boeken": 12,
-  "factuur ontbreekt": 3
+  "factuur ontbreekt": 2
  },
  "bedrag": {
-  "in Yuki": 27085.0,
+  "in Yuki": 29358.2,
   "te boeken": 5658.68,
-  "factuur ontbreekt": 2406.31
+  "factuur ontbreekt": 133.11
  },
  "per_rekening": [
   {
    "rekening": "604000",
    "naam": "Aankopen van handelsgoederen",
-   "aantal": 6,
-   "maatstaf": 17702.02,
+   "aantal": 5,
+   "maatstaf": 15428.82,
    "btw": 2022.08
+  },
+  {
+   "rekening": "406000",
+   "naam": "Vooruitbetalingen",
+   "aantal": 4,
+   "maatstaf": 6878.09,
+   "btw": 0.0
   },
   {
    "rekening": "616502",
    "naam": "RECLAME MET MERK",
    "aantal": 8,
    "maatstaf": 5838.6,
-   "btw": 0.0
-  },
-  {
-   "rekening": "406000",
-   "naam": "Vooruitbetalingen",
-   "aantal": 3,
-   "maatstaf": 4604.89,
    "btw": 0.0
   },
   {
@@ -337,26 +337,26 @@
   },
   {
    "id": "rev-05764cb8-f7a9-e398-02c0-048e066877aa-05764cb8-f7a9-e398-0000-048e066877aa",
-   "status": "factuur ontbreekt",
-   "yuki_id": null,
+   "status": "in Yuki",
+   "yuki_id": "d2b5ec40-7fdf-49b6-823f-a741e411c92c",
    "factuurdatum": "2026-11-23",
    "betaald_op": "2026-11-23",
-   "leverancier": "PET2026102601 70% off airproducts",
+   "leverancier": "Shenzhen Chongxin (Jess)",
    "btw_nummer": "",
-   "factuurnummer": "",
-   "document": "",
-   "asset_id": null,
-   "omschrijving": "PET2026102601 70% off airproducts",
-   "rekening": "604000",
-   "rekening_naam": "Aankopen van handelsgoederen",
-   "rekening_bron": "Yuki: fabriek = Aankopen van handelsgoederen",
-   "btw_code": "INVOER",
-   "btw_uitleg": "Yuki: invoer met verlegging (art. 41, invoeraangifte Widem)",
-   "roosters": "87 · 56 · 59 (op invoeraangifte)",
+   "factuurnummer": "PET2026102601",
+   "document": "2026-10-27_ShenzhenChongxin_PI-PET2026102601.pdf",
+   "asset_id": "c67de2a67b38a9dfa0d075d132c2d654",
+   "omschrijving": "Saldo 70% luchtdeel ($2.499) op proforma PET2026102601 via Revolut USD (wissel €2.623 → $2.883,55 op 23/11). Gepland was",
+   "rekening": "406000",
+   "rekening_naam": "Vooruitbetalingen",
+   "rekening_bron": "voorschot op proforma: Vooruitbetalingen tot de factuur er is",
+   "btw_code": "GEEN",
+   "btw_uitleg": "Yuki: geen btw / vrijgesteld",
+   "roosters": "82",
    "incl": 2273.2,
    "maatstaf": 2273.2,
    "btw": 0.0,
-   "verlegde_btw": 477.37,
+   "verlegde_btw": 0.0,
    "betaald_via": "550001",
    "betaald_via_naam": "Revolut EUR",
    "nakijken": false
