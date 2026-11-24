@@ -10,7 +10,7 @@
   "tegenrekening": "",
   "mededeling": "PET2026102601 70% off airproducts",
   "soort": "transfer",
-  "status": "pending"
+  "status": "completed"
  },
  {
   "id": "rev-05764ca7-05a4-e399-02c0-0475aa442af9-05764ca7-05a4-e399-0001-0475aa442af9",
@@ -50,6 +50,18 @@
   "mededeling": "Jess air",
   "soort": "topup",
   "status": "completed"
+ },
+ {
+  "id": "ponto-b8ef66ff-51f4-4598-bd54-277cbb2a8084",
+  "bron": "KBC",
+  "rekening": "SMARTPAW VOF",
+  "datum": "2026-11-22",
+  "bedrag": -2400.0,
+  "munt": "EUR",
+  "tegenpartij": "SMARTPAW VOF",
+  "tegenrekening": "LT763250082881144592",
+  "mededeling": "SMARTPAW VOF Instantoverschrijving LT76 3250 0828 8114 4592 BIC: REVOLT21XXX Jess air 09.45 uur KBC Mobile",
+  "soort": "PMNT-IRCT-ESCT"
  },
  {
   "id": "rev-0575158b-75ae-e31a-02c0-04b198115b26-0575158b-75ae-e31a-0000-04b198115b26",
