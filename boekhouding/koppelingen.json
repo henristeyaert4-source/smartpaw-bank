@@ -819,5 +819,20 @@
   "btw_type": "Invoer buiten EU (verlegd, art. 41)",
   "btw_nummer": null,
   "uitleg": "Saldo 70% luchtdeel ($2.499) op proforma PET2026102601 via Revolut USD (wissel €2.623 → $2.883,55 op 23/11). Gepland was $1.936,20: verschil $562,80 nakijken op de aangepaste PI van Jess."
+ },
+ "rev-05764c9e-babf-e30e-02c0-049c004a3eb6-05764c9e-babf-e30e-0000-049c004a3eb6": {
+  "soort": "uitleg",
+  "label": "Interne overboeking KBC → Revolut (22/11, 'Jess air')",
+  "uitleg": "Zelfde bedrag €2.400 vertrok op 22/11 van de KBC-zichtrekening naar de eigen Revolut-rekening om het Jess-luchtdeel te betalen; geen omzet, geen factuur nodig."
+ },
+ "rev-05751508-bdcf-e39d-02c0-049f576305d4-05751508-bdcf-e39d-0000-049f576305d4": {
+  "soort": "uitleg",
+  "label": "Interne overboeking KBC → Revolut (18/11, 'Meta')",
+  "uitleg": "€700 vertrok op 18/11 van de KBC-zichtrekening naar de eigen Revolut-rekening om de Meta-afrekening van 19/11 (€700,25) te betalen; geen factuur nodig."
+ },
+ "rev-05751581-f759-e3b8-02c0-04f6c1d3398a-05751581-f759-e3b8-0000-04f6c1d3398a": {
+  "soort": "uitleg",
+  "label": "Meta-kaartverificatie €0,00 (19/11)",
+  "uitleg": "Verificatie van de Revolut-kaart door Meta, bedrag €0; geen kost, geen factuur nodig."
  }
 }
