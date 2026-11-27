@@ -4,12 +4,12 @@
  "tot": "2026-12-31",
  "telling": {
   "in Yuki": 39,
-  "te boeken": 12,
+  "te boeken": 13,
   "factuur ontbreekt": 2
  },
  "bedrag": {
   "in Yuki": 29358.2,
-  "te boeken": 5658.68,
+  "te boeken": 5677.73,
   "factuur ontbreekt": 133.11
  },
  "per_rekening": [
@@ -77,18 +77,18 @@
    "btw": 17.08
   },
   {
+   "rekening": "613210",
+   "naam": "BURGERLIJKE AANSPRAKELIJKHEID",
+   "aantal": 2,
+   "maatstaf": 37.52,
+   "btw": 0.0
+  },
+  {
    "rekening": "611200",
    "naam": "Klein materiaal",
    "aantal": 1,
    "maatstaf": 33.75,
    "btw": 7.09
-  },
-  {
-   "rekening": "613210",
-   "naam": "BURGERLIJKE AANSPRAKELIJKHEID",
-   "aantal": 1,
-   "maatstaf": 18.47,
-   "btw": 0.0
   }
  ],
  "lijnen": [
@@ -334,6 +334,32 @@
    "betaald_via_naam": "nog te betalen (vervalt 2026-11-06)",
    "nakijken": false,
    "onbetaald": true
+  },
+  {
+   "id": "ponto-b153444e-c393-48b7-8f5c-132f2294fbd4",
+   "status": "te boeken",
+   "yuki_id": null,
+   "factuurdatum": "2026-10-09",
+   "betaald_op": "2026-11-26",
+   "leverancier": "KBC Verzekeringen (polis 37630975, BA bedrijfspolis aansprakelijkheid)",
+   "btw_nummer": "",
+   "factuurnummer": "37630975",
+   "document": "KBC_BA-polis_37630975_2026-11-27.pdf",
+   "asset_id": "c4bea8fcda67b5870a327816b65263a3",
+   "omschrijving": "Maandpremie 27/11 – 26/12 (nieuw bedrag €19,05)",
+   "rekening": "613210",
+   "rekening_naam": "BURGERLIJKE AANSPRAKELIJKHEID",
+   "rekening_bron": "BA-polis KBC",
+   "btw_code": "GEEN",
+   "btw_uitleg": "Yuki: geen btw / vrijgesteld",
+   "roosters": "82",
+   "incl": 19.05,
+   "maatstaf": 19.05,
+   "btw": 0.0,
+   "verlegde_btw": 0.0,
+   "betaald_via": "550000",
+   "betaald_via_naam": "KBC zichtrekening",
+   "nakijken": false
   },
   {
    "id": "rev-05764cb8-f7a9-e398-02c0-048e066877aa-05764cb8-f7a9-e398-0000-048e066877aa",
