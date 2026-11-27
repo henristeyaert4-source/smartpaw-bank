@@ -1,7 +1,7 @@
 {
- "opgehaald": "2026-11-26T12:20:23+00:00",
- "vanaf": "2026-11-16",
- "nieuwe_verrichtingen": 0,
+ "opgehaald": "2026-11-27T04:56:32+00:00",
+ "vanaf": "2026-11-22",
+ "nieuwe_verrichtingen": 1,
  "saldi": [
   {
    "bron": "KBC (Ponto)",
@@ -45,14 +45,14 @@
    "rekening": "PayPal",
    "saldo": 86.91,
    "munt": "EUR",
-   "bijgewerkt_bank": "2026-11-26T09:59:59Z"
+   "bijgewerkt_bank": "2026-11-27T02:29:59Z"
   },
   {
    "bron": "PayPal",
    "rekening": "PayPal",
    "saldo": 0.0,
    "munt": "USD",
-   "bijgewerkt_bank": "2026-11-26T09:59:59Z"
+   "bijgewerkt_bank": "2026-11-27T02:29:59Z"
   }
  ],
  "fouten": []
