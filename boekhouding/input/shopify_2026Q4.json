@@ -1,16 +1,16 @@
 {
- "_bron": "Shopify Analytics, opgehaald 27/11/2026, 1/10 t/m 26/11 (FROM sales ... GROUP BY billing_country; FROM payments ... GROUP BY payment_gateway)",
+ "_bron": "Shopify Analytics, opgehaald 28/11/2026, 1/10 t/m 27/11 (FROM sales ... GROUP BY billing_country; FROM payments ... GROUP BY payment_gateway)",
  "per_land": [
   {
    "land": "België",
-   "orders": 298,
-   "bruto": 26901.86,
-   "korting": -4510.18,
+   "orders": 302,
+   "bruto": 27269.06,
+   "korting": -4632.36,
    "retours": -1154.1,
-   "netto": 21237.58,
-   "verzending": 133.17,
-   "btw": 4469.97,
-   "totaal": 25840.72
+   "netto": 21482.6,
+   "verzending": 138.96,
+   "btw": 4522.64,
+   "totaal": 26144.2
   },
   {
    "land": "(geen land ingevuld)",
@@ -25,14 +25,14 @@
   },
   {
    "land": "Nederland",
-   "orders": 20,
-   "bruto": 1713.3,
-   "korting": -224.08,
-   "retours": -447.4,
-   "netto": 1041.82,
+   "orders": 21,
+   "bruto": 1815.13,
+   "korting": -238.37,
+   "retours": -565.88,
+   "netto": 1010.88,
    "verzending": 14.88,
-   "btw": 225.41,
-   "totaal": 1282.11
+   "btw": 243.79,
+   "totaal": 1269.55
   },
   {
    "land": "Portugal",
@@ -49,9 +49,9 @@
  "per_betaalwijze": [
   {
    "betaalwijze": "Shopify Payments (kaart, Bancontact, Klarna, …)",
-   "bruto": 28541.77,
-   "terugbetaald": -1387.96,
-   "netto": 27153.81
+   "bruto": 28951.17,
+   "terugbetaald": -1506.44,
+   "netto": 27444.73
   },
   {
    "betaalwijze": "Manueel",
@@ -62,8 +62,8 @@
  ],
  "shopify_payments_fees": {
   "2026-10": 256.77,
-  "2026-11": 276.25,
-  "_bron": "TrueProfit transactionFees (okt volledig); nov 2,5% van total_sales t/m 26/11 (TrueProfit opgezegd)"
+  "2026-11": 283.52,
+  "_bron": "TrueProfit transactionFees (okt volledig); nov 2,5% van total_sales t/m 27/11 (TrueProfit opgezegd)"
  },
  "oss_eu_b2c": {
   "_uitleg": "Netto verkoop excl. btw aan klanten in andere EU-landen (Shopify, factuurland). bol.com niet inbegrepen (land per bestelling onbekend).",
@@ -83,10 +83,10 @@
    "08": 83.61,
    "09": 3257.23,
    "10": 866.08,
-   "11": 175.74
+   "11": 144.8
   },
-  "2026 (t/m 26/11)": {
-   "Nederland": 6389.25,
+  "2026 (t/m 27/11)": {
+   "Nederland": 6358.31,
    "Frankrijk": 13.08,
    "Luxemburg": 117.54,
    "Portugal": 19.82
